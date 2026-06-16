@@ -32,3 +32,6 @@ Sources:
 https://www.thewhiskyexchange.com/p/81117/glengoyne-white-oak-24-year-old
 https://www.whiskyshop.com/glengoyne-24-year-old-white-oak
 https://www.htfw.com/glengoyne-white-oak-cask-matured-24-year-old-whisky
+
+
+> **CORRECTION (2026-06-16, verifier):** The £415 TWE figure is STALE — the live listing reproduces at £375. £415 is quarantined as unverified; £375 is the current price.

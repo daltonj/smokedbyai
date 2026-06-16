@@ -64,10 +64,10 @@
     ],
     "us": [
       {
-        "retailer": "US market avg (Wine-Searcher, ex-tax); SRP ~$322",
+        "retailer": "US market avg (Wine-Searcher, ex-tax); range ~$270-$493.99; SRP ~$322",
         "price_usd": 302.0,
         "url": "https://www.wine-searcher.com/find/thirty+old+blend+scotch+whisky+isle+skye+island+scotland",
-        "source_id": "src_isle-of-skye-30_winesearcher",
+        "source_id": "src_isle-of-skye-30_winesearcher_us",
         "as_of": "2026-06"
       },
       {
@@ -76,6 +76,13 @@
         "url": "https://whiskyadvocate.com/Isle-of-Skye-30-year-old-40",
         "source_id": "src_isle-of-skye-30_whiskyadvocate",
         "as_of": "2023-fall"
+      },
+      {
+        "retailer": "Frootbat",
+        "price_usd": 493.99,
+        "url": "https://www.frootbat.com/p/160740/ian-macleods-isle-of-skye-30-year-old-blended-scotch-whisky",
+        "source_id": "src_isle-of-skye-30_frootbat",
+        "as_of": "2026-06"
       }
     ]
   },
@@ -117,7 +124,7 @@
       "scores_ge_2": false,
       "uk_price": true,
       "us_price": true,
-      "auction_point": true,
+      "auction_point": false,
       "fresh_point": true
     },
     "gaps": [
@@ -140,5 +147,5 @@
       "unsupported": 0
     }
   },
-  "last_updated": "2026-06-16T12:00:00Z"
+  "last_updated": "2026-06-16"
 }

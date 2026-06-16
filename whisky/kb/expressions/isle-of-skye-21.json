@@ -59,14 +59,28 @@
         "retailer": "Total Wine & More",
         "price_usd": 89.99,
         "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-21yr-scotch-whisky/p/243938700",
-        "source_id": "src_isle-of-skye-21_winesearcher",
+        "source_id": "src_isle-of-skye-21_totalwine",
         "as_of": "2026-06"
       },
       {
-        "retailer": "US market avg (Wine-Searcher); SRP $114.99",
+        "retailer": "Raeder's Wines & Liquors (NY)",
+        "price_usd": 89.99,
+        "url": "https://www.raederswine.com/spirits/Isle-Of-Skye-21-Year-Old-w1596971pd",
+        "source_id": "src_isle-of-skye-21_raeders",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "Zheng Brothers Wine (Great Neck Plaza, NY)",
+        "price_usd": 94.99,
+        "url": "https://greatneckliquor.com/shop/product/isle-of-skye-21-years-old/651e24361e86674324f91ef0",
+        "source_id": "src_isle-of-skye-21_zhengbrothers",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "US market avg (Wine-Searcher, ex-tax); range $83.99-$114.99; SRP $114.99",
         "price_usd": 96.0,
         "url": "https://www.wine-searcher.com/find/isle+skye+21+old+blend+scotch+whisky+scotland/1/usa",
-        "source_id": "src_isle-of-skye-21_winesearcher",
+        "source_id": "src_isle-of-skye-21_winesearcher_us",
         "as_of": "2026-06"
       }
     ]
@@ -109,7 +123,7 @@
       "scores_ge_2": false,
       "uk_price": true,
       "us_price": true,
-      "auction_point": true,
+      "auction_point": false,
       "fresh_point": true
     },
     "gaps": [
@@ -128,5 +142,5 @@
       "unsupported": 1
     }
   },
-  "last_updated": "2026-06-16T12:00:00Z"
+  "last_updated": "2026-06-16"
 }

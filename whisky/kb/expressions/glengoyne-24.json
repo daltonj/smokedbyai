@@ -108,7 +108,7 @@
   },
   "rubric": {
     "drinking": {
-      "critic_consensus": 16,
+      "critic_consensus": 13,
       "complexity": 9,
       "impact": 8,
       "presentation": 7
@@ -119,7 +119,7 @@
       "appreciation": 3,
       "collectibility": 5
     },
-    "composite": 62
+    "composite": 59
   },
   "coverage": {
     "status": "amber",
@@ -150,5 +150,6 @@
     },
     "note": "Re-verified 2026-06-16T22:10Z. PASS — all core fields reproduce live. 1 mismatch (TWE £415 stale -> quarantined) does not gate pass; uk_price held via The Whisky Shop £453."
   },
-  "last_updated": "2026-06-16T22:50:00Z"
+  "last_updated": "2026-06-16T22:50:00Z",
+  "rubric_note": "critic_consensus trimmed to 13: only one normalizable score (Drinkhacker A-~90); Robb Report mention is unranked, not a #2 rank."
 }

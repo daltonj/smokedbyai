@@ -26,3 +26,6 @@ VERBATIM (from WebSearch snippet — page not fetchable; HTTP 403):
 > Included in Robb Report's 'Best of The Best 2025' with the comment "This is a whisky you will want to taste over and over again," and ranked as the 2nd best whisky released in 2025.
 
 KEY DATA: ABV 47.8%; cask = American first-fill bourbon + virgin/white oak; Robb Report Best of the Best 2025 (#2 whisky of 2025). No numeric 100-pt score given.
+
+
+> **CORRECTION (2026-06-16, verifier):** The '#2 / Best of the Best 2025' rank could NOT be reproduced on Robb Report's own site (only an unranked '10 Best Whiskies of 2025 So Far' inclusion). The #2 claim is retracted; treat as an unranked mention.

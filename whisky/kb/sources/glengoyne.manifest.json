@@ -61,7 +61,7 @@
     "fetched_at": "2026-06-16T03:09:00Z",
     "freshness": "stale",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_robbreport.md",
-    "key_data": "ABV 47.8%; first-fill bourbon + virgin/white oak; Best of the Best 2025 (#2 whisky of 2025); full nose/palate/finish",
+    "key_data": "Named among Robb Report 'Best Whiskies of 2025 So Far' (unranked); the earlier '#2 / Best of the Best' placement could NOT be reproduced and is retracted.",
     "retrieval_method": "websearch_excerpt"
   },
   {
@@ -126,7 +126,7 @@
     "fetched_at": "2026-06-16T03:42:00Z",
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_thewhiskyexchange.md",
-    "key_data": "UK live retail: TWE £415.00; HTFW £408.95; Tyndrum £409.00; Whisky Shop £453.00; launch RRP £430",
+    "key_data": "Live TWE price £375 (was £415 — £415 quarantined as stale/unverified). Multi-retailer roundup also seen: Whisky Shop £453, HTFW £408.95.",
     "retrieval_method": "websearch_excerpt"
   },
   {

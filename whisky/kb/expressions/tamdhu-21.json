@@ -98,7 +98,7 @@
   },
   "rubric": {
     "drinking": {
-      "critic_consensus": 14,
+      "critic_consensus": 10,
       "complexity": 10,
       "impact": 9,
       "presentation": 7
@@ -109,7 +109,7 @@
       "appreciation": 5,
       "collectibility": 6
     },
-    "composite": 69
+    "composite": 65
   },
   "coverage": {
     "status": "amber",
@@ -141,5 +141,6 @@
     "reverified_at": "2026-06-16T05:10:00Z",
     "note": "RE-VERIFICATION cleared the prior FAIL: TWE UK price re-sourced to live £295 (RRP £299 distinct, held in price note) and Master of Malt £252.70 now reproduces. All present core fields verify."
   },
-  "last_updated": "2026-06-16T21:45:00Z"
+  "last_updated": "2026-06-16T21:45:00Z",
+  "rubric_note": "critic_consensus lowered to 10: NO confirmed numeric /100 score (Robb Report implies an 85-89 band only; rest are trade-show medals). Its standing is value-driven, not consensus-driven."
 }

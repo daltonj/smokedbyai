@@ -60,10 +60,24 @@
     ],
     "us": [
       {
-        "retailer": "US market avg (Wine-Searcher, ex-tax); SRP ~$179",
+        "retailer": "Raeder's Wines & Liquors (NY, via Wine-Searcher)",
+        "price_usd": 152.99,
+        "url": "https://www.wine-searcher.com/find/isle+skye+25+old+blend+scotch+whisky+scotland/1/usa",
+        "source_id": "src_isle-of-skye-25_raeders",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "Total Wine & More",
+        "price_usd": 179.99,
+        "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-25yr-scotch-whisky/p/243939700",
+        "source_id": "src_isle-of-skye-25_totalwine",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "US market avg (Wine-Searcher, ex-tax); range $152.99-$419.99; SRP ~$179",
         "price_usd": 186.0,
         "url": "https://www.wine-searcher.com/find/isle+skye+25+old+blend+scotch+whisky+scotland/1/usa",
-        "source_id": "src_isle-of-skye-25_winesearcher",
+        "source_id": "src_isle-of-skye-25_winesearcher_us",
         "as_of": "2026-06"
       },
       {
@@ -72,6 +86,13 @@
         "url": "https://whiskyadvocate.com/New-Whisky-Ratings-Little-Book-Chapter-07-Isle-of-Skye-25-year-old-and-more",
         "source_id": "src_isle-of-skye-25_whiskyadvocate",
         "as_of": "2023-fall"
+      },
+      {
+        "retailer": "Frootbat",
+        "price_usd": 419.99,
+        "url": "https://www.frootbat.com/p/160739/ian-macleods-isle-of-skye-25-year-old-blended-scotch-whisky",
+        "source_id": "src_isle-of-skye-25_frootbat",
+        "as_of": "2026-06"
       }
     ]
   },
@@ -107,13 +128,13 @@
     "composite": 65
   },
   "coverage": {
-    "status": "green",
+    "status": "amber",
     "criteria": {
       "reviews_ge_3": true,
       "scores_ge_2": true,
       "uk_price": true,
       "us_price": true,
-      "auction_point": true,
+      "auction_point": false,
       "fresh_point": true
     },
     "gaps": [
@@ -133,5 +154,5 @@
       "unsupported": 0
     }
   },
-  "last_updated": "2026-06-16T12:00:00Z"
+  "last_updated": "2026-06-16"
 }

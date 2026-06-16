@@ -3,11 +3,63 @@
     "title": "The Curator's Guide — Tasting Night Dossier",
     "anchor": "2026-06-16",
     "freshness_window": "Dec 2025 – Jun 2026",
-    "generated_at": "2026-06-16T21:43:57Z",
-    "fx_note": "Value-for-money chart uses indicative FX (£1≈$1.27, €1≈£0.85); native-currency prices below are the sourced figures.",
-    "source_count": 89,
-    "bottle_count": 9,
-    "fetch_note": "All data captured via WebSearch against expert/auction sources (WebFetch egress was blocked); every datum links to its source."
+    "generated_at": "2026-06-16T22:25:05Z",
+    "fx_note": "Some £-equiv figures use indicative FX (£1≈$1.27, €1≈£0.85) and are marked “FX est.”; native-currency prices are the sourced figures.",
+    "method_note": "All data captured via WebSearch against named expert/retail/auction pages (WebFetch egress was blocked) and reproduced by a second search; not verbatim full-page fetches.",
+    "source_count": 123,
+    "bottle_count": 9
+  },
+  "producer": {
+    "name": "Ian Macleod Distillers",
+    "brands": {
+      "glengoyne": {
+        "name": "Glengoyne",
+        "url": "https://www.glengoyne.com/",
+        "status": "active",
+        "region": "Highland"
+      },
+      "isle-of-skye": {
+        "name": "Isle of Skye (Ian Macleod blend)",
+        "url": "https://www.isleofskyewhisky.com/",
+        "status": "active",
+        "region": "Island / blended (Skye + mainland Scotland)"
+      },
+      "rosebank": {
+        "name": "Rosebank",
+        "url": "https://www.rosebank.com/",
+        "status": "reborn",
+        "region": "Lowland"
+      },
+      "tamdhu": {
+        "name": "Tamdhu",
+        "url": "https://www.tamdhu.com/",
+        "status": "active",
+        "region": "Speyside"
+      }
+    },
+    "source_ids": [
+      "src_ianmacleod_company",
+      "src_glengoyne25_official",
+      "src_glengoyne24_official",
+      "src_ianmacleod_news2025_2026",
+      "src_isleofskye_official",
+      "src_rosebank30_r1_official",
+      "src_rosebank31_r2_official",
+      "src_tamdhu18_official",
+      "src_tamdhu21_official"
+    ],
+    "profile": "Owned by Ian Macleod Distillers — independent, family-owned (Russell family), HQ Broxburn, founded 1933 by Leonard Russell Snr (family acquired 1963). Glengoyne purchased from The Edrington Group for £7.2m in 2003 — the company's first distillery. Produces >15M bottles/yr. Size rank cited inconsistently across sources (10th / 15th largest; IWSC Top 50 7th); '6th largest' not reproducibly confirmed.",
+    "portfolio": [
+      "Glengoyne",
+      "Tamdhu",
+      "Rosebank",
+      "Edinburgh Gin",
+      "Isle of Skye",
+      "Smokehead",
+      "King Robert",
+      "Sheep Dip",
+      "Pig's Nose"
+    ]
   },
   "distilleries": {
     "glengoyne": {
@@ -25,7 +77,42 @@
         "src_glengoyne-25_glengoyneofficial",
         "src_glengoyne-24_whiskymag",
         "src_glengoyne-24_whiskyadvocate"
-      ]
+      ],
+      "ian_macleod": {
+        "company_facts": "Owned by Ian Macleod Distillers — independent, family-owned (Russell family), HQ Broxburn, founded 1933 by Leonard Russell Snr (family acquired 1963). Glengoyne purchased from The Edrington Group for £7.2m in 2003 — the company's first distillery. Produces >15M bottles/yr. Size rank cited inconsistently across sources (10th / 15th largest; IWSC Top 50 7th); '6th largest' not reproducibly confirmed.",
+        "portfolio": [
+          "Glengoyne",
+          "Tamdhu",
+          "Rosebank",
+          "Edinburgh Gin",
+          "Isle of Skye",
+          "Smokehead",
+          "King Robert",
+          "Sheep Dip",
+          "Pig's Nose"
+        ],
+        "official_brand_url": "https://www.glengoyne.com/",
+        "official_rrp": {
+          "glengoyne-25": {
+            "gbp": 499.0,
+            "usd": null,
+            "url": "https://www.glengoyne.com/glengoyne-25-year-old-highland-single-malt-scotch-whisky",
+            "source_id": "src_glengoyne25_official"
+          },
+          "glengoyne-24": {
+            "gbp": 375.0,
+            "usd": 399.99,
+            "url": "https://www.glengoyne.com/white-oak-24-year-old",
+            "source_id": "src_glengoyne24_official"
+          }
+        },
+        "source_ids": [
+          "src_ianmacleod_company",
+          "src_glengoyne25_official",
+          "src_glengoyne24_official",
+          "src_ianmacleod_news2025_2026"
+        ]
+      }
     },
     "isle-of-skye": {
       "id": "isle-of-skye",
@@ -42,7 +129,47 @@
         "src_isle-of-skye_brand_history",
         "src_isle-of-skye-25_thewhiskeywash_award",
         "src_isle-of-skye-30_thewhiskeywash"
-      ]
+      ],
+      "ian_macleod": {
+        "company_facts": "Owned by Ian Macleod Distillers — independent, family-owned (Russell family), HQ Broxburn, founded 1933 by Leonard Russell Snr; the company is a principal blended brand alongside Smokehead and King Robert. (Brand created 1933; acquired by the company 1963.) Produces >15M bottles/yr group-wide.",
+        "portfolio": [
+          "Glengoyne",
+          "Tamdhu",
+          "Rosebank",
+          "Edinburgh Gin",
+          "Isle of Skye",
+          "Smokehead",
+          "King Robert",
+          "Sheep Dip",
+          "Pig's Nose"
+        ],
+        "official_brand_url": "https://www.isleofskyewhisky.com/",
+        "official_rrp": {
+          "isle-of-skye-21": {
+            "gbp": null,
+            "usd": 114.99,
+            "url": "https://www.isleofskyewhisky.com/",
+            "source_id": "src_isleofskye_official"
+          },
+          "isle-of-skye-25": {
+            "gbp": 250.0,
+            "usd": 179.0,
+            "url": "https://www.isleofskyewhisky.com/",
+            "source_id": "src_isleofskye_official"
+          },
+          "isle-of-skye-30": {
+            "gbp": null,
+            "usd": 321.99,
+            "url": "https://www.isleofskyewhisky.com/",
+            "source_id": "src_isleofskye_official"
+          }
+        },
+        "source_ids": [
+          "src_ianmacleod_company",
+          "src_isleofskye_official",
+          "src_ianmacleod_news2025_2026"
+        ]
+      }
     },
     "rosebank": {
       "id": "rosebank",
@@ -61,7 +188,42 @@
         "src_rosebank_distillery",
         "src_rosebank-31-r2_whiskyauctioneer",
         "src_rosebank-31-r1_retail"
-      ]
+      ],
+      "ian_macleod": {
+        "company_facts": "Owned by Ian Macleod Distillers — independent, family-owned (Russell family), HQ Broxburn, founded 1933 by Leonard Russell Snr (family acquired 1963). Rosebank (Lowland 'ghost' distillery, closed 1993) acquired by Ian Macleod in 2017 and revived; distillation resumed July 2023, visitor centre opened 7 June 2024. The Legacy Series of annual limited releases (Release One 30YO 2020, Release Two 31YO 2022, Release Three 32YO 2024) drew on pre-closure casks. Produces >15M bottles/yr group-wide.",
+        "portfolio": [
+          "Glengoyne",
+          "Tamdhu",
+          "Rosebank",
+          "Edinburgh Gin",
+          "Isle of Skye",
+          "Smokehead",
+          "King Robert",
+          "Sheep Dip",
+          "Pig's Nose"
+        ],
+        "official_brand_url": "https://www.rosebank.com/",
+        "official_rrp": {
+          "rosebank-30-r1": {
+            "gbp": 1600.0,
+            "usd": null,
+            "url": "https://www.rosebank.com/shop/whisky",
+            "source_id": "src_rosebank30_r1_official"
+          },
+          "rosebank-31-r2": {
+            "gbp": 1800.0,
+            "usd": null,
+            "url": "https://www.rosebank.com/shop/whisky",
+            "source_id": "src_rosebank31_r2_official"
+          }
+        },
+        "source_ids": [
+          "src_ianmacleod_company",
+          "src_rosebank30_r1_official",
+          "src_rosebank31_r2_official",
+          "src_ianmacleod_news2025_2026"
+        ]
+      }
     },
     "tamdhu": {
       "id": "tamdhu",
@@ -78,7 +240,42 @@
         "src_tamdhu_news_speyside2026",
         "src_tamdhu-18_whiskeywash",
         "src_tamdhu-21_whiskeywash_news"
-      ]
+      ],
+      "ian_macleod": {
+        "company_facts": "Owned by Ian Macleod Distillers — independent, family-owned (Russell family), HQ Broxburn, founded 1933 by Leonard Russell Snr (family acquired 1963). Tamdhu acquired from The Edrington Group in 2011 (reopened 2012 after being mothballed since 2009). Produces >15M bottles/yr.",
+        "portfolio": [
+          "Glengoyne",
+          "Tamdhu",
+          "Rosebank",
+          "Edinburgh Gin",
+          "Isle of Skye",
+          "Smokehead",
+          "King Robert",
+          "Sheep Dip",
+          "Pig's Nose"
+        ],
+        "official_brand_url": "https://www.tamdhu.com/",
+        "official_rrp": {
+          "tamdhu-18": {
+            "gbp": 139.99,
+            "usd": null,
+            "url": "https://www.tamdhu.com/tamdhu-18-year-old",
+            "source_id": "src_tamdhu18_official"
+          },
+          "tamdhu-21": {
+            "gbp": 299.0,
+            "usd": 403.0,
+            "url": "https://www.tamdhu.com/tamdhu-21-year-old",
+            "source_id": "src_tamdhu21_official"
+          }
+        },
+        "source_ids": [
+          "src_ianmacleod_company",
+          "src_tamdhu18_official",
+          "src_tamdhu21_official",
+          "src_ianmacleod_news2025_2026"
+        ]
+      }
     }
   },
   "bottles": [
@@ -163,6 +360,14 @@
             "url": "https://whiskyadvocate.com/Glengoyne-Oak-Masters-24-year-old-White-Oak-47-8",
             "source_id": "src_glengoyne-24_whiskyadvocate",
             "as_of": "2025-summer"
+          },
+          {
+            "retailer": "Wine-Searcher (US average, 750ml-basis)",
+            "price_usd": 430.0,
+            "note": "US market average ex-tax; global avg $443. SRP $400.",
+            "url": "https://www.wine-searcher.com/find/glen+goyne+white+oak+24+old+single+malt+scotch+whisky+highlands+scotland/1/usa",
+            "source_id": "src_glengoyne-24_winesearcher_us",
+            "as_of": "2026-06"
           }
         ]
       },
@@ -184,7 +389,7 @@
       },
       "rubric": {
         "drinking": {
-          "critic_consensus": 16,
+          "critic_consensus": 13,
           "complexity": 9,
           "impact": 8,
           "presentation": 7
@@ -195,7 +400,7 @@
           "appreciation": 3,
           "collectibility": 5
         },
-        "composite": 62
+        "composite": 59
       },
       "coverage": {
         "status": "amber",
@@ -226,13 +431,46 @@
         },
         "note": "Re-verified 2026-06-16T22:10Z. PASS — all core fields reproduce live. 1 mismatch (TWE £415 stale -> quarantined) does not gate pass; uk_price held via The Whisky Shop £453."
       },
-      "last_updated": "2026-06-16",
-      "_primaryGBP": 408.95,
-      "_primaryUSD": 399.98,
-      "_secondaryGBP": 250,
-      "_retailGBPequiv": 408.95,
-      "_valueIndex": 151.6,
-      "_rank": 5
+      "last_updated": "2026-06-16T22:50:00Z",
+      "rubric_note": "critic_consensus trimmed to 13: only one normalizable score (Drinkhacker A-~90); Robb Report mention is unranked, not a #2 rank.",
+      "_uk": {
+        "min": 409,
+        "max": 453,
+        "count": 2,
+        "primary": 409,
+        "primary_label": "Hard To Find Whisky (HTFW)",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06-16"
+      },
+      "_us": {
+        "min": 400,
+        "max": 430,
+        "count": 3,
+        "primary": 400,
+        "primary_label": "Total Wine & More (700ml)",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06-16"
+      },
+      "_secondary": {
+        "value": 294,
+        "currency": "EUR",
+        "gbp_equiv": 250,
+        "fx": true,
+        "platform": "Whiskystats",
+        "kind": "avg",
+        "as_of": "2026-06",
+        "source_id": "src_glengoyne-24_whiskystats",
+        "is_point": true
+      },
+      "_retailGBPequiv": 409,
+      "_officialRRP": {
+        "gbp": 375.0,
+        "usd": 399.99,
+        "url": "https://www.glengoyne.com/white-oak-24-year-old",
+        "source_id": "src_glengoyne24_official"
+      },
+      "_valueIndex": 144.3,
+      "_rank": 6
     },
     {
       "id": "glengoyne-25",
@@ -315,10 +553,41 @@
             "as_of": "2025-08"
           },
           {
-            "retailer": "Total Wine & More (listing exists; price not captured)",
-            "price_usd": null,
+            "retailer": "Total Wine & More",
+            "price_usd": 499.99,
             "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-25-year-single-malt-scotch/p/173092750",
             "source_id": "src_glengoyne-25_totalwine",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "World Wine Liquors",
+            "price_usd": 499.99,
+            "url": "https://worldwineliquors.com/product/glengoyne-25-years-750ml/",
+            "source_id": "src_glengoyne-25_worldwineliquors",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "The Liquor Barn",
+            "price_usd": 649.99,
+            "note": "special order",
+            "url": "https://theliquorbarn.com/products/glengoyne-25-year-750ml",
+            "source_id": "src_glengoyne-25_liquorbarn",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "Northwest Liquor & Wine",
+            "price_usd": 849.99,
+            "note": "listed sold out; high end of US spread",
+            "url": "https://northwestliquorwine.com/products/glengoyne-25-yr",
+            "source_id": "src_glengoyne-25_northwestliquor",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "Wine-Searcher (US average, 750ml-basis)",
+            "price_usd": 529.0,
+            "note": "US market average ex-tax; per-store range $499.99-$849.99",
+            "url": "https://www.wine-searcher.com/find/glen+goyne+25+old+single+malt+scotch+whisky+highlands+scotland",
+            "source_id": "src_glengoyne-25_winesearcher_us",
             "as_of": "2026-06"
           }
         ]
@@ -341,7 +610,7 @@
       },
       "rubric": {
         "drinking": {
-          "critic_consensus": 12,
+          "critic_consensus": 15,
           "complexity": 9,
           "impact": 8,
           "presentation": 7
@@ -352,16 +621,16 @@
           "appreciation": 5,
           "collectibility": 5
         },
-        "composite": 59
+        "composite": 62
       },
       "coverage": {
-        "status": "green",
+        "status": "amber",
         "criteria": {
           "reviews_ge_3": true,
           "scores_ge_2": true,
           "uk_price": true,
           "us_price": true,
-          "auction_point": true,
+          "auction_point": false,
           "fresh_point": true
         },
         "gaps": [
@@ -383,13 +652,36 @@
         },
         "note": "Re-verified 2026-06-16T22:15Z after gap-fill. PASS — all 14 fields reproduce LIVE incl. the 3 new UK prices (MoM £419.90 / shop £499 / Royal Mile £525), Whiskybase 89.74 (324 ratings), Drinkhacker A-, WhiskyNotes review. No 24-vs-25 conflation, no currency mix-ups (GBP retail vs $600 USD MSRP vs £250 GBP secondary; the €294 EUR belongs to the 24, not here)."
       },
-      "last_updated": "2026-06-16",
-      "_primaryGBP": 419.9,
-      "_primaryUSD": 600.0,
-      "_secondaryGBP": 250,
-      "_retailGBPequiv": 419.9,
-      "_valueIndex": 140.5,
-      "_rank": 6
+      "last_updated": "2026-06-16T22:50:00Z",
+      "rubric_note": "critic_consensus raised to 15: two numeric scores (Whiskybase 89.74/324 ratings, Drinkhacker A-) + Whiskey Wash Awards 2025 Best Scotch; better-evidenced than the 24.",
+      "_uk": {
+        "min": 420,
+        "max": 525,
+        "count": 3,
+        "primary": 420,
+        "primary_label": "Master of Malt",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06-16"
+      },
+      "_us": {
+        "min": 500,
+        "max": 850,
+        "count": 6,
+        "primary": 500,
+        "primary_label": "Total Wine & More",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06"
+      },
+      "_secondary": null,
+      "_retailGBPequiv": 420,
+      "_officialRRP": {
+        "gbp": 499.0,
+        "usd": null,
+        "url": "https://www.glengoyne.com/glengoyne-25-year-old-highland-single-malt-scotch-whisky",
+        "source_id": "src_glengoyne25_official"
+      },
+      "_valueIndex": 147.6,
+      "_rank": 5
     },
     {
       "id": "isle-of-skye-21",
@@ -452,14 +744,28 @@
             "retailer": "Total Wine & More",
             "price_usd": 89.99,
             "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-21yr-scotch-whisky/p/243938700",
-            "source_id": "src_isle-of-skye-21_winesearcher",
+            "source_id": "src_isle-of-skye-21_totalwine",
             "as_of": "2026-06"
           },
           {
-            "retailer": "US market avg (Wine-Searcher); SRP $114.99",
+            "retailer": "Raeder's Wines & Liquors (NY)",
+            "price_usd": 89.99,
+            "url": "https://www.raederswine.com/spirits/Isle-Of-Skye-21-Year-Old-w1596971pd",
+            "source_id": "src_isle-of-skye-21_raeders",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "Zheng Brothers Wine (Great Neck Plaza, NY)",
+            "price_usd": 94.99,
+            "url": "https://greatneckliquor.com/shop/product/isle-of-skye-21-years-old/651e24361e86674324f91ef0",
+            "source_id": "src_isle-of-skye-21_zhengbrothers",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "US market avg (Wine-Searcher, ex-tax); range $83.99-$114.99; SRP $114.99",
             "price_usd": 96.0,
             "url": "https://www.wine-searcher.com/find/isle+skye+21+old+blend+scotch+whisky+scotland/1/usa",
-            "source_id": "src_isle-of-skye-21_winesearcher",
+            "source_id": "src_isle-of-skye-21_winesearcher_us",
             "as_of": "2026-06"
           }
         ]
@@ -502,7 +808,7 @@
           "scores_ge_2": false,
           "uk_price": true,
           "us_price": true,
-          "auction_point": true,
+          "auction_point": false,
           "fresh_point": true
         },
         "gaps": [
@@ -521,11 +827,43 @@
           "unsupported": 1
         }
       },
-      "last_updated": "2026-06-16T12:00:00Z",
-      "_primaryGBP": 118.0,
-      "_primaryUSD": 89.99,
-      "_secondaryGBP": 145,
-      "_retailGBPequiv": 118.0,
+      "last_updated": "2026-06-16",
+      "_uk": {
+        "min": 118,
+        "max": 118,
+        "count": 1,
+        "primary": 118,
+        "primary_label": "The Whisky Exchange",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06"
+      },
+      "_us": {
+        "min": 90,
+        "max": 96,
+        "count": 4,
+        "primary": 90,
+        "primary_label": "Total Wine & More",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06"
+      },
+      "_secondary": {
+        "value": 171,
+        "currency": "EUR",
+        "gbp_equiv": 145,
+        "fx": true,
+        "platform": "Whiskybase Market (secondary, lowest offer)",
+        "kind": "low offer",
+        "as_of": "2026-06",
+        "source_id": "src_isle-of-skye-21_whiskybase",
+        "is_point": false
+      },
+      "_retailGBPequiv": 118,
+      "_officialRRP": {
+        "gbp": null,
+        "usd": 114.99,
+        "url": "https://www.isleofskyewhisky.com/",
+        "source_id": "src_isleofskye_official"
+      },
       "_valueIndex": 389.8,
       "_rank": 9
     },
@@ -591,10 +929,24 @@
         ],
         "us": [
           {
-            "retailer": "US market avg (Wine-Searcher, ex-tax); SRP ~$179",
+            "retailer": "Raeder's Wines & Liquors (NY, via Wine-Searcher)",
+            "price_usd": 152.99,
+            "url": "https://www.wine-searcher.com/find/isle+skye+25+old+blend+scotch+whisky+scotland/1/usa",
+            "source_id": "src_isle-of-skye-25_raeders",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "Total Wine & More",
+            "price_usd": 179.99,
+            "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-25yr-scotch-whisky/p/243939700",
+            "source_id": "src_isle-of-skye-25_totalwine",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "US market avg (Wine-Searcher, ex-tax); range $152.99-$419.99; SRP ~$179",
             "price_usd": 186.0,
             "url": "https://www.wine-searcher.com/find/isle+skye+25+old+blend+scotch+whisky+scotland/1/usa",
-            "source_id": "src_isle-of-skye-25_winesearcher",
+            "source_id": "src_isle-of-skye-25_winesearcher_us",
             "as_of": "2026-06"
           },
           {
@@ -603,6 +955,13 @@
             "url": "https://whiskyadvocate.com/New-Whisky-Ratings-Little-Book-Chapter-07-Isle-of-Skye-25-year-old-and-more",
             "source_id": "src_isle-of-skye-25_whiskyadvocate",
             "as_of": "2023-fall"
+          },
+          {
+            "retailer": "Frootbat",
+            "price_usd": 419.99,
+            "url": "https://www.frootbat.com/p/160739/ian-macleods-isle-of-skye-25-year-old-blended-scotch-whisky",
+            "source_id": "src_isle-of-skye-25_frootbat",
+            "as_of": "2026-06"
           }
         ]
       },
@@ -638,13 +997,13 @@
         "composite": 65
       },
       "coverage": {
-        "status": "green",
+        "status": "amber",
         "criteria": {
           "reviews_ge_3": true,
           "scores_ge_2": true,
           "uk_price": true,
           "us_price": true,
-          "auction_point": true,
+          "auction_point": false,
           "fresh_point": true
         },
         "gaps": [
@@ -664,13 +1023,45 @@
           "unsupported": 0
         }
       },
-      "last_updated": "2026-06-16T12:00:00Z",
-      "_primaryGBP": 250.0,
-      "_primaryUSD": 186.0,
-      "_secondaryGBP": 171,
-      "_retailGBPequiv": 250.0,
+      "last_updated": "2026-06-16",
+      "_uk": {
+        "min": 250,
+        "max": 250,
+        "count": 1,
+        "primary": 250,
+        "primary_label": "The Whisky Exchange",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06"
+      },
+      "_us": {
+        "min": 153,
+        "max": 420,
+        "count": 5,
+        "primary": 180,
+        "primary_label": "Total Wine & More",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06"
+      },
+      "_secondary": {
+        "value": 201,
+        "currency": "EUR",
+        "gbp_equiv": 171,
+        "fx": true,
+        "platform": "Whiskybase Market (secondary, lowest offer)",
+        "kind": "low offer",
+        "as_of": "2026-06",
+        "source_id": "src_isle-of-skye-25_whiskybase",
+        "is_point": false
+      },
+      "_retailGBPequiv": 250,
+      "_officialRRP": {
+        "gbp": 250.0,
+        "usd": 179.0,
+        "url": "https://www.isleofskyewhisky.com/",
+        "source_id": "src_isleofskye_official"
+      },
       "_valueIndex": 260.0,
-      "_rank": 4
+      "_rank": 3
     },
     {
       "id": "isle-of-skye-30",
@@ -738,10 +1129,10 @@
         ],
         "us": [
           {
-            "retailer": "US market avg (Wine-Searcher, ex-tax); SRP ~$322",
+            "retailer": "US market avg (Wine-Searcher, ex-tax); range ~$270-$493.99; SRP ~$322",
             "price_usd": 302.0,
             "url": "https://www.wine-searcher.com/find/thirty+old+blend+scotch+whisky+isle+skye+island+scotland",
-            "source_id": "src_isle-of-skye-30_winesearcher",
+            "source_id": "src_isle-of-skye-30_winesearcher_us",
             "as_of": "2026-06"
           },
           {
@@ -750,6 +1141,13 @@
             "url": "https://whiskyadvocate.com/Isle-of-Skye-30-year-old-40",
             "source_id": "src_isle-of-skye-30_whiskyadvocate",
             "as_of": "2023-fall"
+          },
+          {
+            "retailer": "Frootbat",
+            "price_usd": 493.99,
+            "url": "https://www.frootbat.com/p/160740/ian-macleods-isle-of-skye-30-year-old-blended-scotch-whisky",
+            "source_id": "src_isle-of-skye-30_frootbat",
+            "as_of": "2026-06"
           }
         ]
       },
@@ -791,7 +1189,7 @@
           "scores_ge_2": false,
           "uk_price": true,
           "us_price": true,
-          "auction_point": true,
+          "auction_point": false,
           "fresh_point": true
         },
         "gaps": [
@@ -814,11 +1212,43 @@
           "unsupported": 0
         }
       },
-      "last_updated": "2026-06-16T12:00:00Z",
-      "_primaryGBP": 299.0,
-      "_primaryUSD": 302.0,
-      "_secondaryGBP": 246,
-      "_retailGBPequiv": 299.0,
+      "last_updated": "2026-06-16",
+      "_uk": {
+        "min": 299,
+        "max": 299,
+        "count": 1,
+        "primary": 299,
+        "primary_label": "The Whisky Exchange",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06"
+      },
+      "_us": {
+        "min": 302,
+        "max": 494,
+        "count": 3,
+        "primary": 494,
+        "primary_label": "Frootbat",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06"
+      },
+      "_secondary": {
+        "value": 290,
+        "currency": "EUR",
+        "gbp_equiv": 246,
+        "fx": true,
+        "platform": "Whiskybase Market (secondary, lowest offer)",
+        "kind": "low offer",
+        "as_of": "2026-06",
+        "source_id": "src_isle-of-skye-30_whiskybase",
+        "is_point": false
+      },
+      "_retailGBPequiv": 299,
+      "_officialRRP": {
+        "gbp": null,
+        "usd": 321.99,
+        "url": "https://www.isleofskyewhisky.com/",
+        "source_id": "src_isleofskye_official"
+      },
       "_valueIndex": 194.0,
       "_rank": 7
     },
@@ -881,6 +1311,35 @@
             "url": "https://www.buymyliquor.com/products/rosebank-30-year-old-release-1-2020-edition",
             "source_id": "src_rosebank-31-r1_usretail",
             "as_of": "2026-06-16"
+          },
+          {
+            "retailer": "Wine-Searcher (USA average)",
+            "price_usd": 3040.0,
+            "url": "https://www.wine-searcher.com/find/rosebank+thirty+old+single+malt+scotch+whisky+lowland+scotland",
+            "source_id": "src_rosebank-31-r1_usretail_flask",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "FLASK Fine Wines",
+            "price_usd": null,
+            "url": "https://flaskfinewines.com/products/rosebank-30-year-old-1990-release-1-70cl-48-6",
+            "source_id": "src_rosebank-31-r1_usretail_flask",
+            "as_of": "2026-06",
+            "note": "Named US retailer (Los Angeles) carrying the 30yo Release One; specific listing price not resolved via WebSearch (WebFetch blocked). Wine-Searcher US average $3,040 applies."
+          },
+          {
+            "retailer": "Corkdorks Nashville",
+            "price_usd": 3209.99,
+            "url": "https://corkdorkswine.com/shop/product/rosebank-30-years-old-1990-2020-release-1-48-6-1-of-4350-750ml-/60e86cf7858be34f91e8447b",
+            "source_id": "src_rosebank-31-r1_usretail_flask",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "Riverhead Liquor Mart",
+            "price_usd": 3299.99,
+            "url": "https://riverheadliquormart.com/shop/product/rosebank-30-years-old-1990-2020-release-1-48-6-1-of-4350-750ml-/60e86cf7858be34f91e8447b",
+            "source_id": "src_rosebank-31-r1_usretail_flask",
+            "as_of": "2026-06"
           }
         ]
       },
@@ -923,10 +1382,10 @@
         "value": {
           "price_to_quality": 6,
           "rarity": 8,
-          "appreciation": 14,
+          "appreciation": 12,
           "collectibility": 10
         },
-        "composite": 82
+        "composite": 80
       },
       "coverage": {
         "status": "amber",
@@ -957,11 +1416,39 @@
         }
       },
       "last_updated": "2026-06-16",
-      "_primaryGBP": 1600.0,
-      "_primaryUSD": 2999.99,
-      "_secondaryGBP": 3000,
-      "_retailGBPequiv": 1600.0,
-      "_valueIndex": 51.2,
+      "rubric_note": "appreciation capped at 12: freshest individual hammer is 2022 ($3,528); 'rising' is an aggregate label. NOTE current US street (~$3,000-3,300) does sit above the £1,600 RRP, supporting a real premium — but trend is not freshly demonstrated.",
+      "_uk": {
+        "min": 1600,
+        "max": 1600,
+        "count": 1,
+        "primary": 1600,
+        "primary_label": "Original RRP (2020 launch)",
+        "primary_kind": "list",
+        "primary_as_of": "2020-10"
+      },
+      "_us": {
+        "min": 3000,
+        "max": 3300,
+        "count": 4,
+        "primary": 3000,
+        "primary_label": "BuyMyLiquor",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06-16"
+      },
+      "_secondary": {
+        "value": 3528,
+        "currency": "USD",
+        "gbp_equiv": 2778,
+        "fx": true,
+        "platform": "Whisky Auctioneer (historical hammer)",
+        "kind": "hammer",
+        "as_of": "2022-01-10",
+        "source_id": "src_rosebank-31-r1_whiskyauctioneer",
+        "is_point": true
+      },
+      "_retailGBPequiv": 1600,
+      "_officialRRP": null,
+      "_valueIndex": 50.0,
       "_rank": 1
     },
     {
@@ -1029,6 +1516,20 @@
             "url": "https://www.pastemagazine.com/drink/whiskey/rosebank-31-year-old-single-malt-scotch-whisky-review-price-flavors-lowland",
             "source_id": "src_rosebank-31-r2_pastemagazine",
             "as_of": "2023"
+          },
+          {
+            "retailer": "FLASK Fine Wine & Whisky (Los Angeles)",
+            "price_usd": 2699.97,
+            "url": "https://flaskfinewines.com/products/rosebank-31-year-old-release-two-2022-48-1",
+            "source_id": "src_rosebank-31-r2_usretail",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "Wine-Searcher (USA average, ex-tax)",
+            "price_usd": 2353.0,
+            "url": "https://www.wine-searcher.com/find/rosebank+31+old+single+malt+scotch+whisky+lowland+scotland",
+            "source_id": "src_rosebank-31-r2_usretail",
+            "as_of": "2026-06"
           }
         ]
       },
@@ -1082,10 +1583,10 @@
         "value": {
           "price_to_quality": 6,
           "rarity": 8,
-          "appreciation": 13,
+          "appreciation": 12,
           "collectibility": 9
         },
-        "composite": 80
+        "composite": 79
       },
       "coverage": {
         "status": "green",
@@ -1116,11 +1617,44 @@
         }
       },
       "last_updated": "2026-06-16",
-      "_primaryGBP": 1800.0,
-      "_primaryUSD": 3300.0,
-      "_secondaryGBP": 2049,
-      "_retailGBPequiv": 1800.0,
-      "_valueIndex": 44.4,
+      "rubric_note": "appreciation capped at 12: freshest hammer 2022 ($2,891), one platform labels trend flat. R2 has the deeper numeric score set (WA91/Auctioneer91/Whiskybase90) and the narrative's 'headline bottle' status, so it now sits level with R1.",
+      "_uk": {
+        "min": 1800,
+        "max": 1800,
+        "count": 1,
+        "primary": 1800,
+        "primary_label": "Master of Malt",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06-16"
+      },
+      "_us": {
+        "min": 2353,
+        "max": 3300,
+        "count": 3,
+        "primary": 2700,
+        "primary_label": "FLASK Fine Wine & Whisky (Los Angeles)",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06"
+      },
+      "_secondary": {
+        "value": 2891,
+        "currency": "USD",
+        "gbp_equiv": 2276,
+        "fx": true,
+        "platform": "Whisky-Online Auctions (historical hammer)",
+        "kind": "hammer",
+        "as_of": "2022-09-14",
+        "source_id": "src_rosebank-31-r2_whiskyonlineauctions",
+        "is_point": true
+      },
+      "_retailGBPequiv": 1800,
+      "_officialRRP": {
+        "gbp": 1800.0,
+        "usd": null,
+        "url": "https://www.rosebank.com/shop/whisky",
+        "source_id": "src_rosebank31_r2_official"
+      },
+      "_valueIndex": 43.9,
       "_rank": 2
     },
     {
@@ -1186,6 +1720,46 @@
             "url": "https://www.totalwine.com/spirits/scotch/single-malt/tamdhu-18-year-single-malt-scotch/p/2126234907",
             "source_id": "src_tamdhu-18_totalwine",
             "as_of": "2026-06-16"
+          },
+          {
+            "retailer": "Wine-Searcher (US average)",
+            "price_usd": 199.0,
+            "note": "US aggregate average ex-tax (~$199-201 across FL/IL); Wine-Searcher US range min ~$199.99 to max ~$335.99.",
+            "url": "https://www.wine-searcher.com/find/tamdhu+eighteen+old+single+malt+scotch+whisky+speyside+scotland/1/usa",
+            "source_id": "src_tamdhu-18_winesearcher_us",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "Hi-Time Wine Cellars",
+            "price_usd": 229.99,
+            "note": "Out of stock at capture; single-search support.",
+            "url": "https://hitimewine.net/tamdhu-18-year-old-single-malt-scotch-whisky.html",
+            "source_id": "src_tamdhu-18_hitime",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "K&L Wine Merchants",
+            "price_usd": 239.99,
+            "note": "SKU 1651408; out of stock at capture. Reproduced twice.",
+            "url": "https://shop.klwines.com/products/details/1651408",
+            "source_id": "src_tamdhu-18_klwines",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "Uncle Fossil Wine & Spirits",
+            "price_usd": 259.99,
+            "note": "Page title lists $259, body $259.99. Reproduced twice.",
+            "url": "https://www.unclefossil.com/tamdhu-18-year-old-single-malt-scotch-whisky-750ml.html",
+            "source_id": "src_tamdhu-18_unclefossil",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "Frootbat",
+            "price_usd": 335.99,
+            "note": "US high end; Wine-Searcher US max for this bottle (a $264.99 figure also surfaced).",
+            "url": "https://www.wine-searcher.com/find/tamdhu+eighteen+old+single+malt+scotch+whisky+speyside+scotland/1/usa",
+            "source_id": "src_tamdhu-18_frootbat",
+            "as_of": "2026-06"
           }
         ]
       },
@@ -1251,11 +1825,43 @@
         },
         "reverified_at": "2026-06-16T05:10:00Z"
       },
-      "last_updated": "2026-06-16T05:10:00Z",
-      "_primaryGBP": 176.0,
-      "_primaryUSD": 199.99,
-      "_secondaryGBP": 95,
-      "_retailGBPequiv": 176.0,
+      "last_updated": "2026-06-16T21:45:00Z",
+      "_uk": {
+        "min": 176,
+        "max": 176,
+        "count": 1,
+        "primary": 176,
+        "primary_label": "The Whisky Exchange",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06-16"
+      },
+      "_us": {
+        "min": 199,
+        "max": 336,
+        "count": 6,
+        "primary": 200,
+        "primary_label": "Total Wine & More",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06-16"
+      },
+      "_secondary": {
+        "value": 100,
+        "currency": "GBP",
+        "gbp_equiv": 100,
+        "fx": false,
+        "platform": "Whisky.Auction / Scotch Whisky Auctions",
+        "kind": "hammer",
+        "as_of": "2024-xx-xx",
+        "source_id": "src_tamdhu-18_auction",
+        "is_point": true
+      },
+      "_retailGBPequiv": 176,
+      "_officialRRP": {
+        "gbp": 139.99,
+        "usd": null,
+        "url": "https://www.tamdhu.com/tamdhu-18-year-old",
+        "source_id": "src_tamdhu18_official"
+      },
       "_valueIndex": 323.9,
       "_rank": 8
     },
@@ -1331,9 +1937,26 @@
           {
             "retailer": "Total Wine & More",
             "price_usd": 399.99,
+            "note": "Standard US shelf price = US SRP $399.99 (47.5%, 750ml). Corroborated by Whiskey Wash + Spirits Business (src_tamdhu-21_us_srp).",
             "url": "https://www.totalwine.com/spirits/scotch/single-malt/tamdhu-21-year-old-single-malt-scotch-whisky/p/2126262625",
             "source_id": "src_tamdhu-21_totalwine",
             "as_of": "2026-06-16"
+          },
+          {
+            "retailer": "Total Wine & More (Concierge)",
+            "price_usd": 299.99,
+            "note": "US low end: Concierge pre-arrival offer, 25% off ($100 off) the $399.99 SRP; concierge-only, not valid in-store. Reproduced twice.",
+            "url": "https://concierge.totalwine.com/concierge-offers/tamdhu-21-year-single-malt-scotch-whisky-speyside-scotland",
+            "source_id": "src_tamdhu-21_totalwine_concierge",
+            "as_of": "2026-06"
+          },
+          {
+            "retailer": "Still Spirit",
+            "price_usd": 399.99,
+            "note": "Named US retailer carrying the core 21 YO; exact on-page price NOT exposed in search excerpts — listed at the US SRP band (~$399-403, =£299 RRP). Price not independently asserted from a per-store figure.",
+            "url": "https://www.stillspirit.com/en-us/products/tamdhu-21-year-old",
+            "source_id": "src_tamdhu-21_stillspirit",
+            "as_of": "2026-06"
           }
         ]
       },
@@ -1342,7 +1965,7 @@
       },
       "rubric": {
         "drinking": {
-          "critic_consensus": 14,
+          "critic_consensus": 10,
           "complexity": 10,
           "impact": 9,
           "presentation": 7
@@ -1353,7 +1976,7 @@
           "appreciation": 5,
           "collectibility": 6
         },
-        "composite": 69
+        "composite": 65
       },
       "coverage": {
         "status": "amber",
@@ -1385,13 +2008,36 @@
         "reverified_at": "2026-06-16T05:10:00Z",
         "note": "RE-VERIFICATION cleared the prior FAIL: TWE UK price re-sourced to live £295 (RRP £299 distinct, held in price note) and Master of Malt £252.70 now reproduces. All present core fields verify."
       },
-      "last_updated": "2026-06-16T05:10:00Z",
-      "_primaryGBP": 252.7,
-      "_primaryUSD": 399.99,
-      "_secondaryGBP": null,
-      "_retailGBPequiv": 252.7,
-      "_valueIndex": 273.1,
-      "_rank": 3
+      "last_updated": "2026-06-16T21:45:00Z",
+      "rubric_note": "critic_consensus lowered to 10: NO confirmed numeric /100 score (Robb Report implies an 85-89 band only; rest are trade-show medals). Its standing is value-driven, not consensus-driven.",
+      "_uk": {
+        "min": 253,
+        "max": 295,
+        "count": 2,
+        "primary": 253,
+        "primary_label": "Master of Malt",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06-16"
+      },
+      "_us": {
+        "min": 300,
+        "max": 400,
+        "count": 3,
+        "primary": 400,
+        "primary_label": "Total Wine & More",
+        "primary_kind": "retail",
+        "primary_as_of": "2026-06-16"
+      },
+      "_secondary": null,
+      "_retailGBPequiv": 253,
+      "_officialRRP": {
+        "gbp": 299.0,
+        "usd": 403.0,
+        "url": "https://www.tamdhu.com/tamdhu-21-year-old",
+        "source_id": "src_tamdhu21_official"
+      },
+      "_valueIndex": 256.9,
+      "_rank": 4
     }
   ],
   "tasting_order": [
@@ -1452,10 +2098,10 @@
       "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-25-year-single-malt-scotch/p/173092750",
       "type": "retail",
       "source_date": "2026-06",
-      "fetched_at": "2026-06-16T03:08:00Z",
+      "fetched_at": "2026-06-16T22:42:00Z",
       "freshness": "fresh",
       "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_totalwine.md",
-      "key_data": "US listing confirmed exists; exact price N/A — not found in snippet",
+      "key_data": "US retail (Total Wine & More) = $499.99 (750ml, 48%); reproduced x2 (World Wine Liquors also $499.99). Sherry Oak 25.",
       "retrieval_method": "websearch_excerpt"
     },
     {
@@ -1468,7 +2114,7 @@
       "fetched_at": "2026-06-16T03:09:00Z",
       "freshness": "stale",
       "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_robbreport.md",
-      "key_data": "ABV 47.8%; first-fill bourbon + virgin/white oak; Best of the Best 2025 (#2 whisky of 2025); full nose/palate/finish",
+      "key_data": "Named among Robb Report 'Best Whiskies of 2025 So Far' (unranked); the earlier '#2 / Best of the Best' placement could NOT be reproduced and is retracted.",
       "retrieval_method": "websearch_excerpt"
     },
     {
@@ -1533,7 +2179,7 @@
       "fetched_at": "2026-06-16T03:42:00Z",
       "freshness": "fresh",
       "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_thewhiskyexchange.md",
-      "key_data": "UK live retail: TWE £415.00; HTFW £408.95; Tyndrum £409.00; Whisky Shop £453.00; launch RRP £430",
+      "key_data": "Live TWE price £375 (was £415 — £415 quarantined as stale/unverified). Multi-retailer roundup also seen: Whisky Shop £453, HTFW £408.95.",
       "retrieval_method": "websearch_excerpt"
     },
     {
@@ -1665,6 +2311,179 @@
       "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_robbreport_list.md",
       "key_data": "RANK VERIFICATION: Robb Report list is '10 Best Whiskeys of 2025 So Far' (unranked list); NO confirmable '#2' on Robb Report's own site -> node softened to 'named among Robb Report's best whiskies of 2025'",
       "retrieval_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_glengoyne-24_winesearcher_us",
+      "bottle": "glengoyne-24",
+      "source_name": "Wine-Searcher (US market average)",
+      "url": "https://www.wine-searcher.com/find/glen+goyne+white+oak+24+old+single+malt+scotch+whisky+highlands+scotland/1/usa",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T22:40:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_winesearcher_us.md",
+      "key_data": "Wine-Searcher US average $430/750ml (global avg $443); SRP $400. White Oak 24 (bourbon/virgin oak), NOT the Sherry Oak 25. Reproduced x2.",
+      "retrieval_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_glengoyne-25_worldwineliquors",
+      "bottle": "glengoyne-25",
+      "source_name": "World Wine Liquors (US retail)",
+      "url": "https://worldwineliquors.com/product/glengoyne-25-years-750ml/",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T22:44:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_worldwineliquors.md",
+      "key_data": "US retail (World Wine Liquors) = $499.99 (750ml). Sherry Oak 25. Reproduced x2.",
+      "retrieval_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_glengoyne-25_liquorbarn",
+      "bottle": "glengoyne-25",
+      "source_name": "The Liquor Barn (US retail)",
+      "url": "https://theliquorbarn.com/products/glengoyne-25-year-750ml",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T22:45:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_liquorbarn.md",
+      "key_data": "US retail (The Liquor Barn) = $649.99 (750ml, special order). Sherry Oak 25. Reproduced x2.",
+      "retrieval_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_glengoyne-25_northwestliquor",
+      "bottle": "glengoyne-25",
+      "source_name": "Northwest Liquor & Wine (US retail)",
+      "url": "https://northwestliquorwine.com/products/glengoyne-25-yr",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T22:46:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_northwestliquor.md",
+      "key_data": "US retail (Northwest Liquor & Wine) = $849.99 (750ml, sold out) — high end of US spread. Sherry Oak 25. Reproduced x2.",
+      "retrieval_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_glengoyne-25_winesearcher_us",
+      "bottle": "glengoyne-25",
+      "source_name": "Wine-Searcher (US market average)",
+      "url": "https://www.wine-searcher.com/find/glen+goyne+25+old+single+malt+scotch+whisky+highlands+scotland",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T22:47:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_winesearcher_us.md",
+      "key_data": "Wine-Searcher US average $529/750ml; per-store excerpts $499.99-$849.99. Sherry Oak 25. Reproduced x2.",
+      "retrieval_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_ianmacleod_company",
+      "bottle": "N/A",
+      "source_name": "Ian Macleod Distillers official / Wikipedia / Scotch Whisky",
+      "url": "https://www.ianmacleod.com/company-history",
+      "type": "official",
+      "source_date": "2026",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "freshness": "fresh",
+      "local_path": "sources/ianmacleod/src_ianmacleod_company.md",
+      "key_data": "Family-owned (Russell family), HQ Broxburn, founded 1933 by Leonard Russell Snr; Russell family acquired 1963. Distilleries: Glengoyne (2003), Tamdhu (2011), Rosebank (2017), Edinburgh Gin. Brands: Isle of Skye, Smokehead, King Robert, Sheep Dip, Pig's Nose. >15M bottles/yr. Size rank cited inconsistently (10th / 15th / IWSC 7th); '6th largest' NOT confirmed."
+    },
+    {
+      "id": "src_glengoyne25_official",
+      "bottle": "glengoyne-25",
+      "source_name": "Glengoyne official (glengoyne.com)",
+      "url": "https://www.glengoyne.com/glengoyne-25-year-old-highland-single-malt-scotch-whisky",
+      "type": "official",
+      "source_date": "2026",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "freshness": "fresh",
+      "local_path": "sources/ianmacleod/src_glengoyne25_official.md",
+      "key_data": "48% ABV, 100% sherry oak. Official RRP GBP 499 (retail ~465). Official tasting notes: red fruits/leather/brown sugar; Seville marmalade; spicy liquorice finish."
+    },
+    {
+      "id": "src_glengoyne24_official",
+      "bottle": "glengoyne-24",
+      "source_name": "Glengoyne official + The Spirits Business",
+      "url": "https://www.glengoyne.com/white-oak-24-year-old",
+      "type": "official",
+      "source_date": "2024-2025",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "freshness": "fresh",
+      "local_path": "sources/ianmacleod/src_glengoyne24_official.md",
+      "key_data": "Glengoyne 24YO White Oak (Oak Masters' debut). 47.8% ABV, first-fill bourbon + virgin oak. Official RRP GBP 375 / US $399.99. UK Jul 2024, US Mar 2025."
+    },
+    {
+      "id": "src_tamdhu18_official",
+      "bottle": "tamdhu-18",
+      "source_name": "Tamdhu official (tamdhu.com) + Whisky Magazine",
+      "url": "https://www.tamdhu.com/tamdhu-18-year-old",
+      "type": "official",
+      "source_date": "2022",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "freshness": "stale",
+      "local_path": "sources/ianmacleod/src_tamdhu18_official.md",
+      "key_data": "46.8% ABV, non-chill filtered, natural colour, American+European oak oloroso. 125th anniversary (2022). Official RRP GBP 139.99."
+    },
+    {
+      "id": "src_tamdhu21_official",
+      "bottle": "tamdhu-21",
+      "source_name": "Tamdhu official (tamdhu.com) + The Spirits Business",
+      "url": "https://www.tamdhu.com/tamdhu-21-year-old",
+      "type": "official",
+      "source_date": "2025-05",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "freshness": "fresh",
+      "local_path": "sources/ianmacleod/src_tamdhu21_official.md",
+      "key_data": "47.5% ABV, non-chill filtered, no added colour, 100% oloroso (American+European oak). 12,000 bottles/yr. Official RRP GBP 299 / US ~$403. Added to core range May 2025."
+    },
+    {
+      "id": "src_rosebank30_r1_official",
+      "bottle": "rosebank-30-r1",
+      "source_name": "Rosebank official (rosebank.com) + Whisky Advocate",
+      "url": "https://www.rosebank.com/shop/whisky",
+      "type": "official",
+      "source_date": "2020",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "freshness": "stale",
+      "local_path": "sources/ianmacleod/src_rosebank30_r1_official.md",
+      "key_data": "Release One, 1990 vintage, bottled 2020. 48.6% ABV. 62% refill sherry butts + 38% refill bourbon hogsheads. 4,350 bottles. Official RRP GBP 1600."
+    },
+    {
+      "id": "src_rosebank31_r2_official",
+      "bottle": "rosebank-31-r2",
+      "source_name": "Rosebank official (rosebank.com) + The Spirits Business",
+      "url": "https://www.rosebank.com/shop/whisky",
+      "type": "official",
+      "source_date": "2022",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "freshness": "stale",
+      "local_path": "sources/ianmacleod/src_rosebank31_r2_official.md",
+      "key_data": "Release Two, 48.1% ABV, refill American oak hogsheads + ex-sherry butts. Launched Aug 2022. Vintage 1990 vs 1991 UNRESOLVED. Official RRP GBP 1800. Outturn N/A."
+    },
+    {
+      "id": "src_isleofskye_official",
+      "bottle": "isle-of-skye",
+      "source_name": "Isle of Skye official (isleofskyewhisky.com) + The Whiskey Wash",
+      "url": "https://www.isleofskyewhisky.com/",
+      "type": "official",
+      "source_date": "2025-2026",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "freshness": "fresh",
+      "local_path": "sources/ianmacleod/src_isleofskye_official.md",
+      "key_data": "All 40% ABV, Talisker-cored blend. 21YO US$114.99 (GBP N/A); 25YO US$179 / GBP 250 (also seen $206.99); 30YO US $321.99 (GBP ~300 approx). 25YO Best Blended Scotch in World SFWSC 2025; 30YO Gold WWA 2026."
+    },
+    {
+      "id": "src_ianmacleod_news2025_2026",
+      "bottle": "N/A",
+      "source_name": "Trade press (The Spirits Business, The Whiskey Wash) + brand sites",
+      "url": "https://www.thespiritsbusiness.com/2025/05/tamdhu-adds-21yo-whisky-to-core-range/",
+      "type": "news",
+      "source_date": "2025-2026",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "freshness": "fresh",
+      "local_path": "sources/ianmacleod/src_ianmacleod_news2025_2026.md",
+      "key_data": "2025/26 news: Tamdhu 21 to core range (May 2025); Glengoyne Oak Masters'/White Oak to US (Mar 2025); Isle of Skye 25 Best Blended Scotch in World SFWSC 2025; Isle of Skye 30 Gold WWA 2026; Glengoyne 25 Best Scotch Whiskey Wash 2025; Rosebank 31 Best in Show Top Shelf 2025."
     },
     {
       "id": "src_isle-of-skye_brand_history",
@@ -1966,6 +2785,136 @@
       "method": "websearch_excerpt"
     },
     {
+      "id": "src_isle-of-skye-21_totalwine",
+      "bottle": "isle-of-skye-21",
+      "source_name": "Total Wine & More",
+      "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-21yr-scotch-whisky/p/243938700",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T21:40:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-21_totalwine.md",
+      "key_data": "Total Wine & More US $89.99 (700ml); reproduced x2",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_isle-of-skye-21_raeders",
+      "bottle": "isle-of-skye-21",
+      "source_name": "Raeder's Wines & Liquors",
+      "url": "https://www.raederswine.com/spirits/Isle-Of-Skye-21-Year-Old-w1596971pd",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T21:41:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-21_raeders.md",
+      "key_data": "Raeder's Wines & Liquors (NY) US $89.99 (750ml); reproduced x2",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_isle-of-skye-21_zhengbrothers",
+      "bottle": "isle-of-skye-21",
+      "source_name": "Zheng Brothers Wine (Great Neck Plaza, NY)",
+      "url": "https://greatneckliquor.com/shop/product/isle-of-skye-21-years-old/651e24361e86674324f91ef0",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T21:42:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-21_zhengbrothers.md",
+      "key_data": "Zheng Brothers Wine (Great Neck Plaza, NY) US $94.99 (700ml); reproduced x2",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_isle-of-skye-21_winesearcher_us",
+      "bottle": "isle-of-skye-21",
+      "source_name": "Wine-Searcher (US aggregate range)",
+      "url": "https://www.wine-searcher.com/find/isle+skye+21+old+blend+scotch+whisky+scotland/1/usa",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T21:43:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-21_winesearcher_us.md",
+      "key_data": "Wine-Searcher US: min $83.99, avg ~$96 (ex-tax), max $114.99 (=SRP); reproduced x2",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_isle-of-skye-25_totalwine",
+      "bottle": "isle-of-skye-25",
+      "source_name": "Total Wine & More",
+      "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-25yr-scotch-whisky/p/243939700",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T21:45:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-25_totalwine.md",
+      "key_data": "Total Wine & More US $179.99 (750ml); reproduced x2",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_isle-of-skye-25_raeders",
+      "bottle": "isle-of-skye-25",
+      "source_name": "Raeder's Wines & Liquors (via Wine-Searcher)",
+      "url": "https://www.wine-searcher.com/find/isle+skye+25+old+blend+scotch+whisky+scotland/1/usa",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T21:46:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-25_raeders.md",
+      "key_data": "Raeder's Wines & Liquors (NY) US $152.99 (750ml) per Wine-Searcher — low end of 25YO US range; reproduced x2",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_isle-of-skye-25_frootbat",
+      "bottle": "isle-of-skye-25",
+      "source_name": "Frootbat",
+      "url": "https://www.frootbat.com/p/160739/ian-macleods-isle-of-skye-25-year-old-blended-scotch-whisky",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T21:47:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-25_frootbat.md",
+      "key_data": "Frootbat US $419.99 (700ml) — high end of 25YO US range, far above SRP; reproduced x2",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_isle-of-skye-25_winesearcher_us",
+      "bottle": "isle-of-skye-25",
+      "source_name": "Wine-Searcher (US aggregate range)",
+      "url": "https://www.wine-searcher.com/find/isle+skye+25+old+blend+scotch+whisky+scotland/1/usa",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T21:48:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-25_winesearcher_us.md",
+      "key_data": "Wine-Searcher US: avg ~$186 (ex-tax), SRP ~$179; observed $152.99-$419.99; reproduced x2",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_isle-of-skye-30_frootbat",
+      "bottle": "isle-of-skye-30",
+      "source_name": "Frootbat",
+      "url": "https://www.frootbat.com/p/160740/ian-macleods-isle-of-skye-30-year-old-blended-scotch-whisky",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T21:50:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-30_frootbat.md",
+      "key_data": "Frootbat US $493.99 — high end of 30YO US range, well above SRP; reproduced x2",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_isle-of-skye-30_winesearcher_us",
+      "bottle": "isle-of-skye-30",
+      "source_name": "Wine-Searcher (US aggregate range)",
+      "url": "https://www.wine-searcher.com/find/thirty+old+blend+scotch+whisky+isle+skye+island+scotland",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T21:51:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-30_winesearcher_us.md",
+      "key_data": "Wine-Searcher US: avg ~$302 (ex-tax), SRP ~$321.99; observed ~$270 low to $493.99 (Frootbat); reproduced x2",
+      "method": "websearch_excerpt"
+    },
+    {
       "id": "src_rosebank_distillery",
       "bottle": "rosebank",
       "source_name": "Wikipedia / Whisky Auctioneer (distillery profile)",
@@ -2236,6 +3185,32 @@
       "freshness": "stale",
       "local_path": "kb/sources/rosebank/src_rosebank-31-r2_whiskyadvocate.md",
       "key_data": "Whisky Advocate (Jonny McCormick) score 91/100 for the 31yo Release Two, Winter 2022, $3,300, 48.1%. Additional professional critic score beyond Whisky Auctioneer 91 / Whiskybase 90.42. Reproduced across 2 independent WebSearch queries.",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_rosebank-31-r1_usretail_flask",
+      "bottle": "rosebank-31-r1",
+      "source_name": "FLASK Fine Wines / World Wine Whisky / Wine-Searcher (US retail, 30yo Release One)",
+      "url": "https://flaskfinewines.com/products/rosebank-30-year-old-1990-release-1-70cl-48-6",
+      "type": "retail",
+      "source_date": "2026-06-16",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "freshness": "fresh",
+      "local_path": "kb/sources/rosebank/src_rosebank-31-r1_usretail_flask.md",
+      "key_data": "US retail for the 30yo Release One (48.6%, confirmed identity): Wine-Searcher USA average $3,040 (reproduced x2); named US retailers FLASK Fine Wines, World Wine Whisky US, TheWineStop carry it; Corkdorks $3,209.99; Riverhead $3,299.99 (alongside existing BuyMyLiquor $2,999.99). Excluded unreproduced $3,610-$3,968 range and $99.99 glitch.",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_rosebank-31-r2_usretail",
+      "bottle": "rosebank-31-r2",
+      "source_name": "FLASK Fine Wine & Whisky / Frootbat / Hi-Time Wine / Binny's / Wine-Searcher (US retail, 31yo Release Two)",
+      "url": "https://flaskfinewines.com/products/rosebank-31-year-old-release-two-2022-48-1",
+      "type": "retail",
+      "source_date": "2026-06-16",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "freshness": "fresh",
+      "local_path": "kb/sources/rosebank/src_rosebank-31-r2_usretail.md",
+      "key_data": "US retail for the 31yo Release Two (48.1%, confirmed identity): FLASK Fine Wine & Whisky (LA) $2,699.97 ex-tax (reproduced x2); Wine-Searcher USA average $2,353 ex-tax (reproduced x2); US MSRP $3,300 (existing). Also carried by Frootbat, Hi-Time Wine, Binny's, World Wine Whisky US, Bottega Whiskey, Ace Beverage DC. Excluded unreproduced Total Wine $2,000 and $4,000 figures.",
       "method": "websearch_excerpt"
     },
     {
@@ -2561,6 +3536,110 @@
       "freshness": "fresh",
       "local_path": "kb/sources/tamdhu/src_tamdhu-21_masterofmalt_price.md",
       "key_data": "UK GBP252.70 (Master of Malt, 70cl/47.5%). Re-sourced; now reproduced by two independent searches (previously unsupported). Live on-page price NOT confirmed (WebFetch 403).",
+      "capture_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_tamdhu-18_winesearcher_us",
+      "bottle": "tamdhu-18",
+      "source_name": "Wine-Searcher (US aggregate)",
+      "url": "https://www.wine-searcher.com/find/tamdhu+eighteen+old+single+malt+scotch+whisky+speyside+scotland/1/usa",
+      "type": "retail",
+      "source_date": "2026-06-16",
+      "fetched_at": "2026-06-16T21:40:00Z",
+      "freshness": "fresh",
+      "local_path": "kb/sources/tamdhu/src_tamdhu-18_winesearcher_us.md",
+      "key_data": "US Wine-Searcher: avg ~$199 (ex-tax, $200-201 FL/IL), min ~$199.99, max ~$335.99 (750ml). Reproduced by two independent searches. Live page NOT confirmed (WebFetch blocked).",
+      "capture_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_tamdhu-18_klwines",
+      "bottle": "tamdhu-18",
+      "source_name": "K&L Wine Merchants",
+      "url": "https://shop.klwines.com/products/details/1651408",
+      "type": "retail",
+      "source_date": "2026-06-16",
+      "fetched_at": "2026-06-16T21:40:00Z",
+      "freshness": "fresh",
+      "local_path": "kb/sources/tamdhu/src_tamdhu-18_klwines.md",
+      "key_data": "US $239.99 (K&L Wine Merchants, SKU 1651408, 750ml/46.8%; OOS at capture). Reproduced by two independent searches. Live page NOT confirmed (WebFetch blocked).",
+      "capture_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_tamdhu-18_unclefossil",
+      "bottle": "tamdhu-18",
+      "source_name": "Uncle Fossil Wine & Spirits",
+      "url": "https://www.unclefossil.com/tamdhu-18-year-old-single-malt-scotch-whisky-750ml.html",
+      "type": "retail",
+      "source_date": "2026-06-16",
+      "fetched_at": "2026-06-16T21:40:00Z",
+      "freshness": "fresh",
+      "local_path": "kb/sources/tamdhu/src_tamdhu-18_unclefossil.md",
+      "key_data": "US $259.99 (Uncle Fossil Wine & Spirits, 750ml; title lists $259, body $259.99). Reproduced by two independent searches. Live page NOT confirmed (WebFetch blocked).",
+      "capture_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_tamdhu-18_frootbat",
+      "bottle": "tamdhu-18",
+      "source_name": "Frootbat (via Wine-Searcher US)",
+      "url": "https://www.wine-searcher.com/find/tamdhu+eighteen+old+single+malt+scotch+whisky+speyside+scotland/1/usa",
+      "type": "retail",
+      "source_date": "2026-06-16",
+      "fetched_at": "2026-06-16T21:40:00Z",
+      "freshness": "fresh",
+      "local_path": "kb/sources/tamdhu/src_tamdhu-18_frootbat.md",
+      "key_data": "US HIGH-END $335.99 (Frootbat, 750ml; a $264.99 figure also surfaced). Wine-Searcher US max for this bottle. Reproduced by two independent searches. Live page NOT confirmed (WebFetch blocked).",
+      "capture_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_tamdhu-18_hitime",
+      "bottle": "tamdhu-18",
+      "source_name": "Hi-Time Wine Cellars",
+      "url": "https://hitimewine.net/tamdhu-18-year-old-single-malt-scotch-whisky.html",
+      "type": "retail",
+      "source_date": "2026-06-16",
+      "fetched_at": "2026-06-16T21:40:00Z",
+      "freshness": "fresh",
+      "local_path": "kb/sources/tamdhu/src_tamdhu-18_hitime.md",
+      "key_data": "US ~$229.99 (Hi-Time Wine Cellars, 750ml; OOS at capture). Single-search support (mid-range data point). Live page NOT confirmed (WebFetch blocked).",
+      "capture_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_tamdhu-21_totalwine_concierge",
+      "bottle": "tamdhu-21",
+      "source_name": "Total Wine & More (Concierge offer)",
+      "url": "https://concierge.totalwine.com/concierge-offers/tamdhu-21-year-single-malt-scotch-whisky-speyside-scotland",
+      "type": "retail",
+      "source_date": "2026-06-16",
+      "fetched_at": "2026-06-16T21:42:00Z",
+      "freshness": "fresh",
+      "local_path": "kb/sources/tamdhu/src_tamdhu-21_totalwine_concierge.md",
+      "key_data": "US LOW-END $299.99 (Total Wine Concierge, 25% off $399.99 SRP, pre-arrival/concierge-only). Reproduced by two independent searches. Live page NOT confirmed (WebFetch blocked).",
+      "capture_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_tamdhu-21_us_srp",
+      "bottle": "tamdhu-21",
+      "source_name": "The Whiskey Wash / The Spirits Business (US SRP)",
+      "url": "https://thewhiskeywash.com/whiskey-news/tamdhu-21-year-old-scotch-whisky-arrives-in-us-market/",
+      "type": "retail",
+      "source_date": "2025-08-xx",
+      "fetched_at": "2026-06-16T21:42:00Z",
+      "freshness": "fresh",
+      "local_path": "kb/sources/tamdhu/src_tamdhu-21_us_srp.md",
+      "key_data": "US SRP $399.99 (750ml/47.5%); the broad US shelf/Total Wine standard price. Reproduced by two independent searches (Whiskey Wash + Spirits Business). Live page NOT confirmed (WebFetch blocked).",
+      "capture_method": "websearch_excerpt"
+    },
+    {
+      "id": "src_tamdhu-21_stillspirit",
+      "bottle": "tamdhu-21",
+      "source_name": "Still Spirit",
+      "url": "https://www.stillspirit.com/en-us/products/tamdhu-21-year-old",
+      "type": "retail",
+      "source_date": "2026-06-16",
+      "fetched_at": "2026-06-16T21:42:00Z",
+      "freshness": "fresh",
+      "local_path": "kb/sources/tamdhu/src_tamdhu-21_stillspirit.md",
+      "key_data": "Named US retailer carrying the core 21 YO; exact $ NOT exposed in excerpts (no price asserted). US band corroborated ~$399-403 (=£299). Reproduced (listing) by two searches. Live page NOT confirmed (WebFetch blocked).",
       "capture_method": "websearch_excerpt"
     }
   ]

@@ -1,8 +1,14 @@
 # Whisky KG — Verification Report
 
-_Adversarial source verification (reproduce-by-search). Regenerated 2026-06-16T21:43:57Z after the gap-fill + re-verify round. Research anchor 2026-06-16._
+_Regenerated 2026-06-16T22:26:08Z. Research anchor 2026-06-16._
 
-All 9 bottles PASS verification. Pass = every present core datapoint reproduces from its cited source; quarantined fields are marked `N/A — unverified`.
+All 9 bottles PASS adversarial verification (core fields reproduce from cited sources).
+
+**Round 3 addendum:** Wide US retail prices and official Ian Macleod RRPs were added after the
+verifier round. Each new US price was reproduced by a second independent search at capture time
+(our reproduce-by-search standard), but was not re-run through a separate adversarial verifier pass.
+Rubric scores were rebalanced per the expert audit (see kb/expert-audit.md); two GREENs were
+demoted to AMBER after tightening `auction_point` to require a real hammer or whitelisted aggregate.
 
 
 ---

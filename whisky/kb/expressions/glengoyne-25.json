@@ -136,7 +136,7 @@
   },
   "rubric": {
     "drinking": {
-      "critic_consensus": 12,
+      "critic_consensus": 15,
       "complexity": 9,
       "impact": 8,
       "presentation": 7
@@ -147,16 +147,16 @@
       "appreciation": 5,
       "collectibility": 5
     },
-    "composite": 59
+    "composite": 62
   },
   "coverage": {
-    "status": "green",
+    "status": "amber",
     "criteria": {
       "reviews_ge_3": true,
       "scores_ge_2": true,
       "uk_price": true,
       "us_price": true,
-      "auction_point": true,
+      "auction_point": false,
       "fresh_point": true
     },
     "gaps": [
@@ -178,5 +178,6 @@
     },
     "note": "Re-verified 2026-06-16T22:15Z after gap-fill. PASS — all 14 fields reproduce LIVE incl. the 3 new UK prices (MoM £419.90 / shop £499 / Royal Mile £525), Whiskybase 89.74 (324 ratings), Drinkhacker A-, WhiskyNotes review. No 24-vs-25 conflation, no currency mix-ups (GBP retail vs $600 USD MSRP vs £250 GBP secondary; the €294 EUR belongs to the 24, not here)."
   },
-  "last_updated": "2026-06-16T22:50:00Z"
+  "last_updated": "2026-06-16T22:50:00Z",
+  "rubric_note": "critic_consensus raised to 15: two numeric scores (Whiskybase 89.74/324 ratings, Drinkhacker A-) + Whiskey Wash Awards 2025 Best Scotch; better-evidenced than the 24."
 }

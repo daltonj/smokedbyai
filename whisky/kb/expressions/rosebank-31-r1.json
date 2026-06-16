@@ -128,10 +128,10 @@
     "value": {
       "price_to_quality": 6,
       "rarity": 8,
-      "appreciation": 14,
+      "appreciation": 12,
       "collectibility": 10
     },
-    "composite": 82
+    "composite": 80
   },
   "coverage": {
     "status": "amber",
@@ -161,5 +161,6 @@
       "unsupported": 0
     }
   },
-  "last_updated": "2026-06-16"
+  "last_updated": "2026-06-16",
+  "rubric_note": "appreciation capped at 12: freshest individual hammer is 2022 ($3,528); 'rising' is an aggregate label. NOTE current US street (~$3,000-3,300) does sit above the £1,600 RRP, supporting a real premium — but trend is not freshly demonstrated."
 }

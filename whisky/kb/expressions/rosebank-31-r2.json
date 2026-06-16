@@ -130,10 +130,10 @@
     "value": {
       "price_to_quality": 6,
       "rarity": 8,
-      "appreciation": 13,
+      "appreciation": 12,
       "collectibility": 9
     },
-    "composite": 80
+    "composite": 79
   },
   "coverage": {
     "status": "green",
@@ -163,5 +163,6 @@
       "unsupported": 0
     }
   },
-  "last_updated": "2026-06-16"
+  "last_updated": "2026-06-16",
+  "rubric_note": "appreciation capped at 12: freshest hammer 2022 ($2,891), one platform labels trend flat. R2 has the deeper numeric score set (WA91/Auctioneer91/Whiskybase90) and the narrative's 'headline bottle' status, so it now sits level with R1."
 }
