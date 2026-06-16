@@ -15,7 +15,7 @@
     "nose": "Rich oak, ginger, vanilla, red apple and citrus; earthy autumn leaves, warm baking spices, brown sugar, orchard fruits, toasted walnuts, burnt-orange citrus and buttery toffee. (TWE: Comice pear and apricot.)",
     "palate": "Rounded and fruity — malt, apple and light peat smoke; with complexity of hazelnuts, warm spices, blood-orange zest, dark wood polish, gentle smoke, a touch of sea salt and a spot of leather. Whisky Advocate notes cola, allspice, red apple, liquorice, leather, gingerbread, clove, black tea, peaty embers, dark toffee and milk chocolate.",
     "finish": "Long and balanced with subtle apricot; long and smoky (TWE).",
-    "narrative": "The flagship of the range and a genuine award magnet: a high-malt island blend balancing gentle maritime smoke against orchard fruit, baking spice, dark toffee and oak. Named Best Blended Scotch (16+ Years) AND Best Overall Blended Scotch Whisky at the 2025 San Francisco World Spirits Competition (announced 12 Nov 2025, Edinburgh), where judges called it 'a beautifully crafted Scotch'. Whisky Advocate's Jonny McCormick scored it 94 and flagged it as 'great value'. Curator verdict: the standout of the line and a benchmark older blend for the money.",
+    "narrative": "The flagship, and the one expression here that earns its hype. A high-malt blend of Skye and mainland whiskies pulled from ex-bourbon and sherry casks, with a Talisker core supplying the gentle maritime smoke. The nose is autumnal and layered — rich oak, ginger, vanilla, red apple and burnt-orange citrus over toasted walnut and buttery toffee, with Comice pear and apricot per The Whisky Exchange. The palate is rounded and genuinely complex: malt and apple lift into hazelnut, blood-orange zest, dark wood polish, a touch of sea salt and leather, with Whisky Advocate cataloguing cola, allspice, liquorice, gingerbread, clove, black tea, peaty embers, dark toffee and milk chocolate. The finish runs long, balanced and faintly smoky with subtle apricot. The hardware backs the glass: Whisky Advocate's McCormick scored it 94 and called it 'a 25 year old that offers great value,' and SFWSC 2025 named it Best Blended Scotch (16+) AND Best Overall Blended Scotch Whisky (announced 12 Nov 2025, Edinburgh, blind, 1,500+ entries), judges calling it 'a beautifully crafted Scotch.' VERDICT: BUY. The standout of the line and a benchmark aged blend at ~£250/$179-210; the strength is the only thing holding it back from being unarguable.",
     "source_ids": ["src_isle-of-skye-25_thewhiskeywash_review", "src_isle-of-skye-25_whiskyadvocate", "src_isle-of-skye-25_thewhiskeywash_award", "src_isle-of-skye-25_thewhiskyexchange"]
   },
 
@@ -41,26 +41,26 @@
   },
 
   "rubric": {
-    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
-    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
-    "composite": 0
+    "drinking": {"critic_consensus": 18, "complexity": 10, "impact": 8, "presentation": 4},
+    "value": {"price_to_quality": 14, "rarity": 3, "appreciation": 4, "collectibility": 4},
+    "composite": 65
   },
 
   "coverage": {
-    "status": "green",
+    "status": "amber",
     "criteria": {
-      "reviews_ge_3": true, "scores_ge_2": true, "uk_price": true,
+      "reviews_ge_3": false, "scores_ge_2": false, "uk_price": true,
       "us_price": true, "auction_point": true, "fresh_point": true
     },
     "gaps": [
-      "Verification still pending (verification.pass != true), so not yet a confirmed GREEN per the schema's definition of done",
-      "Reviews count leans on two Whiskey Wash pages + Whisky Advocate; a Whiskyfun/WhiskyNotes/Dramble independent note would strengthen consensus",
-      "Auction is a single Whiskybase lowest-offer point; no trend/avg/hammer history (data gated behind account)",
+      "Only 2 distinct REVIEW captures (TWW review + Whisky Advocate); the SFWSC award is a news capture, not a review, so reviews_ge_3 fails — need >=3",
+      "Only 1 numeric normalized_100 score (Whisky Advocate 94); SFWSC is a medal, not a number, so scores_ge_2 fails — need a second numeric (Whiskyfun/WhiskyNotes/Dramble)",
+      "Auction is a single Whiskybase lowest-offer point (EUR 200.95); no trend/avg/hammer history (gated behind account)",
       "Natural-colour / chill-filtration not confirmed",
       "ALL captures via WebSearch excerpt — WebFetch blocked (HTTP 403)"
     ]
   },
 
   "verification": {"status": "pending", "report_id": "isle-of-skye-25.verify.json"},
-  "last_updated": "2026-06-16T03:46:00Z"
+  "last_updated": "2026-06-16T00:00:00Z"
 }

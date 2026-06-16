@@ -14,9 +14,9 @@
   "tasting": {
     "nose": "Dry nutty sherry, cherry and plum, milk chocolate, rum raisin, citrus and baked/honeyed oats; orange zest and hazelnut milk chocolate (per retailer notes).",
     "palate": "Rich, complex and decadently sherried — vanilla, brown sugar, red apple and dried fruits, deep nutty richness, dark chocolate and toasted almonds, with a characteristic dryness.",
-    "finish": "N/A — not found (finish text not exposed in retrievable excerpts).",
-    "narrative": "Tamdhu's 18 is the distillery's full-throttle oloroso statement: an exclusively sherry-matured Speysider that critics describe as a 'sherry bomb at the height of its greatness.' Dry, nutty and chocolate-rich rather than syrupy, it leans on European/American oak oloroso from Jerez at 46.8% ABV, natural colour and unchill-filtered. A San Francisco World Spirits Competition Double Gold backs the quality. Verdict: a benchmark sherried Speysider — though full tasting/scoring synthesis here is provisional pending verbatim source verification.",
-    "source_ids": ["src_tamdhu-18_whiskeywash", "src_tamdhu-18_thewhiskyexchange"]
+    "finish": "N/A — not found (no critic finish text exposed in the captured excerpts).",
+    "narrative": "NOSE: dry, nutty oloroso — cherry and plum, milk chocolate and rum raisin, lifted by citrus and baked/honeyed oats; the retailer adds orange zest and hazelnut milk chocolate (Whiskey Wash, TWE). PALATE: rich and decadently sherried — vanilla, brown sugar, red apple and dried fruit over deep nutty richness, dark chocolate and toasted almonds, all carried on a characteristic dryness (Whiskey Wash). FINISH: not captured. This is Tamdhu's full-throttle oloroso statement at 46.8%, natural colour and un-chill-filtered, matured exclusively in European/American-oak sherry casks from Jerez. Whiskey Wash calls it 'a sherry bomb whisky at the height of its greatness'; it took a Double Gold at the San Francisco World Spirits Competition. VERDICT: a benchmark dry-sherried Speysider and a credible value play against Macallan at ~$200 — buy to drink. But be honest about the evidence: every datum here is a WebSearch snippet (WebFetch was 403 all run), no numeric expert score is confirmed, the finish is missing, and the only auction reads are stale 2024 figures. Coverage is thin; treat the score as provisional pending verbatim verification.",
+    "source_ids": ["src_tamdhu-18_whiskeywash", "src_tamdhu-18_thewhiskyexchange", "src_tamdhu-18_whiskybase"]
   },
 
   "scores": [
@@ -38,9 +38,9 @@
   },
 
   "rubric": {
-    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
-    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
-    "composite": 0
+    "drinking": {"critic_consensus": 10, "complexity": 8, "impact": 8, "presentation": 7},
+    "value": {"price_to_quality": 12, "rarity": 4, "appreciation": 4, "collectibility": 4},
+    "composite": 57
   },
 
   "coverage": {
@@ -50,16 +50,16 @@
       "us_price": false, "auction_point": false, "fresh_point": false
     },
     "gaps": [
-      "ALL data unverified: WebFetch returned HTTP 403 on every URL this run; values are WebSearch-surfaced snippets only.",
-      "No UK retail price confirmed (TWE/MoM live pages blocked).",
-      "US price ($199.99) not confirmed on live Total Wine page.",
-      "No expert /100 numeric score retrieved (Whiskybase 87.20 unconfirmed on-page; WhiskyNotes 2023 review text/score not retrieved).",
-      "Only 1 fresh expert review accessible (Whiskey Wash, snippet only); need >=3.",
-      "Finish tasting note missing.",
-      "Auction data is 2024-era (stale) with no trend."
+      "No valid (websearch_excerpt) captures: every tamdhu-18 source is capture_method=websearch_snippet, which does not count as a valid evidence point per schema; all data is UNVERIFIED (WebFetch 403 all run).",
+      "reviews_ge_3 fails: only 1 fresh expert review accessible (Whiskey Wash, snippet); WhiskyNotes 2023 review is stale and its text/score were not retrieved.",
+      "scores_ge_2 fails: zero numeric normalized_100 scores. Whiskybase 87.20 is a snippet (entry IDs 207124/209109 unresolved); SFWSC Double Gold is non-numeric.",
+      "uk_price fails: no UK retail price tied to this listing (TWE snippet exposed no price; the £299/£275 figures could not be tied to the 18 and were dropped).",
+      "us_price fails: $199.99 Total Wine is snippet-only, not a valid excerpt capture.",
+      "auction_point fails as fresh: only stale 2024-era hammer figures (~£90-£100), no trend.",
+      "Finish tasting note missing across all captures."
     ]
   },
 
   "verification": {"status": "pending", "report_id": "tamdhu-18.verify.json"},
-  "last_updated": "2026-06-16T03:15:00Z"
+  "last_updated": "2026-06-16"
 }

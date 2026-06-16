@@ -15,7 +15,7 @@
     "nose": "Rich vanilla and toasted oak, lemon curd, honey, plum jam, desiccated coconut, spiced apple pastry dusted with icing sugar and lime zest; per Whisky Advocate also passion-fruit panna cotta, dried mango and cinnamon spice.",
     "palate": "Gently balanced and bright: lemon and key-lime pie, honeycomb, gentle tropical notes and soft oak, with star anise, vanilla and emerging chocolate (Whisky Advocate finds rich chocolate ganache/cocoa); Drinkhacker notes white chocolate, grapefruit pith and big toasty charred oak.",
     "finish": "Long and well-aged: toffee apple, delicate citrus and lingering oak, with chocolate sticking the landing.",
-    "narrative": "Glengoyne's deliberate 'new flavour direction' — the same slow-distilled Highland spirit pushed away from sherry into first-fill bourbon and virgin oak. Where the 25 trades on dried fruit and chocolate, the 24 White Oak is bright and dessert-like: vanilla, lemon/lime, honey and coconut over a charred-oak spine, with cocoa arriving late. Critics rate it highly (Robb Report's #2 whisky of 2025; Drinkhacker A-), though Drinkhacker hints the spirit is 'just now cresting into over-maturity.' Curator verdict: a strong, citrus-and-vanilla counterpoint to the sherried core range — keep its profile firmly separate from the 25 Sherry Oak.",
+    "narrative": "This is Glengoyne off-script and the better for it. The slowest-distilled spirit in Scotland, normally dressed in sherry, is here pushed into American first-fill bourbon and virgin oak — and the result is bright, dessert-led and unmistakably NOT the 25. The nose is vanilla and toasted oak over lemon curd, honey, plum jam and desiccated coconut (Robb Report), with Whisky Advocate finding the more exotic register: passion-fruit panna cotta, dried mango and cinnamon. The palate is gently balanced — key-lime pie, honeycomb, soft tropical fruit and star anise — before chocolate muscles in: Whisky Advocate's ganache and cocoa, Drinkhacker's white chocolate over grapefruit pith and big charred oak. The finish is long and well-aged, toffee apple and citrus with cocoa sticking the landing. Pedigree is real: Robb Report ranked it the #2 whisky released in 2025; Drinkhacker an A- (~90). My one reservation is Drinkhacker's, and it is fair — the spirit reads 'just now cresting into over-maturity', so the charred oak is loud. VERDICT: BUY and POUR, not collect — a genuinely accomplished citrus-and-vanilla 24yo at sane money (~£415 / $400), but the secondary tells you the market agrees this is a drinker: Whiskystats values it BELOW retail. No flipping upside. Keep its bright bourbon/virgin-oak profile strictly walled off from the 25 Sherry Oak.",
     "source_ids": ["src_glengoyne-24_robbreport", "src_glengoyne-24_whiskyadvocate", "src_glengoyne-24_drinkhacker"]
   },
 
@@ -43,9 +43,9 @@
   },
 
   "rubric": {
-    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
-    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
-    "composite": 0
+    "drinking": {"critic_consensus": 16, "complexity": 9, "impact": 8, "presentation": 7},
+    "value": {"price_to_quality": 9, "rarity": 5, "appreciation": 3, "collectibility": 5},
+    "composite": 62
   },
 
   "coverage": {
@@ -55,13 +55,13 @@
       "us_price": true, "auction_point": true, "fresh_point": true
     },
     "gaps": [
-      "Only 1 numeric-normalizable score (Drinkhacker A- -> ~90); Whisky Advocate publishes a 100-pt score not exposed in WebSearch snippet; Whiskybase aggregate not exposed",
+      "Only 1 numeric-normalizable score (Drinkhacker A- -> ~90); Robb Report is awards-only (#2 of 2025, no 100-pt); Whisky Advocate publishes a 100-pt score not exposed in WebSearch excerpt",
       "Whiskystats value is EUR (~€294) and lacks trend direction / hammer history; below current retail (no secondary premium yet)",
-      "No 2026 (freshness-window) news for the 24; launch news is Jul-2024 (UK) / Mar-2025 (US), flagged stale",
-      "ALL captures via WebSearch excerpt — WebFetch blocked (HTTP 403); verbatim page re-fetch required for verification"
+      "No 2026 (freshness-window) news for the 24; launch news is Jul-2024 (UK) / Mar-2025 (US), flagged stale (fresh_point satisfied by 2026-06 retail/auction captures)",
+      "ALL captures via websearch_excerpt — WebFetch blocked (HTTP 403); verbatim page re-fetch required for verification"
     ]
   },
 
   "verification": {"status": "pending", "report_id": "glengoyne-24.verify.json"},
-  "last_updated": "2026-06-16T03:48:00Z"
+  "last_updated": "2026-06-16"
 }

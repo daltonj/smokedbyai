@@ -15,7 +15,7 @@
     "nose": "Dried figs and raisins, rich chocolate and toffee pudding, red fruits, leather and brown sugar.",
     "palate": "Warm oak, rich fig, raisins, decadent chocolate, hazelnut and butterscotch; soft oak, cinnamon, stewed fruits and a Seville-marmalade tang.",
     "finish": "Very long, spicy liquorice, slowly drying.",
-    "narrative": "A textbook old-school sherried Highlander from Scotland's slowest-distilling house: coppery-red in the glass, deep but not heavy, trading on dried fruit, chocolate and gentle spice rather than sulphur or sharpness. The Whiskey Wash crowned it Best Scotch at its 2025 awards. Curator verdict: a benchmark sherry-oak 25 — keep its profile firmly separate from the citrus/vanilla White Oak 24.",
+    "narrative": "This is the orthodox Glengoyne: a quarter-century exclusively in hand-selected sherry casks, coppery-red in the glass and trading on depth rather than weight. The nose stacks dried figs, raisins, rich chocolate and toffee pudding over red fruits, leather and brown sugar; the palate follows with warm oak, fig, raisins, decadent chocolate, hazelnut and butterscotch, lifted by cinnamon, stewed fruit and a Seville-marmalade tang (The Whiskey Wash; corroborated by the distillery's own notes). The finish is very long, spicy liquorice slowly drying out. Crucially for an old sherried malt, the captured notes show no sulphur and no sharpness — this is clean sherry maturation on Scotland's slowest-distilled spirit, natural colour and non-chill-filtered at 48%. The Whiskey Wash named it Best Scotch at its 2025 Awards. The catch is thin evidence: one real review and an award, no numeric 100-pt scores, and a secondary average (~£250) that sits below its premium retail. VERDICT: POUR — a benchmark, textbook old-school sherried Highlander to drink, not to chase as an investment. Keep its dried-fruit/chocolate sherry profile firmly separate from the citrus-and-vanilla White Oak 24.",
     "source_ids": ["src_glengoyne-25_thewhiskeywash", "src_glengoyne-25_glengoyneofficial"]
   },
 
@@ -38,9 +38,9 @@
   },
 
   "rubric": {
-    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
-    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
-    "composite": 0
+    "drinking": {"critic_consensus": 12, "complexity": 9, "impact": 8, "presentation": 7},
+    "value": {"price_to_quality": 8, "rarity": 5, "appreciation": 5, "collectibility": 5},
+    "composite": 59
   },
 
   "coverage": {
@@ -51,13 +51,13 @@
     },
     "gaps": [
       "UK retail £ price not captured (TWE p/24158 and MoM both 403/snippet-only)",
-      "Only 1 expert review captured; need >=3",
-      "No numeric 100-pt scores (Whiskyfun/WhiskyNotes/Whisky Advocate not surfaced for the 25)",
-      "Auction trend direction unknown; figure from aggregator not strict whitelist platform",
-      "ALL captures via WebSearch snippet — WebFetch blocked (HTTP 403); verbatim re-fetch required"
+      "Only 1 expert review captured (The Whiskey Wash); need >=3 named critics",
+      "No numeric 100-pt scores — only awards-only (Best Scotch, Whiskey Wash 2025); Whiskyfun/WhiskyNotes/Whisky Advocate not surfaced for the 25",
+      "Auction trend direction unknown; £250 figure from Whisky Returns aggregator, not a strict-whitelist platform (reconfirm vs Whiskystats whisky/135597 or /151799)",
+      "ALL captures via websearch_excerpt/snippet — WebFetch blocked (HTTP 403); verbatim re-fetch required"
     ]
   },
 
   "verification": {"status": "pending", "report_id": "glengoyne-25.verify.json"},
-  "last_updated": "2026-06-16T03:15:00Z"
+  "last_updated": "2026-06-16"
 }

@@ -15,7 +15,7 @@
     "nose": "Warm baking spices, red apples, buttery toffee, citrus and chocolate malted balls; a beautiful dry nuttiness with brown sugar, vanilla, cedar chest, nutmeg, cinnamon, dried citrus, coffee and walnut cake.",
     "palate": "Subtle stone-fruit sweetness — spicy caramel, blackcurrant, chocolate, lemon zest, a hint of cedar wood and green peppercorn; sweet and honeyed with hot oatmeal, chocolate sauce, strawberries, orange and a whirl of ground pepper and oak spice.",
     "finish": "Medium to long, deliciously rich and oaky, with a glimpse of peppermint.",
-    "narrative": "The entry point to Isle of Skye's older blends: a smooth, medium-bodied, easy-sipping island blend that trades sweet orchard and confectionery notes against savoury nuttiness and gentle oak rather than chasing complexity. The Whiskey Wash calls it 'a subtly decadent treat'; Whisky Advocate's Jonny McCormick praised its dry nuttiness. Curator verdict: a well-made, approachable aged blend at a fair price — pleasant rather than profound.",
+    "narrative": "The entry into Skye's older blends, and it behaves like one: a 40% island blend that leads with confection — buttery toffee, red apple, chocolate malted balls and warm baking spice — over a spine of dry, savoury nuttiness (Whisky Advocate's McCormick logs brown sugar, cedar chest, coffee and walnut cake; The Whiskey Wash adds spicy caramel, blackcurrant and a hint of green peppercorn). The palate is sweet and honeyed, with oatmeal, chocolate sauce, strawberry and orange before a whirl of ground pepper, then a medium-to-long, deliciously rich and oaky finish closed by a glimpse of peppermint. Two decades show as polish, not depth — TWW concedes it lands 'without an over abundance of complexity' even as it calls it 'a subtly decadent treat.' VERDICT: POUR. A genuinely well-made, smooth aged blend at a sane ~£118/$115 — buy it to drink, not to be moved; the 25 is where the money should go.",
     "source_ids": ["src_isle-of-skye-21_thewhiskeywash", "src_isle-of-skye-21_whiskyadvocate"]
   },
 
@@ -40,9 +40,9 @@
   },
 
   "rubric": {
-    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
-    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
-    "composite": 0
+    "drinking": {"critic_consensus": 11, "complexity": 6, "impact": 5, "presentation": 3},
+    "value": {"price_to_quality": 12, "rarity": 3, "appreciation": 3, "collectibility": 3},
+    "composite": 46
   },
 
   "coverage": {
@@ -52,8 +52,8 @@
       "us_price": true, "auction_point": true, "fresh_point": true
     },
     "gaps": [
-      "Only 2 expert reviews captured (TWW, Whisky Advocate); need >=3 — Drinkhacker per-expression grade not surfaced verbatim",
-      "No numeric scores: Whisky Advocate 21YO points not returned by WebSearch; no Whiskyfun/WhiskyNotes/Dramble number found",
+      "Only 2 distinct REVIEW captures (TWW, Whisky Advocate); need >=3 for reviews_ge_3",
+      "Zero numeric normalized_100 scores: Whisky Advocate 21YO points not surfaced by WebSearch; no Whiskyfun/WhiskyNotes/Dramble number found",
       "21YO auction figure (EUR 171.16) is the Whiskybase lowest-offer cross-referenced inside the 25YO capture, not a dedicated 21YO capture — Verifier should re-source",
       "Natural-colour / chill-filtration status not confirmed",
       "ALL captures via WebSearch excerpt — WebFetch blocked (HTTP 403)"
@@ -61,5 +61,5 @@
   },
 
   "verification": {"status": "pending", "report_id": "isle-of-skye-21.verify.json"},
-  "last_updated": "2026-06-16T03:46:00Z"
+  "last_updated": "2026-06-16T00:00:00Z"
 }

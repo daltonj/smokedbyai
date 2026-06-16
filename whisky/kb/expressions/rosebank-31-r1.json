@@ -17,7 +17,7 @@
     "nose": "Buttery and golden: rich vanilla, lemon meringue pie, honeycomb, polished oak, marzipan and a pinch of wood spice; vibrant citrus with orange zest, watermelon, apple skin, peach and nectarine; Chantilly cream and caramel wafers.",
     "palate": "Creamy, buttery and fruity with a gentle spiciness; sweet almonds, butterscotch, grapefruit peel, gooseberry, chamomile, pears and pineapple.",
     "finish": "Soft and intimate, with pear and vanilla; background wood spice.",
-    "narrative": "A classic Rosebank and a fitting first chapter for the reborn distillery: delicate, spirit-driven and unmistakably Lowland. Critics were captivated (Connosr's note that 'the nose is just out of this world'), and Whisky Advocate's 92 points confirms the pedigree. A soft, elegant 30-year-old that trades power for poise. Verdict: a benchmark Lowland and a blue-chip collectible.",
+    "narrative": "Identity first, because the label invites confusion: this is the Legacy Release ONE, a 30 Year Old (1990, bottled 2020, 48.6%) — not the 31yo (that is Release Two). What is in the glass is textbook delicate triple-distilled Lowland: spirit-driven, soft and intimate rather than oak-led, the refill sherry/bourbon casks framing the fruit instead of smothering it. The nose is buttery and golden — Whisky Advocate's Jonny McCormick logs vanilla, lemon meringue pie, honeycomb, marzipan and polished oak, while Words of Whisky widens it into vibrant citrus, watermelon, peach and nectarine. The palate stays creamy and fruity with a gentle spice (sweet almonds, butterscotch, grapefruit peel, gooseberry), closing soft on pear and vanilla. Connosr's markjedi1 was unguarded — 'the nose is just out of this world' — and Whisky Advocate's 92 points confirms the pedigree. VERDICT: a benchmark Lowland and a blue-chip collectible, but the maths is sober — at £2k+ secondary against a £1,600 RRP you are paying a heavy ghost-distillery premium for poise, not power. Collect it; don't expect a bargain pour.",
     "source_ids": ["src_rosebank-31-r1_whiskyadvocate", "src_rosebank-31-r1_wordsofwhisky", "src_rosebank-31-r1_connosr"]
   },
 
@@ -40,9 +40,9 @@
   },
 
   "rubric": {
-    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
-    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
-    "composite": 0
+    "drinking": {"critic_consensus": 17, "complexity": 10, "impact": 9, "presentation": 8},
+    "value": {"price_to_quality": 6, "rarity": 8, "appreciation": 14, "collectibility": 10},
+    "composite": 82
   },
 
   "coverage": {
@@ -65,5 +65,5 @@
   },
 
   "verification": {"status": "pending", "report_id": "rosebank-31-r1.verify.json"},
-  "last_updated": "2026-06-16T03:50:00Z"
+  "last_updated": "2026-06-16T00:00:00Z"
 }

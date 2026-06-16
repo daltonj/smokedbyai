@@ -17,7 +17,7 @@
     "nose": "Champagne gold. Banana cake, cherry blossom and lavender with malt and virgin oak shavings; baked apple, peach and apple butter over a grassy/herbaceous backbone; nutty, mossy, furniture polish giving way to floral elderflower and lemon with a light briny edge.",
     "palate": "Velvety soft dried grass reminiscent of chamomile tea; wild strawberries and sweet lemon citrus over toasted marshmallow; toffee, glazed nuts, vanilla cream, baked apple, citrus and a little cocoa; tea leaf, sandalwood, vanilla cookies and baking spice, with modest oak tannin.",
     "finish": "Bubbly champagne and oak with a slight medicinal flavour; well-balanced, with a roasty edge balancing the sweetness.",
-    "narrative": "Release Two is, in Words of Whisky's phrase, 'an ideal of what traditional Lowland whisky is' — delicate yet expressive, more vocal on the palate than the nose. Critics scored it strongly (Whisky Auctioneer 91, Whiskybase 90.42) and it has gathered competition metal. A poised, floral 31-year-old that rewards patience over power. Verdict: an excellent Lowland keeper, slightly softer-spoken than Release One.",
+    "narrative": "This is the headline bottle — the Legacy Release TWO, the genuine 31 Year Old (bottled 2022, 48.1%), as distinct from the 30yo Release One. It is the delicate triple-distilled Lowland ideal in full: champagne-gold, floral and grassy, more reticent on the nose than in the mouth. The Whiskey Wash finds banana cake, cherry blossom, lavender and virgin oak shavings; Words of Whisky reads it as nutty and mossy with furniture polish washed away by elderflower and lemon over a light briny edge. The palate is where it speaks up — Paste Magazine and The Whiskey Wash converge on velvety dried-grass chamomile, wild strawberry and sweet lemon citrus over toasted marshmallow, then toffee, glazed nuts, vanilla cream and a little cocoa, the oak adding only modest tannin and a roasty edge that checks the sweetness. Words of Whisky's verdict stands: 'an ideal of what traditional Lowland whisky is.' Scores back it (Whisky Auctioneer 91, Whiskybase 90.42), and it carries competition metal. One caveat for the record: sources disagree on vintage (1990 vs 1991 — see vintage_conflict_note); age and 2022 bottling are consistent. VERDICT: an excellent, poised Lowland keeper that rewards patience over power — collect it, but go in clear-eyed that the £2k-plus collector premium buys provenance, not value.",
     "source_ids": ["src_rosebank-31-r2_thewhiskeywash", "src_rosebank-31-r2_pastemagazine", "src_rosebank-31-r2_wordsofwhisky"]
   },
 
@@ -42,9 +42,9 @@
   },
 
   "rubric": {
-    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
-    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
-    "composite": 0
+    "drinking": {"critic_consensus": 17, "complexity": 10, "impact": 9, "presentation": 8},
+    "value": {"price_to_quality": 6, "rarity": 8, "appreciation": 13, "collectibility": 9},
+    "composite": 80
   },
 
   "coverage": {
@@ -67,5 +67,5 @@
   },
 
   "verification": {"status": "pending", "report_id": "rosebank-31-r2.verify.json"},
-  "last_updated": "2026-06-16T03:50:00Z"
+  "last_updated": "2026-06-16T00:00:00Z"
 }

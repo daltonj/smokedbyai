@@ -15,7 +15,7 @@
     "nose": "Lush, earthy 'forest floor after rain' notes with fragrant red berries, cinnamon, citrus, buttery caramel and salted pretzels; citrus peel, pepper, Madagascan vanilla pods, marzipan, cigar smoke and a hint of cherry.",
     "palate": "Vivid and complex — warm spices, black tea, lemon citrus, vanilla, orchard fruits and brown sugar, with hints of soft leather and chocolate malted balls; soft and sweet with heather honey, baked orange, tobacco smoke, clove, raisin, Brazil nut, walnut oil, toasted sesame and coffee cake.",
     "finish": "Long and mellow; soft peat, dried fruit, vanilla and malted biscuit lingering — complex without being heavy.",
-    "narrative": "The summit of the range: a mature, contemplative blend where decades of oak and gentle island smoke fold into honey, dried fruit, tobacco and spice — 'an indulgent blend for swirling around the glass or pairing with a cigar' (Whisky Advocate). Took Gold at the 2026 World Whiskies Awards for depth, subtlety and balance, with additional IWSC Spirit Gold and SFWSC Gold cited by retail. Curator verdict: a polished, low-strength (40%) but genuinely complex old blend that earns its price as a special-occasion pour rather than an everyday dram.",
+    "narrative": "The summit of the range, and it drinks like a decanted afternoon. The nose is lush and earthy — The Whiskey Wash's 'forest floor after it rains' — with fragrant red berries, cinnamon, citrus, buttery caramel and salted pretzels; Whisky Advocate layers in citrus peel, pepper, Madagascan vanilla pods, marzipan, cigar smoke and a hint of cherry. The palate is vivid and complex: warm spice, black tea, lemon, vanilla and orchard fruit over brown sugar, soft leather and chocolate malted balls, deepening into heather honey, baked orange, tobacco smoke, clove, raisin, Brazil nut, walnut oil and coffee cake. The finish is long and mellow — soft peat, dried fruit, vanilla and malted biscuit — complex without being heavy. WA's McCormick frames it as 'an indulgent blend for swirling around the glass or pairing with a cigar,' and the medals agree: Gold at the 2026 World Whiskies Awards for depth, subtlety and balance, plus IWSC Spirit Gold and SFWSC Gold cited at retail. VERDICT: POUR — buy for the occasion, not the everyday. Genuinely complex and beautifully aged, but at ~£299/$330 the 40% ABV caps the intensity, and the better value still sits one rung down at the 25.",
     "source_ids": ["src_isle-of-skye-30_thewhiskeywash", "src_isle-of-skye-30_whiskyadvocate"]
   },
 
@@ -42,20 +42,20 @@
   },
 
   "rubric": {
-    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
-    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
-    "composite": 0
+    "drinking": {"critic_consensus": 13, "complexity": 11, "impact": 7, "presentation": 4},
+    "value": {"price_to_quality": 10, "rarity": 4, "appreciation": 5, "collectibility": 4},
+    "composite": 58
   },
 
   "coverage": {
     "status": "amber",
     "criteria": {
-      "reviews_ge_3": false, "scores_ge_2": true, "uk_price": true,
+      "reviews_ge_3": false, "scores_ge_2": false, "uk_price": true,
       "us_price": true, "auction_point": true, "fresh_point": true
     },
     "gaps": [
-      "Only 2 substantive expert reviews captured (TWW, Whisky Advocate); need >=3",
-      "No numeric 100-pt score: WWA 2026 Gold and SFWSC/IWSC Gold are medals, not points; Whisky Advocate 30YO number not surfaced by WebSearch",
+      "Only 2 distinct REVIEW captures (TWW, Whisky Advocate); need >=3 for reviews_ge_3",
+      "Zero numeric normalized_100 scores: WWA 2026 Gold and SFWSC/IWSC Gold are medals, not points; Whisky Advocate 30YO number not surfaced by WebSearch — scores_ge_2 fails",
       "IWSC/SFWSC Gold for the 30 is undated in the Wine-Searcher excerpt — needs confirmation of which year",
       "SRP ~$322 not surfaced verbatim (Wine-Searcher avg ~$302 captured instead)",
       "Auction is a single Whiskybase lowest-offer point; no trend/avg/hammer history (gated)",
@@ -65,5 +65,5 @@
   },
 
   "verification": {"status": "pending", "report_id": "isle-of-skye-30.verify.json"},
-  "last_updated": "2026-06-16T03:46:00Z"
+  "last_updated": "2026-06-16T00:00:00Z"
 }
