@@ -7,7 +7,7 @@ type: retail
 source_date: 2026-06
 fetched_at: 2026-06-16T03:12:00Z
 freshness: fresh
-retrieval_method: websearch_snippet
+retrieval_method: websearch_excerpt
 retrieval_note: "WebFetch HTTP 403. Listing exists per WebSearch (also BBR, The Whisky World, MoM, TWE p/81117); exact current £ NOT exposed in snippet. Use RRP £430 from launch news as reference; re-fetch for live shelf price."
 ---
 

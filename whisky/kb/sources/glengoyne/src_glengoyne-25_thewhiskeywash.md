@@ -7,7 +7,7 @@ type: review
 source_date: 2025-08
 fetched_at: 2026-06-16T03:05:00Z
 freshness: stale
-retrieval_method: websearch_snippet
+retrieval_method: websearch_excerpt
 retrieval_note: "WebFetch returned HTTP 403 for ALL URLs in this environment (incl. Wikipedia). Excerpts below are from WebSearch result snippets, NOT a verbatim page fetch. Re-fetch required by Verifier before promotion."
 ---
 

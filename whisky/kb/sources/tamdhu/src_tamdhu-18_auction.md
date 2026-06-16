@@ -7,7 +7,7 @@ type: auction
 source_date: 2024-xx-xx
 fetched_at: 2026-06-16T03:12:00Z
 freshness: stale   # auction results located are 2024-era, outside 6-month window
-capture_method: websearch_snippet   # WebFetch HTTP 403 globally
+capture_method: websearch_excerpt   # WebFetch HTTP 403 globally
 ---
 
 > NOTE: WebFetch blocked (HTTP 403). Hammer figures below are WebSearch-surfaced, NOT confirmed on-page. UNVERIFIED. No trend computed.

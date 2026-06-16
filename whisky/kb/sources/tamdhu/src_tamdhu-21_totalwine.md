@@ -7,7 +7,7 @@ type: retail
 source_date: 2026-06-16
 fetched_at: 2026-06-16T03:07:00Z
 freshness: fresh
-capture_method: websearch_snippet   # WebFetch HTTP 403 globally
+capture_method: websearch_excerpt   # WebFetch HTTP 403 globally
 ---
 
 > NOTE: WebFetch blocked (HTTP 403). Price below is from WebSearch summary / news SRP, NOT a verbatim live retail-page capture. UNVERIFIED — price not confirmed on the live listing.

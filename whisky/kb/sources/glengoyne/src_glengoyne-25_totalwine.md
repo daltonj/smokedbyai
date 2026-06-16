@@ -7,7 +7,7 @@ type: retail
 source_date: 2026-06
 fetched_at: 2026-06-16T03:08:00Z
 freshness: fresh
-retrieval_method: websearch_snippet
+retrieval_method: websearch_excerpt
 retrieval_note: "WebFetch HTTP 403. Product page confirmed to exist via WebSearch, but the exact USD price was NOT exposed in any snippet. Price = N/A — not found. Re-fetch required to capture price."
 ---
 

@@ -7,7 +7,7 @@ type: news
 source_date: 2026-xx-xx
 fetched_at: 2026-06-16T03:08:00Z
 freshness: fresh
-capture_method: websearch_snippet   # WebFetch HTTP 403 globally
+capture_method: websearch_excerpt   # WebFetch HTTP 403 globally
 ---
 
 > NOTE: WebFetch blocked. WebSearch summary only. UNVERIFIED.

@@ -7,7 +7,7 @@ type: review
 source_date: 2025-summer
 fetched_at: 2026-06-16T03:10:00Z
 freshness: stale
-retrieval_method: websearch_snippet
+retrieval_method: websearch_excerpt
 retrieval_note: "WebFetch HTTP 403 on all URLs. Excerpts from WebSearch snippet, NOT page-verbatim. Re-fetch required — Whisky Advocate publishes a numeric 100-pt rating that the snippet did NOT expose; capture the score on re-fetch."
 ---
 

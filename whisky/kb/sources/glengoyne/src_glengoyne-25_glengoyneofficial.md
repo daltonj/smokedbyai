@@ -7,7 +7,7 @@ type: vitals
 source_date: 2026-06
 fetched_at: 2026-06-16T03:06:00Z
 freshness: fresh
-retrieval_method: websearch_snippet
+retrieval_method: websearch_excerpt
 retrieval_note: "WebFetch HTTP 403 on all URLs this environment. Vitals from WebSearch snippets of the official page + corroborating retailer snippets. Re-fetch required."
 ---
 

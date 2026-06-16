@@ -7,7 +7,7 @@ type: news
 source_date: 2025-xx-xx
 fetched_at: 2026-06-16T03:06:00Z
 freshness: stale   # 2025 US-market arrival; outside the Dec 2025–Jun 2026 freshness window
-capture_method: websearch_snippet   # WebFetch HTTP 403 globally
+capture_method: websearch_excerpt   # WebFetch HTTP 403 globally
 ---
 
 > NOTE: WebFetch blocked. WebSearch-surfaced summary only. UNVERIFIED.

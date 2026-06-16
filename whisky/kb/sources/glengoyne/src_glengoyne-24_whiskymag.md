@@ -7,7 +7,7 @@ type: news
 source_date: 2024-07
 fetched_at: 2026-06-16T03:11:00Z
 freshness: stale
-retrieval_method: websearch_snippet
+retrieval_method: websearch_excerpt
 retrieval_note: "WebFetch HTTP 403 on all URLs. From WebSearch snippets across Whisky Magazine / The Spirits Business / The Scottish Farmer. Original launch news (July 2024); US debut March 2025 (BevNET / Spirits Business). NOT within the Dec2025-Jun2026 window — flagged stale."
 ---
 

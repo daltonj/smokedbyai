@@ -7,7 +7,7 @@ type: review
 source_date: 2025
 fetched_at: 2026-06-16T03:09:00Z
 freshness: stale
-retrieval_method: websearch_snippet
+retrieval_method: websearch_excerpt
 retrieval_note: "WebFetch HTTP 403 on all URLs. Excerpts from WebSearch snippets, NOT page-verbatim. Re-fetch required."
 ---
 

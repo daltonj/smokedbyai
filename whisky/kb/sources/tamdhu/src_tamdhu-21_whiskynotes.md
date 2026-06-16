@@ -7,7 +7,7 @@ type: review
 source_date: 2026-04-17
 fetched_at: 2026-06-16T03:05:00Z
 freshness: fresh
-capture_method: websearch_snippet   # WebFetch returned HTTP 403 globally in this environment; verbatim page text NOT retrieved
+capture_method: websearch_excerpt   # WebFetch returned HTTP 403 globally in this environment; verbatim page text NOT retrieved
 ---
 
 > NOTE: WebFetch was non-functional in this run (HTTP 403 on every URL, including example.com).

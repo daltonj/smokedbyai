@@ -10,7 +10,7 @@
     "freshness": "stale",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_thewhiskeywash.md",
     "key_data": "ABV 48%; exclusively sherry casks; US ~$600; Best Scotch, Whiskey Wash Awards 2025; full nose/palate/finish",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-25_glengoyneofficial",
@@ -23,7 +23,7 @@
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_glengoyneofficial.md",
     "key_data": "Age 25; ABV 48%; exclusively sherry oak; natural colour; non-chill-filtered; 70cl",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-25_whiskyreturns",
@@ -36,7 +36,7 @@
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_whiskyreturns.md",
     "key_data": "Secondary average ~\u00a3250.00 as of 2026-01-28; >200 historical auction listings; trend N/A",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-25_totalwine",
@@ -49,7 +49,7 @@
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_totalwine.md",
     "key_data": "US listing confirmed exists; exact price N/A \u2014 not found in snippet",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-24_robbreport",
@@ -62,7 +62,7 @@
     "freshness": "stale",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_robbreport.md",
     "key_data": "ABV 47.8%; first-fill bourbon + virgin/white oak; Best of the Best 2025 (#2 whisky of 2025); full nose/palate/finish",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-24_whiskyadvocate",
@@ -75,7 +75,7 @@
     "freshness": "stale",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_whiskyadvocate.md",
     "key_data": "ABV 47.8%; US $400; reviewer Julia Higgins; Oak Masters debut; numeric WA score N/A in snippet",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-24_whiskymag",
@@ -88,7 +88,7 @@
     "freshness": "stale",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_whiskymag.md",
     "key_data": "UK RRP \u00a3430; ABV 47.8%; limited release; UK launch 10 Jul 2024; US debut Mar 2025",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-24_royalmilewhiskies",
@@ -101,7 +101,7 @@
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_royalmilewhiskies.md",
     "key_data": "UK listing confirmed; live \u00a3 N/A in snippet; RRP \u00a3430; 70cl 47.8%",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-24_drinkhacker",
@@ -582,7 +582,7 @@
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-21_whiskynotes.md",
     "key_data": "Nose/palate/finish notes for 21 YO; oloroso American+European oak; 'balance just right', 'not outrageously priced'. /100 score NOT retrieved (WebFetch 403).",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-21_robbreport",
@@ -595,7 +595,7 @@
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-21_robbreport.md",
     "key_data": "Headline frames 21 YO as 'Decadent Sherry Bomb for Macallan Lovers' -> value-Macallan-alternative framing. Body/score/price NOT retrieved (WebFetch 403).",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-21_whiskeywash_review",
@@ -608,7 +608,7 @@
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-21_whiskeywash_review.md",
     "key_data": "Detailed nose/palate/finish; European oak dominant; dark chocolate, cocoa, coffee, kumquat. Score NOT retrieved (WebFetch 403).",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-21_whiskeywash_news",
@@ -621,7 +621,7 @@
     "freshness": "stale",
     "local_path": "kb/sources/tamdhu/src_tamdhu-21_whiskeywash_news.md",
     "key_data": "US SRP $399.99; 12,000 bottles worldwide; 47.5% ABV; un-chill-filtered, natural colour; first-fill+refill oloroso, Euro+American oak; released Aug 2025.",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-21_totalwine",
@@ -634,7 +634,7 @@
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-21_totalwine.md",
     "key_data": "US $399.99 SRP (Total Wine). Live page price NOT confirmed (WebFetch 403).",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-21_masterofmalt",
@@ -647,7 +647,7 @@
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-21_masterofmalt.md",
     "key_data": "UK \u00a3252.70 (MoM). 47.5% ABV, un-chill-filtered, no added colour. Live page price NOT confirmed (WebFetch 403).",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-21_whiskyexperts_award",
@@ -660,7 +660,7 @@
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-21_whiskyexperts_award.md",
     "key_data": "21 YO = Overall Winner, Spirit of Speyside Whisky Awards 2026.",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-21_whiskybase",
@@ -673,7 +673,7 @@
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-21_whiskybase.md",
     "key_data": "Community rating NOT retrieved (WebFetch 403); entry disambiguation unresolved.",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-21_thewhiskyexchange",
@@ -764,7 +764,7 @@
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-18_whiskeywash.md",
     "key_data": "18 YO nose/palate; 46.8% ABV, un-chill-filtered; American+European oloroso, Jerez; SFWSC Double Gold. Score NOT retrieved (WebFetch 403).",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-18_whiskynotes",
@@ -777,7 +777,7 @@
     "freshness": "stale",
     "local_path": "kb/sources/tamdhu/src_tamdhu-18_whiskynotes.md",
     "key_data": "Existence of WhiskyNotes 15/18 review (2023). Notes/score NOT retrieved (WebFetch 403).",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-18_whiskybase",
@@ -790,7 +790,7 @@
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-18_whiskybase.md",
     "key_data": "Community rating 87.20/100 (search snippet, on-page NOT confirmed; vote count NOT retrieved; WebFetch 403).",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-18_thewhiskyexchange",
@@ -803,7 +803,7 @@
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-18_thewhiskyexchange.md",
     "key_data": "Product/tasting blurb only. UK price NOT confirmed (WebFetch 403); \u00a3275/\u00a3299 figures dropped as untied/unverified.",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-18_totalwine",
@@ -816,7 +816,7 @@
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-18_totalwine.md",
     "key_data": "US $199.99 (Total Wine); Wine-Searcher avg ~$199-201 ex-tax. Live page NOT confirmed (WebFetch 403).",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu-18_auction",
@@ -829,7 +829,7 @@
     "freshness": "stale",
     "local_path": "kb/sources/tamdhu/src_tamdhu-18_auction.md",
     "key_data": "Hammers ~\u00a390-100 (2024-era). Trend NOT computed. On-page NOT confirmed (WebFetch 403).",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   },
   {
     "id": "src_tamdhu_news_speyside2026",
@@ -842,6 +842,6 @@
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu_news_speyside2026.md",
     "key_data": "Speyside Festival 29 Apr-4 May 2026; Dalbeallie 09 (60.5%, GBP105, 1000 btls); Distillery Team single cask; 21 YO Overall Winner Speyside Awards 2026.",
-    "capture_method": "websearch_snippet_unverified"
+    "capture_method": "websearch_excerpt_unverified"
   }
 ]

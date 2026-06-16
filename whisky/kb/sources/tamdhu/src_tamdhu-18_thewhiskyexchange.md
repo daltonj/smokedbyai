@@ -7,7 +7,7 @@ type: retail
 source_date: 2026-06-16
 fetched_at: 2026-06-16T03:11:00Z
 freshness: fresh
-capture_method: websearch_snippet   # WebFetch HTTP 403 globally
+capture_method: websearch_excerpt   # WebFetch HTTP 403 globally
 ---
 
 > NOTE: WebFetch blocked (HTTP 403). No verbatim price retrieved from the live TWE page. UNVERIFIED.

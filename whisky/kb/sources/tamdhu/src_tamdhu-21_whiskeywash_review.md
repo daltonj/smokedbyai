@@ -7,7 +7,7 @@ type: review
 source_date: 2026-xx-xx
 fetched_at: 2026-06-16T03:06:00Z
 freshness: fresh
-capture_method: websearch_snippet   # WebFetch HTTP 403 globally; verbatim page text NOT retrieved
+capture_method: websearch_excerpt   # WebFetch HTTP 403 globally; verbatim page text NOT retrieved
 ---
 
 > NOTE: WebFetch blocked (HTTP 403). Text below is WebSearch-surfaced, NOT verbatim full page. UNVERIFIED.

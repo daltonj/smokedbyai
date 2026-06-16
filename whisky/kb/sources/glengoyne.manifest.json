@@ -10,7 +10,7 @@
     "freshness": "stale",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_thewhiskeywash.md",
     "key_data": "ABV 48%; exclusively sherry casks; US ~$600; Best Scotch, Whiskey Wash Awards 2025; full nose/palate/finish",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-25_glengoyneofficial",
@@ -23,7 +23,7 @@
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_glengoyneofficial.md",
     "key_data": "Age 25; ABV 48%; exclusively sherry oak; natural colour; non-chill-filtered; 70cl",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-25_whiskyreturns",
@@ -36,7 +36,7 @@
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_whiskyreturns.md",
     "key_data": "Secondary average ~£250.00 as of 2026-01-28; >200 historical auction listings; trend N/A",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-25_totalwine",
@@ -49,7 +49,7 @@
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_totalwine.md",
     "key_data": "US listing confirmed exists; exact price N/A — not found in snippet",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-24_robbreport",
@@ -62,7 +62,7 @@
     "freshness": "stale",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_robbreport.md",
     "key_data": "ABV 47.8%; first-fill bourbon + virgin/white oak; Best of the Best 2025 (#2 whisky of 2025); full nose/palate/finish",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-24_whiskyadvocate",
@@ -75,7 +75,7 @@
     "freshness": "stale",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_whiskyadvocate.md",
     "key_data": "ABV 47.8%; US $400; reviewer Julia Higgins; Oak Masters debut; numeric WA score N/A in snippet",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-24_whiskymag",
@@ -88,7 +88,7 @@
     "freshness": "stale",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_whiskymag.md",
     "key_data": "UK RRP £430; ABV 47.8%; limited release; UK launch 10 Jul 2024; US debut Mar 2025",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-24_royalmilewhiskies",
@@ -101,7 +101,7 @@
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_royalmilewhiskies.md",
     "key_data": "UK listing confirmed; live £ N/A in snippet; RRP £430; 70cl 47.8%",
-    "retrieval_method": "websearch_snippet"
+    "retrieval_method": "websearch_excerpt"
   },
   {
     "id": "src_glengoyne-24_drinkhacker",

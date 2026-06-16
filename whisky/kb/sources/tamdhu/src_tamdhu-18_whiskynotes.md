@@ -7,7 +7,7 @@ type: review
 source_date: 2023-xx-xx
 fetched_at: 2026-06-16T03:10:00Z
 freshness: stale   # 2023 review — outside 6-month freshness window
-capture_method: websearch_snippet   # WebFetch HTTP 403 globally
+capture_method: websearch_excerpt   # WebFetch HTTP 403 globally
 ---
 
 > NOTE: WebFetch blocked. Search-surfaced existence only; tasting text / score NOT retrieved. UNVERIFIED.
