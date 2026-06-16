@@ -106,7 +106,7 @@
     "status": "amber",
     "criteria": {
       "reviews_ge_3": true,
-      "scores_ge_2": true,
+      "scores_ge_2": false,
       "uk_price": true,
       "us_price": true,
       "auction_point": true,

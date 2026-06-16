@@ -122,11 +122,11 @@
     "composite": 80
   },
   "coverage": {
-    "status": "amber",
+    "status": "green",
     "criteria": {
       "reviews_ge_3": true,
       "scores_ge_2": true,
-      "uk_price": false,
+      "uk_price": true,
       "us_price": true,
       "auction_point": true,
       "fresh_point": true

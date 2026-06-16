@@ -35,7 +35,7 @@
     "fetched_at": "2026-06-16T03:07:00Z",
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_whiskyreturns.md",
-    "key_data": "Secondary average ~\u00a3250.00 as of 2026-01-28; >200 historical auction listings; trend N/A",
+    "key_data": "Secondary average ~£250.00 as of 2026-01-28; >200 historical auction listings; trend N/A",
     "retrieval_method": "websearch_excerpt"
   },
   {
@@ -48,7 +48,7 @@
     "fetched_at": "2026-06-16T03:08:00Z",
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_totalwine.md",
-    "key_data": "US listing confirmed exists; exact price N/A \u2014 not found in snippet",
+    "key_data": "US listing confirmed exists; exact price N/A — not found in snippet",
     "retrieval_method": "websearch_excerpt"
   },
   {
@@ -87,7 +87,7 @@
     "fetched_at": "2026-06-16T03:11:00Z",
     "freshness": "stale",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_whiskymag.md",
-    "key_data": "UK RRP \u00a3430; ABV 47.8%; limited release; UK launch 10 Jul 2024; US debut Mar 2025",
+    "key_data": "UK RRP £430; ABV 47.8%; limited release; UK launch 10 Jul 2024; US debut Mar 2025",
     "retrieval_method": "websearch_excerpt"
   },
   {
@@ -100,7 +100,7 @@
     "fetched_at": "2026-06-16T03:12:00Z",
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_royalmilewhiskies.md",
-    "key_data": "UK listing confirmed; live \u00a3 N/A in snippet; RRP \u00a3430; 70cl 47.8%",
+    "key_data": "UK listing confirmed; live £ N/A in snippet; RRP £430; 70cl 47.8%",
     "retrieval_method": "websearch_excerpt"
   },
   {
@@ -126,7 +126,7 @@
     "fetched_at": "2026-06-16T03:42:00Z",
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_thewhiskyexchange.md",
-    "key_data": "UK live retail: TWE \u00a3415.00; HTFW \u00a3408.95; Tyndrum \u00a3409.00; Whisky Shop \u00a3453.00; launch RRP \u00a3430",
+    "key_data": "UK live retail: TWE £415.00; HTFW £408.95; Tyndrum £409.00; Whisky Shop £453.00; launch RRP £430",
     "retrieval_method": "websearch_excerpt"
   },
   {
@@ -152,7 +152,111 @@
     "fetched_at": "2026-06-16T03:46:00Z",
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_whiskystats.md",
-    "key_data": "Whiskystats value ~\u20ac294 (EUR); below current UK retail; trend N/A; corroborating lots at Whisky Auctioneer / Grand Whisky Auction",
+    "key_data": "Whiskystats value ~€294 (EUR); below current UK retail; trend N/A; corroborating lots at Whisky Auctioneer / Grand Whisky Auction",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-25_glengoyneshop_price",
+    "bottle": "glengoyne-25",
+    "source_name": "Glengoyne official shop (Ian Macleod)",
+    "url": "https://www.glengoyne.com/glengoyne-25-year-old-highland-single-malt-scotch-whisky",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T15:30:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_glengoyneshop_price.md",
+    "key_data": "UK retail (official Glengoyne shop) = £499.00, 70cl, 25yo Sherry Oak; reproduced x2",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-25_royalmilewhiskies_price",
+    "bottle": "glengoyne-25",
+    "source_name": "Royal Mile Whiskies (UK retail)",
+    "url": "https://www.royalmilewhiskies.com/glengoyne-25-year-old-48-70cl/",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T15:31:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_royalmilewhiskies_price.md",
+    "key_data": "UK retail (Royal Mile Whiskies) = £525.00, 70cl, 48% ABV, in stock; reproduced x2",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-25_masterofmalt_price",
+    "bottle": "glengoyne-25",
+    "source_name": "Master of Malt (UK retail)",
+    "url": "https://www.masterofmalt.com/whiskies/glengoyne/glengoyne-25-year-old-whisky/",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T15:32:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_masterofmalt_price.md",
+    "key_data": "UK retail (Master of Malt) = £419.90, 70cl, 48% ABV, 33 customer reviews; reproduced x2",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-25_whiskybase",
+    "bottle": "glengoyne-25",
+    "source_name": "Whiskybase (community ratings)",
+    "url": "https://www.whiskybase.com/whiskies/whisky/167031/glengoyne-25-year-old",
+    "type": "score",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T15:33:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_whiskybase.md",
+    "key_data": "Whiskybase community score = 89.74/100 (324 ratings); Whiskybase market low £380 (29 shops); reproduced x2",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-25_drinkhacker",
+    "bottle": "glengoyne-25",
+    "source_name": "Drinkhacker (review)",
+    "url": "https://www.drinkhacker.com/2024/03/10/review-glengoyne-25-years-old/",
+    "type": "review",
+    "source_date": "2024-03-10",
+    "fetched_at": "2026-06-16T15:34:00Z",
+    "freshness": "stale",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_drinkhacker.md",
+    "key_data": "Drinkhacker letter grade A- (~90/100); nutty/leathery, fruitcake, dates, toasted walnut, milk chocolate, tannic finish; grade reproduced in WebSearch",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-25_whiskynotes",
+    "bottle": "glengoyne-25",
+    "source_name": "WhiskyNotes (Ruben Luyten)",
+    "url": "https://www.whiskynotes.be/2020/glengoyne/glengoyne-25-years-2020/",
+    "type": "review",
+    "source_date": "2020",
+    "fetched_at": "2026-06-16T15:35:00Z",
+    "freshness": "stale",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_whiskynotes.md",
+    "key_data": "Named expert review; first-fill European oak sherry; jammy figs, soaked cherries, plums, chocolate, espresso; numeric /100 score N/A in snippet",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-25_masterofmalt_blog",
+    "bottle": "glengoyne-25",
+    "source_name": "Master of Malt blog (corroborates Whiskey Wash award)",
+    "url": "https://www.masterofmalt.com/blog/post/glengoyne-25-year-old-named-best-scotch-whisky-2025.aspx/",
+    "type": "news",
+    "source_date": "2025",
+    "fetched_at": "2026-06-16T15:36:00Z",
+    "freshness": "stale",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_masterofmalt_blog.md",
+    "key_data": "Corroborates The Whiskey Wash Awards 2025 Best Scotch; founder quote 'Scotch whisky doesn't get any better than this'; perfect score vs 300+ whiskies",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-24_robbreport_list",
+    "bottle": "glengoyne-24",
+    "source_name": "Robb Report — 10 Best Whiskeys of 2025 So Far",
+    "url": "https://robbreport.com/food-drink/spirits/lists/best-whiskeys-2025-first-half-1236905580/",
+    "type": "news",
+    "source_date": "2025",
+    "fetched_at": "2026-06-16T15:37:00Z",
+    "freshness": "stale",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_robbreport_list.md",
+    "key_data": "RANK VERIFICATION: Robb Report list is '10 Best Whiskeys of 2025 So Far' (unranked list); NO confirmable '#2' on Robb Report's own site -> node softened to 'named among Robb Report's best whiskies of 2025'",
     "retrieval_method": "websearch_excerpt"
   },
   {
@@ -204,7 +308,7 @@
     "fetched_at": "2026-06-16T03:38:00Z",
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-21_thewhiskyexchange.md",
-    "key_data": "UK retail \u00a3118; 70cl; 40% ABV",
+    "key_data": "UK retail £118; 70cl; 40% ABV",
     "method": "websearch_excerpt"
   },
   {
@@ -243,7 +347,7 @@
     "fetched_at": "2026-06-16T03:31:00Z",
     "freshness": "stale",
     "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-25_thewhiskeywash_award.md",
-    "key_data": "SFWSC 2025 Best Blended Scotch (16+) + Best Overall Blended Scotch; announced 2025-11-12; >1500 entries; SRP US$179/\u00a3250",
+    "key_data": "SFWSC 2025 Best Blended Scotch (16+) + Best Overall Blended Scotch; announced 2025-11-12; >1500 entries; SRP US$179/£250",
     "method": "websearch_excerpt"
   },
   {
@@ -269,7 +373,7 @@
     "fetched_at": "2026-06-16T03:33:00Z",
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-25_thewhiskyexchange.md",
-    "key_data": "UK retail \u00a3250 (\u00a3208.33 ex VAT); in stock; nose Comice pear/apricot; palate toffee/toasted malt; long smoky finish",
+    "key_data": "UK retail £250 (£208.33 ex VAT); in stock; nose Comice pear/apricot; palate toffee/toasted malt; long smoky finish",
     "method": "websearch_excerpt"
   },
   {
@@ -364,6 +468,97 @@
     "method": "websearch_excerpt"
   },
   {
+    "id": "src_isle-of-skye-21_tastings",
+    "bottle": "isle-of-skye-21",
+    "source_name": "Tastings.com (Beverage Testing Institute)",
+    "url": "https://www.tastings.com/Spirits-Review/Isle-Of-Skye-21-Year-Old-Blended-Scotch-Whisky-United-Kingdom-700-ml-10-01-2023.aspx",
+    "type": "score",
+    "source_date": "2023-09-27",
+    "fetched_at": "2026-06-16T12:00:00Z",
+    "freshness": "stale",
+    "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-21_tastings.md",
+    "key_data": "Tastings.com/BTI 90/100 (dated 9/27/2023); BTI Gold; toffee/almond/honey/pipe-tobacco notes; reproduced x3",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_isle-of-skye-21_whiskymagazine",
+    "bottle": "isle-of-skye-21",
+    "source_name": "Whisky Magazine (Chris Neil)",
+    "url": "https://whiskymag.com/tastings/1-isle-of-skye/",
+    "type": "review",
+    "source_date": "2015",
+    "fetched_at": "2026-06-16T12:00:00Z",
+    "freshness": "stale",
+    "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-21_whiskymagazine.md",
+    "key_data": "Whisky Magazine 8.6/10 (Chris Neil; normalized 86); full nose/palate/finish; bottled 2015; 3rd 21YO review",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_isle-of-skye-21_whiskybase",
+    "bottle": "isle-of-skye-21",
+    "source_name": "Whiskybase (market/secondary)",
+    "url": "https://www.whiskybase.com/whiskies/whisky/63435/isle-of-skye-21-year-old-im",
+    "type": "auction",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T12:00:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-21_whiskybase.md",
+    "key_data": "Dedicated 21YO capture; Whiskybase Market lowest offer EUR 171.16 (whisky/63435); auction history gated",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_isle-of-skye-25_wineenthusiast",
+    "bottle": "isle-of-skye-25",
+    "source_name": "Wine Enthusiast (Kara Newman)",
+    "url": "https://www.wineenthusiast.com/buying-guide/isle-of-skye-25-years-old/",
+    "type": "review",
+    "source_date": "2023",
+    "fetched_at": "2026-06-16T12:00:00Z",
+    "freshness": "stale",
+    "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-25_wineenthusiast.md",
+    "key_data": "Wine Enthusiast 97/100 (Kara Newman); caramel/cocoa/toffee/coffee; $205; 2nd numeric score + 3rd review for 25YO; reproduced x2",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_isle-of-skye-25_whiskeyreviewer",
+    "bottle": "isle-of-skye-25",
+    "source_name": "The Whiskey Reviewer",
+    "url": "https://whiskeyreviewer.com/2023/10/isle-of-skye-25-year-old-scotch-review-100923/",
+    "type": "review",
+    "source_date": "2023-10-09",
+    "fetched_at": "2026-06-16T12:00:00Z",
+    "freshness": "stale",
+    "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-25_whiskeyreviewer.md",
+    "key_data": "The Whiskey Reviewer full nose/palate/finish; ginger/vanilla/apple/peat/apricot; SRP $206.99; 4th 25YO review; reproduced x2",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_isle-of-skye-30_whiskeyreviewer",
+    "bottle": "isle-of-skye-30",
+    "source_name": "The Whiskey Reviewer",
+    "url": "https://whiskeyreviewer.com/2023/11/isle-of-skye-30-year-old-scotch-review-110323/",
+    "type": "review",
+    "source_date": "2023-11-03",
+    "fetched_at": "2026-06-16T12:00:00Z",
+    "freshness": "stale",
+    "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-30_whiskeyreviewer.md",
+    "key_data": "The Whiskey Reviewer A- grade (letter, not numeric); vanilla/bakewell/coconut nose, butter-pastry/raisin palate; SRP $321.99; 3rd 30YO review; reproduced x2",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_isle-of-skye-30_drinkhacker",
+    "bottle": "isle-of-skye-30",
+    "source_name": "Drinkhacker (Christopher Null)",
+    "url": "https://www.drinkhacker.com/2023/10/29/review-isle-of-skye-blended-scotch-whisky-complete-lineup-2023/",
+    "type": "review",
+    "source_date": "2023-10-29",
+    "fetched_at": "2026-06-16T12:00:00Z",
+    "freshness": "stale",
+    "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-30_drinkhacker.md",
+    "key_data": "Drinkhacker complete-lineup review incl 30YO (2023-10-29); lineup grades A-/B+/B/B- but exact 30YO grade not isolated verbatim (left N/A); distinct review source",
+    "method": "websearch_excerpt"
+  },
+  {
     "id": "src_rosebank_distillery",
     "bottle": "rosebank",
     "source_name": "Wikipedia / Whisky Auctioneer (distillery profile)",
@@ -399,7 +594,7 @@
     "fetched_at": "2026-06-16T03:41:00Z",
     "freshness": "fresh",
     "local_path": "kb/sources/rosebank/src_rosebank-31-r1_whiskyhunter.md",
-    "key_data": "Aggregated GBP: min \u00a31,999 / avg \u00a32,999.60 / max \u00a33,500. Outturn 4,300-4,350. Cask 62% refill sherry butts / 38% refill bourbon hogsheads. ABV 48.6%.",
+    "key_data": "Aggregated GBP: min £1,999 / avg £2,999.60 / max £3,500. Outturn 4,300-4,350. Cask 62% refill sherry butts / 38% refill bourbon hogsheads. ABV 48.6%.",
     "method": "websearch_excerpt"
   },
   {
@@ -503,7 +698,7 @@
     "fetched_at": "2026-06-16T03:06:00Z",
     "freshness": "fresh",
     "local_path": "kb/sources/rosebank/src_rosebank-31-r2_whiskyhunter.md",
-    "key_data": "Aggregated GBP: min \u00a31,750 / avg \u00a32,049 / max \u00a32,500. Outturn 4,000. Vintage stated 1990 (conflict with 1991 elsewhere). ABV 48.1%.",
+    "key_data": "Aggregated GBP: min £1,750 / avg £2,049 / max £2,500. Outturn 4,000. Vintage stated 1990 (conflict with 1991 elsewhere). ABV 48.1%.",
     "method": "websearch_excerpt"
   },
   {
@@ -569,6 +764,71 @@
     "freshness": "stale",
     "local_path": "kb/sources/rosebank/src_rosebank-31-r2_pastemagazine.md",
     "key_data": "Tasting: baked apple, peach, apple butter, grassy; palate toffee, glazed nuts, vanilla cream, citrus, cocoa. 48.1% ABV, MSRP $3,300. Verdict well-balanced. Numeric score N/A.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r1_whiskyauctioneer",
+    "bottle": "rosebank-31-r1",
+    "source_name": "Whisky Auctioneer",
+    "url": "https://whiskyauctioneer.com/learn/explore-whisky/bottles/rosebank-1990-30-year-old-release-1-0",
+    "type": "auction",
+    "source_date": "2022-01-10",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "stale",
+    "local_path": "kb/sources/rosebank/src_rosebank-31-r1_whiskyauctioneer.md",
+    "key_data": "Whisky Auctioneer historical hammer (highest recorded sale) USD $3,528, sold 2022-01-10, for the 30yo Release One. Reproduced across 4 independent WebSearch queries, all attributing to Whisky Auctioneer. Named-platform capture that restores the previously-quarantined figure.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r1_connosr_score",
+    "bottle": "rosebank-31-r1",
+    "source_name": "Connosr (markjedi1)",
+    "url": "https://www.connosr.com/rosebank-30-year-old-1990-release-one-whisky-review-13770",
+    "type": "score",
+    "source_date": "2020",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "stale",
+    "local_path": "kb/sources/rosebank/src_rosebank-31-r1_connosr_score.md",
+    "key_data": "Connosr / markjedi1 numeric score 91/100 for the 30yo Release One (second R1 score beyond Whisky Advocate 92). Reproduced across 2 independent WebSearch queries.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r1_usretail",
+    "bottle": "rosebank-31-r1",
+    "source_name": "BuyMyLiquor / Riverhead Liquor Mart / Corkdorks (US retail)",
+    "url": "https://www.buymyliquor.com/products/rosebank-30-year-old-release-1-2020-edition",
+    "type": "retail",
+    "source_date": "2026-06-16",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "fresh",
+    "local_path": "kb/sources/rosebank/src_rosebank-31-r1_usretail.md",
+    "key_data": "US retail for the 30yo Release One: BuyMyLiquor $2,999.99; Corkdorks $3,209.99; Riverhead Liquor Mart $3,299.99. Multiple named US retailers, reproduced across 2 WebSearch queries.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r2_ukretail",
+    "bottle": "rosebank-31-r2",
+    "source_name": "Master of Malt / House of Bruar (UK retail)",
+    "url": "https://www.masterofmalt.com/whiskies/rosebank/rosebank-31-year-old-bottled-2022-release-two-whisky/",
+    "type": "retail",
+    "source_date": "2026-06-16",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "fresh",
+    "local_path": "kb/sources/rosebank/src_rosebank-31-r2_ukretail.md",
+    "key_data": "UK retail listing for the 31yo Release Two: GBP 1,800 (Master of Malt / House of Bruar 70cl); C.Gars Ltd 1,749.99. The 1,800 figure reproduced across 2 independent WebSearch queries and multiple named UK retailers.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r2_whiskyadvocate",
+    "bottle": "rosebank-31-r2",
+    "source_name": "Whisky Advocate / Jonny McCormick",
+    "url": "https://whiskyadvocate.com/Rosebank-31-year-old-48-1",
+    "type": "score",
+    "source_date": "2022-Winter",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "stale",
+    "local_path": "kb/sources/rosebank/src_rosebank-31-r2_whiskyadvocate.md",
+    "key_data": "Whisky Advocate (Jonny McCormick) score 91/100 for the 31yo Release Two, Winter 2022, $3,300, 48.1%. Additional professional critic score beyond Whisky Auctioneer 91 / Whiskybase 90.42. Reproduced across 2 independent WebSearch queries.",
     "method": "websearch_excerpt"
   },
   {
@@ -646,7 +906,7 @@
     "fetched_at": "2026-06-16T03:07:00Z",
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-21_masterofmalt.md",
-    "key_data": "UK \u00a3252.70 (MoM). 47.5% ABV, un-chill-filtered, no added colour. Live page price NOT confirmed (WebFetch 403).",
+    "key_data": "UK £252.70 (MoM). 47.5% ABV, un-chill-filtered, no added colour. Live page price NOT confirmed (WebFetch 403).",
     "capture_method": "websearch_excerpt_unverified"
   },
   {
@@ -802,7 +1062,7 @@
     "fetched_at": "2026-06-16T03:11:00Z",
     "freshness": "fresh",
     "local_path": "kb/sources/tamdhu/src_tamdhu-18_thewhiskyexchange.md",
-    "key_data": "Product/tasting blurb only. UK price NOT confirmed (WebFetch 403); \u00a3275/\u00a3299 figures dropped as untied/unverified.",
+    "key_data": "Product/tasting blurb only. UK price NOT confirmed (WebFetch 403); £275/£299 figures dropped as untied/unverified.",
     "capture_method": "websearch_excerpt_unverified"
   },
   {
@@ -828,7 +1088,7 @@
     "fetched_at": "2026-06-16T03:12:00Z",
     "freshness": "stale",
     "local_path": "kb/sources/tamdhu/src_tamdhu-18_auction.md",
-    "key_data": "Hammers ~\u00a390-100 (2024-era). Trend NOT computed. On-page NOT confirmed (WebFetch 403).",
+    "key_data": "Hammers ~£90-100 (2024-era). Trend NOT computed. On-page NOT confirmed (WebFetch 403).",
     "capture_method": "websearch_excerpt_unverified"
   },
   {
@@ -843,5 +1103,57 @@
     "local_path": "kb/sources/tamdhu/src_tamdhu_news_speyside2026.md",
     "key_data": "Speyside Festival 29 Apr-4 May 2026; Dalbeallie 09 (60.5%, GBP105, 1000 btls); Distillery Team single cask; 21 YO Overall Winner Speyside Awards 2026.",
     "capture_method": "websearch_excerpt_unverified"
+  },
+  {
+    "id": "src_tamdhu-18_thewhiskyexchange_price",
+    "bottle": "tamdhu-18",
+    "source_name": "The Whisky Exchange",
+    "url": "https://www.thewhiskyexchange.com/p/65584/tamdhu-18-year-old",
+    "type": "retail",
+    "source_date": "2026-06-16",
+    "fetched_at": "2026-06-16T04:10:00Z",
+    "freshness": "fresh",
+    "local_path": "kb/sources/tamdhu/src_tamdhu-18_thewhiskyexchange_price.md",
+    "key_data": "UK GBP176.00 (TWE p/65584, 70cl/46.8%). Reproduced by two independent searches. Live on-page price NOT confirmed (WebFetch 403).",
+    "capture_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_tamdhu-18_whiskynotes_score",
+    "bottle": "tamdhu-18",
+    "source_name": "WhiskyNotes (Ruben Luyten)",
+    "url": "https://www.whiskynotes.be/2023/tamdhu/tamdhu-15-year-old-18-year-old/",
+    "type": "score",
+    "source_date": "2023-xx-xx",
+    "fetched_at": "2026-06-16T04:10:00Z",
+    "freshness": "stale",
+    "local_path": "kb/sources/tamdhu/src_tamdhu-18_whiskynotes_score.md",
+    "key_data": "WhiskyNotes numeric score 88/100 for Tamdhu 18 YO. Reproduced by two independent searches. On-page NOT confirmed (WebFetch 403).",
+    "capture_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_tamdhu-21_thewhiskyexchange_price",
+    "bottle": "tamdhu-21",
+    "source_name": "The Whisky Exchange",
+    "url": "https://www.thewhiskyexchange.com/p/84852/tamdhu-21-year-old",
+    "type": "retail",
+    "source_date": "2026-06-16",
+    "fetched_at": "2026-06-16T04:10:00Z",
+    "freshness": "fresh",
+    "local_path": "kb/sources/tamdhu/src_tamdhu-21_thewhiskyexchange_price.md",
+    "key_data": "UK GBP295.00 (TWE p/84852, 70cl/47.5%) — live price, re-sourced; supersedes quarantined GBP299 RRP claim. Reproduced by two independent searches. Live on-page price NOT confirmed (WebFetch 403).",
+    "capture_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_tamdhu-21_masterofmalt_price",
+    "bottle": "tamdhu-21",
+    "source_name": "Master of Malt",
+    "url": "https://www.masterofmalt.com/whiskies/tamdhu/tamdhu-21-year-old-sherry-cask-matured-whisky/",
+    "type": "retail",
+    "source_date": "2026-06-16",
+    "fetched_at": "2026-06-16T04:10:00Z",
+    "freshness": "fresh",
+    "local_path": "kb/sources/tamdhu/src_tamdhu-21_masterofmalt_price.md",
+    "key_data": "UK GBP252.70 (Master of Malt, 70cl/47.5%). Re-sourced; now reproduced by two independent searches (previously unsupported). Live on-page price NOT confirmed (WebFetch 403).",
+    "capture_method": "websearch_excerpt"
   }
 ]
