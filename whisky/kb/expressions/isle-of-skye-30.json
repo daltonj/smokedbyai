@@ -135,7 +135,7 @@
     "report_id": "isle-of-skye-30.verify.json",
     "pass": true,
     "summary": {
-      "verified": 8,
+      "verified": 10,
       "mismatch": 0,
       "unsupported": 0
     }

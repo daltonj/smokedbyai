@@ -141,10 +141,11 @@
     "report_id": "glengoyne-25.verify.json",
     "pass": true,
     "summary": {
-      "verified": 8,
+      "verified": 14,
       "mismatch": 0,
       "unsupported": 0
-    }
+    },
+    "note": "Re-verified 2026-06-16T22:15Z after gap-fill. PASS — all 14 fields reproduce LIVE incl. the 3 new UK prices (MoM £419.90 / shop £499 / Royal Mile £525), Whiskybase 89.74 (324 ratings), Drinkhacker A-, WhiskyNotes review. No 24-vs-25 conflation, no currency mix-ups (GBP retail vs $600 USD MSRP vs £250 GBP secondary; the €294 EUR belongs to the 24, not here)."
   },
   "last_updated": "2026-06-16"
 }

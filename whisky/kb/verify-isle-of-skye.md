@@ -1,38 +1,47 @@
-# Source Verification — Isle of Skye cluster
+# Source Verification — Isle of Skye cluster (RE-VERIFICATION)
 
 **Verifier:** adversarial Source Verifier stage
-**Verified at:** 2026-06-16T04:15:00Z
+**Verified at:** 2026-06-16T21:55:00Z
 **Bottles:** isle-of-skye-21, isle-of-skye-25, isle-of-skye-30
-**Method:** Every present datapoint (abv, each score, each uk/us price, each auction figure, headline tasting/award claims) checked (1) for literal appearance in its cited capture and (2) re-confirmed via targeted WebSearch with `allowed_domains` on the cited source. WebFetch is blocked (HTTP 403) in this environment, so reproduction-by-search is the verification standard. Pass = all PRESENT core fields (abv, scores present, both market prices, auction point) verify with zero mismatch/unsupported.
+**Trigger:** re-verification after a gap-fill that added new scores/reviews/auction captures.
+**Method:** Every present datapoint (abv, each score incl. the new ones, each uk/us price, each auction figure, headline tasting/award claims) checked (1) for literal appearance in its cited capture and (2) re-confirmed via targeted WebSearch with `allowed_domains` on the cited source. WebFetch is blocked (HTTP 403); reproduction-by-search is the standard. Special adversarial focus on the new datapoints and on wrong-expression numbers — especially the IoS-25 "97".
+
+## What was NEW since last verify (all re-checked)
+- **IoS-21:** Tastings.com/BTI **90** + Whisky Magazine **8.6/86** + a **dedicated 21YO whiskybase** capture (was previously borrowing the 25YO capture).
+- **IoS-25:** Wine Enthusiast **97** (Kara Newman) + The Whiskey Reviewer review.
+- **IoS-30:** The Whiskey Reviewer **A-** + Drinkhacker lineup review.
 
 ## Verdict summary
 
 | Bottle | verified | mismatch | unsupported | pass |
 |--------|----------|----------|-------------|------|
-| isle-of-skye-21 | 6 | 0 | 0 | **PASS** |
-| isle-of-skye-25 | 7 | 0 | 0 | **PASS** |
-| isle-of-skye-30 | 8 | 0 | 0 | **PASS** |
+| isle-of-skye-21 | 9 | 0 | 1 | **PASS** |
+| isle-of-skye-25 | 9 | 0 | 0 | **PASS** |
+| isle-of-skye-30 | 10 | 0 | 0 | **PASS** |
 
-All three nodes: `verification.status = passed`. No field had to be quarantined to `N/A — unverified`.
+All three nodes: `verification.status = passed`. No CORE field had to be quarantined.
 
-## Hallucinations / fabrications caught
-**None.** No invented numbers, no wrong-expression numeric attributions, no currency mix-ups (£/$/€ all correct and correctly labelled), no averaged ranges passed off as single retail facts, and no stale figure presented as fresh. Wine-Searcher averages are honestly labelled "US market avg (ex-tax)"; the Whisky Advocate $210/$330 prices are tagged `as_of: 2023-fall` (stale, not fresh).
+## Most important catch — IoS-25 "97" is the 25YO, NOT a 21YO mix-up (CLEARED)
+The headline adversarial risk this pass was the newly added **Wine Enthusiast 97** on the 25YO. Wine Enthusiast publishes a SEPARATE Isle of Skye **21**-year-old page rated **96** — a classic wrong-expression trap. Result: **clean.**
+- The **97** sits on the dedicated 25YO page (`wineenthusiast.com/buying-guide/isle-of-skye-25-years-old/`) with 25YO-specific notes (caramel, cocoa, fresh-roasted coffee, orange marmalade, crushed hazelnut), reproduced live via two searches.
+- The **96** is a distinct 21YO page and is **not** ingested anywhere in the KG. No transposition, no off-by-one between adjacent expressions.
 
-## Most important finding — the researcher-flagged 21YO auction figure (PROVENANCE, not a lie)
-The IoS-21 auction point €171.16 is **cited to the 25YO's capture** (`src_isle-of-skye-25_whiskybase`), where it appears only as a cross-reference ("the 21-year-old has a lowest price of €171.16"), not in a dedicated 21YO capture. The adversarial check expected a hallucination here. It is not one:
-- The figure **literally appears** in the cited file, AND
-- An **independent WebSearch** against `whiskybase.com/whiskies/whisky/63435` — the 21YO page named in the node's own `url` — reproduces "the lowest price on the market is €171.16," correctly in EUR and correctly attributed to the 21YO.
+## One unsupported sub-claim downgraded — IoS-21 Tastings "Gold"
+The IoS-21 Tastings.com score was recorded as **"90/100 (BTI Gold)"**. The **90 numeric reproduces** cleanly on tastings.com; the accompanying **"Gold" medal tier does NOT** — the live re-search explicitly returned no gold-medal designation, and the capture itself flags an SFWSC-body-vs-BTI-tier ambiguity. Action taken:
+- `scores[1].raw` softened to "90/100, dated 9/27/2023 ('Gold' tier N/A — unverified)".
+- Logged in IoS-21 `gaps[]`; recorded as `unsupported` in the verify record.
+- **Non-core**, so it does not fail the bottle: the 90 numeric score stands and the bottle still has ≥2 numeric scores (90 + 86).
 
-**Verdict: value verified; provenance defect only.** The source_id should be re-captured into a dedicated `src_isle-of-skye-21_whiskybase` node. This is logged in the 21YO `gaps[]`. It does not fail verification because the datum is true, reproducible, and correctly attributed to its bottle.
+## Resolved since last pass — IoS-21 auction provenance
+Last verify flagged that the 21YO auction point €171.16 was cited to the 25YO's whiskybase capture (cross-reference only). The gap-fill added a **dedicated `src_isle-of-skye-21_whiskybase`** pointing at the correct page (`whisky/63435`). Value re-confirmed (€171.16, EUR, 21YO). **Provenance defect closed.**
 
 ## Other cross-bottle checks run
-- **Wrong-bottle transposition (WWA 2026):** Isle of Skye won BOTH a Gold (30YO) and a Silver (Cigar Reserve, a different expression) at WWA 2026. The 30YO node correctly claims only the Gold and does not borrow the Silver. Clean.
-- **Score attribution (25YO):** WA 94 points reproduces and is correctly tied to the 25YO (not the 21/30, whose WA point scores genuinely did not surface). Minor: the live WA excerpt did not surface the reviewer name "Jonny McCormick," though the 94 and $210 reproduce unambiguously.
-- **30YO €290 auction:** literally present in the 30YO capture and corroborated by the 25YO cross-reference; exact live re-confirmation is gated behind a Whiskybase account (node honestly flags this). Met on the literal-support + internal-corroboration standard.
+- **Wrong-bottle transposition (WWA 2026):** Isle of Skye won BOTH a **Gold** (30YO) and a **Silver** (Cigar Reserve, a different expression) at WWA 2026. The 30YO node claims only the Gold. Clean.
+- **IoS-25 WA 94** reproduces and is correctly tied to the 25YO; **IoS-30 / IoS-21 WA point scores** genuinely never surfaced and are honestly recorded null (no fabrication).
+- **Currency discipline:** all £/$/€ figures correct and correctly labelled; Wine-Searcher figures labelled "US market avg (ex-tax)"; WA $210/$330 tagged `as_of: 2023-fall` (stale, not fresh).
+- **Auction figures (€200.95 / €290.00):** reproduced against the correct 25YO/30YO whiskybase pages; detailed history member-gated (honestly flagged).
 
-## Coverage gaps (insufficiency — NOT verification failures)
-These remain open for a follow-up research pass and do not affect `pass`:
-- All three: only 2 distinct REVIEW captures (need ≥3); numeric `scores_ge_2` unmet (21 & 30 have 0 numeric scores; 25 has 1).
-- 21YO: WebSearch surfaced candidate sources to close gaps — a tastings.com 90/100 and a whiskeyreviewer.com (2023) review — not yet captured.
-- 30YO: IWSC/SFWSC Gold year undated; SRP ~$322 not surfaced verbatim (avg $302 captured instead).
-- All three: natural-colour / chill-filtration unconfirmed.
+## Coverage caveats (insufficiency — NOT verification failures)
+- **IoS-25:** now has THREE+ review captures and TWO numeric scores (WA 94, WE 97) plus the SFWSC double award → meets all six coverage criteria; with `verification.pass` holding it is **eligible for GREEN**.
+- **IoS-30:** `scores_ge_2` STILL FALSE — no second NUMERIC normalized_100 exists. WWA/IWSC/SFWSC are medals; Whiskey Reviewer (A-) and Drinkhacker are letter grades. Truthful but not GREEN on the numeric-scores criterion. IWSC/SFWSC Gold year still undated; SRP ~$322 not verbatim (avg $302 captured).
+- **All three:** natural-colour / chill-filtration unconfirmed; all captures are WebSearch excerpts (WebFetch blocked 403).

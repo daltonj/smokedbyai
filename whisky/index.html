@@ -152,7 +152,10 @@ const BOTTLES = DATA.bottles || [];
 const SRC = {}; (DATA.sources||[]).forEach(s=>{ if(s&&s.id) SRC[s.id]=s; });
 const fmtG = v => v==null? "—" : "£"+Math.round(v).toLocaleString();
 const fmtU = v => v==null? "—" : "$"+Math.round(v).toLocaleString();
-const esc = s => (s==null?"":String(s)).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+// decode any pre-encoded entities first (agents sometimes store &amp;), then escape exactly once
+const esc = s => (s==null?"":String(s))
+  .replace(/&(amp|lt|gt|quot|#39|nbsp);/g,m=>({"&amp;":"&","&lt;":"<","&gt;":">","&quot;":'"',"&#39;":"'","&nbsp;":" "}[m]||m))
+  .replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 
 // rubric dimensions (max each) — must match schema
 const DIMS = [
@@ -326,7 +329,7 @@ function auctionCell(b){
   return `<details><summary>auction / secondary</summary><table style="margin-top:6px"><tr><th>Platform</th><th>Cur</th><th>min/avg/max</th><th>Trend</th><th>As of</th></tr>${rows}</table></details>`;
 }
 function scoreChips(b){
-  return (b.scores||[]).map(s=>`<span class="chip">${srcLink(s.source_id,"<b>"+esc(s.raw)+"</b> · "+esc((s.critic||"").split("/")[0]))}</span>`).join("")||'<span class="note">no numeric score</span>';
+  return (b.scores||[]).map(s=>`<span class="chip"><b>${esc(s.raw)}</b> · ${srcLink(s.source_id,(s.critic||"").split("/")[0])}</span>`).join("")||'<span class="note">no numeric score</span>';
 }
 function renderCards(){
   const r=BOTTLES.slice().sort((a,b)=>weighted(b)-weighted(a));

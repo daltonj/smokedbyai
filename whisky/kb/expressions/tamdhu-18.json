@@ -119,10 +119,12 @@
     "report_id": "tamdhu-18.verify.json",
     "pass": true,
     "summary": {
-      "verified": 8,
+      "verified": 10,
+      "verified_but_stale": 1,
       "mismatch": 0,
       "unsupported": 0
-    }
+    },
+    "reverified_at": "2026-06-16T05:10:00Z"
   },
-  "last_updated": "2026-06-16T04:10:00Z"
+  "last_updated": "2026-06-16T05:10:00Z"
 }

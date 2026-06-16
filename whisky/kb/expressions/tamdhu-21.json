@@ -109,18 +109,20 @@
       "scores_ge_2 STILL fails: no numeric normalized_100 score could be sourced. Robb Report exact /100 not exposed (only 'Very Good' 85-89 band implied); the Whiskybase community number for the 2025 core 21 YO (entry 275299) was not exposed in any search excerpt and remains N/A — not found. Awards (Speyside Overall Winner, Scottish Field Whisky of the Year) are non-numeric.",
       "auction_point fails: no secondary point for the 2025 core-range 21 YO — too new (Aug 2025); the auction lots located are a different older Cask Strength limited edition.",
       "us_price OK via official_vitals/Total Wine $399.99 excerpt (verified by reproduction).",
-      "All values UNVERIFIED on-page (WebFetch 403 all run); reproduction-by-search used as the verification standard. Re-verifier runs next (verification.status left as 'failed' pending re-run)."
+      "All values reproduced by WebSearch (WebFetch 403 all run); reproduction-by-search is the verification standard. RE-VERIFIED 2026-06-16: PASS — both UK prices (TWE live £295, MoM £252.70) now reproduce; £295-vs-£299-RRP distinction held; no core-bottle auction point (only older Cask Strength edition at auction)."
     ]
   },
   "verification": {
-    "status": "failed",
+    "status": "passed",
     "report_id": "tamdhu-21.verify.json",
-    "pass": false,
+    "pass": true,
     "summary": {
-      "verified": 9,
-      "mismatch": 1,
-      "unsupported": 1
-    }
+      "verified": 12,
+      "mismatch": 0,
+      "unsupported": 0
+    },
+    "reverified_at": "2026-06-16T05:10:00Z",
+    "note": "RE-VERIFICATION cleared the prior FAIL: TWE UK price re-sourced to live £295 (RRP £299 distinct, held in price note) and Master of Malt £252.70 now reproduces. All present core fields verify."
   },
-  "last_updated": "2026-06-16T04:10:00Z"
+  "last_updated": "2026-06-16T05:10:00Z"
 }

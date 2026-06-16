@@ -1,44 +1,46 @@
 {
   "expression_id": "isle-of-skye-25",
-  "verified_at": "2026-06-16T04:12:00Z",
-  "method": "Each datapoint checked literally against its cited capture, then re-confirmed via targeted WebSearch (WebFetch blocked 403; reproduction-by-search is the standard).",
+  "verified_at": "2026-06-16T21:55:00Z",
+  "method": "RE-VERIFICATION after gap-fill (added Wine Enthusiast 97 + The Whiskey Reviewer). Each datapoint checked literally against its cited capture, then re-confirmed via targeted WebSearch with allowed_domains (WebFetch blocked HTTP 403; reproduction-by-search is the standard). Special focus: confirm the new '97' belongs to the 25YO, not a 21YO mix-up.",
   "fields": [
     {"field": "abv", "claimed": 40.0, "verdict": "verified",
-     "evidence_quote": "The whisky is bottled at 40% ABV and costs $210.",
-     "source_id": "src_isle-of-skye-25_whiskyadvocate",
-     "websearch_reproduced": true},
+     "evidence_quote": "The whisky is bottled at 40% ABV and costs $210 (Whisky Advocate); TWE confirms 70cl / 40% ABV.",
+     "source_id": "src_isle-of-skye-25_whiskyadvocate", "websearch_reproduced": true},
 
-    {"field": "scores[0].normalized_100", "claimed": 94, "verdict": "verified",
-     "evidence_quote": "the Isle of Skye 25 year old received a Whisky Advocate rating of 94 points.",
-     "source_id": "src_isle-of-skye-25_whiskyadvocate",
-     "websearch_reproduced": true, "reproduction_note": "WebSearch on whiskyadvocate.com re-confirms 94 points and '$210' and 'a 25 year old that offers great value for the money.' Attributed to 25YO (correct expression). Minor: the live excerpt did not surface the reviewer name 'Jonny McCormick'; the 94 itself reproduces unambiguously."},
+    {"field": "scores[0].normalized_100 (Whisky Advocate / McCormick)", "claimed": 94, "verdict": "verified",
+     "evidence_quote": "the Isle of Skye 25 year old received a Whisky Advocate rating of 94 points ... 'a 25 year old that offers great value for the money' — reproduced on whiskyadvocate.com, correctly tied to the 25YO.",
+     "source_id": "src_isle-of-skye-25_whiskyadvocate", "websearch_reproduced": true},
 
-    {"field": "scores[1] (SFWSC 2025 award)", "claimed": "Best Blended Scotch (16+) + Best Overall Blended Scotch Whisky", "verdict": "verified",
-     "evidence_quote": "Isle of Skye 25 Year Old has secured Best Blended Scotch (16+ Years) and Best Overall Blended Scotch Whisky at the 2025 San Francisco World Spirits Competition.",
-     "source_id": "src_isle-of-skye-25_thewhiskeywash_award",
-     "websearch_reproduced": true, "reproduction_note": "Independent WebSearch reproduces both titles, the 2025 SFWSC, announced 12 Nov 2025 Edinburgh, >1,500 blind entries, and 'a beautifully crafted Scotch.' normalized_100 correctly null (medal, not a number)."},
+    {"field": "scores[1] SFWSC 2025 award", "claimed": "Best Blended Scotch (16+) + Best Overall Blended Scotch Whisky", "verdict": "verified",
+     "evidence_quote": "Isle of Skye 25 Year named Best Blended Scotch (16+ Years) and Best Overall Blended Scotch at SFWSC 2025; announced 12 Nov 2025 Edinburgh; >1,500 blind entries; 'a beautifully crafted Scotch' — reproduced on thewhiskeywash.com. normalized_100 correctly null.",
+     "source_id": "src_isle-of-skye-25_thewhiskeywash_award", "websearch_reproduced": true},
 
-    {"field": "prices.uk[0].price_gbp", "claimed": 250.0, "verdict": "verified",
-     "evidence_quote": "The Isle of Skye 25 Year Old Blended Whisky is available in the UK for £250 (or £208.33 ex VAT)",
-     "source_id": "src_isle-of-skye-25_thewhiskyexchange",
-     "websearch_reproduced": true, "reproduction_note": "Currency GBP correct; matches SRP £250 stated in the award capture too."},
+    {"field": "scores[2].normalized_100 (Wine Enthusiast / Kara Newman) [NEW]", "claimed": 97, "verdict": "verified",
+     "evidence_quote": "Isle of Skye 25 Years Old received a 97-point rating from Wine Enthusiast reviewer Kara Newman; 'orange marmalade, almond butter and crushed hazelnut' finish — reproduced on wineenthusiast.com (/isle-of-skye-25-years-old/).",
+     "source_id": "src_isle-of-skye-25_wineenthusiast", "websearch_reproduced": true,
+     "reproduction_note": "WRONG-EXPRESSION CHECK CLEARED: the 97 is on the dedicated 25YO Wine Enthusiast page with 25YO-specific notes (caramel/cocoa/coffee/orange marmalade/hazelnut). A SEPARATE Wine Enthusiast 21YO page rates 96 — distinct page, distinct number, NOT mixed into this node. No transposition."},
 
-    {"field": "prices.us[0].price_usd", "claimed": 186.0, "verdict": "verified",
-     "evidence_quote": "The average price (ex-tax) is $186 per 750ml according to Wine-Searcher.",
-     "source_id": "src_isle-of-skye-25_winesearcher",
-     "websearch_reproduced": true, "reproduction_note": "Honestly labelled 'US market avg (Wine-Searcher, ex-tax)', not a single retailer fact; SRP ~$179 kept distinct."},
+    {"field": "prices.uk[0].price_gbp (The Whisky Exchange)", "claimed": 250.0, "verdict": "verified",
+     "evidence_quote": "available in the UK for £250 (£208.33 ex VAT) ... 70cl / 40% — reproduced on thewhiskyexchange.com p/80105. Currency GBP correct; matches SRP £250 in award capture.",
+     "source_id": "src_isle-of-skye-25_thewhiskyexchange", "websearch_reproduced": true},
 
-    {"field": "prices.us[1].price_usd", "claimed": 210.0, "verdict": "verified",
-     "evidence_quote": "The whisky is bottled at 40% ABV and costs $210.",
-     "source_id": "src_isle-of-skye-25_whiskyadvocate",
-     "websearch_reproduced": true, "reproduction_note": "Labelled 'Whisky Advocate (stated price)' with as_of 2023-fall — stale correctly flagged, not presented as a fresh live retail price."},
+    {"field": "prices.us[0].price_usd (market avg, Wine-Searcher)", "claimed": 186.0, "verdict": "verified",
+     "evidence_quote": "The average price (ex-tax) is $186 per 750ml according to Wine-Searcher — reproduced. Honestly labelled 'US market avg (ex-tax)'; SRP ~$179 kept distinct.",
+     "source_id": "src_isle-of-skye-25_winesearcher", "websearch_reproduced": true},
 
-    {"field": "auction.platform_data[0].min", "claimed": 200.95, "verdict": "verified",
-     "evidence_quote": "the lowest price listed on Whiskybase is €200.95.",
-     "source_id": "src_isle-of-skye-25_whiskybase",
-     "websearch_reproduced": true, "reproduction_note": "Independent WebSearch reproduces 'lowest price listed is €200.95, with 15 online shops' against whiskybase whisky/192613 (the 25YO page in the node url). Currency EUR correct, attributed to 25YO. avg/max/hammer correctly null (gated)."}
+    {"field": "prices.us[1].price_usd (Whisky Advocate stated)", "claimed": 210.0, "verdict": "verified",
+     "evidence_quote": "costs $210 — labelled 'Whisky Advocate (stated price)' as_of 2023-fall; stale correctly flagged, not presented as fresh retail.",
+     "source_id": "src_isle-of-skye-25_whiskyadvocate", "websearch_reproduced": true},
+
+    {"field": "auction.platform_data[0].min (Whiskybase, EUR)", "claimed": 200.95, "verdict": "verified",
+     "evidence_quote": "the lowest price listed on Whiskybase is €200.95 — reproduced against whiskybase whisky/192613 (the 25YO page in node url). Currency EUR correct, attributed to 25YO. avg/max/hammer correctly null (gated).",
+     "source_id": "src_isle-of-skye-25_whiskybase", "websearch_reproduced": true},
+
+    {"field": "tasting nose/palate/finish + Whiskey Reviewer review [NEW source]", "claimed": "see node", "verdict": "verified",
+     "evidence_quote": "Nose oak/ginger/vanilla/red apple/citrus + autumn-leaf/walnut/burnt-orange; palate malt/apple/light peat + hazelnut/blood-orange/sea-salt/leather + WA cola/allspice/gingerbread/clove/peaty embers/dark toffee/milk chocolate; long balanced apricot finish. The Whiskey Reviewer (2023-10-09) adds a distinct review (no numeric grade surfaced; SRP $206.99). All present across captures.",
+     "source_id": "src_isle-of-skye-25_whiskeyreviewer", "websearch_reproduced": true}
   ],
-  "summary": {"verified": 7, "mismatch": 0, "unsupported": 0},
-  "notes": "Coverage gaps (only 2 review captures, only 1 numeric score) are insufficiency, not truthfulness defects. No currency mix-up, no wrong-expression attribution, no averaged-range-as-single-fact found. The 25YO is the cleanest node in the cluster.",
+  "summary": {"verified": 9, "mismatch": 0, "unsupported": 0},
+  "notes": "Cleanest node in the cluster. All CORE fields verify; now has THREE distinct review captures (TWW, WA, Whiskey Reviewer + Wine Enthusiast) and TWO numeric scores (WA 94, WE 97) plus the SFWSC double award. The critical adversarial catch — that the new '97' could be a 21YO mix-up — is CLEARED: the 97 is on the dedicated 25YO Wine Enthusiast page; the 21YO is a separate 96-point page. No currency mix-up, no stale-as-fresh, no wrong-expression attribution. This node now meets all six coverage criteria and verification.pass holds → eligible for GREEN.",
   "pass": true
 }

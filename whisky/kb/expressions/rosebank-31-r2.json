@@ -144,7 +144,7 @@
     "report_id": "rosebank-31-r2.verify.json",
     "pass": true,
     "summary": {
-      "verified": 17,
+      "verified": 18,
       "mismatch": 0,
       "unsupported": 0
     }

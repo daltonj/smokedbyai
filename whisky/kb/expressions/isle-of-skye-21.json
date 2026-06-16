@@ -33,7 +33,7 @@
     },
     {
       "critic": "Tastings.com / Beverage Testing Institute",
-      "raw": "90/100 (BTI Gold), dated 9/27/2023",
+      "raw": "90/100, dated 9/27/2023 (accompanying 'Gold' tier N/A — unverified; not reproduced on tastings.com re-search)",
       "normalized_100": 90,
       "source_id": "src_isle-of-skye-21_tastings"
     },
@@ -113,9 +113,9 @@
       "fresh_point": true
     },
     "gaps": [
+      "Tastings.com 'Gold' medal tier did not reproduce on re-search; 'Gold' wording softened to N/A — unverified (the 90/100 numeric score stands)",
       "Natural-colour / chill-filtration status not confirmed",
-      "ALL captures via WebSearch excerpt — WebFetch blocked (HTTP 403)",
-      "verification.status pending re-verification after this gap-fill pass"
+      "ALL captures via WebSearch excerpt — WebFetch blocked (HTTP 403)"
     ]
   },
   "verification": {
@@ -123,9 +123,9 @@
     "report_id": "isle-of-skye-21.verify.json",
     "pass": true,
     "summary": {
-      "verified": 6,
+      "verified": 9,
       "mismatch": 0,
-      "unsupported": 0
+      "unsupported": 1
     }
   },
   "last_updated": "2026-06-16T12:00:00Z"

@@ -85,7 +85,7 @@
         "url": "https://whiskyauctioneer.com/learn/explore-whisky/bottles/rosebank-1990-30-year-old-release-1-0",
         "source_id": "src_rosebank-31-r1_whiskyauctioneer",
         "as_of": "2022-01-10",
-        "verify_note": "RESTORED: highest-recorded Whisky Auctioneer hammer USD $3,528 (sold 2022-01-10). Previously quarantined because it was cited to the Whiskyhunter capture (where it does NOT appear); now backed by a dedicated Whisky Auctioneer capture (src_rosebank-31-r1_whiskyauctioneer) and reproduced across 4 independent WebSearch queries. Historical 2022 individual hammer, not a current value."
+        "verify_note": "VERIFIED (re-verification 2026-06-16): highest-recorded Whisky Auctioneer hammer USD $3,528 (sold 2022-01-10). Now correctly cited to the dedicated capture src_rosebank-31-r1_whiskyauctioneer (figure appears verbatim) and reproduced across multiple independent WebSearch queries, attributed specifically to the 30yo Release No. 1 (NOT the 31yo, whose top hammer is $2,891). Prior citation defect (mis-cited to Whiskyhunter capture) is repaired. Historical 2022 individual hammer, not a current value."
       }
     ]
   },
@@ -108,29 +108,28 @@
     "status": "amber",
     "criteria": {
       "reviews_ge_3": false,
-      "scores_ge_2": false,
+      "scores_ge_2": true,
       "uk_price": true,
-      "us_price": false,
+      "us_price": true,
       "auction_point": true,
       "fresh_point": true
     },
     "gaps": [
-      "Only one numeric critic score found (Whisky Advocate 92); Words of Whisky and Connosr scores not surfaced via search.",
-      "No US retail price found (RRP captured is UK launch RRP).",
-      "No current Whiskystats EUR market value surfaced for Release One specifically.",
+      "Two numeric critic scores now found (Whisky Advocate 92, Connosr/markjedi1 91); Words of Whisky score still not surfaced via search.",
+      "UK price is the 2020 launch RRP (£1,600), not a current UK retail listing; current US retail (BuyMyLiquor $2,999.99) now captured.",
+      "No current Whiskystats EUR market value surfaced for Release One specifically (aggregate GBP range is current).",
       "Latest individual auction hammer is 2022 ($3,528); no 2025/2026 individual hammer resolved (aggregate range is current).",
-      "Reviews are 2020-2021 (stale vs 6-month window) — valid expert sources but not fresh.",
-      "VERIFIER QUARANTINE: USD auction hammer $3,528 (2022-01-10) is unsupported by its cited capture (src_rosebank-31-r1_whiskyhunter shows hammer N/A); figure reproduces via independent search but lacks a Whisky Auctioneer capture in KG. Set to 'N/A — unverified' — needs a proper source capture."
+      "Reviews are 2020-2021 (stale vs 6-month window) — valid expert sources but not fresh; reviews_ge_3 not yet met (2 numeric scores, tasting from 3 expert sources)."
     ]
   },
   "verification": {
-    "status": "failed",
+    "status": "passed",
     "report_id": "rosebank-31-r1.verify.json",
-    "pass": false,
+    "pass": true,
     "summary": {
-      "verified": 15,
+      "verified": 17,
       "mismatch": 0,
-      "unsupported": 1
+      "unsupported": 0
     }
   },
   "last_updated": "2026-06-16"

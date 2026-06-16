@@ -1,40 +1,50 @@
 {
   "expression_id": "isle-of-skye-21",
-  "verified_at": "2026-06-16T04:10:00Z",
-  "method": "Each datapoint checked literally against its cited capture, then re-confirmed via targeted WebSearch (WebFetch blocked 403; reproduction-by-search is the standard).",
+  "verified_at": "2026-06-16T21:55:00Z",
+  "method": "RE-VERIFICATION after gap-fill (added Tastings.com/BTI 90, Whisky Magazine 86, dedicated 21YO whiskybase capture). Each datapoint checked literally against its cited capture, then re-confirmed via targeted WebSearch with allowed_domains (WebFetch blocked HTTP 403; reproduction-by-search is the standard).",
   "fields": [
     {"field": "abv", "claimed": 40.0, "verdict": "verified",
-     "evidence_quote": "the Isle of Skye 21 Year Old Blended Whisky is priced at £118 for a 70cl bottle at 40% ABV.",
-     "source_id": "src_isle-of-skye-21_thewhiskyexchange",
-     "websearch_reproduced": true, "reproduction_note": "WA capture independently confirms '40% ABV'; TWE WebSearch re-confirms 40% ABV."},
+     "evidence_quote": "priced at £118 for a 70cl bottle at 40% ABV; corroborated by Whisky Advocate '40% ABV' and Whisky Magazine 'bottled in 2015 ... 40% ABV'",
+     "source_id": "src_isle-of-skye-21_thewhiskyexchange", "websearch_reproduced": true},
 
-    {"field": "scores[0].normalized_100", "claimed": null, "verdict": "verified",
-     "evidence_quote": "the specific points score from McCormick's review on the excerpt shown was not displayed. Score = N/A — not found.",
-     "source_id": "src_isle-of-skye-21_whiskyadvocate",
-     "reproduction_note": "Honest null — no numeric 100-pt score claimed. Field asserts 'numeric score not surfaced', which matches capture. Not a fabricated number."},
+    {"field": "scores[0].normalized_100 (Whisky Advocate)", "claimed": null, "verdict": "verified",
+     "evidence_quote": "Reviewed by Jonny McCormick, Fall 2023; numeric 100-pt score never surfaced via WebSearch — node honestly records null. No fabricated number.",
+     "source_id": "src_isle-of-skye-21_whiskyadvocate"},
 
-    {"field": "prices.uk[0].price_gbp", "claimed": 118.0, "verdict": "verified",
-     "evidence_quote": "the Isle of Skye 21 Year Old Blended Whisky is priced at £118 for a 70cl bottle at 40% ABV.",
-     "source_id": "src_isle-of-skye-21_thewhiskyexchange",
-     "websearch_reproduced": true, "reproduction_note": "TWE p/80104 search re-confirms £118 / 70cl / 40%. Currency GBP correct."},
+    {"field": "scores[1].normalized_100 (Tastings.com/BTI) [NEW]", "claimed": 90, "verdict": "verified",
+     "evidence_quote": "Isle Of Skye 21 Year Old Blended Scotch Whisky received a rating of 90 points out of 100 from tastings.com on 9/27/2023 — reproduced live on tastings.com.",
+     "source_id": "src_isle-of-skye-21_tastings", "websearch_reproduced": true},
 
-    {"field": "prices.us[0].price_usd", "claimed": 89.99, "verdict": "verified",
-     "evidence_quote": "At Total Wine & More, the Isle of Skye 21Yr Scotch Whisky is priced at $89.99",
-     "source_id": "src_isle-of-skye-21_winesearcher",
-     "websearch_reproduced": true, "reproduction_note": "Total Wine $89.99 re-confirmed by WebSearch. Currency USD correct."},
+    {"field": "scores[1] 'BTI Gold' medal sub-claim [NEW]", "claimed": "BTI Gold", "verdict": "unsupported",
+     "evidence_quote": "Live tastings.com re-search returned the 90-pt score but 'no specific mention of a gold medal designation in the available search results.' Capture itself flags the SFWSC-body-vs-BTI-tier ambiguity. 90 score is solid; the 'Gold' tier is not independently reproducible.",
+     "source_id": "src_isle-of-skye-21_tastings", "websearch_reproduced": false,
+     "reproduction_note": "NON-CORE soft claim. The raw string '90/100 (BTI Gold), dated 9/27/2023' overstates: the Gold tier does not reproduce. Downgrade the 'Gold' wording; the 90 number stands. Does not affect pass (numeric score verified)."},
 
-    {"field": "prices.us[1].price_usd", "claimed": 96.0, "verdict": "verified",
-     "evidence_quote": "The average price across retailers is around $96 per 750ml bottle.",
-     "source_id": "src_isle-of-skye-21_winesearcher",
-     "websearch_reproduced": true, "reproduction_note": "Wine-Searcher US avg ~$96 re-confirmed. Honestly labelled 'US market avg', not a single retail fact. SRP $114.99 (per TWW) labelled as SRP, not conflated with this figure."},
+    {"field": "scores[2].raw 8.6 / normalized_100 (Whisky Magazine, Chris Neil) [NEW]", "claimed": 86, "verdict": "verified",
+     "evidence_quote": "The Isle of Skye 21 Years Old ... received an overall score of 8.6 from Chris Neil in Whisky Magazine; bottled 2015, 40% ABV — reproduced on whiskymag.com.",
+     "source_id": "src_isle-of-skye-21_whiskymagazine", "websearch_reproduced": true},
 
-    {"field": "auction.platform_data[0].min", "claimed": 171.16, "verdict": "verified",
-     "evidence_quote": "the 21-year-old has a lowest price of €171.16",
-     "source_id": "src_isle-of-skye-25_whiskybase",
-     "websearch_reproduced": true,
-     "reproduction_note": "PROVENANCE FLAG (researcher-flagged): this figure is cited to the 25YO's whiskybase capture, where €171.16 appears only as a cross-reference. NOT a dedicated 21YO capture. HOWEVER the value is NOT a hallucination: an independent WebSearch against whiskybase.com whisky/63435 (the 21YO page named in the node's url) reproduces 'the lowest price on the market is €171.16'. Currency EUR correct, attributed to the correct (21YO) expression. Verdict: value verified; source_id is a cross-reference and should be re-captured to a dedicated src_isle-of-skye-21_whiskybase node."}
+    {"field": "prices.uk[0].price_gbp (The Whisky Exchange)", "claimed": 118.0, "verdict": "verified",
+     "evidence_quote": "priced at £118 ... 70cl at 40% ABV — reproduced on thewhiskyexchange.com p/80104. Currency GBP correct.",
+     "source_id": "src_isle-of-skye-21_thewhiskyexchange", "websearch_reproduced": true},
+
+    {"field": "prices.us[0].price_usd (Total Wine)", "claimed": 89.99, "verdict": "verified",
+     "evidence_quote": "Total Wine & More lists the Isle of Skye 21 Year Old for $89.99 — reproduced via wine-searcher/totalwine. Currency USD correct.",
+     "source_id": "src_isle-of-skye-21_winesearcher", "websearch_reproduced": true},
+
+    {"field": "prices.us[1].price_usd (market avg)", "claimed": 96.0, "verdict": "verified",
+     "evidence_quote": "the average price (ex-tax) is $96/750ml — reproduced. Honestly labelled 'US market avg'; SRP $114.99 kept distinct.",
+     "source_id": "src_isle-of-skye-21_winesearcher", "websearch_reproduced": true},
+
+    {"field": "auction.platform_data[0].min (Whiskybase, EUR) [NEW dedicated capture]", "claimed": 171.16, "verdict": "verified",
+     "evidence_quote": "the 21-year-old has a lowest price of €171.16 — now cited to a DEDICATED 21YO capture (src_isle-of-skye-21_whiskybase) pointing at the correct page whisky/63435. Prior provenance defect (was borrowing the 25YO capture) is RESOLVED. Currency EUR correct, attributed to the 21YO. Detailed offer history member-gated.",
+     "source_id": "src_isle-of-skye-21_whiskybase", "websearch_reproduced": true},
+
+    {"field": "tasting nose/palate/finish", "claimed": "see node", "verdict": "verified",
+     "evidence_quote": "Baking spice/red apple/toffee/citrus/chocolate malted balls + WA dry nuttiness/brown sugar/cedar/coffee/walnut cake; palate spicy caramel/blackcurrant/cedar/green peppercorn + honeyed oatmeal/strawberry/orange/pepper; medium-long oaky finish, peppermint — all present across TWW + WA + WM captures.",
+     "source_id": "src_isle-of-skye-21_thewhiskeywash", "websearch_reproduced": true}
   ],
-  "summary": {"verified": 6, "mismatch": 0, "unsupported": 0},
-  "notes": "Coverage gaps (insufficient data) are NOT verification failures: only 2 review captures and 0 numeric scores remain open. Separately, WebSearch surfaced a tastings.com 90/100 and a whiskeyreviewer.com review for the 21YO that are not yet in the node — candidates to close the scores/reviews gaps, not defects.",
+  "summary": {"verified": 9, "mismatch": 0, "unsupported": 1},
+  "notes": "All CORE fields verify (abv; >=2 NUMERIC scores [90 Tastings, 86 WM]; uk price; us price; auction point). The prior provenance defect (21YO auction borrowing the 25YO capture) is RESOLVED by the new dedicated src_isle-of-skye-21_whiskybase. Only one non-core soft sub-claim — the Tastings/BTI 'Gold' medal tier — is unsupported and should be softened in the node's scores[1].raw; it does not affect pass. No wrong-expression numbers, no currency mix-ups, no stale-as-fresh. WebSearch also surfaced a separate Wine Enthusiast 21YO page rated 96 (NOT in this node, no mix-up).",
   "pass": true
 }

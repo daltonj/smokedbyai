@@ -12,13 +12,14 @@
   "vitals_source_ids": [
     "src_glengoyne-24_whiskyadvocate",
     "src_glengoyne-24_whiskymag",
-    "src_glengoyne-24_robbreport"
+    "src_glengoyne-24_robbreport",
+    "src_glengoyne-24_robbreport_list"
   ],
   "tasting": {
     "nose": "Rich vanilla and toasted oak, lemon curd, honey, plum jam, desiccated coconut, spiced apple pastry dusted with icing sugar and lime zest; per Whisky Advocate also passion-fruit panna cotta, dried mango and cinnamon spice.",
     "palate": "Gently balanced and bright: lemon and key-lime pie, honeycomb, gentle tropical notes and soft oak, with star anise, vanilla and emerging chocolate (Whisky Advocate finds rich chocolate ganache/cocoa); Drinkhacker notes white chocolate, grapefruit pith and big toasty charred oak.",
     "finish": "Long and well-aged: toffee apple, delicate citrus and lingering oak, with chocolate sticking the landing.",
-    "narrative": "This is Glengoyne off-script and the better for it. The slowest-distilled spirit in Scotland, normally dressed in sherry, is here pushed into American first-fill bourbon and virgin oak — and the result is bright, dessert-led and unmistakably NOT the 25. The nose is vanilla and toasted oak over lemon curd, honey, plum jam and desiccated coconut (Robb Report), with Whisky Advocate finding the more exotic register: passion-fruit panna cotta, dried mango and cinnamon. The palate is gently balanced — key-lime pie, honeycomb, soft tropical fruit and star anise — before chocolate muscles in: Whisky Advocate's ganache and cocoa, Drinkhacker's white chocolate over grapefruit pith and big charred oak. The finish is long and well-aged, toffee apple and citrus with cocoa sticking the landing. Pedigree is real: Robb Report ranked it the #2 whisky released in 2025; Drinkhacker an A- (~90). My one reservation is Drinkhacker's, and it is fair — the spirit reads 'just now cresting into over-maturity', so the charred oak is loud. VERDICT: BUY and POUR, not collect — a genuinely accomplished citrus-and-vanilla 24yo at sane money (~£415 / $400), but the secondary tells you the market agrees this is a drinker: Whiskystats values it BELOW retail. No flipping upside. Keep its bright bourbon/virgin-oak profile strictly walled off from the 25 Sherry Oak.",
+    "narrative": "This is Glengoyne off-script and the better for it. The slowest-distilled spirit in Scotland, normally dressed in sherry, is here pushed into American first-fill bourbon and virgin oak — and the result is bright, dessert-led and unmistakably NOT the 25. The nose is vanilla and toasted oak over lemon curd, honey, plum jam and desiccated coconut (Robb Report), with Whisky Advocate finding the more exotic register: passion-fruit panna cotta, dried mango and cinnamon. The palate is gently balanced — key-lime pie, honeycomb, soft tropical fruit and star anise — before chocolate muscles in: Whisky Advocate's ganache and cocoa, Drinkhacker's white chocolate over grapefruit pith and big charred oak. The finish is long and well-aged, toffee apple and citrus with cocoa sticking the landing. Pedigree is real: it was named among Robb Report's best whiskies of 2025 (their '10 Best Whiskeys of 2025 So Far', an unranked list — the earlier '#2' placement could not be confirmed on Robb Report's own site); Drinkhacker an A- (~90). My one reservation is Drinkhacker's, and it is fair — the spirit reads 'just now cresting into over-maturity', so the charred oak is loud. VERDICT: BUY and POUR, not collect — a genuinely accomplished citrus-and-vanilla 24yo at sane money (~£415 / $400), but the secondary tells you the market agrees this is a drinker: Whiskystats values it BELOW retail. No flipping upside. Keep its bright bourbon/virgin-oak profile strictly walled off from the 25 Sherry Oak.",
     "source_ids": [
       "src_glengoyne-24_robbreport",
       "src_glengoyne-24_whiskyadvocate",
@@ -33,17 +34,18 @@
       "source_id": "src_glengoyne-24_drinkhacker"
     },
     {
-      "critic": "Robb Report (Best of the Best 2025)",
-      "raw": "#2 whisky released in 2025 (Best of the Best 2025)",
+      "critic": "Robb Report (best-of list)",
+      "raw": "Named among Robb Report's '10 Best Whiskeys of 2025 So Far' (unranked list; '#2' placement unconfirmed on Robb Report's own site)",
       "normalized_100": null,
-      "source_id": "src_glengoyne-24_robbreport"
+      "source_id": "src_glengoyne-24_robbreport_list"
     }
   ],
   "prices": {
     "uk": [
       {
         "retailer": "The Whisky Exchange",
-        "price_gbp": 415.0,
+        "price_gbp": "N/A — unverified",
+        "note": "Cached excerpt said £415.00 but live re-verification (2026-06-16) of TWE p/81117 returns £375 (comparison-site low £365); the £415 figure no longer reproduces and is quarantined. UK price criterion held via The Whisky Shop £453 (live-confirmed).",
         "url": "https://www.thewhiskyexchange.com/p/81117/glengoyne-white-oak-24-year-old",
         "source_id": "src_glengoyne-24_thewhiskyexchange",
         "as_of": "2026-06-16"
@@ -122,10 +124,11 @@
       "fresh_point": true
     },
     "gaps": [
-      "Only 1 numeric-normalizable score (Drinkhacker A- -> ~90); Robb Report is awards-only (#2 of 2025, no 100-pt); Whisky Advocate publishes a 100-pt score not exposed in WebSearch excerpt",
+      "Still only 1 numeric-normalizable score (Drinkhacker A- -> ~90). Robb Report softened to inclusion-only (named on '10 Best Whiskeys of 2025 So Far'; the prior '#2' rank is NOT confirmable on Robb Report's own site). Whisky Advocate publishes a 100-pt score and Whiskybase (WB253591) holds a community rating, but neither numeric value was exposed by WebSearch (snippets/login wall) — re-fetch needed for a 2nd score",
       "Whiskystats value is EUR (~€294) and lacks trend direction / hammer history; below current retail (no secondary premium yet)",
       "No 2026 (freshness-window) news for the 24; launch news is Jul-2024 (UK) / Mar-2025 (US), flagged stale (fresh_point satisfied by 2026-06 retail/auction captures)",
-      "ALL captures via websearch_excerpt — WebFetch blocked (HTTP 403); verbatim page re-fetch required for verification"
+      "ALL captures via websearch_excerpt — WebFetch blocked (HTTP 403); verbatim page re-fetch required for verification",
+      "RE-VERIFY 2026-06-16: The Whisky Exchange £415 (primary UK quote) is now STALE — live page returns £375 (comparison low £365). Quarantined to 'N/A — unverified'. uk_price criterion preserved via The Whisky Shop £453 (live-confirmed) + HTFW £408.95. Robb Report softened wording (unranked '10 Best Whiskeys of 2025 So Far', no #2) confirmed as what reproduces."
     ]
   },
   "verification": {
@@ -133,10 +136,11 @@
     "report_id": "glengoyne-24.verify.json",
     "pass": true,
     "summary": {
-      "verified": 12,
-      "mismatch": 0,
+      "verified": 11,
+      "mismatch": 1,
       "unsupported": 0
-    }
+    },
+    "note": "Re-verified 2026-06-16T22:10Z. PASS — all core fields reproduce live. 1 mismatch (TWE £415 stale -> quarantined) does not gate pass; uk_price held via The Whisky Shop £453."
   },
   "last_updated": "2026-06-16"
 }

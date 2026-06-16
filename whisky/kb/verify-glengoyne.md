@@ -1,80 +1,59 @@
-# Source Verification Report — Glengoyne cluster
+# Glengoyne Cluster — Source Verification (RE-VERIFY after gap-fill)
 
-Verifier: adversarial fact-check (Source Verifier stage). Date: 2026-06-16.
-Environment: WebFetch BLOCKED (HTTP 403). All re-confirmation done by targeted **WebSearch**
-(allowed_domains on the cited source where possible). Reproduction-by-search is the standard.
-
-Bottles: **glengoyne-24** (White Oak, ~47.8%, bourbon/virgin oak) · **glengoyne-25** (Sherry Oak, 48%).
-
----
-
-## glengoyne-24 — White Oak (Oak Masters' Series) — PASS
-
-Verdicts: 12 verified / 0 mismatch / 0 unsupported. `verification.status = passed`. `pass = true`.
-
-| Field | Claim | Verdict | Source |
-|---|---|---|---|
-| abv | 47.8% | verified | robbreport |
-| cask | American 1st-fill bourbon + virgin/white oak | verified | robbreport |
-| availability ("will not return") | Ltd; UK 10 Jul 2024 RRP £430; US Mar 2025 $400 | verified | whiskymag |
-| score Drinkhacker A- → 90 | 90 | verified (A-→~90 normalization defensible) | drinkhacker |
-| score Robb Report "#2 / Best of Best 2025" | #2 of 2025 (null 100-pt) | verified w/ caveat | robbreport |
-| UK price TWE | £415.00 | verified | thewhiskyexchange |
-| UK price HTFW | £408.95 | verified | thewhiskyexchange |
-| UK price Whisky Shop | £453.00 | verified | thewhiskyexchange |
-| US price Total Wine (700ml) | $399.98 | verified (verbatim reproduce) | totalwine |
-| US price Whisky Advocate stated | $400 | verified | whiskyadvocate |
-| auction Whiskystats | **€294 (EUR)** | verified — currency correctly EUR | whiskystats |
-| tasting headline | citrus/vanilla/chocolate, NOT sherry | verified — no 24/25 conflation | robbreport |
-
-**Caveat (logged, non-gating):** The Robb Report "ranked #2 / Best of the Best 2025" claim reproduces
-in WebSearch only via **retailer (The Whisky Exchange) marketing copy**. Robb Report's own site exposes
-inclusion in "The 10 Best Whiskeys of 2025 So Far" but does NOT surface a confirmed #2 numbered rank
-in-page. The datum is non-core (awards-only, `normalized_100 = null`) so it does not gate pass, but the
-rank provenance is retailer copy, not a verified Robb Report numbered list. Recommend softening node
-language from "Robb Report ranked it the #2 whisky released in 2025" to "Robb Report named it one of the
-best new whiskies of 2025 (#2 per retailer listing copy)."
-
-**Conflation / currency checks:** CLEAN. The 24 is unambiguously White Oak (bourbon/virgin oak, 47.8%),
-corroborated by the official page title "White Oak." Whiskystats value is **EUR €294** and is correctly
-labeled EUR — NOT mislabeled as £/$ — and correctly noted as below retail (no secondary premium).
+- **Verifier:** Source Verifier (adversarial), re-verification pass
+- **Date:** 2026-06-16T22:15Z
+- **Environment:** WebFetch BLOCKED (HTTP 403) on all URLs. Reproduction-by-WebSearch (allowed_domains on the cited source) is the verification standard.
+- **Bottles:** glengoyne-24 (White Oak, bourbon/virgin oak), glengoyne-25 (Sherry Oak)
 
 ---
 
-## glengoyne-25 — Sherry Oak — PASS
+## glengoyne-24 (White Oak, 47.8%) — PASS (1 quarantine)
 
-Verdicts: 8 verified / 0 mismatch / 0 unsupported. `verification.status = passed`. `pass = true`.
-(`pass` certifies truthfulness of PRESENT data, not coverage sufficiency — node remains coverage RED.)
+Counts: **11 verified, 1 mismatch, 0 unsupported.**
 
-| Field | Claim | Verdict | Source |
-|---|---|---|---|
-| abv | 48% | verified | glengoyneofficial |
-| cask | exclusively sherry oak | verified — official page titled "Sherry Oak" | glengoyneofficial |
-| natural colour / non-chill-filtered | true / false | verified | glengoyneofficial |
-| score | Best Scotch, Whiskey Wash Awards 2025 (null 100-pt) | verified (verbatim) | thewhiskeywash |
-| US price Whiskey Wash MSRP | $600 | verified | thewhiskeywash |
-| US price Total Wine | null (listing exists, price not exposed) | verified — no fabricated figure | totalwine |
-| auction Whisky Returns | **£250.00 GBP (as of 2026-01-28)** | verified (verbatim) | whiskyreturns |
-| tasting headline | sherry/dried-fruit/chocolate, NOT citrus | verified — no 24/25 conflation | thewhiskeywash |
+### Verified (live reproduction)
+- ABV 47.8% and cask = American first-fill bourbon + virgin/new oak (sherry-distinct). Robb Report confirms "first-fill bourbon and new oak ... a small amount that spent time in virgin oak".
+- Non-chill-filtered ("free from chill filtration", The Whisky Shop live page).
+- Drinkhacker **A- (~90)** — white chocolate, grapefruit pith, "just now cresting into over-maturity" all reproduce.
+- **Robb Report claim — SOFTENED wording CONFIRMED.** Live searches surface only inclusion in "The 10 Best Whiskeys of 2025 So Far" (published 2025-07-31); they do **not** surface any "#2" numbered ranking. The node's unranked-list wording is exactly what reproduces. The prior "#2 / Best of the Best 2025" claim does not reproduce.
+- UK: HTFW £408.95; **The Whisky Shop £453.00 (live-confirmed)**.
+- US: Total Wine $399.98 (700ml, live); Whisky Advocate stated $400.
+- Auction: Whiskystats **€294 EUR** (whisky/253591) — correctly EUR, not mixed with GBP retail or the 25's £250.
+- Tasting profile = citrus/vanilla/white-chocolate; no sherry crossover with the 25.
 
-**"Whisky Returns" aggregator figure (curator-flagged):** RECONFIRMED. The £250.00 average (as of
-2026-01-28) reproduces **verbatim** from whiskyreturns.com via WebSearch, is correctly **GBP**, and is
-correctly attributed to Whisky Returns — NOT mislabeled as Whiskystats. The flagged Whiskystats cross-refs
-(whisky/135597, /151799) exist but did not expose a clean comparable single figure in snippet; the node
-makes no Whiskystats claim, so nothing to correct.
+### MISMATCH → QUARANTINED
+- **The Whisky Exchange £415 (primary UK quote).** Live re-verification of TWE p/81117 now returns **£375** (comparison-site low £365), not £415. The cached excerpt's £415 is stale/superseded and no longer reproduces; `as_of=2026-06-16` is contradicted. Set to `"N/A — unverified"` in the node with an explanatory note; added to `gaps`.
+- **Impact on coverage:** none — the `uk_price` criterion is preserved by The Whisky Shop £453 (live-confirmed) and HTFW £408.95.
 
-**Conflation / currency checks:** CLEAN. The 25 is unambiguously Sherry Oak (48%; official page title
-"Sherry Oak"). Oloroso designation correctly left UNCONFIRMED. £250 is GBP; $600 is USD — both correct.
+**Verdict:** `pass=true`. All core fields verify; the single stale retail quote is quarantined and does not gate pass.
 
 ---
 
-## Cluster summary
+## glengoyne-25 (Sherry Oak, 48%) — PASS
 
-- **glengoyne-24: PASS** — 12 verified, 0 mismatch, 0 unsupported.
-- **glengoyne-25: PASS** — 8 verified, 0 mismatch, 0 unsupported.
-- No node field required quarantine ("N/A — unverified"); no new gaps added.
-- **Most important catch:** the suspected 24-vs-25 white-oak/sherry conflation and the EUR-vs-£/$ currency
-  swap that the brief warned about did **NOT** occur — the curator kept them correctly walled off
-  (Whiskystats €294 EUR for the 24, Whisky Returns £250 GBP for the 25, both correctly labeled). The one
-  genuine soft spot is the Robb Report "#2 of 2025" rank, which reproduces only from **retailer marketing
-  copy**, not a confirmed Robb Report numbered list — a non-core, non-gating overstatement worth softening.
+Counts: **14 verified, 0 mismatch, 0 unsupported.** All NEW gap-fill datapoints reproduce LIVE.
+
+### Verified (live reproduction)
+- ABV 48%, cask = exclusively hand-selected sherry oak (Whiskybase: "European Oak Sherry casks, mainly 1st Fill"). Natural colour, non-chill-filtered.
+- **NEW UK prices — all three reproduce on their cited domains:**
+  - Master of Malt **£419.90** (48% ABV, 33 reviews) — live.
+  - Glengoyne official shop **£499.00** (70cl) — live.
+  - Royal Mile Whiskies **£525.00** (in stock, 70cl 48%) — live.
+- **NEW Whiskybase community score 89.74/100 (324 ratings)** (whisky/167031) — reproduces verbatim.
+- **NEW Drinkhacker A- (~90)** — sherry-cask review (2024-03-10), profile reproduces on drinkhacker.com.
+- **NEW WhiskyNotes (Ruben Luyten)** review reproduces (first-fill European oak, figs/cherries/plums/blackberries); its /100 not exposed, correctly recorded N/A. Gives the 3rd named review.
+- Whiskey Wash "Best Scotch, Awards 2025" — reproduces; corroborated by Master of Malt blog.
+- US: Whiskey Wash stated MSRP **$600** (USD, correctly labeled); Total Wine listing exists, price null (no fabrication).
+- Auction: Whisky Returns avg **£250 GBP** (as of 2026-01-28) — reproduces verbatim; GBP, correctly attributed to Whisky Returns.
+
+### Adversarial checks
+- **No 24-vs-25 conflation:** the 25 is unambiguously Sherry Oak (dried fruit/chocolate), kept distinct from the 24's citrus/vanilla White Oak.
+- **No currency mix-ups:** GBP retail £419.90 / £499 / £525, USD MSRP $600, GBP secondary £250 — each correctly labeled. The €294 EUR auction figure belongs to the **24** and did NOT bleed into the 25.
+- Oloroso designation correctly left UNCONFIRMED for the standard 25.
+
+**Verdict:** `pass=true`. All 14 fields verify against live reproduction.
+
+---
+
+## Most important catch
+**glengoyne-24 The Whisky Exchange £415 is now stale** — the live TWE page (p/81117) returns £375 (comparison low £365). Quarantined to "N/A — unverified"; the UK-price criterion survives via the live-confirmed The Whisky Shop £453. Separately, the **softened Robb Report wording is confirmed correct**: only the unranked "10 Best Whiskeys of 2025 So Far" inclusion reproduces — no "#2" rank.

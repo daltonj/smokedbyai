@@ -1,63 +1,61 @@
-# Verification Report — Tamdhu cluster
+# Tamdhu cluster — Source Verification report (RE-VERIFICATION)
 
-Verifier: adversarial Source Verifier. Verified 2026-06-16.
-Method: WebFetch was blocked (HTTP 403) on every URL this run, so every datapoint was re-confirmed by (a) quoting it from its cited cached capture and (b) re-running a targeted WebSearch (allowed_domains on the cited source where possible). Reproduction-by-search is the standard per whisky-verify SKILL.md step 2.
+- Verifier: adversarial source verifier (re-run after gap-fill)
+- Date: 2026-06-16 (anchor 2026-06-16 02:49 UTC)
+- Environment: **WebFetch BLOCKED (HTTP 403) entire run.** Reproduction-by-**WebSearch** is the verification standard (per whisky-verify SKILL.md step 2; all captures are `capture_method: websearch_excerpt`).
+- Bottles: `tamdhu-18`, `tamdhu-21`
 
-Standard applied: **truthfulness, not sufficiency.** `pass=true` iff all PRESENT core fields verify with no mismatch/unsupported. The nodes' RED/AMBER coverage status (driven by the researcher's websearch_excerpt evidence policy) is a sufficiency judgment and does not by itself fail verification.
+## Result summary
 
----
+| Bottle | Prior | Now | Verified | Mismatch | Unsupported |
+|---|---|---|---|---|---|
+| tamdhu-18 | pass | **PASS** | 10 (+1 stale) | 0 | 0 |
+| tamdhu-21 | **FAIL** | **PASS** | 12 | 0 | 0 |
 
-## tamdhu-18 (46.8%, oloroso) — PASS
-
-| Field | Claim | Verdict | Basis |
-|---|---|---|---|
-| abv | 46.8% | verified | Whiskey Wash capture + WebSearch reproduction |
-| cask / colour / chill-filter | oloroso, Euro+American oak, Jerez, natural colour, un-chill-filtered | verified | Whiskey Wash capture + reproduction |
-| prices.us TWE→Total Wine | $199.99 | verified | Total Wine capture + WebSearch ("$199.99 at Total Wine & More") |
-| scores[0] Whiskybase | 87.20/100 | verified | capture + WebSearch (entry 209109 confirmed) |
-| scores[1] SFWSC | Double Gold | verified | Whiskey Wash capture; reproduced via tamdhu.com news + thedailypour roundup |
-| auction | GBP ~£90–£100, hammer £100, stale 2024, trend N/A | verified | whisky.auction lot 137270 (correct 46.8% bottle) + WebSearch |
-| tasting nose/palate | as written | verified | Whiskey Wash capture |
-
-**Summary: 8 verified, 0 mismatch, 0 unsupported. pass = true.**
-
-Adversarial checks cleared:
-- **No 18-vs-21 conflation.** The cited auction is whisky.auction lot 137270 — the standard 46.8% Tamdhu 18, NOT the separate "Tamdhu 18 Limited Release **Cask Strength**" lots that dominate Whisky Hammer.
-- **No stale-as-fresh.** The 2024-era auction figures are explicitly labeled stale, as_of 2024-xx-xx, trend N/A.
-- **No phantom UK price.** The £299/£275 TWE figures the search surfaced were correctly DROPPED by the researcher (they could not be tied to the 18); the node asserts no UK price.
-- **No currency mix-up.** Auction GBP, US retail USD — kept distinct.
-- **No award without a source.** SFWSC Double Gold is backed by the distillery's own news page and a third-party roundup.
-
-verification.status set to **passed**. (Coverage stays RED on sufficiency grounds — see node gaps — but every present datum is truthful.)
+Both bottles PASS on truthfulness. Both remain **AMBER** on coverage-sufficiency only (not a verification failure) — see gaps.
 
 ---
 
-## tamdhu-21 (47.5%, oloroso, 2025 release, 12,000 bottles) — FAIL
+## tamdhu-18 — PASS (re-confirmed)
 
-| Field | Claim | Verdict | Basis |
-|---|---|---|---|
-| abv | 47.5% | verified | official_vitals capture + reproduction |
-| cask / colour / chill-filter | first-fill+refill Euro+American oak oloroso, Jerez, natural, un-chill-filtered | verified | capture + reproduction |
-| outturn | 12,000 bottles, Aug 2025 | verified | whiskeywash_news + WebSearch ("Limited to 12,000 bottles") |
-| **prices.uk[0] TWE £299** | **£299** | **MISMATCH** | capture calls it "official RRP"; live TWE listing reproduces at **£295** (two searches) |
-| **prices.uk[1] Master of Malt £252.70** | **£252.70** | **UNSUPPORTED** | snippet-only; no independent search reproduces it |
-| prices.us Total Wine | $399.99 | verified | capture + WebSearch reproduction |
-| scores[0] Robb Report | "Very Good" 85–89 band implied, no /100; Macallan framing | verified | WebSearch reproduced "$400 vs Macallan 25 ~three grand," "sherry bomb banger," Jonah Flicker, pub. 19 Oct 2025 |
-| scores[1] Spirit of Speyside 2026 | Gold (18&over) + Overall Winner | verified | sltn.co.uk capture + WebSearch (sltn.co.uk, whiskyexperts.net) |
-| scores[2] Scottish Field 2025 | Whisky of the Year / Gold Over £100 / Distillery Bottling of the Year | verified | capture + WebSearch (scottishfield.co.uk Grand Final + JPHA) |
-| auction | empty [] | verified | correctly quarantined — see below |
-| tasting nose/palate/finish | as written | verified | official_vitals + critic captures |
+Re-verification of the two gap-fill additions plus all prior fields. Every present core field reproduces via independent WebSearch.
 
-**Summary: 9 verified, 1 mismatch, 1 unsupported. pass = false.**
+- **abv 46.8 / cask (oloroso, EU+US oak, Jerez) / natural colour / un-chill-filtered** — verified (Whiskey Wash).
+- **Whiskybase 87.20/100** — verified vs capture. Live reproduction now reads 87.53/100 (550 votes); community ratings drift, node value matches the cited capture and is within rounding of normalized 87. No mismatch.
+- **WhiskyNotes / Ruben Luyten 88/100 (NEW)** — verified; reproduced live. Source page is a 2023 (stale) review — valid score datapoint, not a fresh review.
+- **SFWSC Double Gold** — verified (non-numeric).
+- **The Whisky Exchange £176 (NEW UK price)** — verified; reproduced on p/65584 (70cl / 46.8%). A stray £175 search mention was seen but £176 dominates and matches the capture.
+- **Total Wine $199.99 (US)** — verified; currency USD correct.
+- **Auction ~£90–£100 (2024)** — verified-but-**stale**; correctly labeled, not presented as fresh. Correct 46.8% standard 18 (whisky.auction lot 137270), not a Cask Strength edition.
+- **Nose/palate** — verified; **finish** honestly carried as N/A (no critic finish text in captures).
 
-Catches and quarantine:
-- **MISMATCH — TWE £299.** The node carried £299 as a retail price; that figure is the **official RRP**, and the live The Whisky Exchange listing now reproduces at **£295** on two independent searches. The price_gbp field was set to "N/A — unverified", uk_price criterion flipped to false, gap logged.
-- **UNSUPPORTED — Master of Malt £252.70.** Snippet-only; the MoM product page surfaces but exposes no price, and no independent search reproduces £252.70. Set to "N/A — unverified".
+**scores_ge_2 and uk_price now satisfied.** Gaps (coverage only): reviews_ge_3 still fails (1 fresh review; WhiskyNotes stale); fresh auction missing; finish note missing.
 
-Adversarial checks cleared:
-- **No false 21yo auction point.** The node's auction array is empty. The researcher correctly determined the only "Tamdhu 21" auction lots are an OLDER ~250-bottle "Cask Strength Limited Edition" — a different bottle — and asserted NO secondary point for the 2025 core 21. Confirmed: no real 21yo core auction figure is claimed.
-- **No currency mix-up.** US $399.99 (USD) and the UK GBP figures are kept distinct; the GBP/$ confusion the brief warned about did not occur.
-- **Awards real and sourced.** Spirit of Speyside 2026 (sltn.co.uk + whiskyexperts.net) and Scottish Field 2025 (scottishfield.co.uk + JPHA) both reproduce. A stray "Summer Challenge" Silver for *Tamdhu Cigar Malt IV* is an unrelated sub-list and was NOT conflated into the node.
-- **No fabricated numeric score.** Robb Report's exact /100 is not exposed; the node correctly sets normalized_100=null and only carries the qualitative band as implied.
+---
 
-verification.status set to **failed** (UK pricing quarantined). The rest of the node is truthful; once a live UK price is captured the bottle can re-verify.
+## tamdhu-21 — PASS (prior FAIL cleared)
+
+The prior run FAILED on the UK price (TWE £299 mismatch + Master of Malt £252.70 unsupported). Both are now RE-SOURCED and reproduce live.
+
+- **TWE £295 (re-sourced)** — verified on p/84852 (70cl / 47.5%, £421.43/litre). **Critical £295-vs-£299 distinction held:** £295 is the LIVE TWE retail price; £299 is the official RRP (The Spirits Business; Royal Mile Whiskies separately lists £299). The node carries the live £295 and does NOT assert £299 as the live price — the price note disambiguates correctly. PRIOR MISMATCH CLEARED.
+- **Master of Malt £252.70 (re-sourced)** — verified; reproduces across two independent searches against masterofmalt.com. PRIOR UNSUPPORTED CLEARED.
+- **Total Wine $399.99 (US)** — verified; currency USD correct, not conflated with GBP figures.
+- **abv 47.5 / cask (first-fill+refill EU+US oak oloroso, European dominant, Jerez) / 12,000 bottles / Aug 2025** — verified.
+- **Robb Report (Jonah Flicker) Macallan value framing** — verified; node correctly sets normalized_100=null (no fabricated /100).
+- **Spirit of Speyside 2026 Overall Winner + Gold (18&over)** — verified (sltn.co.uk, whiskyexperts.net).
+- **Scottish Field Whisky Challenge 2025 Whisky of the Year** — verified (non-numeric).
+- **Auction = empty** — verified. The only Tamdhu 21 auction lots (Whisky Hammer 208616, Grand Whisky Auction, Whisky Shop Auctions) are an OLDER **55.3% Cask Strength Limited Edition, 250 bottles** — a different bottle. Node correctly asserts NO core-bottle auction point.
+- **Nose/palate/finish** — verified (official + WhiskyNotes/Whiskey Wash/Whisky For Everyone).
+
+**Gaps (coverage only):** scores_ge_2 still fails (no numeric /100 sourced; Robb Report band only implied); auction_point absent by design (core 21 too new).
+
+---
+
+## Adversarial findings (most important catches)
+
+1. **tamdhu-21 UK price now reproduces — the prior FAIL clears.** The £295-vs-£299-RRP trap was specifically hunted: the node carries the **live £295** with a note that **£299 is the RRP**, not the selling price. Both halves reproduce. This is the headline result.
+2. **No 18-vs-21 conflation and no false auction.** tamdhu-21's only auction lots are the older 55.3% Cask Strength edition (250 bottles); the node correctly keeps `platform_data: []`. tamdhu-18's auction is the correct 46.8% standard bottle.
+3. **No currency mix-ups.** $399.99 (US) vs £295 / £252.70 (UK) all correct.
+4. Minor, non-blocking: tamdhu-18 Whiskybase live rating has drifted to 87.53 (from 87.20 in capture); WhiskyNotes 88/100 comes from a 2023 (stale) page — valid as a score, flagged as not a fresh review.
+
+Both verify.json records overwritten; both node `verification` blocks set to **passed**.
