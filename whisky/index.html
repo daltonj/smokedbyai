@@ -108,6 +108,10 @@
   <div class="sub">Every bottle in this flight comes from one family-owned house. This is effectively an Ian Macleod showcase.</div>
   <div class="panel" id="producer" style="margin-top:12px"></div>
 
+  <h2>🏬 Total Wine — venue pricing</h2>
+  <div class="sub">The tasting is hosted by Total Wine &amp; More, so their price is the consistent, buy-on-the-night benchmark. "Not carried" = Total Wine doesn't list it (buy elsewhere — see each card).</div>
+  <div class="panel" id="totalwine" style="margin-top:12px;overflow-x:auto"></div>
+
   <h2>1 · Data sufficiency — red / amber / green</h2>
   <div class="sub">Green = enough verified material to walk in confident. Amber = solid but a gap (usually a second numeric score or a missing market). Red = thin, treat with caution. This is the honest signal of where the research stands.</div>
   <div class="panel" style="margin-top:12px;overflow-x:auto">
@@ -212,6 +216,25 @@ function renderProducer(){
     <div style="margin:8px 0">${brands}</div>
     ${p.portfolio?`<div class="note">Wider portfolio: ${esc(p.portfolio)}</div>`:""}
     <div class="note" style="margin-top:6px">Glengoyne, Tamdhu &amp; Rosebank are owned distilleries; Isle of Skye is the house blend.</div>`;
+}
+
+/* ---------- TOTAL WINE (venue) ---------- */
+function renderTotalWine(){
+  const order=(DATA.tasting_order&&DATA.tasting_order.length)?DATA.tasting_order:BOTTLES.map(b=>b.id);
+  const byId=Object.fromEntries(BOTTLES.map(b=>[b.id,b]));
+  let rows=`<tr><th>Bottle</th><th>🏬 Total Wine</th><th>Official RRP</th><th>US range</th></tr>`;
+  for(const id of order){ const b=byId[id]; if(!b) continue;
+    const tw=b._totalwine; let cell;
+    if(tw&&tw.carried) cell=`<b style="color:var(--gold2)">${fmtU(tw.price)}</b> ${tw.source_id?srcLink(tw.source_id,'src'):''}`;
+    else if(tw&&tw.carried===false) cell=`<span class="note">not carried ${tw.source_id?srcLink(tw.source_id,'(confirmed)'):''}</span>`;
+    else cell=`<span class="note">—</span>`;
+    const rrp=b._officialRRP;
+    const rrpc = rrp?((rrp.gbp?`£${Number(rrp.gbp).toLocaleString()}`:'')+(rrp.gbp&&rrp.usd?' / ':'')+(rrp.usd?`$${Number(rrp.usd).toLocaleString()}`:'')):'—';
+    const usr=b._us?(b._us.min!==b._us.max?`${fmtU(b._us.min)}–${fmtU(b._us.max)}`:fmtU(b._us.primary)):'—';
+    rows+=`<tr><td>${esc(b.display_name)}</td><td>${cell}</td><td class="note">${rrpc}</td><td class="note">${usr}</td></tr>`;
+  }
+  document.getElementById("totalwine").innerHTML=`<table>${rows}</table>
+    <div class="note" style="margin-top:8px">Total Wine prices are 750ml and can vary by state/store; captured ${esc((DATA.meta||{}).anchor||"")}.</div>`;
 }
 
 /* ---------- COVERAGE MATRIX ---------- */
@@ -350,7 +373,13 @@ function priceCell(b){
     : "";
   const uk=(b.prices?.uk||[]).map(p=>srcLink(p.source_id,fmtG(p.price_gbp)+" · "+(p.retailer||"")+(p.as_of?` (${esc(p.as_of)})`:""))).join("<br>")||'<span class="note">no UK price</span>';
   const us=(b.prices?.us||[]).map(p=>srcLink(p.source_id,fmtU(p.price_usd)+" · "+(p.retailer||"")+(p.as_of?` (${esc(p.as_of)})`:""))).join("<br>")||'<span class="note">no US price</span>';
-  return `<div class="price">
+  const tw=b._totalwine;
+  const twLine = tw
+    ? (tw.carried
+        ? `<div class="chip" style="background:#3a2a12;border-color:var(--gold)">🏬 Total Wine (venue): <b>${fmtU(tw.price)}</b> ${tw.source_id?srcLink(tw.source_id,'src'):''}</div>`
+        : `<div class="chip">🏬 Total Wine: <span class="note">not carried — buy elsewhere</span></div>`)
+    : "";
+  return `${twLine}<div class="price">
     ${tile(b._uk,fmtG,"UK")}
     ${tile(b._us,fmtU,"US")}
     ${secTile}</div>
@@ -425,7 +454,7 @@ function renderSources(){
 }
 
 /* ---------- INIT ---------- */
-renderMeta(); renderProducer(); renderSliders(); refresh(); renderSources();
+renderMeta(); renderProducer(); renderTotalWine(); renderSliders(); refresh(); renderSources();
 </script>
 </body>
 </html>

@@ -90,6 +90,18 @@ def secondary(b):
             best = (rank, cand)
     return best[1] if best else None
 
+def total_wine(b):
+    """Total Wine (venue) price: explicit total_wine field, else a Total Wine prices.us entry."""
+    tw = b.get("total_wine")
+    if isinstance(tw, dict) and "carried" in tw:
+        if tw.get("carried"):
+            return {"carried": True, "price": tw.get("price_usd"), "url": tw.get("url"), "source_id": tw.get("source_id")}
+        return {"carried": False, "source_id": tw.get("source_id")}
+    for p in b.get("prices", {}).get("us", []):
+        if "total wine" in (p.get("retailer", "") or "").lower() and num(p.get("price_usd")) and not is_unverified(p.get("price_usd")):
+            return {"carried": True, "price": round(p["price_usd"]), "url": p.get("url"), "source_id": p.get("source_id")}
+    return None
+
 def recompute_coverage(b, manifest):
     srcs = [s for s in manifest if isinstance(s, dict) and s.get("bottle") == b["id"]]
     reviews = sum(1 for s in srcs if str(s.get("type", "")).startswith("review"))
@@ -144,6 +156,7 @@ def build():
         # official RRP from the producer layer
         im = (distilleries.get(b.get("distillery_id"), {}) or {}).get("ian_macleod", {}) or {}
         b["_officialRRP"] = (im.get("official_rrp", {}) or {}).get(b["id"])
+        b["_totalwine"] = total_wine(b)
         # coverage recompute (uses _secondary) + write back
         crit, status = recompute_coverage(b, manifest)
         b.setdefault("coverage", {})
