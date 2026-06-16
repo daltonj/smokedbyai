@@ -57,6 +57,35 @@
         "url": "https://www.buymyliquor.com/products/rosebank-30-year-old-release-1-2020-edition",
         "source_id": "src_rosebank-31-r1_usretail",
         "as_of": "2026-06-16"
+      },
+      {
+        "retailer": "Wine-Searcher (USA average)",
+        "price_usd": 3040.0,
+        "url": "https://www.wine-searcher.com/find/rosebank+thirty+old+single+malt+scotch+whisky+lowland+scotland",
+        "source_id": "src_rosebank-31-r1_usretail_flask",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "FLASK Fine Wines",
+        "price_usd": null,
+        "url": "https://flaskfinewines.com/products/rosebank-30-year-old-1990-release-1-70cl-48-6",
+        "source_id": "src_rosebank-31-r1_usretail_flask",
+        "as_of": "2026-06",
+        "note": "Named US retailer (Los Angeles) carrying the 30yo Release One; specific listing price not resolved via WebSearch (WebFetch blocked). Wine-Searcher US average $3,040 applies."
+      },
+      {
+        "retailer": "Corkdorks Nashville",
+        "price_usd": 3209.99,
+        "url": "https://corkdorkswine.com/shop/product/rosebank-30-years-old-1990-2020-release-1-48-6-1-of-4350-750ml-/60e86cf7858be34f91e8447b",
+        "source_id": "src_rosebank-31-r1_usretail_flask",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "Riverhead Liquor Mart",
+        "price_usd": 3299.99,
+        "url": "https://riverheadliquormart.com/shop/product/rosebank-30-years-old-1990-2020-release-1-48-6-1-of-4350-750ml-/60e86cf7858be34f91e8447b",
+        "source_id": "src_rosebank-31-r1_usretail_flask",
+        "as_of": "2026-06"
       }
     ]
   },

@@ -271,5 +271,31 @@
     "local_path": "kb/sources/rosebank/src_rosebank-31-r2_whiskyadvocate.md",
     "key_data": "Whisky Advocate (Jonny McCormick) score 91/100 for the 31yo Release Two, Winter 2022, $3,300, 48.1%. Additional professional critic score beyond Whisky Auctioneer 91 / Whiskybase 90.42. Reproduced across 2 independent WebSearch queries.",
     "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r1_usretail_flask",
+    "bottle": "rosebank-31-r1",
+    "source_name": "FLASK Fine Wines / World Wine Whisky / Wine-Searcher (US retail, 30yo Release One)",
+    "url": "https://flaskfinewines.com/products/rosebank-30-year-old-1990-release-1-70cl-48-6",
+    "type": "retail",
+    "source_date": "2026-06-16",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "fresh",
+    "local_path": "kb/sources/rosebank/src_rosebank-31-r1_usretail_flask.md",
+    "key_data": "US retail for the 30yo Release One (48.6%, confirmed identity): Wine-Searcher USA average $3,040 (reproduced x2); named US retailers FLASK Fine Wines, World Wine Whisky US, TheWineStop carry it; Corkdorks $3,209.99; Riverhead $3,299.99 (alongside existing BuyMyLiquor $2,999.99). Excluded unreproduced $3,610-$3,968 range and $99.99 glitch.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r2_usretail",
+    "bottle": "rosebank-31-r2",
+    "source_name": "FLASK Fine Wine & Whisky / Frootbat / Hi-Time Wine / Binny's / Wine-Searcher (US retail, 31yo Release Two)",
+    "url": "https://flaskfinewines.com/products/rosebank-31-year-old-release-two-2022-48-1",
+    "type": "retail",
+    "source_date": "2026-06-16",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "fresh",
+    "local_path": "kb/sources/rosebank/src_rosebank-31-r2_usretail.md",
+    "key_data": "US retail for the 31yo Release Two (48.1%, confirmed identity): FLASK Fine Wine & Whisky (LA) $2,699.97 ex-tax (reproduced x2); Wine-Searcher USA average $2,353 ex-tax (reproduced x2); US MSRP $3,300 (existing). Also carried by Frootbat, Hi-Time Wine, Binny's, World Wine Whisky US, Bottega Whiskey, Ace Beverage DC. Excluded unreproduced Total Wine $2,000 and $4,000 figures.",
+    "method": "websearch_excerpt"
   }
 ]

@@ -63,6 +63,20 @@
         "url": "https://www.pastemagazine.com/drink/whiskey/rosebank-31-year-old-single-malt-scotch-whisky-review-price-flavors-lowland",
         "source_id": "src_rosebank-31-r2_pastemagazine",
         "as_of": "2023"
+      },
+      {
+        "retailer": "FLASK Fine Wine & Whisky (Los Angeles)",
+        "price_usd": 2699.97,
+        "url": "https://flaskfinewines.com/products/rosebank-31-year-old-release-two-2022-48-1",
+        "source_id": "src_rosebank-31-r2_usretail",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "Wine-Searcher (USA average, ex-tax)",
+        "price_usd": 2353.0,
+        "url": "https://www.wine-searcher.com/find/rosebank+31+old+single+malt+scotch+whisky+lowland+scotland",
+        "source_id": "src_rosebank-31-r2_usretail",
+        "as_of": "2026-06"
       }
     ]
   },
