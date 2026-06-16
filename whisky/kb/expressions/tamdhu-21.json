@@ -1,0 +1,66 @@
+{
+  "id": "tamdhu-21",
+  "distillery_id": "tamdhu",
+  "display_name": "Tamdhu 21 Year Old (Oloroso Sherry Cask Matured)",
+  "category": "single malt",
+  "age_years": 21,
+  "abv": 47.5,
+  "cask": "Exclusively Oloroso sherry-seasoned casks — hand-selected combination of first-fill & refill American and European oak (European oak dominant), sourced from Jerez, Spain",
+  "natural_colour": true,
+  "chill_filtered": false,
+  "outturn_or_availability": "Core range (oldest core-range expression). 12,000 bottles worldwide; global release Aug 2025, arrived in US market Aug 2025.",
+  "vitals_source_ids": ["src_tamdhu-21_official_vitals", "src_tamdhu-21_whiskeywash_news", "src_tamdhu-21_masterofmalt"],
+
+  "tasting": {
+    "nose": "Wisps of sherried oak with chocolate, sultanas and warm cinnamon porridge; plump raisins and fresh figs, red berries and orange peels, whiffs of old oak and a hint of furniture wax, tobacco leaves and walnut skins, toffee and cinnamon syrup (official + WhiskyNotes/Whiskey Wash).",
+    "palate": "Christmas cake of plump raisins, candied orange and gentle oak. A sweet spot between European oak spice and the roundness of American oak — creamy, juicy mouthfeel with bold dense flavours: bitter dark chocolate, cocoa nibs and bittersweet coffee, then sweet vanilla pods, fresh ground clove and nutmeg, dried sultanas and raisins tempered by fresher red grapefruit, orange zest and a tropical kumquat twist.",
+    "finish": "Endless waves of oak and spice that finally give way to sweet fruit; glides between rich oak, intense Christmas fruits and spices and refreshing ginger and citrus.",
+    "narrative": "Tamdhu's first core-range 21 Year Old is the distillery's oldest standing expression and its most decorated: Overall Winner at the 2026 Spirit of Speyside Whisky Awards (Gold in the 18-and-over class) and Whisky of the Year at the Scottish Field Whisky Challenge. Matured exclusively in hand-selected first-fill and refill American and European oak Oloroso casks from Jerez (European oak dominant), it pairs a creamy, juicy texture with a dense, dark-chocolate-and-Christmas-cake core, kept lively by citrus and tropical freshness. Critics frame it explicitly as a value Macallan alternative — Robb Report's Jonah Flicker calls it a 'decadent sherry bomb for Macallan lovers,' noting it is only four years younger than the Macallan 25 yet sells near $400 versus ~$3,000, 'just as good, if not better.' WhiskyNotes praises the balance between the two oak types as 'just right ... not outrageously priced.' Verdict: a benchmark, fairly-priced sherried Speysider at 47.5%, natural colour and un-chill-filtered — though scoring/tasting synthesis here is provisional pending verbatim source verification (WebFetch blocked this run).",
+    "source_ids": ["src_tamdhu-21_official_vitals", "src_tamdhu-21_whiskynotes", "src_tamdhu-21_whiskeywash_review", "src_tamdhu-21_robbreport_score", "src_tamdhu-21_whiskyforeveryone"]
+  },
+
+  "scores": [
+    {"critic": "Robb Report / Jonah Flicker", "raw": "N/A — not found (qualitative 'Very Good' band 85–89 implied, exact /100 not exposed)", "normalized_100": null, "source_id": "src_tamdhu-21_robbreport_score"},
+    {"critic": "Spirit of Speyside Whisky Awards 2026", "raw": "Gold (18 Years & Over) + Overall Winner", "normalized_100": null, "source_id": "src_tamdhu-21_speyside_awards"},
+    {"critic": "Scottish Field Whisky Challenge 2025", "raw": "Whisky of the Year / Gold (Over £100) / Distillery Bottling of the Year", "normalized_100": null, "source_id": "src_tamdhu-21_official_vitals"}
+  ],
+
+  "prices": {
+    "uk": [
+      {"retailer": "The Whisky Exchange", "price_gbp": 299.0, "url": "https://www.thewhiskyexchange.com/p/84852/tamdhu-21-year-old", "source_id": "src_tamdhu-21_thewhiskyexchange", "as_of": "2026-06-16"},
+      {"retailer": "Master of Malt", "price_gbp": 252.70, "url": "https://www.masterofmalt.com/whiskies/tamdhu/tamdhu-21-year-old-sherry-cask-matured-whisky/", "source_id": "src_tamdhu-21_masterofmalt", "as_of": "2026-06-16"}
+    ],
+    "us": [
+      {"retailer": "Total Wine & More", "price_usd": 399.99, "url": "https://www.totalwine.com/spirits/scotch/single-malt/tamdhu-21-year-old-single-malt-scotch-whisky/p/2126262625", "source_id": "src_tamdhu-21_totalwine", "as_of": "2026-06-16"}
+    ]
+  },
+
+  "auction": {
+    "platform_data": []
+  },
+
+  "rubric": {
+    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
+    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
+    "composite": 0
+  },
+
+  "coverage": {
+    "status": "amber",
+    "criteria": {
+      "reviews_ge_3": true, "scores_ge_2": false, "uk_price": true,
+      "us_price": true, "auction_point": false, "fresh_point": true
+    },
+    "gaps": [
+      "WebFetch BLOCKED (HTTP 403) this run; all values are WebSearch-surfaced excerpts only (capture_method: websearch_excerpt) — UNVERIFIED on-page.",
+      "No numeric /100 critic score retrieved: Robb Report exact number not exposed (only 'Very Good' 85–89 band implied); Whiskybase community rating not retrieved (entry IDs 275299 & 274858, ~7 reviews per snippet but score/votes blocked).",
+      "scores_ge_2 fails: have 3 award/critic entries but zero numeric normalized_100 scores.",
+      "UK prices (TWE £299, MoM £252.70) and US ($399.99) not confirmed on live pages.",
+      "No auction/secondary point: 2025 core-range 21 YO too new; auction lots found were a different older Cask Strength limited edition.",
+      "Robb Report exact ABV/USD restated from news SRP, not from the review page itself."
+    ]
+  },
+
+  "verification": {"status": "pending", "report_id": "tamdhu-21.verify.json"},
+  "last_updated": "2026-06-16T03:52:00Z"
+}
