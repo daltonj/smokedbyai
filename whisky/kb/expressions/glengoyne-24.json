@@ -79,6 +79,14 @@
         "url": "https://whiskyadvocate.com/Glengoyne-Oak-Masters-24-year-old-White-Oak-47-8",
         "source_id": "src_glengoyne-24_whiskyadvocate",
         "as_of": "2025-summer"
+      },
+      {
+        "retailer": "Wine-Searcher (US average, 750ml-basis)",
+        "price_usd": 430.0,
+        "note": "US market average ex-tax; global avg $443. SRP $400.",
+        "url": "https://www.wine-searcher.com/find/glen+goyne+white+oak+24+old+single+malt+scotch+whisky+highlands+scotland/1/usa",
+        "source_id": "src_glengoyne-24_winesearcher_us",
+        "as_of": "2026-06"
       }
     ]
   },
@@ -142,5 +150,5 @@
     },
     "note": "Re-verified 2026-06-16T22:10Z. PASS — all core fields reproduce live. 1 mismatch (TWE £415 stale -> quarantined) does not gate pass; uk_price held via The Whisky Shop £453."
   },
-  "last_updated": "2026-06-16"
+  "last_updated": "2026-06-16T22:50:00Z"
 }

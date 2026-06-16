@@ -70,9 +70,26 @@
       {
         "retailer": "Total Wine & More",
         "price_usd": 399.99,
+        "note": "Standard US shelf price = US SRP $399.99 (47.5%, 750ml). Corroborated by Whiskey Wash + Spirits Business (src_tamdhu-21_us_srp).",
         "url": "https://www.totalwine.com/spirits/scotch/single-malt/tamdhu-21-year-old-single-malt-scotch-whisky/p/2126262625",
         "source_id": "src_tamdhu-21_totalwine",
         "as_of": "2026-06-16"
+      },
+      {
+        "retailer": "Total Wine & More (Concierge)",
+        "price_usd": 299.99,
+        "note": "US low end: Concierge pre-arrival offer, 25% off ($100 off) the $399.99 SRP; concierge-only, not valid in-store. Reproduced twice.",
+        "url": "https://concierge.totalwine.com/concierge-offers/tamdhu-21-year-single-malt-scotch-whisky-speyside-scotland",
+        "source_id": "src_tamdhu-21_totalwine_concierge",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "Still Spirit",
+        "price_usd": 399.99,
+        "note": "Named US retailer carrying the core 21 YO; exact on-page price NOT exposed in search excerpts — listed at the US SRP band (~$399-403, =£299 RRP). Price not independently asserted from a per-store figure.",
+        "url": "https://www.stillspirit.com/en-us/products/tamdhu-21-year-old",
+        "source_id": "src_tamdhu-21_stillspirit",
+        "as_of": "2026-06"
       }
     ]
   },
@@ -124,5 +141,5 @@
     "reverified_at": "2026-06-16T05:10:00Z",
     "note": "RE-VERIFICATION cleared the prior FAIL: TWE UK price re-sourced to live £295 (RRP £299 distinct, held in price note) and Master of Malt £252.70 now reproduces. All present core fields verify."
   },
-  "last_updated": "2026-06-16T05:10:00Z"
+  "last_updated": "2026-06-16T21:45:00Z"
 }

@@ -61,6 +61,46 @@
         "url": "https://www.totalwine.com/spirits/scotch/single-malt/tamdhu-18-year-single-malt-scotch/p/2126234907",
         "source_id": "src_tamdhu-18_totalwine",
         "as_of": "2026-06-16"
+      },
+      {
+        "retailer": "Wine-Searcher (US average)",
+        "price_usd": 199.0,
+        "note": "US aggregate average ex-tax (~$199-201 across FL/IL); Wine-Searcher US range min ~$199.99 to max ~$335.99.",
+        "url": "https://www.wine-searcher.com/find/tamdhu+eighteen+old+single+malt+scotch+whisky+speyside+scotland/1/usa",
+        "source_id": "src_tamdhu-18_winesearcher_us",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "Hi-Time Wine Cellars",
+        "price_usd": 229.99,
+        "note": "Out of stock at capture; single-search support.",
+        "url": "https://hitimewine.net/tamdhu-18-year-old-single-malt-scotch-whisky.html",
+        "source_id": "src_tamdhu-18_hitime",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "K&L Wine Merchants",
+        "price_usd": 239.99,
+        "note": "SKU 1651408; out of stock at capture. Reproduced twice.",
+        "url": "https://shop.klwines.com/products/details/1651408",
+        "source_id": "src_tamdhu-18_klwines",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "Uncle Fossil Wine & Spirits",
+        "price_usd": 259.99,
+        "note": "Page title lists $259, body $259.99. Reproduced twice.",
+        "url": "https://www.unclefossil.com/tamdhu-18-year-old-single-malt-scotch-whisky-750ml.html",
+        "source_id": "src_tamdhu-18_unclefossil",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "Frootbat",
+        "price_usd": 335.99,
+        "note": "US high end; Wine-Searcher US max for this bottle (a $264.99 figure also surfaced).",
+        "url": "https://www.wine-searcher.com/find/tamdhu+eighteen+old+single+malt+scotch+whisky+speyside+scotland/1/usa",
+        "source_id": "src_tamdhu-18_frootbat",
+        "as_of": "2026-06"
       }
     ]
   },
@@ -126,5 +166,5 @@
     },
     "reverified_at": "2026-06-16T05:10:00Z"
   },
-  "last_updated": "2026-06-16T05:10:00Z"
+  "last_updated": "2026-06-16T21:45:00Z"
 }

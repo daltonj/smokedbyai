@@ -45,10 +45,10 @@
     "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-25-year-single-malt-scotch/p/173092750",
     "type": "retail",
     "source_date": "2026-06",
-    "fetched_at": "2026-06-16T03:08:00Z",
+    "fetched_at": "2026-06-16T22:42:00Z",
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_totalwine.md",
-    "key_data": "US listing confirmed exists; exact price N/A — not found in snippet",
+    "key_data": "US retail (Total Wine & More) = $499.99 (750ml, 48%); reproduced x2 (World Wine Liquors also $499.99). Sherry Oak 25.",
     "retrieval_method": "websearch_excerpt"
   },
   {
@@ -257,6 +257,71 @@
     "freshness": "stale",
     "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_robbreport_list.md",
     "key_data": "RANK VERIFICATION: Robb Report list is '10 Best Whiskeys of 2025 So Far' (unranked list); NO confirmable '#2' on Robb Report's own site -> node softened to 'named among Robb Report's best whiskies of 2025'",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-24_winesearcher_us",
+    "bottle": "glengoyne-24",
+    "source_name": "Wine-Searcher (US market average)",
+    "url": "https://www.wine-searcher.com/find/glen+goyne+white+oak+24+old+single+malt+scotch+whisky+highlands+scotland/1/usa",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T22:40:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-24_winesearcher_us.md",
+    "key_data": "Wine-Searcher US average $430/750ml (global avg $443); SRP $400. White Oak 24 (bourbon/virgin oak), NOT the Sherry Oak 25. Reproduced x2.",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-25_worldwineliquors",
+    "bottle": "glengoyne-25",
+    "source_name": "World Wine Liquors (US retail)",
+    "url": "https://worldwineliquors.com/product/glengoyne-25-years-750ml/",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T22:44:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_worldwineliquors.md",
+    "key_data": "US retail (World Wine Liquors) = $499.99 (750ml). Sherry Oak 25. Reproduced x2.",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-25_liquorbarn",
+    "bottle": "glengoyne-25",
+    "source_name": "The Liquor Barn (US retail)",
+    "url": "https://theliquorbarn.com/products/glengoyne-25-year-750ml",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T22:45:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_liquorbarn.md",
+    "key_data": "US retail (The Liquor Barn) = $649.99 (750ml, special order). Sherry Oak 25. Reproduced x2.",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-25_northwestliquor",
+    "bottle": "glengoyne-25",
+    "source_name": "Northwest Liquor & Wine (US retail)",
+    "url": "https://northwestliquorwine.com/products/glengoyne-25-yr",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T22:46:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_northwestliquor.md",
+    "key_data": "US retail (Northwest Liquor & Wine) = $849.99 (750ml, sold out) — high end of US spread. Sherry Oak 25. Reproduced x2.",
+    "retrieval_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_glengoyne-25_winesearcher_us",
+    "bottle": "glengoyne-25",
+    "source_name": "Wine-Searcher (US market average)",
+    "url": "https://www.wine-searcher.com/find/glen+goyne+25+old+single+malt+scotch+whisky+highlands+scotland",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T22:47:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/glengoyne/src_glengoyne-25_winesearcher_us.md",
+    "key_data": "Wine-Searcher US average $529/750ml; per-store excerpts $499.99-$849.99. Sherry Oak 25. Reproduced x2.",
     "retrieval_method": "websearch_excerpt"
   }
 ]

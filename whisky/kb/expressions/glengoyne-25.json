@@ -79,10 +79,41 @@
         "as_of": "2025-08"
       },
       {
-        "retailer": "Total Wine & More (listing exists; price not captured)",
-        "price_usd": null,
+        "retailer": "Total Wine & More",
+        "price_usd": 499.99,
         "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-25-year-single-malt-scotch/p/173092750",
         "source_id": "src_glengoyne-25_totalwine",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "World Wine Liquors",
+        "price_usd": 499.99,
+        "url": "https://worldwineliquors.com/product/glengoyne-25-years-750ml/",
+        "source_id": "src_glengoyne-25_worldwineliquors",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "The Liquor Barn",
+        "price_usd": 649.99,
+        "note": "special order",
+        "url": "https://theliquorbarn.com/products/glengoyne-25-year-750ml",
+        "source_id": "src_glengoyne-25_liquorbarn",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "Northwest Liquor & Wine",
+        "price_usd": 849.99,
+        "note": "listed sold out; high end of US spread",
+        "url": "https://northwestliquorwine.com/products/glengoyne-25-yr",
+        "source_id": "src_glengoyne-25_northwestliquor",
+        "as_of": "2026-06"
+      },
+      {
+        "retailer": "Wine-Searcher (US average, 750ml-basis)",
+        "price_usd": 529.0,
+        "note": "US market average ex-tax; per-store range $499.99-$849.99",
+        "url": "https://www.wine-searcher.com/find/glen+goyne+25+old+single+malt+scotch+whisky+highlands+scotland",
+        "source_id": "src_glengoyne-25_winesearcher_us",
         "as_of": "2026-06"
       }
     ]
@@ -147,5 +178,5 @@
     },
     "note": "Re-verified 2026-06-16T22:15Z after gap-fill. PASS — all 14 fields reproduce LIVE incl. the 3 new UK prices (MoM £419.90 / shop £499 / Royal Mile £525), Whiskybase 89.74 (324 ratings), Drinkhacker A-, WhiskyNotes review. No 24-vs-25 conflation, no currency mix-ups (GBP retail vs $600 USD MSRP vs £250 GBP secondary; the €294 EUR belongs to the 24, not here)."
   },
-  "last_updated": "2026-06-16"
+  "last_updated": "2026-06-16T22:50:00Z"
 }
