@@ -9,45 +9,87 @@
   "natural_colour": true,
   "chill_filtered": false,
   "outturn_or_availability": "Core-range / ongoing premium expression; also a Fine & Rare 25YO exists separately. Exact outturn N/A — not found.",
-  "vitals_source_ids": ["src_glengoyne-25_glengoyneofficial", "src_glengoyne-25_thewhiskeywash"],
-
+  "vitals_source_ids": [
+    "src_glengoyne-25_glengoyneofficial",
+    "src_glengoyne-25_thewhiskeywash"
+  ],
   "tasting": {
     "nose": "Dried figs and raisins, rich chocolate and toffee pudding, red fruits, leather and brown sugar.",
     "palate": "Warm oak, rich fig, raisins, decadent chocolate, hazelnut and butterscotch; soft oak, cinnamon, stewed fruits and a Seville-marmalade tang.",
     "finish": "Very long, spicy liquorice, slowly drying.",
     "narrative": "This is the orthodox Glengoyne: a quarter-century exclusively in hand-selected sherry casks, coppery-red in the glass and trading on depth rather than weight. The nose stacks dried figs, raisins, rich chocolate and toffee pudding over red fruits, leather and brown sugar; the palate follows with warm oak, fig, raisins, decadent chocolate, hazelnut and butterscotch, lifted by cinnamon, stewed fruit and a Seville-marmalade tang (The Whiskey Wash; corroborated by the distillery's own notes). The finish is very long, spicy liquorice slowly drying out. Crucially for an old sherried malt, the captured notes show no sulphur and no sharpness — this is clean sherry maturation on Scotland's slowest-distilled spirit, natural colour and non-chill-filtered at 48%. The Whiskey Wash named it Best Scotch at its 2025 Awards. The catch is thin evidence: one real review and an award, no numeric 100-pt scores, and a secondary average (~£250) that sits below its premium retail. VERDICT: POUR — a benchmark, textbook old-school sherried Highlander to drink, not to chase as an investment. Keep its dried-fruit/chocolate sherry profile firmly separate from the citrus-and-vanilla White Oak 24.",
-    "source_ids": ["src_glengoyne-25_thewhiskeywash", "src_glengoyne-25_glengoyneofficial"]
+    "source_ids": [
+      "src_glengoyne-25_thewhiskeywash",
+      "src_glengoyne-25_glengoyneofficial"
+    ]
   },
-
   "scores": [
-    {"critic": "The Whiskey Wash (Awards)", "raw": "Best Scotch — The Whiskey Wash Awards 2025", "normalized_100": null, "source_id": "src_glengoyne-25_thewhiskeywash"}
+    {
+      "critic": "The Whiskey Wash (Awards)",
+      "raw": "Best Scotch — The Whiskey Wash Awards 2025",
+      "normalized_100": null,
+      "source_id": "src_glengoyne-25_thewhiskeywash"
+    }
   ],
-
   "prices": {
     "uk": [],
     "us": [
-      {"retailer": "The Whiskey Wash (stated MSRP)", "price_usd": 600.0, "url": "https://thewhiskeywash.com/whiskey-reviews/whisky-review-glengoyne-25-year-old/", "source_id": "src_glengoyne-25_thewhiskeywash", "as_of": "2025-08"},
-      {"retailer": "Total Wine & More (listing exists; price not captured)", "price_usd": null, "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-25-year-single-malt-scotch/p/173092750", "source_id": "src_glengoyne-25_totalwine", "as_of": "2026-06"}
+      {
+        "retailer": "The Whiskey Wash (stated MSRP)",
+        "price_usd": 600.0,
+        "url": "https://thewhiskeywash.com/whiskey-reviews/whisky-review-glengoyne-25-year-old/",
+        "source_id": "src_glengoyne-25_thewhiskeywash",
+        "as_of": "2025-08"
+      },
+      {
+        "retailer": "Total Wine & More (listing exists; price not captured)",
+        "price_usd": null,
+        "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-25-year-single-malt-scotch/p/173092750",
+        "source_id": "src_glengoyne-25_totalwine",
+        "as_of": "2026-06"
+      }
     ]
   },
-
   "auction": {
     "platform_data": [
-      {"platform": "Whisky Returns (secondary aggregate)", "currency": "GBP", "min": null, "avg": 250, "max": null, "latest_hammer": null, "trend": "N/A — not found", "url": "https://whiskyreturns.com/glengoyne-25-year-old-whisky-investment-data/", "source_id": "src_glengoyne-25_whiskyreturns", "as_of": "2026-01-28"}
+      {
+        "platform": "Whisky Returns (secondary aggregate)",
+        "currency": "GBP",
+        "min": null,
+        "avg": 250,
+        "max": null,
+        "latest_hammer": null,
+        "trend": "N/A — not found",
+        "url": "https://whiskyreturns.com/glengoyne-25-year-old-whisky-investment-data/",
+        "source_id": "src_glengoyne-25_whiskyreturns",
+        "as_of": "2026-01-28"
+      }
     ]
   },
-
   "rubric": {
-    "drinking": {"critic_consensus": 12, "complexity": 9, "impact": 8, "presentation": 7},
-    "value": {"price_to_quality": 8, "rarity": 5, "appreciation": 5, "collectibility": 5},
+    "drinking": {
+      "critic_consensus": 12,
+      "complexity": 9,
+      "impact": 8,
+      "presentation": 7
+    },
+    "value": {
+      "price_to_quality": 8,
+      "rarity": 5,
+      "appreciation": 5,
+      "collectibility": 5
+    },
     "composite": 59
   },
-
   "coverage": {
     "status": "red",
     "criteria": {
-      "reviews_ge_3": false, "scores_ge_2": false, "uk_price": false,
-      "us_price": true, "auction_point": true, "fresh_point": true
+      "reviews_ge_3": false,
+      "scores_ge_2": false,
+      "uk_price": false,
+      "us_price": true,
+      "auction_point": true,
+      "fresh_point": true
     },
     "gaps": [
       "UK retail £ price not captured (TWE p/24158 and MoM both 403/snippet-only)",
@@ -57,7 +99,15 @@
       "ALL captures via websearch_excerpt/snippet — WebFetch blocked (HTTP 403); verbatim re-fetch required"
     ]
   },
-
-  "verification": {"status": "pending", "report_id": "glengoyne-25.verify.json"},
+  "verification": {
+    "status": "passed",
+    "report_id": "glengoyne-25.verify.json",
+    "pass": true,
+    "summary": {
+      "verified": 8,
+      "mismatch": 0,
+      "unsupported": 0
+    }
+  },
   "last_updated": "2026-06-16"
 }

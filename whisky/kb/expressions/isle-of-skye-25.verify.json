@@ -1,0 +1,44 @@
+{
+  "expression_id": "isle-of-skye-25",
+  "verified_at": "2026-06-16T04:12:00Z",
+  "method": "Each datapoint checked literally against its cited capture, then re-confirmed via targeted WebSearch (WebFetch blocked 403; reproduction-by-search is the standard).",
+  "fields": [
+    {"field": "abv", "claimed": 40.0, "verdict": "verified",
+     "evidence_quote": "The whisky is bottled at 40% ABV and costs $210.",
+     "source_id": "src_isle-of-skye-25_whiskyadvocate",
+     "websearch_reproduced": true},
+
+    {"field": "scores[0].normalized_100", "claimed": 94, "verdict": "verified",
+     "evidence_quote": "the Isle of Skye 25 year old received a Whisky Advocate rating of 94 points.",
+     "source_id": "src_isle-of-skye-25_whiskyadvocate",
+     "websearch_reproduced": true, "reproduction_note": "WebSearch on whiskyadvocate.com re-confirms 94 points and '$210' and 'a 25 year old that offers great value for the money.' Attributed to 25YO (correct expression). Minor: the live excerpt did not surface the reviewer name 'Jonny McCormick'; the 94 itself reproduces unambiguously."},
+
+    {"field": "scores[1] (SFWSC 2025 award)", "claimed": "Best Blended Scotch (16+) + Best Overall Blended Scotch Whisky", "verdict": "verified",
+     "evidence_quote": "Isle of Skye 25 Year Old has secured Best Blended Scotch (16+ Years) and Best Overall Blended Scotch Whisky at the 2025 San Francisco World Spirits Competition.",
+     "source_id": "src_isle-of-skye-25_thewhiskeywash_award",
+     "websearch_reproduced": true, "reproduction_note": "Independent WebSearch reproduces both titles, the 2025 SFWSC, announced 12 Nov 2025 Edinburgh, >1,500 blind entries, and 'a beautifully crafted Scotch.' normalized_100 correctly null (medal, not a number)."},
+
+    {"field": "prices.uk[0].price_gbp", "claimed": 250.0, "verdict": "verified",
+     "evidence_quote": "The Isle of Skye 25 Year Old Blended Whisky is available in the UK for £250 (or £208.33 ex VAT)",
+     "source_id": "src_isle-of-skye-25_thewhiskyexchange",
+     "websearch_reproduced": true, "reproduction_note": "Currency GBP correct; matches SRP £250 stated in the award capture too."},
+
+    {"field": "prices.us[0].price_usd", "claimed": 186.0, "verdict": "verified",
+     "evidence_quote": "The average price (ex-tax) is $186 per 750ml according to Wine-Searcher.",
+     "source_id": "src_isle-of-skye-25_winesearcher",
+     "websearch_reproduced": true, "reproduction_note": "Honestly labelled 'US market avg (Wine-Searcher, ex-tax)', not a single retailer fact; SRP ~$179 kept distinct."},
+
+    {"field": "prices.us[1].price_usd", "claimed": 210.0, "verdict": "verified",
+     "evidence_quote": "The whisky is bottled at 40% ABV and costs $210.",
+     "source_id": "src_isle-of-skye-25_whiskyadvocate",
+     "websearch_reproduced": true, "reproduction_note": "Labelled 'Whisky Advocate (stated price)' with as_of 2023-fall — stale correctly flagged, not presented as a fresh live retail price."},
+
+    {"field": "auction.platform_data[0].min", "claimed": 200.95, "verdict": "verified",
+     "evidence_quote": "the lowest price listed on Whiskybase is €200.95.",
+     "source_id": "src_isle-of-skye-25_whiskybase",
+     "websearch_reproduced": true, "reproduction_note": "Independent WebSearch reproduces 'lowest price listed is €200.95, with 15 online shops' against whiskybase whisky/192613 (the 25YO page in the node url). Currency EUR correct, attributed to 25YO. avg/max/hammer correctly null (gated)."}
+  ],
+  "summary": {"verified": 7, "mismatch": 0, "unsupported": 0},
+  "notes": "Coverage gaps (only 2 review captures, only 1 numeric score) are insufficiency, not truthfulness defects. No currency mix-up, no wrong-expression attribution, no averaged-range-as-single-fact found. The 25YO is the cleanest node in the cluster.",
+  "pass": true
+}

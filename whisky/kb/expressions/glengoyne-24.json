@@ -9,50 +9,117 @@
   "natural_colour": true,
   "chill_filtered": false,
   "outturn_or_availability": "Limited release ('will not return once sold out'). UK launch 10 Jul 2024 (RRP £430); US debut Mar 2025 ($400). Exact outturn N/A — not found.",
-  "vitals_source_ids": ["src_glengoyne-24_whiskyadvocate", "src_glengoyne-24_whiskymag", "src_glengoyne-24_robbreport"],
-
+  "vitals_source_ids": [
+    "src_glengoyne-24_whiskyadvocate",
+    "src_glengoyne-24_whiskymag",
+    "src_glengoyne-24_robbreport"
+  ],
   "tasting": {
     "nose": "Rich vanilla and toasted oak, lemon curd, honey, plum jam, desiccated coconut, spiced apple pastry dusted with icing sugar and lime zest; per Whisky Advocate also passion-fruit panna cotta, dried mango and cinnamon spice.",
     "palate": "Gently balanced and bright: lemon and key-lime pie, honeycomb, gentle tropical notes and soft oak, with star anise, vanilla and emerging chocolate (Whisky Advocate finds rich chocolate ganache/cocoa); Drinkhacker notes white chocolate, grapefruit pith and big toasty charred oak.",
     "finish": "Long and well-aged: toffee apple, delicate citrus and lingering oak, with chocolate sticking the landing.",
     "narrative": "This is Glengoyne off-script and the better for it. The slowest-distilled spirit in Scotland, normally dressed in sherry, is here pushed into American first-fill bourbon and virgin oak — and the result is bright, dessert-led and unmistakably NOT the 25. The nose is vanilla and toasted oak over lemon curd, honey, plum jam and desiccated coconut (Robb Report), with Whisky Advocate finding the more exotic register: passion-fruit panna cotta, dried mango and cinnamon. The palate is gently balanced — key-lime pie, honeycomb, soft tropical fruit and star anise — before chocolate muscles in: Whisky Advocate's ganache and cocoa, Drinkhacker's white chocolate over grapefruit pith and big charred oak. The finish is long and well-aged, toffee apple and citrus with cocoa sticking the landing. Pedigree is real: Robb Report ranked it the #2 whisky released in 2025; Drinkhacker an A- (~90). My one reservation is Drinkhacker's, and it is fair — the spirit reads 'just now cresting into over-maturity', so the charred oak is loud. VERDICT: BUY and POUR, not collect — a genuinely accomplished citrus-and-vanilla 24yo at sane money (~£415 / $400), but the secondary tells you the market agrees this is a drinker: Whiskystats values it BELOW retail. No flipping upside. Keep its bright bourbon/virgin-oak profile strictly walled off from the 25 Sherry Oak.",
-    "source_ids": ["src_glengoyne-24_robbreport", "src_glengoyne-24_whiskyadvocate", "src_glengoyne-24_drinkhacker"]
+    "source_ids": [
+      "src_glengoyne-24_robbreport",
+      "src_glengoyne-24_whiskyadvocate",
+      "src_glengoyne-24_drinkhacker"
+    ]
   },
-
   "scores": [
-    {"critic": "Drinkhacker (Christopher Null)", "raw": "A- (letter grade)", "normalized_100": 90, "source_id": "src_glengoyne-24_drinkhacker"},
-    {"critic": "Robb Report (Best of the Best 2025)", "raw": "#2 whisky released in 2025 (Best of the Best 2025)", "normalized_100": null, "source_id": "src_glengoyne-24_robbreport"}
+    {
+      "critic": "Drinkhacker (Christopher Null)",
+      "raw": "A- (letter grade)",
+      "normalized_100": 90,
+      "source_id": "src_glengoyne-24_drinkhacker"
+    },
+    {
+      "critic": "Robb Report (Best of the Best 2025)",
+      "raw": "#2 whisky released in 2025 (Best of the Best 2025)",
+      "normalized_100": null,
+      "source_id": "src_glengoyne-24_robbreport"
+    }
   ],
-
   "prices": {
     "uk": [
-      {"retailer": "The Whisky Exchange", "price_gbp": 415.0, "url": "https://www.thewhiskyexchange.com/p/81117/glengoyne-white-oak-24-year-old", "source_id": "src_glengoyne-24_thewhiskyexchange", "as_of": "2026-06-16"},
-      {"retailer": "Hard To Find Whisky (HTFW)", "price_gbp": 408.95, "url": "https://www.htfw.com/glengoyne-white-oak-cask-matured-24-year-old-whisky", "source_id": "src_glengoyne-24_thewhiskyexchange", "as_of": "2026-06-16"},
-      {"retailer": "The Whisky Shop", "price_gbp": 453.0, "url": "https://www.whiskyshop.com/glengoyne-24-year-old-white-oak", "source_id": "src_glengoyne-24_thewhiskyexchange", "as_of": "2026-06-16"}
+      {
+        "retailer": "The Whisky Exchange",
+        "price_gbp": 415.0,
+        "url": "https://www.thewhiskyexchange.com/p/81117/glengoyne-white-oak-24-year-old",
+        "source_id": "src_glengoyne-24_thewhiskyexchange",
+        "as_of": "2026-06-16"
+      },
+      {
+        "retailer": "Hard To Find Whisky (HTFW)",
+        "price_gbp": 408.95,
+        "url": "https://www.htfw.com/glengoyne-white-oak-cask-matured-24-year-old-whisky",
+        "source_id": "src_glengoyne-24_thewhiskyexchange",
+        "as_of": "2026-06-16"
+      },
+      {
+        "retailer": "The Whisky Shop",
+        "price_gbp": 453.0,
+        "url": "https://www.whiskyshop.com/glengoyne-24-year-old-white-oak",
+        "source_id": "src_glengoyne-24_thewhiskyexchange",
+        "as_of": "2026-06-16"
+      }
     ],
     "us": [
-      {"retailer": "Total Wine & More (700ml)", "price_usd": 399.98, "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-24yr-white-oak-single-malt/p/2126245842", "source_id": "src_glengoyne-24_totalwine", "as_of": "2026-06-16"},
-      {"retailer": "Whisky Advocate (stated price)", "price_usd": 400.0, "url": "https://whiskyadvocate.com/Glengoyne-Oak-Masters-24-year-old-White-Oak-47-8", "source_id": "src_glengoyne-24_whiskyadvocate", "as_of": "2025-summer"}
+      {
+        "retailer": "Total Wine & More (700ml)",
+        "price_usd": 399.98,
+        "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-24yr-white-oak-single-malt/p/2126245842",
+        "source_id": "src_glengoyne-24_totalwine",
+        "as_of": "2026-06-16"
+      },
+      {
+        "retailer": "Whisky Advocate (stated price)",
+        "price_usd": 400.0,
+        "url": "https://whiskyadvocate.com/Glengoyne-Oak-Masters-24-year-old-White-Oak-47-8",
+        "source_id": "src_glengoyne-24_whiskyadvocate",
+        "as_of": "2025-summer"
+      }
     ]
   },
-
   "auction": {
     "platform_data": [
-      {"platform": "Whiskystats", "currency": "EUR", "min": null, "avg": 294, "max": null, "latest_hammer": null, "trend": "N/A — not found", "url": "https://www.whiskystats.com/whisky/253591", "source_id": "src_glengoyne-24_whiskystats", "as_of": "2026-06"}
+      {
+        "platform": "Whiskystats",
+        "currency": "EUR",
+        "min": null,
+        "avg": 294,
+        "max": null,
+        "latest_hammer": null,
+        "trend": "N/A — not found",
+        "url": "https://www.whiskystats.com/whisky/253591",
+        "source_id": "src_glengoyne-24_whiskystats",
+        "as_of": "2026-06"
+      }
     ]
   },
-
   "rubric": {
-    "drinking": {"critic_consensus": 16, "complexity": 9, "impact": 8, "presentation": 7},
-    "value": {"price_to_quality": 9, "rarity": 5, "appreciation": 3, "collectibility": 5},
+    "drinking": {
+      "critic_consensus": 16,
+      "complexity": 9,
+      "impact": 8,
+      "presentation": 7
+    },
+    "value": {
+      "price_to_quality": 9,
+      "rarity": 5,
+      "appreciation": 3,
+      "collectibility": 5
+    },
     "composite": 62
   },
-
   "coverage": {
     "status": "amber",
     "criteria": {
-      "reviews_ge_3": true, "scores_ge_2": false, "uk_price": true,
-      "us_price": true, "auction_point": true, "fresh_point": true
+      "reviews_ge_3": true,
+      "scores_ge_2": false,
+      "uk_price": true,
+      "us_price": true,
+      "auction_point": true,
+      "fresh_point": true
     },
     "gaps": [
       "Only 1 numeric-normalizable score (Drinkhacker A- -> ~90); Robb Report is awards-only (#2 of 2025, no 100-pt); Whisky Advocate publishes a 100-pt score not exposed in WebSearch excerpt",
@@ -61,7 +128,15 @@
       "ALL captures via websearch_excerpt — WebFetch blocked (HTTP 403); verbatim page re-fetch required for verification"
     ]
   },
-
-  "verification": {"status": "pending", "report_id": "glengoyne-24.verify.json"},
+  "verification": {
+    "status": "passed",
+    "report_id": "glengoyne-24.verify.json",
+    "pass": true,
+    "summary": {
+      "verified": 12,
+      "mismatch": 0,
+      "unsupported": 0
+    }
+  },
   "last_updated": "2026-06-16"
 }

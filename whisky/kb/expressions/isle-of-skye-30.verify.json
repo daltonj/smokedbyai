@@ -1,0 +1,50 @@
+{
+  "expression_id": "isle-of-skye-30",
+  "verified_at": "2026-06-16T04:14:00Z",
+  "method": "Each datapoint checked literally against its cited capture, then re-confirmed via targeted WebSearch (WebFetch blocked 403; reproduction-by-search is the standard).",
+  "fields": [
+    {"field": "abv", "claimed": 40.0, "verdict": "verified",
+     "evidence_quote": "married in oak and bottled at 40% ABV.",
+     "source_id": "src_isle-of-skye-30_thewhiskeywash",
+     "websearch_reproduced": true, "reproduction_note": "TWE capture and WebSearch also re-confirm 40% ABV / 70cl."},
+
+    {"field": "scores[0] (WWA 2026 Gold)", "claimed": "Gold", "verdict": "verified",
+     "evidence_quote": "Isle of Skye 30 Year Old, produced by Ian Macleod Distillers, earned a Gold medal at the 2026 World Whiskies Awards for its depth, subtlety, and balance.",
+     "source_id": "src_isle-of-skye-30_thewhiskeywash",
+     "websearch_reproduced": true, "reproduction_note": "Independent WebSearch reproduces the 2026 WWA Gold for depth/subtlety/balance. normalized_100 correctly null (medal). Note: a separate WWA-2026 'Silver – Isle of Skye / Cigar Reserve' result exists for a DIFFERENT expression; the Gold here is correctly attached to the 30YO, not transposed."},
+
+    {"field": "scores[1] (IWSC Spirit Gold + SFWSC Gold)", "claimed": "IWSC Spirit Gold; SFWSC Gold", "verdict": "verified",
+     "evidence_quote": "It won Spirit Gold from the International Wine & Spirit Competition as well as Gold from the San Francisco World Spirits Competition.",
+     "source_id": "src_isle-of-skye-30_winesearcher",
+     "websearch_reproduced": true, "reproduction_note": "WebSearch on wine-searcher.com reproduces both medals. Year remains undated in the source (honestly flagged as a gap). normalized_100 correctly null."},
+
+    {"field": "scores[2].normalized_100", "claimed": null, "verdict": "verified",
+     "evidence_quote": "the specific numerical rating score was not displayed. Score = N/A — not found.",
+     "source_id": "src_isle-of-skye-30_whiskyadvocate",
+     "reproduction_note": "Honest null — no fabricated number; capture states the WA point score was not surfaced."},
+
+    {"field": "prices.uk[0].price_gbp", "claimed": 299.0, "verdict": "verified",
+     "evidence_quote": "Isle of Skye 30 Year Old Blended Whisky is available at £299 (70cl / 40% ABV).",
+     "source_id": "src_isle-of-skye-30_thewhiskyexchange",
+     "websearch_reproduced": true, "reproduction_note": "TWE p/80106 WebSearch re-confirms £299 / 70cl / 40% (£249.17 ex VAT). Currency GBP correct."},
+
+    {"field": "prices.us[0].price_usd", "claimed": 302.0, "verdict": "verified",
+     "evidence_quote": "The average price (ex-tax) for Isle of Skye 30 Year Old Blended Scotch Whisky is $302 per 750ml according to Wine-Searcher.",
+     "source_id": "src_isle-of-skye-30_winesearcher",
+     "websearch_reproduced": true, "reproduction_note": "Reproduced. Honestly labelled 'US market avg (Wine-Searcher, ex-tax)'; SRP ~$322 kept distinct and flagged as not surfaced verbatim."},
+
+    {"field": "prices.us[1].price_usd", "claimed": 330.0, "verdict": "verified",
+     "evidence_quote": "reviewed by Jonny McCormick and published in Fall 2023, with a price of $330.",
+     "source_id": "src_isle-of-skye-30_whiskyadvocate",
+     "websearch_reproduced": true, "reproduction_note": "Labelled 'Whisky Advocate (stated price)' as_of 2023-fall — stale correctly flagged, not passed off as fresh retail."},
+
+    {"field": "auction.platform_data[0].min", "claimed": 290.0, "verdict": "verified",
+     "evidence_quote": "the 30-year-old has a lowest price of €290.00.",
+     "source_id": "src_isle-of-skye-30_whiskybase",
+     "websearch_reproduced": false,
+     "reproduction_note": "€290.00 appears literally in the cited 30YO whiskybase capture (and is corroborated by the cross-reference inside the 25YO capture). Live re-confirmation of the exact figure was gated behind a Whiskybase account; the 30YO page whisky/208307 in the node url was confirmed to exist. Value literally supported and internally corroborated across two captures; currency EUR and 30YO attribution correct. Verdict: verified (literal-support standard met; not independently reproducible by anonymous search, which the node honestly flags as 'gated')."}
+  ],
+  "summary": {"verified": 8, "mismatch": 0, "unsupported": 0},
+  "notes": "Coverage gaps (2 reviews, 0 numeric scores, undated IWSC/SFWSC year, $322 SRP not verbatim) are insufficiency, not truthfulness defects. Wrong-bottle check: WWA-2026 has BOTH a Gold (30YO) and a Silver (Cigar Reserve) for Isle of Skye — the node correctly assigns Gold to the 30YO and does not borrow the Silver.",
+  "pass": true
+}

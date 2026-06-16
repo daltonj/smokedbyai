@@ -9,46 +9,91 @@
   "natural_colour": true,
   "chill_filtered": false,
   "outturn_or_availability": "4,350 bottles (some sources 4,300); distilled 1990, bottled 2020",
-  "vitals_source_ids": ["src_rosebank-31-r1_retail", "src_rosebank-31-r1_whiskyhunter", "src_rosebank-31-r1_whiskyadvocate"],
-
+  "vitals_source_ids": [
+    "src_rosebank-31-r1_retail",
+    "src_rosebank-31-r1_whiskyhunter",
+    "src_rosebank-31-r1_whiskyadvocate"
+  ],
   "identity_note": "ORCHESTRATOR SLUG CAVEAT: this node uses the assigned slug 'rosebank-31-r1', but Rosebank's Legacy Release One is a 30 YEAR OLD (1990, bottled 2020, 48.6% ABV), NOT a 31 Year Old. The 31 Year Old is Release Two (rosebank-31-r2). age_years and abv here reflect the true Release One bottle.",
-
   "tasting": {
     "nose": "Buttery and golden: rich vanilla, lemon meringue pie, honeycomb, polished oak, marzipan and a pinch of wood spice; vibrant citrus with orange zest, watermelon, apple skin, peach and nectarine; Chantilly cream and caramel wafers.",
     "palate": "Creamy, buttery and fruity with a gentle spiciness; sweet almonds, butterscotch, grapefruit peel, gooseberry, chamomile, pears and pineapple.",
     "finish": "Soft and intimate, with pear and vanilla; background wood spice.",
     "narrative": "Identity first, because the label invites confusion: this is the Legacy Release ONE, a 30 Year Old (1990, bottled 2020, 48.6%) — not the 31yo (that is Release Two). What is in the glass is textbook delicate triple-distilled Lowland: spirit-driven, soft and intimate rather than oak-led, the refill sherry/bourbon casks framing the fruit instead of smothering it. The nose is buttery and golden — Whisky Advocate's Jonny McCormick logs vanilla, lemon meringue pie, honeycomb, marzipan and polished oak, while Words of Whisky widens it into vibrant citrus, watermelon, peach and nectarine. The palate stays creamy and fruity with a gentle spice (sweet almonds, butterscotch, grapefruit peel, gooseberry), closing soft on pear and vanilla. Connosr's markjedi1 was unguarded — 'the nose is just out of this world' — and Whisky Advocate's 92 points confirms the pedigree. VERDICT: a benchmark Lowland and a blue-chip collectible, but the maths is sober — at £2k+ secondary against a £1,600 RRP you are paying a heavy ghost-distillery premium for poise, not power. Collect it; don't expect a bargain pour.",
-    "source_ids": ["src_rosebank-31-r1_whiskyadvocate", "src_rosebank-31-r1_wordsofwhisky", "src_rosebank-31-r1_connosr"]
+    "source_ids": [
+      "src_rosebank-31-r1_whiskyadvocate",
+      "src_rosebank-31-r1_wordsofwhisky",
+      "src_rosebank-31-r1_connosr"
+    ]
   },
-
   "scores": [
-    {"critic": "Whisky Advocate / Jonny McCormick", "raw": "92/100", "normalized_100": 92, "source_id": "src_rosebank-31-r1_whiskyadvocate"}
+    {
+      "critic": "Whisky Advocate / Jonny McCormick",
+      "raw": "92/100",
+      "normalized_100": 92,
+      "source_id": "src_rosebank-31-r1_whiskyadvocate"
+    }
   ],
-
   "prices": {
     "uk": [
-      {"retailer": "Original RRP (2020 launch)", "price_gbp": 1600.0, "url": "https://www.thespiritsbusiness.com/2020/10/rosebank-30-year-old-marks-new-chapter-for-distillery/", "source_id": "src_rosebank-31-r1_retail", "as_of": "2020-10"}
+      {
+        "retailer": "Original RRP (2020 launch)",
+        "price_gbp": 1600.0,
+        "url": "https://www.thespiritsbusiness.com/2020/10/rosebank-30-year-old-marks-new-chapter-for-distillery/",
+        "source_id": "src_rosebank-31-r1_retail",
+        "as_of": "2020-10"
+      }
     ],
     "us": []
   },
-
   "auction": {
     "platform_data": [
-      {"platform": "Whiskyhunter (aggregated)", "currency": "GBP", "min": 1999, "avg": 3000, "max": 3500, "latest_hammer": null, "trend": "rising", "url": "https://whiskyhunter.net/base/rosebank-1990-30-years-old-release-1-700-ml-486-vol", "source_id": "src_rosebank-31-r1_whiskyhunter", "as_of": "2026-06-16"},
-      {"platform": "Whisky Auctioneer (historical hammer)", "currency": "USD", "min": null, "avg": null, "max": null, "latest_hammer": 3528, "trend": "rising", "url": "https://whiskyauctioneer.com/learn/explore-whisky/bottles/rosebank-1990-30-year-old-release-1-0", "source_id": "src_rosebank-31-r1_whiskyhunter", "as_of": "2022-01-10"}
+      {
+        "platform": "Whiskyhunter (aggregated)",
+        "currency": "GBP",
+        "min": 1999,
+        "avg": 3000,
+        "max": 3500,
+        "latest_hammer": null,
+        "trend": "rising",
+        "url": "https://whiskyhunter.net/base/rosebank-1990-30-years-old-release-1-700-ml-486-vol",
+        "source_id": "src_rosebank-31-r1_whiskyhunter",
+        "as_of": "2026-06-16"
+      },
+      {
+        "platform": "Whisky Auctioneer (historical hammer)",
+        "currency": "USD",
+        "min": null,
+        "avg": null,
+        "max": null,
+        "latest_hammer": "N/A — unverified",
+        "trend": "rising",
+        "url": "https://whiskyauctioneer.com/learn/explore-whisky/bottles/rosebank-1990-30-year-old-release-1-0",
+        "source_id": "src_rosebank-31-r1_whiskyhunter",
+        "as_of": "2022-01-10",
+        "verify_note": "Hammer $3,528 reproduces via independent WebSearch but is NOT present in its cited capture (src_rosebank-31-r1_whiskyhunter states hammer 'N/A — not surfaced'); no Whisky Auctioneer capture exists in KG for R1. Quarantined as unsupported-by-cited-source pending a proper Whisky Auctioneer capture."
+      }
     ]
   },
-
   "rubric": {
-    "drinking": {"critic_consensus": 17, "complexity": 10, "impact": 9, "presentation": 8},
-    "value": {"price_to_quality": 6, "rarity": 8, "appreciation": 14, "collectibility": 10},
+    "drinking": {
+      "critic_consensus": 17,
+      "complexity": 10,
+      "impact": 9,
+      "presentation": 8
+    },
+    "value": {
+      "price_to_quality": 6,
+      "rarity": 8,
+      "appreciation": 14,
+      "collectibility": 10
+    },
     "composite": 82
   },
-
   "coverage": {
     "status": "amber",
     "criteria": {
-      "reviews_ge_3": true,
+      "reviews_ge_3": false,
       "scores_ge_2": false,
       "uk_price": true,
       "us_price": false,
@@ -60,10 +105,19 @@
       "No US retail price found (RRP captured is UK launch RRP).",
       "No current Whiskystats EUR market value surfaced for Release One specifically.",
       "Latest individual auction hammer is 2022 ($3,528); no 2025/2026 individual hammer resolved (aggregate range is current).",
-      "Reviews are 2020-2021 (stale vs 6-month window) — valid expert sources but not fresh."
+      "Reviews are 2020-2021 (stale vs 6-month window) — valid expert sources but not fresh.",
+      "VERIFIER QUARANTINE: USD auction hammer $3,528 (2022-01-10) is unsupported by its cited capture (src_rosebank-31-r1_whiskyhunter shows hammer N/A); figure reproduces via independent search but lacks a Whisky Auctioneer capture in KG. Set to 'N/A — unverified' — needs a proper source capture."
     ]
   },
-
-  "verification": {"status": "pending", "report_id": "rosebank-31-r1.verify.json"},
+  "verification": {
+    "status": "failed",
+    "report_id": "rosebank-31-r1.verify.json",
+    "pass": false,
+    "summary": {
+      "verified": 15,
+      "mismatch": 0,
+      "unsupported": 1
+    }
+  },
   "last_updated": "2026-06-16T00:00:00Z"
 }
