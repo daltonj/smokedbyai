@@ -1,0 +1,65 @@
+{
+  "id": "isle-of-skye-21",
+  "distillery_id": "isle-of-skye",
+  "display_name": "Isle of Skye 21 Year Old (Blended Scotch, Ian Macleod)",
+  "category": "blended",
+  "age_years": 21,
+  "abv": 40.0,
+  "cask": "Blend of peated island malts matched with Speyside and Highland malts plus grain whiskies. Specific cask regime N/A — not found (TWW notes 'Chestnut/Oloroso sherry' colour only).",
+  "natural_colour": "N/A — not found",
+  "chill_filtered": "N/A — not found",
+  "outturn_or_availability": "Ongoing core-range expression; not limited. 70cl. SRP US$114.99.",
+  "vitals_source_ids": ["src_isle-of-skye-21_thewhiskeywash", "src_isle-of-skye-21_whiskyadvocate"],
+
+  "tasting": {
+    "nose": "Warm baking spices, red apples, buttery toffee, citrus and chocolate malted balls; a beautiful dry nuttiness with brown sugar, vanilla, cedar chest, nutmeg, cinnamon, dried citrus, coffee and walnut cake.",
+    "palate": "Subtle stone-fruit sweetness — spicy caramel, blackcurrant, chocolate, lemon zest, a hint of cedar wood and green peppercorn; sweet and honeyed with hot oatmeal, chocolate sauce, strawberries, orange and a whirl of ground pepper and oak spice.",
+    "finish": "Medium to long, deliciously rich and oaky, with a glimpse of peppermint.",
+    "narrative": "The entry point to Isle of Skye's older blends: a smooth, medium-bodied, easy-sipping island blend that trades sweet orchard and confectionery notes against savoury nuttiness and gentle oak rather than chasing complexity. The Whiskey Wash calls it 'a subtly decadent treat'; Whisky Advocate's Jonny McCormick praised its dry nuttiness. Curator verdict: a well-made, approachable aged blend at a fair price — pleasant rather than profound.",
+    "source_ids": ["src_isle-of-skye-21_thewhiskeywash", "src_isle-of-skye-21_whiskyadvocate"]
+  },
+
+  "scores": [
+    {"critic": "Whisky Advocate (Jonny McCormick, Fall 2023)", "raw": "Reviewed; numeric score not surfaced via WebSearch", "normalized_100": null, "source_id": "src_isle-of-skye-21_whiskyadvocate"}
+  ],
+
+  "prices": {
+    "uk": [
+      {"retailer": "The Whisky Exchange", "price_gbp": 118.0, "url": "https://www.thewhiskyexchange.com/p/80104/isle-of-skye-21-year-old-blended-whisky", "source_id": "src_isle-of-skye-21_thewhiskyexchange", "as_of": "2026-06"}
+    ],
+    "us": [
+      {"retailer": "Total Wine & More", "price_usd": 89.99, "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-21yr-scotch-whisky/p/243938700", "source_id": "src_isle-of-skye-21_winesearcher", "as_of": "2026-06"},
+      {"retailer": "US market avg (Wine-Searcher); SRP $114.99", "price_usd": 96.0, "url": "https://www.wine-searcher.com/find/isle+skye+21+old+blend+scotch+whisky+scotland/1/usa", "source_id": "src_isle-of-skye-21_winesearcher", "as_of": "2026-06"}
+    ]
+  },
+
+  "auction": {
+    "platform_data": [
+      {"platform": "Whiskybase Market (secondary, lowest offer)", "currency": "EUR", "min": 171.16, "avg": null, "max": null, "latest_hammer": null, "trend": "N/A — not found", "url": "https://www.whiskybase.com/whiskies/whisky/63435/isle-of-skye-21-year-old-im", "source_id": "src_isle-of-skye-25_whiskybase", "as_of": "2026-06"}
+    ]
+  },
+
+  "rubric": {
+    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
+    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
+    "composite": 0
+  },
+
+  "coverage": {
+    "status": "amber",
+    "criteria": {
+      "reviews_ge_3": false, "scores_ge_2": false, "uk_price": true,
+      "us_price": true, "auction_point": true, "fresh_point": true
+    },
+    "gaps": [
+      "Only 2 expert reviews captured (TWW, Whisky Advocate); need >=3 — Drinkhacker per-expression grade not surfaced verbatim",
+      "No numeric scores: Whisky Advocate 21YO points not returned by WebSearch; no Whiskyfun/WhiskyNotes/Dramble number found",
+      "21YO auction figure (EUR 171.16) is the Whiskybase lowest-offer cross-referenced inside the 25YO capture, not a dedicated 21YO capture — Verifier should re-source",
+      "Natural-colour / chill-filtration status not confirmed",
+      "ALL captures via WebSearch excerpt — WebFetch blocked (HTTP 403)"
+    ]
+  },
+
+  "verification": {"status": "pending", "report_id": "isle-of-skye-21.verify.json"},
+  "last_updated": "2026-06-16T03:46:00Z"
+}

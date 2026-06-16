@@ -1,0 +1,71 @@
+{
+  "id": "rosebank-31-r2",
+  "distillery_id": "rosebank",
+  "display_name": "Rosebank 31 Year Old (Legacy Release Two)",
+  "category": "single malt",
+  "age_years": 31,
+  "abv": 48.1,
+  "cask": "refill casks (sherry & bourbon); exact split N/A — not found",
+  "natural_colour": true,
+  "chill_filtered": false,
+  "outturn_or_availability": "4,000 bottles; bottled 2022",
+  "vitals_source_ids": ["src_rosebank-31-r2_whiskyhunter", "src_rosebank-31-r2_whiskybase", "src_rosebank-31-r2_thewhiskeywash"],
+
+  "vintage_conflict_note": "VINTAGE CONFLICT (preserved & flagged): Whisky Auctioneer bottle hub and Whiskyhunter state distilled 1990; Whisky Auctioneer product listing 1280618 is titled 'Rosebank 1991 31 Year Old Release #2' and Whiskybase carries alt slug 'rosebank-1991'. Both 1990 and 1991 are reported in sources; unresolved. Age (31yo) and bottling year (2022) are consistent across sources.",
+
+  "tasting": {
+    "nose": "Champagne gold. Banana cake, cherry blossom and lavender with malt and virgin oak shavings; baked apple, peach and apple butter over a grassy/herbaceous backbone; nutty, mossy, furniture polish giving way to floral elderflower and lemon with a light briny edge.",
+    "palate": "Velvety soft dried grass reminiscent of chamomile tea; wild strawberries and sweet lemon citrus over toasted marshmallow; toffee, glazed nuts, vanilla cream, baked apple, citrus and a little cocoa; tea leaf, sandalwood, vanilla cookies and baking spice, with modest oak tannin.",
+    "finish": "Bubbly champagne and oak with a slight medicinal flavour; well-balanced, with a roasty edge balancing the sweetness.",
+    "narrative": "Release Two is, in Words of Whisky's phrase, 'an ideal of what traditional Lowland whisky is' — delicate yet expressive, more vocal on the palate than the nose. Critics scored it strongly (Whisky Auctioneer 91, Whiskybase 90.42) and it has gathered competition metal. A poised, floral 31-year-old that rewards patience over power. Verdict: an excellent Lowland keeper, slightly softer-spoken than Release One.",
+    "source_ids": ["src_rosebank-31-r2_thewhiskeywash", "src_rosebank-31-r2_pastemagazine", "src_rosebank-31-r2_wordsofwhisky"]
+  },
+
+  "scores": [
+    {"critic": "Whisky Auctioneer", "raw": "91/100", "normalized_100": 91, "source_id": "src_rosebank-31-r2_whiskyauctioneer"},
+    {"critic": "Whiskybase (community)", "raw": "90.42/100", "normalized_100": 90, "source_id": "src_rosebank-31-r2_whiskybase"}
+  ],
+
+  "prices": {
+    "uk": [],
+    "us": [
+      {"retailer": "MSRP (US launch)", "price_usd": 3300.0, "url": "https://www.pastemagazine.com/drink/whiskey/rosebank-31-year-old-single-malt-scotch-whisky-review-price-flavors-lowland", "source_id": "src_rosebank-31-r2_pastemagazine", "as_of": "2023"}
+    ]
+  },
+
+  "auction": {
+    "platform_data": [
+      {"platform": "Whiskystats", "currency": "EUR", "min": null, "avg": 1548, "max": null, "latest_hammer": null, "trend": "rising", "url": "https://www.whiskystats.com/whisky/215536", "source_id": "src_rosebank-31-r2_whiskystats", "as_of": "2026-06-16"},
+      {"platform": "Whiskyhunter (aggregated)", "currency": "GBP", "min": 1750, "avg": 2049, "max": 2500, "latest_hammer": null, "trend": "rising", "url": "https://whiskyhunter.net/base/rosebank-31-year-old-release-no-2-700-ml-486-vol", "source_id": "src_rosebank-31-r2_whiskyhunter", "as_of": "2026-06-16"},
+      {"platform": "Whisky-Online Auctions (historical hammer)", "currency": "USD", "min": null, "avg": null, "max": null, "latest_hammer": 2891, "trend": "flat", "url": "https://whiskyhunter.net/base/rosebank-31-year-old-release-no-2-700-ml-486-vol", "source_id": "src_rosebank-31-r2_whiskyonlineauctions", "as_of": "2022-09-14"}
+    ]
+  },
+
+  "rubric": {
+    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
+    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
+    "composite": 0
+  },
+
+  "coverage": {
+    "status": "amber",
+    "criteria": {
+      "reviews_ge_3": true,
+      "scores_ge_2": true,
+      "uk_price": false,
+      "us_price": true,
+      "auction_point": true,
+      "fresh_point": true
+    },
+    "gaps": [
+      "No current UK retail price found (US MSRP $3,300 captured).",
+      "Exact cask split not found for Release Two.",
+      "Vintage unresolved (1990 vs 1991) — see vintage_conflict_note.",
+      "Freshest individual auction hammer is 2022 ($2,891); 2024 Whisky Hammer lots not price-resolved via search. Fresh secondary value is via aggregates (Whiskystats EUR 1,548; Whiskyhunter GBP 1,750-2,500).",
+      "Words of Whisky / The Whiskey Wash / Paste numeric scores not surfaced (only Whisky Auctioneer 91 and Whiskybase 90.42)."
+    ]
+  },
+
+  "verification": {"status": "pending", "report_id": "rosebank-31-r2.verify.json"},
+  "last_updated": "2026-06-16T03:50:00Z"
+}

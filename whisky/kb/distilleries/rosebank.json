@@ -1,0 +1,15 @@
+{
+  "id": "rosebank",
+  "name": "Rosebank",
+  "type": "distillery",
+  "region": "Lowland",
+  "country": "Scotland",
+  "status": "reborn",
+  "house_style": "Delicate, floral, triple-distilled Lowland single malt — soft and intimate, with citrus, orchard fruit, grassy/herbal notes and a creamy, spirit-driven elegance. Long regarded as the benchmark of the Lowland style.",
+  "owner": "Ian Macleod Distillers",
+  "founded": 1840,
+  "closed": 1993,
+  "revived": 2023,
+  "notes": "Lowland 'ghost' distillery, mothballed/closed 1993. Acquired by Ian Macleod Distillers in 2017; revived with a new distillery and visitor centre (production resumed July 2024, public reopening 2023-2024). The 'Legacy Series' of limited annual releases drew on casks laid down before closure: Release One = 30 Year Old (1990, bottled 2020, 48.6%); Release Two = 31 Year Old (1990/1991, bottled 2022, 48.1%); Release Three = 32 Year Old (2024). NOTE: a vintage conflict exists for the 31yo Release Two (sources state both 1990 and 1991) — see expression node rosebank-31-r2.",
+  "source_ids": ["src_rosebank_distillery", "src_rosebank-31-r2_whiskyauctioneer", "src_rosebank-31-r1_retail"]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "rosebank-31-r1",
+  "distillery_id": "rosebank",
+  "display_name": "Rosebank 30 Year Old 1990 (Legacy Release One)",
+  "category": "single malt",
+  "age_years": 30,
+  "abv": 48.6,
+  "cask": "62% refill sherry butts & 38% refill bourbon hogsheads",
+  "natural_colour": true,
+  "chill_filtered": false,
+  "outturn_or_availability": "4,350 bottles (some sources 4,300); distilled 1990, bottled 2020",
+  "vitals_source_ids": ["src_rosebank-31-r1_retail", "src_rosebank-31-r1_whiskyhunter", "src_rosebank-31-r1_whiskyadvocate"],
+
+  "identity_note": "ORCHESTRATOR SLUG CAVEAT: this node uses the assigned slug 'rosebank-31-r1', but Rosebank's Legacy Release One is a 30 YEAR OLD (1990, bottled 2020, 48.6% ABV), NOT a 31 Year Old. The 31 Year Old is Release Two (rosebank-31-r2). age_years and abv here reflect the true Release One bottle.",
+
+  "tasting": {
+    "nose": "Buttery and golden: rich vanilla, lemon meringue pie, honeycomb, polished oak, marzipan and a pinch of wood spice; vibrant citrus with orange zest, watermelon, apple skin, peach and nectarine; Chantilly cream and caramel wafers.",
+    "palate": "Creamy, buttery and fruity with a gentle spiciness; sweet almonds, butterscotch, grapefruit peel, gooseberry, chamomile, pears and pineapple.",
+    "finish": "Soft and intimate, with pear and vanilla; background wood spice.",
+    "narrative": "A classic Rosebank and a fitting first chapter for the reborn distillery: delicate, spirit-driven and unmistakably Lowland. Critics were captivated (Connosr's note that 'the nose is just out of this world'), and Whisky Advocate's 92 points confirms the pedigree. A soft, elegant 30-year-old that trades power for poise. Verdict: a benchmark Lowland and a blue-chip collectible.",
+    "source_ids": ["src_rosebank-31-r1_whiskyadvocate", "src_rosebank-31-r1_wordsofwhisky", "src_rosebank-31-r1_connosr"]
+  },
+
+  "scores": [
+    {"critic": "Whisky Advocate / Jonny McCormick", "raw": "92/100", "normalized_100": 92, "source_id": "src_rosebank-31-r1_whiskyadvocate"}
+  ],
+
+  "prices": {
+    "uk": [
+      {"retailer": "Original RRP (2020 launch)", "price_gbp": 1600.0, "url": "https://www.thespiritsbusiness.com/2020/10/rosebank-30-year-old-marks-new-chapter-for-distillery/", "source_id": "src_rosebank-31-r1_retail", "as_of": "2020-10"}
+    ],
+    "us": []
+  },
+
+  "auction": {
+    "platform_data": [
+      {"platform": "Whiskyhunter (aggregated)", "currency": "GBP", "min": 1999, "avg": 3000, "max": 3500, "latest_hammer": null, "trend": "rising", "url": "https://whiskyhunter.net/base/rosebank-1990-30-years-old-release-1-700-ml-486-vol", "source_id": "src_rosebank-31-r1_whiskyhunter", "as_of": "2026-06-16"},
+      {"platform": "Whisky Auctioneer (historical hammer)", "currency": "USD", "min": null, "avg": null, "max": null, "latest_hammer": 3528, "trend": "rising", "url": "https://whiskyauctioneer.com/learn/explore-whisky/bottles/rosebank-1990-30-year-old-release-1-0", "source_id": "src_rosebank-31-r1_whiskyhunter", "as_of": "2022-01-10"}
+    ]
+  },
+
+  "rubric": {
+    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
+    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
+    "composite": 0
+  },
+
+  "coverage": {
+    "status": "amber",
+    "criteria": {
+      "reviews_ge_3": true,
+      "scores_ge_2": false,
+      "uk_price": true,
+      "us_price": false,
+      "auction_point": true,
+      "fresh_point": true
+    },
+    "gaps": [
+      "Only one numeric critic score found (Whisky Advocate 92); Words of Whisky and Connosr scores not surfaced via search.",
+      "No US retail price found (RRP captured is UK launch RRP).",
+      "No current Whiskystats EUR market value surfaced for Release One specifically.",
+      "Latest individual auction hammer is 2022 ($3,528); no 2025/2026 individual hammer resolved (aggregate range is current).",
+      "Reviews are 2020-2021 (stale vs 6-month window) — valid expert sources but not fresh."
+    ]
+  },
+
+  "verification": {"status": "pending", "report_id": "rosebank-31-r1.verify.json"},
+  "last_updated": "2026-06-16T03:50:00Z"
+}
