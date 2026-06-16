@@ -18,10 +18,12 @@
     "nose": "Lush, earthy 'forest floor after rain' notes with fragrant red berries, cinnamon, citrus, buttery caramel and salted pretzels; citrus peel, pepper, Madagascan vanilla pods, marzipan, cigar smoke and a hint of cherry.",
     "palate": "Vivid and complex — warm spices, black tea, lemon citrus, vanilla, orchard fruits and brown sugar, with hints of soft leather and chocolate malted balls; soft and sweet with heather honey, baked orange, tobacco smoke, clove, raisin, Brazil nut, walnut oil, toasted sesame and coffee cake.",
     "finish": "Long and mellow; soft peat, dried fruit, vanilla and malted biscuit lingering — complex without being heavy.",
-    "narrative": "The summit of the range, and it drinks like a decanted afternoon. The nose is lush and earthy — The Whiskey Wash's 'forest floor after it rains' — with fragrant red berries, cinnamon, citrus, buttery caramel and salted pretzels; Whisky Advocate layers in citrus peel, pepper, Madagascan vanilla pods, marzipan, cigar smoke and a hint of cherry. The palate is vivid and complex: warm spice, black tea, lemon, vanilla and orchard fruit over brown sugar, soft leather and chocolate malted balls, deepening into heather honey, baked orange, tobacco smoke, clove, raisin, Brazil nut, walnut oil and coffee cake. The finish is long and mellow — soft peat, dried fruit, vanilla and malted biscuit — complex without being heavy. WA's McCormick frames it as 'an indulgent blend for swirling around the glass or pairing with a cigar,' and the medals agree: Gold at the 2026 World Whiskies Awards for depth, subtlety and balance, plus IWSC Spirit Gold and SFWSC Gold cited at retail. VERDICT: POUR — buy for the occasion, not the everyday. Genuinely complex and beautifully aged, but at ~£299/$330 the 40% ABV caps the intensity, and the better value still sits one rung down at the 25.",
+    "narrative": "The summit of the range, and it drinks like a decanted afternoon. The nose is lush and earthy — The Whiskey Wash's 'forest floor after it rains' — with fragrant red berries, cinnamon, citrus, buttery caramel and salted pretzels; Whisky Advocate layers in citrus peel, pepper, Madagascan vanilla pods, marzipan, cigar smoke and a hint of cherry. The palate is vivid and complex: warm spice, black tea, lemon, vanilla and orchard fruit over brown sugar, soft leather and chocolate malted balls, deepening into heather honey, baked orange, tobacco smoke, clove, raisin, Brazil nut, walnut oil and coffee cake. The finish is long and mellow — soft peat, dried fruit, vanilla and malted biscuit — complex without being heavy. WA's McCormick frames it as 'an indulgent blend for swirling around the glass or pairing with a cigar,' The Whiskey Reviewer grades it A- ('marvelous' palate of butter pastry, fresh malt and raisin, though the finish fades to 'a non-entity'), and Drinkhacker folds it into a favourable complete-lineup review; the medals agree, with Gold at the 2026 World Whiskies Awards for depth, subtlety and balance, plus IWSC Spirit Gold and SFWSC Gold cited at retail. VERDICT: POUR — buy for the occasion, not the everyday. Genuinely complex and beautifully aged, but at ~£299/$330 the 40% ABV caps the intensity, and the better value still sits one rung down at the 25.",
     "source_ids": [
       "src_isle-of-skye-30_thewhiskeywash",
-      "src_isle-of-skye-30_whiskyadvocate"
+      "src_isle-of-skye-30_whiskyadvocate",
+      "src_isle-of-skye-30_whiskeyreviewer",
+      "src_isle-of-skye-30_drinkhacker"
     ]
   },
   "scores": [
@@ -42,6 +44,12 @@
       "raw": "Reviewed; numeric score not surfaced via WebSearch",
       "normalized_100": null,
       "source_id": "src_isle-of-skye-30_whiskyadvocate"
+    },
+    {
+      "critic": "The Whiskey Reviewer",
+      "raw": "A- (letter grade; not a 100-pt numeric)",
+      "normalized_100": null,
+      "source_id": "src_isle-of-skye-30_whiskeyreviewer"
     }
   ],
   "prices": {
@@ -105,7 +113,7 @@
   "coverage": {
     "status": "amber",
     "criteria": {
-      "reviews_ge_3": false,
+      "reviews_ge_3": true,
       "scores_ge_2": false,
       "uk_price": true,
       "us_price": true,
@@ -113,10 +121,10 @@
       "fresh_point": true
     },
     "gaps": [
-      "Only 2 distinct REVIEW captures (TWW, Whisky Advocate); need >=3 for reviews_ge_3",
-      "Zero numeric normalized_100 scores: WWA 2026 Gold and SFWSC/IWSC Gold are medals, not points; Whisky Advocate 30YO number not surfaced by WebSearch — scores_ge_2 fails",
+      "STILL OPEN: zero numeric normalized_100 scores. WWA 2026 Gold + IWSC/SFWSC Gold are medals; Whisky Advocate 30YO number never surfaced; Whiskey Reviewer (A-) and Drinkhacker grades are letter grades, not 100-pt points. Tastings.com/BTI does not cover the 30YO (only 8-21YO); Wine Enthusiast has no 30YO entry. scores_ge_2 remains false — no second NUMERIC score exists in any whitelisted source found via WebSearch.",
       "IWSC/SFWSC Gold for the 30 is undated in the Wine-Searcher excerpt — needs confirmation of which year",
-      "SRP ~$322 not surfaced verbatim (Wine-Searcher avg ~$302 captured instead)",
+      "Drinkhacker's exact letter grade for the 30YO not isolated verbatim (lineup uses A-/B+/B/B-)",
+      "SRP ~$322 not surfaced verbatim (Whiskey Reviewer corroborates $321.99; Wine-Searcher avg ~$302)",
       "Auction is a single Whiskybase lowest-offer point; no trend/avg/hammer history (gated)",
       "Natural-colour / chill-filtration not confirmed",
       "ALL captures via WebSearch excerpt — WebFetch blocked (HTTP 403)"
@@ -132,5 +140,5 @@
       "unsupported": 0
     }
   },
-  "last_updated": "2026-06-16T00:00:00Z"
+  "last_updated": "2026-06-16T12:00:00Z"
 }

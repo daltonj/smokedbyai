@@ -206,5 +206,70 @@
     "local_path": "kb/sources/rosebank/src_rosebank-31-r2_pastemagazine.md",
     "key_data": "Tasting: baked apple, peach, apple butter, grassy; palate toffee, glazed nuts, vanilla cream, citrus, cocoa. 48.1% ABV, MSRP $3,300. Verdict well-balanced. Numeric score N/A.",
     "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r1_whiskyauctioneer",
+    "bottle": "rosebank-31-r1",
+    "source_name": "Whisky Auctioneer",
+    "url": "https://whiskyauctioneer.com/learn/explore-whisky/bottles/rosebank-1990-30-year-old-release-1-0",
+    "type": "auction",
+    "source_date": "2022-01-10",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "stale",
+    "local_path": "kb/sources/rosebank/src_rosebank-31-r1_whiskyauctioneer.md",
+    "key_data": "Whisky Auctioneer historical hammer (highest recorded sale) USD $3,528, sold 2022-01-10, for the 30yo Release One. Reproduced across 4 independent WebSearch queries, all attributing to Whisky Auctioneer. Named-platform capture that restores the previously-quarantined figure.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r1_connosr_score",
+    "bottle": "rosebank-31-r1",
+    "source_name": "Connosr (markjedi1)",
+    "url": "https://www.connosr.com/rosebank-30-year-old-1990-release-one-whisky-review-13770",
+    "type": "score",
+    "source_date": "2020",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "stale",
+    "local_path": "kb/sources/rosebank/src_rosebank-31-r1_connosr_score.md",
+    "key_data": "Connosr / markjedi1 numeric score 91/100 for the 30yo Release One (second R1 score beyond Whisky Advocate 92). Reproduced across 2 independent WebSearch queries.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r1_usretail",
+    "bottle": "rosebank-31-r1",
+    "source_name": "BuyMyLiquor / Riverhead Liquor Mart / Corkdorks (US retail)",
+    "url": "https://www.buymyliquor.com/products/rosebank-30-year-old-release-1-2020-edition",
+    "type": "retail",
+    "source_date": "2026-06-16",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "fresh",
+    "local_path": "kb/sources/rosebank/src_rosebank-31-r1_usretail.md",
+    "key_data": "US retail for the 30yo Release One: BuyMyLiquor $2,999.99; Corkdorks $3,209.99; Riverhead Liquor Mart $3,299.99. Multiple named US retailers, reproduced across 2 WebSearch queries.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r2_ukretail",
+    "bottle": "rosebank-31-r2",
+    "source_name": "Master of Malt / House of Bruar (UK retail)",
+    "url": "https://www.masterofmalt.com/whiskies/rosebank/rosebank-31-year-old-bottled-2022-release-two-whisky/",
+    "type": "retail",
+    "source_date": "2026-06-16",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "fresh",
+    "local_path": "kb/sources/rosebank/src_rosebank-31-r2_ukretail.md",
+    "key_data": "UK retail listing for the 31yo Release Two: GBP 1,800 (Master of Malt / House of Bruar 70cl); C.Gars Ltd 1,749.99. The 1,800 figure reproduced across 2 independent WebSearch queries and multiple named UK retailers.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r2_whiskyadvocate",
+    "bottle": "rosebank-31-r2",
+    "source_name": "Whisky Advocate / Jonny McCormick",
+    "url": "https://whiskyadvocate.com/Rosebank-31-year-old-48-1",
+    "type": "score",
+    "source_date": "2022-Winter",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "stale",
+    "local_path": "kb/sources/rosebank/src_rosebank-31-r2_whiskyadvocate.md",
+    "key_data": "Whisky Advocate (Jonny McCormick) score 91/100 for the 31yo Release Two, Winter 2022, $3,300, 48.1%. Additional professional critic score beyond Whisky Auctioneer 91 / Whiskybase 90.42. Reproduced across 2 independent WebSearch queries.",
+    "method": "websearch_excerpt"
   }
 ]

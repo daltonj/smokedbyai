@@ -51,18 +51,18 @@
     "uk": [
       {
         "retailer": "The Whisky Exchange",
-        "price_gbp": "N/A — unverified",
-        "note": "Node claimed £299 (official RRP); live TWE listing reproduces at £295. Mismatch — quarantined by verifier.",
+        "price_gbp": 295.0,
+        "note": "Live TWE listing price (re-sourced 2026-06-16, reproduced twice). Official RRP is £299; this is the live retail price.",
         "url": "https://www.thewhiskyexchange.com/p/84852/tamdhu-21-year-old",
-        "source_id": "src_tamdhu-21_thewhiskyexchange",
+        "source_id": "src_tamdhu-21_thewhiskyexchange_price",
         "as_of": "2026-06-16"
       },
       {
         "retailer": "Master of Malt",
-        "price_gbp": "N/A — unverified",
-        "note": "£252.70 was snippet-only; not reproducible by independent search. Unsupported — quarantined by verifier.",
+        "price_gbp": 252.70,
+        "note": "Re-sourced 2026-06-16; £252.70 now reproduced by two independent searches.",
         "url": "https://www.masterofmalt.com/whiskies/tamdhu/tamdhu-21-year-old-sherry-cask-matured-whisky/",
-        "source_id": "src_tamdhu-21_masterofmalt",
+        "source_id": "src_tamdhu-21_masterofmalt_price",
         "as_of": "2026-06-16"
       }
     ],
@@ -99,20 +99,17 @@
     "criteria": {
       "reviews_ge_3": true,
       "scores_ge_2": false,
-      "uk_price": false,
+      "uk_price": true,
       "us_price": true,
       "auction_point": false,
       "fresh_point": true
     },
     "gaps": [
-      "reviews_ge_3 fails on valid captures: only 2 fresh reviews are websearch_excerpt (Robb Report score, Whisky For Everyone); WhiskyNotes and Whiskey Wash reviews are websearch_snippet and do not count as valid evidence points per schema.",
-      "scores_ge_2 fails: zero numeric normalized_100 scores. Robb Report exact /100 not exposed (only 'Very Good' 85-89 band implied); Whiskybase community rating not retrieved (entry IDs 275299/274858 unresolved).",
+      "GAP-FILL 2026-06-16: uk_price RE-SOURCED and now satisfied — The Whisky Exchange £295.00 (live price, p/84852) reproduced by two independent searches; Master of Malt £252.70 also re-sourced and reproduced twice. Prior quarantined 'N/A — unverified' entries replaced. The official RRP is £299; the live TWE retail price is £295.",
+      "scores_ge_2 STILL fails: no numeric normalized_100 score could be sourced. Robb Report exact /100 not exposed (only 'Very Good' 85-89 band implied); the Whiskybase community number for the 2025 core 21 YO (entry 275299) was not exposed in any search excerpt and remains N/A — not found. Awards (Speyside Overall Winner, Scottish Field Whisky of the Year) are non-numeric.",
       "auction_point fails: no secondary point for the 2025 core-range 21 YO — too new (Aug 2025); the auction lots located are a different older Cask Strength limited edition.",
-      "VERIFIER MISMATCH: TWE price quarantined — node claimed £299 (official RRP) but live TWE listing reproduces at £295. Field set to 'N/A — unverified'; uk_price now fails.",
-      "VERIFIER UNSUPPORTED: Master of Malt £252.70 not reproducible by independent search; field set to 'N/A — unverified'.",
       "us_price OK via official_vitals/Total Wine $399.99 excerpt (verified by reproduction).",
-      "All values UNVERIFIED on-page (WebFetch 403 all run); reproduction-by-search used as the verification standard.",
-      "Verification FAILED (1 mismatch + 1 unsupported on UK pricing) -> status remains capped below GREEN."
+      "All values UNVERIFIED on-page (WebFetch 403 all run); reproduction-by-search used as the verification standard. Re-verifier runs next (verification.status left as 'failed' pending re-run)."
     ]
   },
   "verification": {
@@ -125,5 +122,5 @@
       "unsupported": 1
     }
   },
-  "last_updated": "2026-06-16"
+  "last_updated": "2026-06-16T04:10:00Z"
 }

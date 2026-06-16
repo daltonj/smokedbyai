@@ -38,10 +38,24 @@
       "raw": "90.42/100",
       "normalized_100": 90,
       "source_id": "src_rosebank-31-r2_whiskybase"
+    },
+    {
+      "critic": "Whisky Advocate / Jonny McCormick",
+      "raw": "91/100",
+      "normalized_100": 91,
+      "source_id": "src_rosebank-31-r2_whiskyadvocate"
     }
   ],
   "prices": {
-    "uk": [],
+    "uk": [
+      {
+        "retailer": "Master of Malt",
+        "price_gbp": 1800.0,
+        "url": "https://www.masterofmalt.com/whiskies/rosebank/rosebank-31-year-old-bottled-2022-release-two-whisky/",
+        "source_id": "src_rosebank-31-r2_ukretail",
+        "as_of": "2026-06-16"
+      }
+    ],
     "us": [
       {
         "retailer": "MSRP (US launch)",
@@ -135,5 +149,5 @@
       "unsupported": 0
     }
   },
-  "last_updated": "2026-06-16T00:00:00Z"
+  "last_updated": "2026-06-16"
 }

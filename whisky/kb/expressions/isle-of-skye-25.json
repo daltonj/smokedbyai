@@ -18,12 +18,14 @@
     "nose": "Rich oak, ginger, vanilla, red apple and citrus; earthy autumn leaves, warm baking spices, brown sugar, orchard fruits, toasted walnuts, burnt-orange citrus and buttery toffee. (TWE: Comice pear and apricot.)",
     "palate": "Rounded and fruity — malt, apple and light peat smoke; with complexity of hazelnuts, warm spices, blood-orange zest, dark wood polish, gentle smoke, a touch of sea salt and a spot of leather. Whisky Advocate notes cola, allspice, red apple, liquorice, leather, gingerbread, clove, black tea, peaty embers, dark toffee and milk chocolate.",
     "finish": "Long and balanced with subtle apricot; long and smoky (TWE).",
-    "narrative": "The flagship, and the one expression here that earns its hype. A high-malt blend of Skye and mainland whiskies pulled from ex-bourbon and sherry casks, with a Talisker core supplying the gentle maritime smoke. The nose is autumnal and layered — rich oak, ginger, vanilla, red apple and burnt-orange citrus over toasted walnut and buttery toffee, with Comice pear and apricot per The Whisky Exchange. The palate is rounded and genuinely complex: malt and apple lift into hazelnut, blood-orange zest, dark wood polish, a touch of sea salt and leather, with Whisky Advocate cataloguing cola, allspice, liquorice, gingerbread, clove, black tea, peaty embers, dark toffee and milk chocolate. The finish runs long, balanced and faintly smoky with subtle apricot. The hardware backs the glass: Whisky Advocate's McCormick scored it 94 and called it 'a 25 year old that offers great value,' and SFWSC 2025 named it Best Blended Scotch (16+) AND Best Overall Blended Scotch Whisky (announced 12 Nov 2025, Edinburgh, blind, 1,500+ entries), judges calling it 'a beautifully crafted Scotch.' VERDICT: BUY. The standout of the line and a benchmark aged blend at ~£250/$179-210; the strength is the only thing holding it back from being unarguable.",
+    "narrative": "The flagship, and the one expression here that earns its hype. A high-malt blend of Skye and mainland whiskies pulled from ex-bourbon and sherry casks, with a Talisker core supplying the gentle maritime smoke. The nose is autumnal and layered — rich oak, ginger, vanilla, red apple and burnt-orange citrus over toasted walnut and buttery toffee, with Comice pear and apricot per The Whisky Exchange. The palate is rounded and genuinely complex: malt and apple lift into hazelnut, blood-orange zest, dark wood polish, a touch of sea salt and leather, with Whisky Advocate cataloguing cola, allspice, liquorice, gingerbread, clove, black tea, peaty embers, dark toffee and milk chocolate. The finish runs long, balanced and faintly smoky with subtle apricot. The hardware backs the glass: Whisky Advocate's McCormick scored it 94 and called it 'a 25 year old that offers great value,' Wine Enthusiast's Kara Newman went higher at 97 ('a rich and inviting sip' of caramel, cocoa, toffee and fresh-roasted coffee closing on orange marmalade and crushed hazelnut), and SFWSC 2025 named it Best Blended Scotch (16+) AND Best Overall Blended Scotch Whisky (announced 12 Nov 2025, Edinburgh, blind, 1,500+ entries), judges calling it 'a beautifully crafted Scotch.' VERDICT: BUY. The standout of the line and a benchmark aged blend at ~£250/$179-210; the strength is the only thing holding it back from being unarguable.",
     "source_ids": [
       "src_isle-of-skye-25_thewhiskeywash_review",
       "src_isle-of-skye-25_whiskyadvocate",
       "src_isle-of-skye-25_thewhiskeywash_award",
-      "src_isle-of-skye-25_thewhiskyexchange"
+      "src_isle-of-skye-25_thewhiskyexchange",
+      "src_isle-of-skye-25_wineenthusiast",
+      "src_isle-of-skye-25_whiskeyreviewer"
     ]
   },
   "scores": [
@@ -38,6 +40,12 @@
       "raw": "Best Blended Scotch (16+ Years) + Best Overall Blended Scotch Whisky",
       "normalized_100": null,
       "source_id": "src_isle-of-skye-25_thewhiskeywash_award"
+    },
+    {
+      "critic": "Wine Enthusiast (Kara Newman)",
+      "raw": "97/100",
+      "normalized_100": 97,
+      "source_id": "src_isle-of-skye-25_wineenthusiast"
     }
   ],
   "prices": {
@@ -101,19 +109,18 @@
   "coverage": {
     "status": "amber",
     "criteria": {
-      "reviews_ge_3": false,
-      "scores_ge_2": false,
+      "reviews_ge_3": true,
+      "scores_ge_2": true,
       "uk_price": true,
       "us_price": true,
       "auction_point": true,
       "fresh_point": true
     },
     "gaps": [
-      "Only 2 distinct REVIEW captures (TWW review + Whisky Advocate); the SFWSC award is a news capture, not a review, so reviews_ge_3 fails — need >=3",
-      "Only 1 numeric normalized_100 score (Whisky Advocate 94); SFWSC is a medal, not a number, so scores_ge_2 fails — need a second numeric (Whiskyfun/WhiskyNotes/Dramble)",
       "Auction is a single Whiskybase lowest-offer point (EUR 200.95); no trend/avg/hammer history (gated behind account)",
       "Natural-colour / chill-filtration not confirmed",
-      "ALL captures via WebSearch excerpt — WebFetch blocked (HTTP 403)"
+      "ALL captures via WebSearch excerpt — WebFetch blocked (HTTP 403)",
+      "verification.status pending re-verification after this gap-fill pass — all six core criteria now met; once verification.pass holds this should go GREEN"
     ]
   },
   "verification": {
@@ -126,5 +133,5 @@
       "unsupported": 0
     }
   },
-  "last_updated": "2026-06-16T00:00:00Z"
+  "last_updated": "2026-06-16T12:00:00Z"
 }

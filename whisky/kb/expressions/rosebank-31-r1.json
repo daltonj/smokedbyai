@@ -32,6 +32,12 @@
       "raw": "92/100",
       "normalized_100": 92,
       "source_id": "src_rosebank-31-r1_whiskyadvocate"
+    },
+    {
+      "critic": "Connosr / markjedi1",
+      "raw": "91/100",
+      "normalized_100": 91,
+      "source_id": "src_rosebank-31-r1_connosr_score"
     }
   ],
   "prices": {
@@ -44,7 +50,15 @@
         "as_of": "2020-10"
       }
     ],
-    "us": []
+    "us": [
+      {
+        "retailer": "BuyMyLiquor",
+        "price_usd": 2999.99,
+        "url": "https://www.buymyliquor.com/products/rosebank-30-year-old-release-1-2020-edition",
+        "source_id": "src_rosebank-31-r1_usretail",
+        "as_of": "2026-06-16"
+      }
+    ]
   },
   "auction": {
     "platform_data": [
@@ -66,12 +80,12 @@
         "min": null,
         "avg": null,
         "max": null,
-        "latest_hammer": "N/A — unverified",
+        "latest_hammer": 3528,
         "trend": "rising",
         "url": "https://whiskyauctioneer.com/learn/explore-whisky/bottles/rosebank-1990-30-year-old-release-1-0",
-        "source_id": "src_rosebank-31-r1_whiskyhunter",
+        "source_id": "src_rosebank-31-r1_whiskyauctioneer",
         "as_of": "2022-01-10",
-        "verify_note": "Hammer $3,528 reproduces via independent WebSearch but is NOT present in its cited capture (src_rosebank-31-r1_whiskyhunter states hammer 'N/A — not surfaced'); no Whisky Auctioneer capture exists in KG for R1. Quarantined as unsupported-by-cited-source pending a proper Whisky Auctioneer capture."
+        "verify_note": "RESTORED: highest-recorded Whisky Auctioneer hammer USD $3,528 (sold 2022-01-10). Previously quarantined because it was cited to the Whiskyhunter capture (where it does NOT appear); now backed by a dedicated Whisky Auctioneer capture (src_rosebank-31-r1_whiskyauctioneer) and reproduced across 4 independent WebSearch queries. Historical 2022 individual hammer, not a current value."
       }
     ]
   },
@@ -119,5 +133,5 @@
       "unsupported": 1
     }
   },
-  "last_updated": "2026-06-16T00:00:00Z"
+  "last_updated": "2026-06-16"
 }

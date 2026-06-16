@@ -271,5 +271,57 @@
     "local_path": "kb/sources/tamdhu/src_tamdhu_news_speyside2026.md",
     "key_data": "Speyside Festival 29 Apr-4 May 2026; Dalbeallie 09 (60.5%, GBP105, 1000 btls); Distillery Team single cask; 21 YO Overall Winner Speyside Awards 2026.",
     "capture_method": "websearch_excerpt_unverified"
+  },
+  {
+    "id": "src_tamdhu-18_thewhiskyexchange_price",
+    "bottle": "tamdhu-18",
+    "source_name": "The Whisky Exchange",
+    "url": "https://www.thewhiskyexchange.com/p/65584/tamdhu-18-year-old",
+    "type": "retail",
+    "source_date": "2026-06-16",
+    "fetched_at": "2026-06-16T04:10:00Z",
+    "freshness": "fresh",
+    "local_path": "kb/sources/tamdhu/src_tamdhu-18_thewhiskyexchange_price.md",
+    "key_data": "UK GBP176.00 (TWE p/65584, 70cl/46.8%). Reproduced by two independent searches. Live on-page price NOT confirmed (WebFetch 403).",
+    "capture_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_tamdhu-18_whiskynotes_score",
+    "bottle": "tamdhu-18",
+    "source_name": "WhiskyNotes (Ruben Luyten)",
+    "url": "https://www.whiskynotes.be/2023/tamdhu/tamdhu-15-year-old-18-year-old/",
+    "type": "score",
+    "source_date": "2023-xx-xx",
+    "fetched_at": "2026-06-16T04:10:00Z",
+    "freshness": "stale",
+    "local_path": "kb/sources/tamdhu/src_tamdhu-18_whiskynotes_score.md",
+    "key_data": "WhiskyNotes numeric score 88/100 for Tamdhu 18 YO. Reproduced by two independent searches. On-page NOT confirmed (WebFetch 403).",
+    "capture_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_tamdhu-21_thewhiskyexchange_price",
+    "bottle": "tamdhu-21",
+    "source_name": "The Whisky Exchange",
+    "url": "https://www.thewhiskyexchange.com/p/84852/tamdhu-21-year-old",
+    "type": "retail",
+    "source_date": "2026-06-16",
+    "fetched_at": "2026-06-16T04:10:00Z",
+    "freshness": "fresh",
+    "local_path": "kb/sources/tamdhu/src_tamdhu-21_thewhiskyexchange_price.md",
+    "key_data": "UK GBP295.00 (TWE p/84852, 70cl/47.5%) — live price, re-sourced; supersedes quarantined GBP299 RRP claim. Reproduced by two independent searches. Live on-page price NOT confirmed (WebFetch 403).",
+    "capture_method": "websearch_excerpt"
+  },
+  {
+    "id": "src_tamdhu-21_masterofmalt_price",
+    "bottle": "tamdhu-21",
+    "source_name": "Master of Malt",
+    "url": "https://www.masterofmalt.com/whiskies/tamdhu/tamdhu-21-year-old-sherry-cask-matured-whisky/",
+    "type": "retail",
+    "source_date": "2026-06-16",
+    "fetched_at": "2026-06-16T04:10:00Z",
+    "freshness": "fresh",
+    "local_path": "kb/sources/tamdhu/src_tamdhu-21_masterofmalt_price.md",
+    "key_data": "UK GBP252.70 (Master of Malt, 70cl/47.5%). Re-sourced; now reproduced by two independent searches (previously unsupported). Live on-page price NOT confirmed (WebFetch 403).",
+    "capture_method": "websearch_excerpt"
   }
 ]

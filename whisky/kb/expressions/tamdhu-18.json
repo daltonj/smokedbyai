@@ -32,6 +32,12 @@
       "source_id": "src_tamdhu-18_whiskybase"
     },
     {
+      "critic": "WhiskyNotes / Ruben Luyten",
+      "raw": "88/100",
+      "normalized_100": 88,
+      "source_id": "src_tamdhu-18_whiskynotes_score"
+    },
+    {
       "critic": "San Francisco World Spirits Competition",
       "raw": "Double Gold",
       "normalized_100": null,
@@ -39,7 +45,15 @@
     }
   ],
   "prices": {
-    "uk": [],
+    "uk": [
+      {
+        "retailer": "The Whisky Exchange",
+        "price_gbp": 176.0,
+        "url": "https://www.thewhiskyexchange.com/p/65584/tamdhu-18-year-old",
+        "source_id": "src_tamdhu-18_thewhiskyexchange_price",
+        "as_of": "2026-06-16"
+      }
+    ],
     "us": [
       {
         "retailer": "Total Wine & More",
@@ -85,20 +99,19 @@
     "status": "amber",
     "criteria": {
       "reviews_ge_3": false,
-      "scores_ge_2": false,
-      "uk_price": false,
+      "scores_ge_2": true,
+      "uk_price": true,
       "us_price": true,
       "auction_point": true,
       "fresh_point": true
     },
     "gaps": [
-      "No valid (websearch_excerpt) captures: every tamdhu-18 source is capture_method=websearch_snippet, which does not count as a valid evidence point per schema; all data is UNVERIFIED (WebFetch 403 all run).",
-      "reviews_ge_3 fails: only 1 fresh expert review accessible (Whiskey Wash, snippet); WhiskyNotes 2023 review is stale and its text/score were not retrieved.",
-      "scores_ge_2 fails: zero numeric normalized_100 scores. Whiskybase 87.20 is a snippet (entry IDs 207124/209109 unresolved); SFWSC Double Gold is non-numeric.",
-      "uk_price fails: no UK retail price tied to this listing (TWE snippet exposed no price; the £299/£275 figures could not be tied to the 18 and were dropped).",
-      "us_price fails: $199.99 Total Wine is snippet-only, not a valid excerpt capture.",
-      "auction_point fails as fresh: only stale 2024-era hammer figures (~£90-£100), no trend.",
-      "Finish tasting note missing across all captures."
+      "GAP-FILL 2026-06-16: scores_ge_2 now satisfied — added WhiskyNotes/Ruben Luyten 88/100 (reproduced by two independent searches; capture_method=websearch_excerpt) alongside Whiskybase 87.20. SFWSC Double Gold remains non-numeric.",
+      "GAP-FILL 2026-06-16: uk_price now satisfied — The Whisky Exchange £176.00 (p/65584, 70cl/46.8%), reproduced by two independent searches.",
+      "reviews_ge_3 still fails: only 1 fresh expert review fully accessible (Whiskey Wash); WhiskyNotes 2023 review is stale.",
+      "Fresh auction still missing: only stale 2024-era hammer figures (~£90-£100), no trend; a Dec 2025 lot exists but had not concluded at search time, so no fresh hammer datum.",
+      "Finish tasting note still missing across captured critic text.",
+      "All values UNVERIFIED on-page (WebFetch 403 all run); reproduction-by-search used as the verification standard. Re-verifier runs next."
     ]
   },
   "verification": {
@@ -111,5 +124,5 @@
       "unsupported": 0
     }
   },
-  "last_updated": "2026-06-16"
+  "last_updated": "2026-06-16T04:10:00Z"
 }

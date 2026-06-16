@@ -17,9 +17,12 @@
     "nose": "Dried figs and raisins, rich chocolate and toffee pudding, red fruits, leather and brown sugar.",
     "palate": "Warm oak, rich fig, raisins, decadent chocolate, hazelnut and butterscotch; soft oak, cinnamon, stewed fruits and a Seville-marmalade tang.",
     "finish": "Very long, spicy liquorice, slowly drying.",
-    "narrative": "This is the orthodox Glengoyne: a quarter-century exclusively in hand-selected sherry casks, coppery-red in the glass and trading on depth rather than weight. The nose stacks dried figs, raisins, rich chocolate and toffee pudding over red fruits, leather and brown sugar; the palate follows with warm oak, fig, raisins, decadent chocolate, hazelnut and butterscotch, lifted by cinnamon, stewed fruit and a Seville-marmalade tang (The Whiskey Wash; corroborated by the distillery's own notes). The finish is very long, spicy liquorice slowly drying out. Crucially for an old sherried malt, the captured notes show no sulphur and no sharpness — this is clean sherry maturation on Scotland's slowest-distilled spirit, natural colour and non-chill-filtered at 48%. The Whiskey Wash named it Best Scotch at its 2025 Awards. The catch is thin evidence: one real review and an award, no numeric 100-pt scores, and a secondary average (~£250) that sits below its premium retail. VERDICT: POUR — a benchmark, textbook old-school sherried Highlander to drink, not to chase as an investment. Keep its dried-fruit/chocolate sherry profile firmly separate from the citrus-and-vanilla White Oak 24.",
+    "narrative": "This is the orthodox Glengoyne: a quarter-century exclusively in hand-selected sherry casks, coppery-red in the glass and trading on depth rather than weight. The nose stacks dried figs, raisins, rich chocolate and toffee pudding over red fruits, leather and brown sugar; WhiskyNotes (Ruben Luyten) adds jammy juicy figs and soaked cherries, plums, blackberries, espresso and burnt sugar from first-fill European-oak sherry. The palate follows with warm oak, fig, raisins, decadent chocolate, hazelnut and butterscotch, lifted by cinnamon, stewed fruit and a Seville-marmalade tang (The Whiskey Wash; corroborated by the distillery's own notes); Drinkhacker finds it nutty and savoury — toasted walnuts, coconut husks, vanilla sponge, milk chocolate and a tannic, nougat-and-Christmas-spice finish. The finish is very long, spicy liquorice slowly drying out. Crucially for an old sherried malt, the captured notes show no sulphur and no sharpness — this is clean sherry maturation on Scotland's slowest-distilled spirit, natural colour and non-chill-filtered at 48%. Pedigree is real and now multiply-sourced: The Whiskey Wash named it Best Scotch at its 2025 Awards (its founder: 'Scotch whisky doesn't get any better than this', corroborated by Master of Malt's blog), Drinkhacker an A- (~90), and the Whiskybase crowd 89.74/100 across 324 ratings. VERDICT: POUR — a benchmark, textbook old-school sherried Highlander to drink, not to chase as an investment; UK retail runs ~£420 (Master of Malt) to £525 (Royal Mile), £499 at the distillery, while the secondary average (~£250) sits below it. Keep its dried-fruit/chocolate sherry profile firmly separate from the citrus-and-vanilla White Oak 24.",
     "source_ids": [
       "src_glengoyne-25_thewhiskeywash",
+      "src_glengoyne-25_whiskynotes",
+      "src_glengoyne-25_drinkhacker",
+      "src_glengoyne-25_masterofmalt_blog",
       "src_glengoyne-25_glengoyneofficial"
     ]
   },
@@ -29,10 +32,44 @@
       "raw": "Best Scotch — The Whiskey Wash Awards 2025",
       "normalized_100": null,
       "source_id": "src_glengoyne-25_thewhiskeywash"
+    },
+    {
+      "critic": "Whiskybase (community, 324 ratings)",
+      "raw": "89.74/100",
+      "normalized_100": 89.74,
+      "source_id": "src_glengoyne-25_whiskybase"
+    },
+    {
+      "critic": "Drinkhacker",
+      "raw": "A- (letter grade)",
+      "normalized_100": 90,
+      "source_id": "src_glengoyne-25_drinkhacker"
     }
   ],
   "prices": {
-    "uk": [],
+    "uk": [
+      {
+        "retailer": "Master of Malt",
+        "price_gbp": 419.9,
+        "url": "https://www.masterofmalt.com/whiskies/glengoyne/glengoyne-25-year-old-whisky/",
+        "source_id": "src_glengoyne-25_masterofmalt_price",
+        "as_of": "2026-06-16"
+      },
+      {
+        "retailer": "Glengoyne official shop (Ian Macleod)",
+        "price_gbp": 499.0,
+        "url": "https://www.glengoyne.com/glengoyne-25-year-old-highland-single-malt-scotch-whisky",
+        "source_id": "src_glengoyne-25_glengoyneshop_price",
+        "as_of": "2026-06-16"
+      },
+      {
+        "retailer": "Royal Mile Whiskies",
+        "price_gbp": 525.0,
+        "url": "https://www.royalmilewhiskies.com/glengoyne-25-year-old-48-70cl/",
+        "source_id": "src_glengoyne-25_royalmilewhiskies_price",
+        "as_of": "2026-06-16"
+      }
+    ],
     "us": [
       {
         "retailer": "The Whiskey Wash (stated MSRP)",
@@ -82,21 +119,21 @@
     "composite": 59
   },
   "coverage": {
-    "status": "red",
+    "status": "amber",
     "criteria": {
-      "reviews_ge_3": false,
-      "scores_ge_2": false,
-      "uk_price": false,
+      "reviews_ge_3": true,
+      "scores_ge_2": true,
+      "uk_price": true,
       "us_price": true,
       "auction_point": true,
       "fresh_point": true
     },
     "gaps": [
-      "UK retail £ price not captured (TWE p/24158 and MoM both 403/snippet-only)",
-      "Only 1 expert review captured (The Whiskey Wash); need >=3 named critics",
-      "No numeric 100-pt scores — only awards-only (Best Scotch, Whiskey Wash 2025); Whiskyfun/WhiskyNotes/Whisky Advocate not surfaced for the 25",
-      "Auction trend direction unknown; £250 figure from Whisky Returns aggregator, not a strict-whitelist platform (reconfirm vs Whiskystats whisky/135597 or /151799)",
-      "ALL captures via websearch_excerpt/snippet — WebFetch blocked (HTTP 403); verbatim re-fetch required"
+      "UK £ retail now captured x3 (Master of Malt £419.90, official Glengoyne shop £499.00, Royal Mile Whiskies £525.00), each reproduced by a 2nd WebSearch",
+      "Reviews now >=3 named: The Whiskey Wash, WhiskyNotes (Ruben Luyten), Drinkhacker (+ Master of Malt blog corroborating the award)",
+      "Scores now >=2 numeric: Whiskybase community 89.74/100 (324 ratings) and Drinkhacker A- (~90). WhiskyNotes' own /100 not exposed in WebSearch snippet (N/A); Whiskyfun/Whisky Advocate still not surfaced for the 25",
+      "Auction trend direction still unknown; £250 figure from Whisky Returns aggregator, not a strict-whitelist platform (reconfirm vs Whiskystats)",
+      "Verification is now STALE: re-run needed to validate the newly added UK prices, scores and reviews. ALL captures via websearch_excerpt — WebFetch blocked (HTTP 403); verbatim re-fetch required"
     ]
   },
   "verification": {
