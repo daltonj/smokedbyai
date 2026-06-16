@@ -1,0 +1,69 @@
+{
+  "id": "isle-of-skye-30",
+  "distillery_id": "isle-of-skye",
+  "display_name": "Isle of Skye 30 Year Old (Blended Scotch, Ian Macleod)",
+  "category": "blended",
+  "age_years": 30,
+  "abv": 40.0,
+  "cask": "Malt and grain whiskies aged at least 30 years, married in oak; single malt from the Scottish islands, Speyside and Highlands matured in a selection of oak casks. Talisker forms the smoky maritime core.",
+  "natural_colour": "N/A — not found",
+  "chill_filtered": "N/A — not found",
+  "outturn_or_availability": "Rare top-of-range expression; ongoing but low volume. 70cl. SRP ~US$322 / £299.",
+  "vitals_source_ids": ["src_isle-of-skye-30_thewhiskeywash", "src_isle-of-skye-30_whiskyadvocate", "src_isle-of-skye-30_thewhiskyexchange"],
+
+  "tasting": {
+    "nose": "Lush, earthy 'forest floor after rain' notes with fragrant red berries, cinnamon, citrus, buttery caramel and salted pretzels; citrus peel, pepper, Madagascan vanilla pods, marzipan, cigar smoke and a hint of cherry.",
+    "palate": "Vivid and complex — warm spices, black tea, lemon citrus, vanilla, orchard fruits and brown sugar, with hints of soft leather and chocolate malted balls; soft and sweet with heather honey, baked orange, tobacco smoke, clove, raisin, Brazil nut, walnut oil, toasted sesame and coffee cake.",
+    "finish": "Long and mellow; soft peat, dried fruit, vanilla and malted biscuit lingering — complex without being heavy.",
+    "narrative": "The summit of the range: a mature, contemplative blend where decades of oak and gentle island smoke fold into honey, dried fruit, tobacco and spice — 'an indulgent blend for swirling around the glass or pairing with a cigar' (Whisky Advocate). Took Gold at the 2026 World Whiskies Awards for depth, subtlety and balance, with additional IWSC Spirit Gold and SFWSC Gold cited by retail. Curator verdict: a polished, low-strength (40%) but genuinely complex old blend that earns its price as a special-occasion pour rather than an everyday dram.",
+    "source_ids": ["src_isle-of-skye-30_thewhiskeywash", "src_isle-of-skye-30_whiskyadvocate"]
+  },
+
+  "scores": [
+    {"critic": "World Whiskies Awards 2026", "raw": "Gold", "normalized_100": null, "source_id": "src_isle-of-skye-30_thewhiskeywash"},
+    {"critic": "IWSC + SFWSC (via Wine-Searcher/retail, undated)", "raw": "IWSC Spirit Gold; SFWSC Gold", "normalized_100": null, "source_id": "src_isle-of-skye-30_winesearcher"},
+    {"critic": "Whisky Advocate (Jonny McCormick, Fall 2023)", "raw": "Reviewed; numeric score not surfaced via WebSearch", "normalized_100": null, "source_id": "src_isle-of-skye-30_whiskyadvocate"}
+  ],
+
+  "prices": {
+    "uk": [
+      {"retailer": "The Whisky Exchange", "price_gbp": 299.0, "url": "https://www.thewhiskyexchange.com/p/80106/isle-of-skye-30-year-old-blended-whisky", "source_id": "src_isle-of-skye-30_thewhiskyexchange", "as_of": "2026-06"}
+    ],
+    "us": [
+      {"retailer": "US market avg (Wine-Searcher, ex-tax); SRP ~$322", "price_usd": 302.0, "url": "https://www.wine-searcher.com/find/thirty+old+blend+scotch+whisky+isle+skye+island+scotland", "source_id": "src_isle-of-skye-30_winesearcher", "as_of": "2026-06"},
+      {"retailer": "Whisky Advocate (stated price)", "price_usd": 330.0, "url": "https://whiskyadvocate.com/Isle-of-Skye-30-year-old-40", "source_id": "src_isle-of-skye-30_whiskyadvocate", "as_of": "2023-fall"}
+    ]
+  },
+
+  "auction": {
+    "platform_data": [
+      {"platform": "Whiskybase Market (secondary, lowest offer)", "currency": "EUR", "min": 290.0, "avg": null, "max": null, "latest_hammer": null, "trend": "N/A — not found", "url": "https://www.whiskybase.com/whiskies/whisky/208307/isle-of-skye-30-year-old-im", "source_id": "src_isle-of-skye-30_whiskybase", "as_of": "2026-06"}
+    ]
+  },
+
+  "rubric": {
+    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
+    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
+    "composite": 0
+  },
+
+  "coverage": {
+    "status": "amber",
+    "criteria": {
+      "reviews_ge_3": false, "scores_ge_2": true, "uk_price": true,
+      "us_price": true, "auction_point": true, "fresh_point": true
+    },
+    "gaps": [
+      "Only 2 substantive expert reviews captured (TWW, Whisky Advocate); need >=3",
+      "No numeric 100-pt score: WWA 2026 Gold and SFWSC/IWSC Gold are medals, not points; Whisky Advocate 30YO number not surfaced by WebSearch",
+      "IWSC/SFWSC Gold for the 30 is undated in the Wine-Searcher excerpt — needs confirmation of which year",
+      "SRP ~$322 not surfaced verbatim (Wine-Searcher avg ~$302 captured instead)",
+      "Auction is a single Whiskybase lowest-offer point; no trend/avg/hammer history (gated)",
+      "Natural-colour / chill-filtration not confirmed",
+      "ALL captures via WebSearch excerpt — WebFetch blocked (HTTP 403)"
+    ]
+  },
+
+  "verification": {"status": "pending", "report_id": "isle-of-skye-30.verify.json"},
+  "last_updated": "2026-06-16T03:46:00Z"
+}

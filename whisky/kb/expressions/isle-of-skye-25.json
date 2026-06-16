@@ -1,0 +1,66 @@
+{
+  "id": "isle-of-skye-25",
+  "distillery_id": "isle-of-skye",
+  "display_name": "Isle of Skye 25 Year Old (Blended Scotch, Ian Macleod)",
+  "category": "blended",
+  "age_years": 25,
+  "abv": 40.0,
+  "cask": "Mature whiskies from Skye and mainland Scotland; high malt content; matured in ex-bourbon and sherry casks (per The Whiskey Wash). Blend leans on a Talisker core plus Speyside and Lowland whiskies (per Whisky Advocate).",
+  "natural_colour": "N/A — not found",
+  "chill_filtered": "N/A — not found",
+  "outturn_or_availability": "Ongoing premium core-range expression; not limited. 70cl. SRP US$179 / £250.",
+  "vitals_source_ids": ["src_isle-of-skye-25_thewhiskeywash_review", "src_isle-of-skye-25_whiskyadvocate", "src_isle-of-skye-25_thewhiskeywash_award"],
+
+  "tasting": {
+    "nose": "Rich oak, ginger, vanilla, red apple and citrus; earthy autumn leaves, warm baking spices, brown sugar, orchard fruits, toasted walnuts, burnt-orange citrus and buttery toffee. (TWE: Comice pear and apricot.)",
+    "palate": "Rounded and fruity — malt, apple and light peat smoke; with complexity of hazelnuts, warm spices, blood-orange zest, dark wood polish, gentle smoke, a touch of sea salt and a spot of leather. Whisky Advocate notes cola, allspice, red apple, liquorice, leather, gingerbread, clove, black tea, peaty embers, dark toffee and milk chocolate.",
+    "finish": "Long and balanced with subtle apricot; long and smoky (TWE).",
+    "narrative": "The flagship of the range and a genuine award magnet: a high-malt island blend balancing gentle maritime smoke against orchard fruit, baking spice, dark toffee and oak. Named Best Blended Scotch (16+ Years) AND Best Overall Blended Scotch Whisky at the 2025 San Francisco World Spirits Competition (announced 12 Nov 2025, Edinburgh), where judges called it 'a beautifully crafted Scotch'. Whisky Advocate's Jonny McCormick scored it 94 and flagged it as 'great value'. Curator verdict: the standout of the line and a benchmark older blend for the money.",
+    "source_ids": ["src_isle-of-skye-25_thewhiskeywash_review", "src_isle-of-skye-25_whiskyadvocate", "src_isle-of-skye-25_thewhiskeywash_award", "src_isle-of-skye-25_thewhiskyexchange"]
+  },
+
+  "scores": [
+    {"critic": "Whisky Advocate / Jonny McCormick", "raw": "94/100", "normalized_100": 94, "source_id": "src_isle-of-skye-25_whiskyadvocate"},
+    {"critic": "San Francisco World Spirits Competition 2025", "raw": "Best Blended Scotch (16+ Years) + Best Overall Blended Scotch Whisky", "normalized_100": null, "source_id": "src_isle-of-skye-25_thewhiskeywash_award"}
+  ],
+
+  "prices": {
+    "uk": [
+      {"retailer": "The Whisky Exchange", "price_gbp": 250.0, "url": "https://www.thewhiskyexchange.com/p/80105/isle-of-skye-25-year-old-blended-whisky", "source_id": "src_isle-of-skye-25_thewhiskyexchange", "as_of": "2026-06"}
+    ],
+    "us": [
+      {"retailer": "US market avg (Wine-Searcher, ex-tax); SRP ~$179", "price_usd": 186.0, "url": "https://www.wine-searcher.com/find/isle+skye+25+old+blend+scotch+whisky+scotland/1/usa", "source_id": "src_isle-of-skye-25_winesearcher", "as_of": "2026-06"},
+      {"retailer": "Whisky Advocate (stated price)", "price_usd": 210.0, "url": "https://whiskyadvocate.com/New-Whisky-Ratings-Little-Book-Chapter-07-Isle-of-Skye-25-year-old-and-more", "source_id": "src_isle-of-skye-25_whiskyadvocate", "as_of": "2023-fall"}
+    ]
+  },
+
+  "auction": {
+    "platform_data": [
+      {"platform": "Whiskybase Market (secondary, lowest offer)", "currency": "EUR", "min": 200.95, "avg": null, "max": null, "latest_hammer": null, "trend": "N/A — not found", "url": "https://www.whiskybase.com/whiskies/whisky/192613/isle-of-skye-25-year-old-im", "source_id": "src_isle-of-skye-25_whiskybase", "as_of": "2026-06"}
+    ]
+  },
+
+  "rubric": {
+    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
+    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
+    "composite": 0
+  },
+
+  "coverage": {
+    "status": "green",
+    "criteria": {
+      "reviews_ge_3": true, "scores_ge_2": true, "uk_price": true,
+      "us_price": true, "auction_point": true, "fresh_point": true
+    },
+    "gaps": [
+      "Verification still pending (verification.pass != true), so not yet a confirmed GREEN per the schema's definition of done",
+      "Reviews count leans on two Whiskey Wash pages + Whisky Advocate; a Whiskyfun/WhiskyNotes/Dramble independent note would strengthen consensus",
+      "Auction is a single Whiskybase lowest-offer point; no trend/avg/hammer history (data gated behind account)",
+      "Natural-colour / chill-filtration not confirmed",
+      "ALL captures via WebSearch excerpt — WebFetch blocked (HTTP 403)"
+    ]
+  },
+
+  "verification": {"status": "pending", "report_id": "isle-of-skye-25.verify.json"},
+  "last_updated": "2026-06-16T03:46:00Z"
+}
