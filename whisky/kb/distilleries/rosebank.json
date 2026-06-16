@@ -11,5 +11,15 @@
   "closed": 1993,
   "revived": 2023,
   "notes": "Lowland 'ghost' distillery, mothballed/closed 1993. Acquired by Ian Macleod Distillers in 2017; revived with a new distillery and visitor centre (production resumed July 2024, public reopening 2023-2024). The 'Legacy Series' of limited annual releases drew on casks laid down before closure: Release One = 30 Year Old (1990, bottled 2020, 48.6%); Release Two = 31 Year Old (1990/1991, bottled 2022, 48.1%); Release Three = 32 Year Old (2024). NOTE: a vintage conflict exists for the 31yo Release Two (sources state both 1990 and 1991) — see expression node rosebank-31-r2.",
-  "source_ids": ["src_rosebank_distillery", "src_rosebank-31-r2_whiskyauctioneer", "src_rosebank-31-r1_retail"]
+  "source_ids": ["src_rosebank_distillery", "src_rosebank-31-r2_whiskyauctioneer", "src_rosebank-31-r1_retail"],
+  "ian_macleod": {
+    "company_facts": "Owned by Ian Macleod Distillers — independent, family-owned (Russell family), HQ Broxburn, founded 1933 by Leonard Russell Snr (family acquired 1963). Rosebank (Lowland 'ghost' distillery, closed 1993) acquired by Ian Macleod in 2017 and revived; distillation resumed July 2023, visitor centre opened 7 June 2024. The Legacy Series of annual limited releases (Release One 30YO 2020, Release Two 31YO 2022, Release Three 32YO 2024) drew on pre-closure casks. Produces >15M bottles/yr group-wide.",
+    "portfolio": ["Glengoyne", "Tamdhu", "Rosebank", "Edinburgh Gin", "Isle of Skye", "Smokehead", "King Robert", "Sheep Dip", "Pig's Nose"],
+    "official_brand_url": "https://www.rosebank.com/",
+    "official_rrp": {
+      "rosebank-30-r1": {"gbp": 1600.0, "usd": null, "url": "https://www.rosebank.com/shop/whisky", "source_id": "src_rosebank30_r1_official"},
+      "rosebank-31-r2": {"gbp": 1800.0, "usd": null, "url": "https://www.rosebank.com/shop/whisky", "source_id": "src_rosebank31_r2_official"}
+    },
+    "source_ids": ["src_ianmacleod_company", "src_rosebank30_r1_official", "src_rosebank31_r2_official", "src_ianmacleod_news2025_2026"]
+  }
 }

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "src_ianmacleod_company",
+    "bottle": "N/A",
+    "source_name": "Ian Macleod Distillers official / Wikipedia / Scotch Whisky",
+    "url": "https://www.ianmacleod.com/company-history",
+    "type": "official",
+    "source_date": "2026",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "fresh",
+    "local_path": "sources/ianmacleod/src_ianmacleod_company.md",
+    "key_data": "Family-owned (Russell family), HQ Broxburn, founded 1933 by Leonard Russell Snr; Russell family acquired 1963. Distilleries: Glengoyne (2003), Tamdhu (2011), Rosebank (2017), Edinburgh Gin. Brands: Isle of Skye, Smokehead, King Robert, Sheep Dip, Pig's Nose. >15M bottles/yr. Size rank cited inconsistently (10th / 15th / IWSC 7th); '6th largest' NOT confirmed."
+  },
+  {
+    "id": "src_glengoyne25_official",
+    "bottle": "glengoyne-25",
+    "source_name": "Glengoyne official (glengoyne.com)",
+    "url": "https://www.glengoyne.com/glengoyne-25-year-old-highland-single-malt-scotch-whisky",
+    "type": "official",
+    "source_date": "2026",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "fresh",
+    "local_path": "sources/ianmacleod/src_glengoyne25_official.md",
+    "key_data": "48% ABV, 100% sherry oak. Official RRP GBP 499 (retail ~465). Official tasting notes: red fruits/leather/brown sugar; Seville marmalade; spicy liquorice finish."
+  },
+  {
+    "id": "src_glengoyne24_official",
+    "bottle": "glengoyne-24",
+    "source_name": "Glengoyne official + The Spirits Business",
+    "url": "https://www.glengoyne.com/white-oak-24-year-old",
+    "type": "official",
+    "source_date": "2024-2025",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "fresh",
+    "local_path": "sources/ianmacleod/src_glengoyne24_official.md",
+    "key_data": "Glengoyne 24YO White Oak (Oak Masters' debut). 47.8% ABV, first-fill bourbon + virgin oak. Official RRP GBP 375 / US $399.99. UK Jul 2024, US Mar 2025."
+  },
+  {
+    "id": "src_tamdhu18_official",
+    "bottle": "tamdhu-18",
+    "source_name": "Tamdhu official (tamdhu.com) + Whisky Magazine",
+    "url": "https://www.tamdhu.com/tamdhu-18-year-old",
+    "type": "official",
+    "source_date": "2022",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "stale",
+    "local_path": "sources/ianmacleod/src_tamdhu18_official.md",
+    "key_data": "46.8% ABV, non-chill filtered, natural colour, American+European oak oloroso. 125th anniversary (2022). Official RRP GBP 139.99."
+  },
+  {
+    "id": "src_tamdhu21_official",
+    "bottle": "tamdhu-21",
+    "source_name": "Tamdhu official (tamdhu.com) + The Spirits Business",
+    "url": "https://www.tamdhu.com/tamdhu-21-year-old",
+    "type": "official",
+    "source_date": "2025-05",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "fresh",
+    "local_path": "sources/ianmacleod/src_tamdhu21_official.md",
+    "key_data": "47.5% ABV, non-chill filtered, no added colour, 100% oloroso (American+European oak). 12,000 bottles/yr. Official RRP GBP 299 / US ~$403. Added to core range May 2025."
+  },
+  {
+    "id": "src_rosebank30_r1_official",
+    "bottle": "rosebank-30-r1",
+    "source_name": "Rosebank official (rosebank.com) + Whisky Advocate",
+    "url": "https://www.rosebank.com/shop/whisky",
+    "type": "official",
+    "source_date": "2020",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "stale",
+    "local_path": "sources/ianmacleod/src_rosebank30_r1_official.md",
+    "key_data": "Release One, 1990 vintage, bottled 2020. 48.6% ABV. 62% refill sherry butts + 38% refill bourbon hogsheads. 4,350 bottles. Official RRP GBP 1600."
+  },
+  {
+    "id": "src_rosebank31_r2_official",
+    "bottle": "rosebank-31-r2",
+    "source_name": "Rosebank official (rosebank.com) + The Spirits Business",
+    "url": "https://www.rosebank.com/shop/whisky",
+    "type": "official",
+    "source_date": "2022",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "stale",
+    "local_path": "sources/ianmacleod/src_rosebank31_r2_official.md",
+    "key_data": "Release Two, 48.1% ABV, refill American oak hogsheads + ex-sherry butts. Launched Aug 2022. Vintage 1990 vs 1991 UNRESOLVED. Official RRP GBP 1800. Outturn N/A."
+  },
+  {
+    "id": "src_isleofskye_official",
+    "bottle": "isle-of-skye",
+    "source_name": "Isle of Skye official (isleofskyewhisky.com) + The Whiskey Wash",
+    "url": "https://www.isleofskyewhisky.com/",
+    "type": "official",
+    "source_date": "2025-2026",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "fresh",
+    "local_path": "sources/ianmacleod/src_isleofskye_official.md",
+    "key_data": "All 40% ABV, Talisker-cored blend. 21YO US$114.99 (GBP N/A); 25YO US$179 / GBP 250 (also seen $206.99); 30YO US $321.99 (GBP ~300 approx). 25YO Best Blended Scotch in World SFWSC 2025; 30YO Gold WWA 2026."
+  },
+  {
+    "id": "src_ianmacleod_news2025_2026",
+    "bottle": "N/A",
+    "source_name": "Trade press (The Spirits Business, The Whiskey Wash) + brand sites",
+    "url": "https://www.thespiritsbusiness.com/2025/05/tamdhu-adds-21yo-whisky-to-core-range/",
+    "type": "news",
+    "source_date": "2025-2026",
+    "fetched_at": "2026-06-16T00:00:00Z",
+    "freshness": "fresh",
+    "local_path": "sources/ianmacleod/src_ianmacleod_news2025_2026.md",
+    "key_data": "2025/26 news: Tamdhu 21 to core range (May 2025); Glengoyne Oak Masters'/White Oak to US (Mar 2025); Isle of Skye 25 Best Blended Scotch in World SFWSC 2025; Isle of Skye 30 Gold WWA 2026; Glengoyne 25 Best Scotch Whiskey Wash 2025; Rosebank 31 Best in Show Top Shelf 2025."
+  }
+]

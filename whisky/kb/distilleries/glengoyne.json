@@ -13,5 +13,15 @@
     "src_glengoyne-25_glengoyneofficial",
     "src_glengoyne-24_whiskymag",
     "src_glengoyne-24_whiskyadvocate"
-  ]
+  ],
+  "ian_macleod": {
+    "company_facts": "Owned by Ian Macleod Distillers — independent, family-owned (Russell family), HQ Broxburn, founded 1933 by Leonard Russell Snr (family acquired 1963). Glengoyne purchased from The Edrington Group for £7.2m in 2003 — the company's first distillery. Produces >15M bottles/yr. Size rank cited inconsistently across sources (10th / 15th largest; IWSC Top 50 7th); '6th largest' not reproducibly confirmed.",
+    "portfolio": ["Glengoyne", "Tamdhu", "Rosebank", "Edinburgh Gin", "Isle of Skye", "Smokehead", "King Robert", "Sheep Dip", "Pig's Nose"],
+    "official_brand_url": "https://www.glengoyne.com/",
+    "official_rrp": {
+      "glengoyne-25": {"gbp": 499.0, "usd": null, "url": "https://www.glengoyne.com/glengoyne-25-year-old-highland-single-malt-scotch-whisky", "source_id": "src_glengoyne25_official"},
+      "glengoyne-24": {"gbp": 375.0, "usd": 399.99, "url": "https://www.glengoyne.com/white-oak-24-year-old", "source_id": "src_glengoyne24_official"}
+    },
+    "source_ids": ["src_ianmacleod_company", "src_glengoyne25_official", "src_glengoyne24_official", "src_ianmacleod_news2025_2026"]
+  }
 }

@@ -9,5 +9,15 @@
   "owner": "Ian Macleod Distillers",
   "founded": 1897,
   "notes": "Founded 1897 on the banks of the River Spey near Knockando. Owned by Ian Macleod Distillers since 2011. Core range built around sherry maturation (10, 12, 15, 18, and now 21 Year Old, plus Batch Strength). Founded year (1897) is from general/public knowledge and was NOT WebFetch-verified in this run (WebFetch returned HTTP 403 globally) — flag for verification.",
-  "source_ids": ["src_tamdhu_news_speyside2026", "src_tamdhu-18_whiskeywash", "src_tamdhu-21_whiskeywash_news"]
+  "source_ids": ["src_tamdhu_news_speyside2026", "src_tamdhu-18_whiskeywash", "src_tamdhu-21_whiskeywash_news"],
+  "ian_macleod": {
+    "company_facts": "Owned by Ian Macleod Distillers — independent, family-owned (Russell family), HQ Broxburn, founded 1933 by Leonard Russell Snr (family acquired 1963). Tamdhu acquired from The Edrington Group in 2011 (reopened 2012 after being mothballed since 2009). Produces >15M bottles/yr.",
+    "portfolio": ["Glengoyne", "Tamdhu", "Rosebank", "Edinburgh Gin", "Isle of Skye", "Smokehead", "King Robert", "Sheep Dip", "Pig's Nose"],
+    "official_brand_url": "https://www.tamdhu.com/",
+    "official_rrp": {
+      "tamdhu-18": {"gbp": 139.99, "usd": null, "url": "https://www.tamdhu.com/tamdhu-18-year-old", "source_id": "src_tamdhu18_official"},
+      "tamdhu-21": {"gbp": 299.0, "usd": 403.0, "url": "https://www.tamdhu.com/tamdhu-21-year-old", "source_id": "src_tamdhu21_official"}
+    },
+    "source_ids": ["src_ianmacleod_company", "src_tamdhu18_official", "src_tamdhu21_official", "src_ianmacleod_news2025_2026"]
+  }
 }
