@@ -357,10 +357,10 @@
     "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-25yr-scotch-whisky/p/243939700",
     "type": "retail",
     "source_date": "2026-06",
-    "fetched_at": "2026-06-16T21:45:00Z",
+    "fetched_at": "2026-06-16T23:10:00Z",
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-25_totalwine.md",
-    "key_data": "Total Wine & More US $179.99 (750ml); reproduced x2",
+    "key_data": "Total Wine & More US $169.99 (700/750ml; Sacramento Arden $169.99, Bellevue $219.99 store-specific); reproduced x3. CHANGED from prior $179.99 (re-confirmed 2026-06-16; old figure no longer reproduces).",
     "method": "websearch_excerpt"
   },
   {
@@ -426,6 +426,19 @@
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-30_winesearcher_us.md",
     "key_data": "Wine-Searcher US: avg ~$302 (ex-tax), SRP ~$321.99; observed ~$270 low to $493.99 (Frootbat); reproduced x2",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_isle-of-skye-30_totalwine",
+    "bottle": "isle-of-skye-30",
+    "source_name": "Total Wine & More",
+    "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-30yr-scotch-whisky/p/243940700",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T23:10:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-30_totalwine.md",
+    "key_data": "CARRIED at Total Wine (active product page p/243940700) as of 2026-06, but Total Wine's OWN price NOT exposed via WebSearch (4 attempts). Market figures ($321.99 SRP / ~$302 avg) NOT recorded as TW price per no-substitution rule. carried=true, price unconfirmed.",
     "method": "websearch_excerpt"
   }
 ]

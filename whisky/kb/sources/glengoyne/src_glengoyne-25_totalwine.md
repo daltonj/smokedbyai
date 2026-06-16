@@ -24,4 +24,11 @@ VITALS (Total Wine page excerpt): "matured for 25 years in specially made Europe
 KEY DATA: Total Wine & More US price $499.99 (750ml, 48% ABV). 100% sherry oak — NOT the White Oak 24.
 CORROBORATING: The Whiskey Wash review states US ~$600 (approx MSRP, see src_glengoyne-25_thewhiskeywash) — kept as a separate MSRP datapoint, above the $499.99 shelf price.
 
+RE-CONFIRM 2026-06-16 (fresh venue-pricing pass, x2):
+- Query A: ""Glengoyne 25 Year" Total Wine $499.99 single malt scotch price" ->
+  > "The Glengoyne 25 Year Single Malt Scotch is available at Total Wine & More for $499.99 in a 750ml bottle."
+- Query B: "Glengoyne 25 Year Single Malt Scotch totalwine.com 750ml price dollars sherry" ->
+  > "According to the Total Wine & More website, the 750ml bottle is priced at $499.99."
+$499.99 reproduces unchanged. NO CHANGE vs prior node value ($499.99). Product page p/173092750.
+
 Source: https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-25-year-single-malt-scotch/p/173092750

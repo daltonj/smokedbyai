@@ -161,6 +161,14 @@
       "unsupported": 0
     }
   },
+  "total_wine": {
+    "carried": true,
+    "price_usd": null,
+    "url": "https://www.totalwine.com/spirits/scotch/single-malt/rosebank-30-year-scotch-whisky/p/241523750",
+    "source_id": "src_rosebank-31-r1_totalwine",
+    "as_of": "2026-06",
+    "note": "Carried at Total Wine as 'Rosebank 30 Year Scotch Whisky' Release One (active product page p/241523750) — contradicts prior 'likely not carried' assumption. Total Wine's own price NOT exposed via WebSearch (WebFetch 403); market figures (~$3,040 avg) not substituted per no-guess rule. No prices.us Total Wine entry added since no confirmed TW price."
+  },
   "last_updated": "2026-06-16",
   "rubric_note": "appreciation capped at 12: freshest individual hammer is 2022 ($3,528); 'rising' is an aggregate label. NOTE current US street (~$3,000-3,300) does sit above the £1,600 RRP, supporting a real premium — but trend is not freshly demonstrated."
 }

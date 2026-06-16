@@ -166,5 +166,13 @@
     },
     "reverified_at": "2026-06-16T05:10:00Z"
   },
-  "last_updated": "2026-06-16T21:45:00Z"
+  "total_wine": {
+    "carried": true,
+    "price_usd": 199.99,
+    "url": "https://www.totalwine.com/spirits/scotch/single-malt/tamdhu-18-year-single-malt-scotch/p/2126234907",
+    "source_id": "src_tamdhu-18_totalwine",
+    "as_of": "2026-06",
+    "note": "750ml. Re-confirmed unchanged 2026-06-16 (reproduced x2; $199.99 across multiple FL stores)."
+  },
+  "last_updated": "2026-06-16"
 }

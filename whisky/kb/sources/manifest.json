@@ -119,7 +119,7 @@
   {
     "id": "src_glengoyne-24_thewhiskyexchange",
     "bottle": "glengoyne-24",
-    "source_name": "The Whisky Exchange (+ corroborating UK retailers)",
+    "source_name": "The Whisky Exchange (UK price roundup: TWE £375 / HTFW £408.95 / Whisky Shop £453)",
     "url": "https://www.thewhiskyexchange.com/p/81117/glengoyne-white-oak-24-year-old",
     "type": "retail",
     "source_date": "2026-06",
@@ -790,10 +790,10 @@
     "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-25yr-scotch-whisky/p/243939700",
     "type": "retail",
     "source_date": "2026-06",
-    "fetched_at": "2026-06-16T21:45:00Z",
+    "fetched_at": "2026-06-16T23:10:00Z",
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-25_totalwine.md",
-    "key_data": "Total Wine & More US $179.99 (750ml); reproduced x2",
+    "key_data": "Total Wine & More US $169.99 (700/750ml; Sacramento Arden $169.99, Bellevue $219.99 store-specific); reproduced x3. CHANGED from prior $179.99 (re-confirmed 2026-06-16; old figure no longer reproduces).",
     "method": "websearch_excerpt"
   },
   {
@@ -859,6 +859,19 @@
     "freshness": "fresh",
     "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-30_winesearcher_us.md",
     "key_data": "Wine-Searcher US: avg ~$302 (ex-tax), SRP ~$321.99; observed ~$270 low to $493.99 (Frootbat); reproduced x2",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_isle-of-skye-30_totalwine",
+    "bottle": "isle-of-skye-30",
+    "source_name": "Total Wine & More",
+    "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-30yr-scotch-whisky/p/243940700",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T23:10:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-30_totalwine.md",
+    "key_data": "CARRIED at Total Wine (active product page p/243940700) as of 2026-06, but Total Wine's OWN price NOT exposed via WebSearch (4 attempts). Market figures ($321.99 SRP / ~$302 avg) NOT recorded as TW price per no-substitution rule. carried=true, price unconfirmed.",
     "method": "websearch_excerpt"
   },
   {
@@ -1158,6 +1171,32 @@
     "freshness": "fresh",
     "local_path": "kb/sources/rosebank/src_rosebank-31-r2_usretail.md",
     "key_data": "US retail for the 31yo Release Two (48.1%, confirmed identity): FLASK Fine Wine & Whisky (LA) $2,699.97 ex-tax (reproduced x2); Wine-Searcher USA average $2,353 ex-tax (reproduced x2); US MSRP $3,300 (existing). Also carried by Frootbat, Hi-Time Wine, Binny's, World Wine Whisky US, Bottega Whiskey, Ace Beverage DC. Excluded unreproduced Total Wine $2,000 and $4,000 figures.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r1_totalwine",
+    "bottle": "rosebank-31-r1",
+    "source_name": "Total Wine & More",
+    "url": "https://www.totalwine.com/spirits/scotch/single-malt/rosebank-30-year-scotch-whisky/p/241523750",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T23:15:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/rosebank/src_rosebank-31-r1_totalwine.md",
+    "key_data": "CARRIED at Total Wine as 'Rosebank 30 Year Scotch Whisky' Release One (active product page p/241523750), confirmed x2 — CONTRADICTS prior 'not carried' assumption. Total Wine's OWN price NOT exposed via WebSearch (WebFetch 403). Market figures (~$3,040 avg; $2,999.99-$3,299.99 other retailers) NOT recorded as TW price per no-substitution rule. carried=true, price unconfirmed.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r2_totalwine",
+    "bottle": "rosebank-31-r2",
+    "source_name": "Total Wine & More",
+    "url": "https://www.totalwine.com/spirits/scotch/rosebank-31yr-lowland-single-malt-scotch/p/2126234932",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T23:15:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/rosebank/src_rosebank-31-r2_totalwine.md",
+    "key_data": "CARRIED at Total Wine as 'Rosebank 31Yr Lowland Single Malt Scotch' Release Two (active product page p/2126234932 + concierge listing), confirmed x3 — CONTRADICTS prior 'not carried' assumption. Total Wine's OWN price NOT exposed via WebSearch (WebFetch 403). Market figures ($3,300 MSRP; ~$2,353 avg; $2,351.99-$2,499.99 other retailers) NOT recorded as TW price per no-substitution rule. carried=true, price unconfirmed.",
     "method": "websearch_excerpt"
   },
   {

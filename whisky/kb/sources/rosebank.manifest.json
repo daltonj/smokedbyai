@@ -35,7 +35,7 @@
     "fetched_at": "2026-06-16T03:41:00Z",
     "freshness": "fresh",
     "local_path": "kb/sources/rosebank/src_rosebank-31-r1_whiskyhunter.md",
-    "key_data": "Aggregated GBP: min £1,999 / avg £2,999.60 / max £3,500. Outturn 4,300-4,350. Cask 62% refill sherry butts / 38% refill bourbon hogsheads. ABV 48.6%.",
+    "key_data": "Aggregated GBP: min \u00a31,999 / avg \u00a32,999.60 / max \u00a33,500. Outturn 4,300-4,350. Cask 62% refill sherry butts / 38% refill bourbon hogsheads. ABV 48.6%.",
     "method": "websearch_excerpt"
   },
   {
@@ -139,7 +139,7 @@
     "fetched_at": "2026-06-16T03:06:00Z",
     "freshness": "fresh",
     "local_path": "kb/sources/rosebank/src_rosebank-31-r2_whiskyhunter.md",
-    "key_data": "Aggregated GBP: min £1,750 / avg £2,049 / max £2,500. Outturn 4,000. Vintage stated 1990 (conflict with 1991 elsewhere). ABV 48.1%.",
+    "key_data": "Aggregated GBP: min \u00a31,750 / avg \u00a32,049 / max \u00a32,500. Outturn 4,000. Vintage stated 1990 (conflict with 1991 elsewhere). ABV 48.1%.",
     "method": "websearch_excerpt"
   },
   {
@@ -296,6 +296,32 @@
     "freshness": "fresh",
     "local_path": "kb/sources/rosebank/src_rosebank-31-r2_usretail.md",
     "key_data": "US retail for the 31yo Release Two (48.1%, confirmed identity): FLASK Fine Wine & Whisky (LA) $2,699.97 ex-tax (reproduced x2); Wine-Searcher USA average $2,353 ex-tax (reproduced x2); US MSRP $3,300 (existing). Also carried by Frootbat, Hi-Time Wine, Binny's, World Wine Whisky US, Bottega Whiskey, Ace Beverage DC. Excluded unreproduced Total Wine $2,000 and $4,000 figures.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r1_totalwine",
+    "bottle": "rosebank-31-r1",
+    "source_name": "Total Wine & More",
+    "url": "https://www.totalwine.com/spirits/scotch/single-malt/rosebank-30-year-scotch-whisky/p/241523750",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T23:15:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/rosebank/src_rosebank-31-r1_totalwine.md",
+    "key_data": "CARRIED at Total Wine as 'Rosebank 30 Year Scotch Whisky' Release One (active product page p/241523750), confirmed x2 \u2014 CONTRADICTS prior 'not carried' assumption. Total Wine's OWN price NOT exposed via WebSearch (WebFetch 403). Market figures (~$3,040 avg; $2,999.99-$3,299.99 other retailers) NOT recorded as TW price per no-substitution rule. carried=true, price unconfirmed.",
+    "method": "websearch_excerpt"
+  },
+  {
+    "id": "src_rosebank-31-r2_totalwine",
+    "bottle": "rosebank-31-r2",
+    "source_name": "Total Wine & More",
+    "url": "https://www.totalwine.com/spirits/scotch/rosebank-31yr-lowland-single-malt-scotch/p/2126234932",
+    "type": "retail",
+    "source_date": "2026-06",
+    "fetched_at": "2026-06-16T23:15:00Z",
+    "freshness": "fresh",
+    "local_path": "whisky/kb/sources/rosebank/src_rosebank-31-r2_totalwine.md",
+    "key_data": "CARRIED at Total Wine as 'Rosebank 31Yr Lowland Single Malt Scotch' Release Two (active product page p/2126234932 + concierge listing), confirmed x3 \u2014 CONTRADICTS prior 'not carried' assumption. Total Wine's OWN price NOT exposed via WebSearch (WebFetch 403). Market figures ($3,300 MSRP; ~$2,353 avg; $2,351.99-$2,499.99 other retailers) NOT recorded as TW price per no-substitution rule. carried=true, price unconfirmed.",
     "method": "websearch_excerpt"
   }
 ]

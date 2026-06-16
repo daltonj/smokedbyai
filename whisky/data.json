@@ -3,10 +3,10 @@
     "title": "The Curator's Guide — Tasting Night Dossier",
     "anchor": "2026-06-16",
     "freshness_window": "Dec 2025 – Jun 2026",
-    "generated_at": "2026-06-16T22:25:05Z",
+    "generated_at": "2026-06-16T23:47:53Z",
     "fx_note": "Some £-equiv figures use indicative FX (£1≈$1.27, €1≈£0.85) and are marked “FX est.”; native-currency prices are the sourced figures.",
     "method_note": "All data captured via WebSearch against named expert/retail/auction pages (WebFetch egress was blocked) and reproduced by a second search; not verbatim full-page fetches.",
-    "source_count": 123,
+    "source_count": 126,
     "bottle_count": 9
   },
   "producer": {
@@ -336,23 +336,26 @@
             "price_gbp": 408.95,
             "url": "https://www.htfw.com/glengoyne-white-oak-cask-matured-24-year-old-whisky",
             "source_id": "src_glengoyne-24_thewhiskyexchange",
-            "as_of": "2026-06-16"
+            "as_of": "2026-06-16",
+            "note": "price from the shared TWE UK price-roundup capture (same source_id)."
           },
           {
             "retailer": "The Whisky Shop",
             "price_gbp": 453.0,
             "url": "https://www.whiskyshop.com/glengoyne-24-year-old-white-oak",
             "source_id": "src_glengoyne-24_thewhiskyexchange",
-            "as_of": "2026-06-16"
+            "as_of": "2026-06-16",
+            "note": "price from the shared TWE UK price-roundup capture (same source_id)."
           }
         ],
         "us": [
           {
-            "retailer": "Total Wine & More (700ml)",
+            "retailer": "Total Wine & More",
             "price_usd": 399.98,
+            "note": "700ml; mix-6 price $359.98.",
             "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-24yr-white-oak-single-malt/p/2126245842",
             "source_id": "src_glengoyne-24_totalwine",
-            "as_of": "2026-06-16"
+            "as_of": "2026-06"
           },
           {
             "retailer": "Whisky Advocate (stated price)",
@@ -431,7 +434,15 @@
         },
         "note": "Re-verified 2026-06-16T22:10Z. PASS — all core fields reproduce live. 1 mismatch (TWE £415 stale -> quarantined) does not gate pass; uk_price held via The Whisky Shop £453."
       },
-      "last_updated": "2026-06-16T22:50:00Z",
+      "total_wine": {
+        "carried": true,
+        "price_usd": 399.98,
+        "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-24yr-white-oak-single-malt/p/2126245842",
+        "source_id": "src_glengoyne-24_totalwine",
+        "as_of": "2026-06",
+        "note": "700ml; mix-6 price $359.98. Re-confirmed unchanged 2026-06-16 (reproduced x2)."
+      },
+      "last_updated": "2026-06-16",
       "rubric_note": "critic_consensus trimmed to 13: only one normalizable score (Drinkhacker A-~90); Robb Report mention is unranked, not a #2 rank.",
       "_uk": {
         "min": 409,
@@ -447,9 +458,9 @@
         "max": 430,
         "count": 3,
         "primary": 400,
-        "primary_label": "Total Wine & More (700ml)",
+        "primary_label": "Total Wine & More",
         "primary_kind": "retail",
-        "primary_as_of": "2026-06-16"
+        "primary_as_of": "2026-06"
       },
       "_secondary": {
         "value": 294,
@@ -468,6 +479,12 @@
         "usd": 399.99,
         "url": "https://www.glengoyne.com/white-oak-24-year-old",
         "source_id": "src_glengoyne24_official"
+      },
+      "_totalwine": {
+        "carried": true,
+        "price": 399.98,
+        "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-24yr-white-oak-single-malt/p/2126245842",
+        "source_id": "src_glengoyne-24_totalwine"
       },
       "_valueIndex": 144.3,
       "_rank": 6
@@ -652,7 +669,15 @@
         },
         "note": "Re-verified 2026-06-16T22:15Z after gap-fill. PASS — all 14 fields reproduce LIVE incl. the 3 new UK prices (MoM £419.90 / shop £499 / Royal Mile £525), Whiskybase 89.74 (324 ratings), Drinkhacker A-, WhiskyNotes review. No 24-vs-25 conflation, no currency mix-ups (GBP retail vs $600 USD MSRP vs £250 GBP secondary; the €294 EUR belongs to the 24, not here)."
       },
-      "last_updated": "2026-06-16T22:50:00Z",
+      "total_wine": {
+        "carried": true,
+        "price_usd": 499.99,
+        "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-25-year-single-malt-scotch/p/173092750",
+        "source_id": "src_glengoyne-25_totalwine",
+        "as_of": "2026-06",
+        "note": "750ml, 48% ABV, sherry oak. Re-confirmed unchanged 2026-06-16 (reproduced x2)."
+      },
+      "last_updated": "2026-06-16",
       "rubric_note": "critic_consensus raised to 15: two numeric scores (Whiskybase 89.74/324 ratings, Drinkhacker A-) + Whiskey Wash Awards 2025 Best Scotch; better-evidenced than the 24.",
       "_uk": {
         "min": 420,
@@ -679,6 +704,12 @@
         "usd": null,
         "url": "https://www.glengoyne.com/glengoyne-25-year-old-highland-single-malt-scotch-whisky",
         "source_id": "src_glengoyne25_official"
+      },
+      "_totalwine": {
+        "carried": true,
+        "price": 499.99,
+        "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-25-year-single-malt-scotch/p/173092750",
+        "source_id": "src_glengoyne-25_totalwine"
       },
       "_valueIndex": 147.6,
       "_rank": 5
@@ -791,7 +822,7 @@
           "critic_consensus": 11,
           "complexity": 6,
           "impact": 5,
-          "presentation": 3
+          "presentation": 4
         },
         "value": {
           "price_to_quality": 12,
@@ -799,7 +830,7 @@
           "appreciation": 3,
           "collectibility": 3
         },
-        "composite": 46
+        "composite": 47
       },
       "coverage": {
         "status": "amber",
@@ -827,7 +858,15 @@
           "unsupported": 1
         }
       },
+      "total_wine": {
+        "carried": true,
+        "price_usd": 89.99,
+        "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-21yr-scotch-whisky/p/243938700",
+        "source_id": "src_isle-of-skye-21_totalwine",
+        "as_of": "2026-06"
+      },
       "last_updated": "2026-06-16",
+      "rubric_note": "presentation scored on a uniform rule: 40% ABV + chill-filtration implied + natural colour unconfirmed = 4/8 for all three Isle of Skye blends (vs 7-8 for the cask-strength-leaning, natural-colour, non-chill-filtered single malts).",
       "_uk": {
         "min": 118,
         "max": 118,
@@ -864,7 +903,13 @@
         "url": "https://www.isleofskyewhisky.com/",
         "source_id": "src_isleofskye_official"
       },
-      "_valueIndex": 389.8,
+      "_totalwine": {
+        "carried": true,
+        "price": 89.99,
+        "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-21yr-scotch-whisky/p/243938700",
+        "source_id": "src_isle-of-skye-21_totalwine"
+      },
+      "_valueIndex": 398.3,
       "_rank": 9
     },
     {
@@ -937,7 +982,8 @@
           },
           {
             "retailer": "Total Wine & More",
-            "price_usd": 179.99,
+            "price_usd": 169.99,
+            "note": "Re-confirmed 2026-06-16: changed from $179.99 to $169.99 (store-specific: $169.99 Sacramento Arden to $219.99 Bellevue). Old $179.99 no longer reproduces.",
             "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-25yr-scotch-whisky/p/243939700",
             "source_id": "src_isle-of-skye-25_totalwine",
             "as_of": "2026-06"
@@ -1023,7 +1069,16 @@
           "unsupported": 0
         }
       },
+      "total_wine": {
+        "carried": true,
+        "price_usd": 169.99,
+        "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-25yr-scotch-whisky/p/243939700",
+        "source_id": "src_isle-of-skye-25_totalwine",
+        "as_of": "2026-06",
+        "note": "Changed from $179.99 (prior) to $169.99 on fresh re-confirmation 2026-06-16; store/state-specific ($169.99 Sacramento Arden to $219.99 Bellevue)."
+      },
       "last_updated": "2026-06-16",
+      "rubric_note": "presentation scored on a uniform rule: 40% ABV + chill-filtration implied + natural colour unconfirmed = 4/8 for all three Isle of Skye blends (vs 7-8 for the cask-strength-leaning, natural-colour, non-chill-filtered single malts).",
       "_uk": {
         "min": 250,
         "max": 250,
@@ -1037,7 +1092,7 @@
         "min": 153,
         "max": 420,
         "count": 5,
-        "primary": 180,
+        "primary": 170,
         "primary_label": "Total Wine & More",
         "primary_kind": "retail",
         "primary_as_of": "2026-06"
@@ -1059,6 +1114,12 @@
         "usd": 179.0,
         "url": "https://www.isleofskyewhisky.com/",
         "source_id": "src_isleofskye_official"
+      },
+      "_totalwine": {
+        "carried": true,
+        "price": 169.99,
+        "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-25yr-scotch-whisky/p/243939700",
+        "source_id": "src_isle-of-skye-25_totalwine"
       },
       "_valueIndex": 260.0,
       "_rank": 3
@@ -1212,7 +1273,16 @@
           "unsupported": 0
         }
       },
+      "total_wine": {
+        "carried": true,
+        "price_usd": null,
+        "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-30yr-scotch-whisky/p/243940700",
+        "source_id": "src_isle-of-skye-30_totalwine",
+        "as_of": "2026-06",
+        "note": "Carried at Total Wine (active product page p/243940700) but Total Wine's own price NOT exposed via WebSearch (4 attempts; WebFetch 403). Market figures ($321.99 SRP / ~$302 avg) not substituted per no-guess rule. No prices.us Total Wine entry added since no confirmed TW price."
+      },
       "last_updated": "2026-06-16",
+      "rubric_note": "presentation scored on a uniform rule: 40% ABV + chill-filtration implied + natural colour unconfirmed = 4/8 for all three Isle of Skye blends (vs 7-8 for the cask-strength-leaning, natural-colour, non-chill-filtered single malts).",
       "_uk": {
         "min": 299,
         "max": 299,
@@ -1248,6 +1318,12 @@
         "usd": 321.99,
         "url": "https://www.isleofskyewhisky.com/",
         "source_id": "src_isleofskye_official"
+      },
+      "_totalwine": {
+        "carried": true,
+        "price": null,
+        "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-30yr-scotch-whisky/p/243940700",
+        "source_id": "src_isle-of-skye-30_totalwine"
       },
       "_valueIndex": 194.0,
       "_rank": 7
@@ -1415,6 +1491,14 @@
           "unsupported": 0
         }
       },
+      "total_wine": {
+        "carried": true,
+        "price_usd": null,
+        "url": "https://www.totalwine.com/spirits/scotch/single-malt/rosebank-30-year-scotch-whisky/p/241523750",
+        "source_id": "src_rosebank-31-r1_totalwine",
+        "as_of": "2026-06",
+        "note": "Carried at Total Wine as 'Rosebank 30 Year Scotch Whisky' Release One (active product page p/241523750) — contradicts prior 'likely not carried' assumption. Total Wine's own price NOT exposed via WebSearch (WebFetch 403); market figures (~$3,040 avg) not substituted per no-guess rule. No prices.us Total Wine entry added since no confirmed TW price."
+      },
       "last_updated": "2026-06-16",
       "rubric_note": "appreciation capped at 12: freshest individual hammer is 2022 ($3,528); 'rising' is an aggregate label. NOTE current US street (~$3,000-3,300) does sit above the £1,600 RRP, supporting a real premium — but trend is not freshly demonstrated.",
       "_uk": {
@@ -1448,6 +1532,12 @@
       },
       "_retailGBPequiv": 1600,
       "_officialRRP": null,
+      "_totalwine": {
+        "carried": true,
+        "price": null,
+        "url": "https://www.totalwine.com/spirits/scotch/single-malt/rosebank-30-year-scotch-whisky/p/241523750",
+        "source_id": "src_rosebank-31-r1_totalwine"
+      },
       "_valueIndex": 50.0,
       "_rank": 1
     },
@@ -1616,6 +1706,14 @@
           "unsupported": 0
         }
       },
+      "total_wine": {
+        "carried": true,
+        "price_usd": null,
+        "url": "https://www.totalwine.com/spirits/scotch/rosebank-31yr-lowland-single-malt-scotch/p/2126234932",
+        "source_id": "src_rosebank-31-r2_totalwine",
+        "as_of": "2026-06",
+        "note": "Carried at Total Wine as 'Rosebank 31Yr Lowland Single Malt Scotch' Release Two (active product page p/2126234932 + concierge listing) — contradicts prior 'likely not carried' assumption. Total Wine's own price NOT exposed via WebSearch (WebFetch 403); market figures ($3,300 MSRP / ~$2,353 avg) not substituted per no-guess rule. No prices.us Total Wine entry added since no confirmed TW price."
+      },
       "last_updated": "2026-06-16",
       "rubric_note": "appreciation capped at 12: freshest hammer 2022 ($2,891), one platform labels trend flat. R2 has the deeper numeric score set (WA91/Auctioneer91/Whiskybase90) and the narrative's 'headline bottle' status, so it now sits level with R1.",
       "_uk": {
@@ -1653,6 +1751,12 @@
         "usd": null,
         "url": "https://www.rosebank.com/shop/whisky",
         "source_id": "src_rosebank31_r2_official"
+      },
+      "_totalwine": {
+        "carried": true,
+        "price": null,
+        "url": "https://www.totalwine.com/spirits/scotch/rosebank-31yr-lowland-single-malt-scotch/p/2126234932",
+        "source_id": "src_rosebank-31-r2_totalwine"
       },
       "_valueIndex": 43.9,
       "_rank": 2
@@ -1825,7 +1929,15 @@
         },
         "reverified_at": "2026-06-16T05:10:00Z"
       },
-      "last_updated": "2026-06-16T21:45:00Z",
+      "total_wine": {
+        "carried": true,
+        "price_usd": 199.99,
+        "url": "https://www.totalwine.com/spirits/scotch/single-malt/tamdhu-18-year-single-malt-scotch/p/2126234907",
+        "source_id": "src_tamdhu-18_totalwine",
+        "as_of": "2026-06",
+        "note": "750ml. Re-confirmed unchanged 2026-06-16 (reproduced x2; $199.99 across multiple FL stores)."
+      },
+      "last_updated": "2026-06-16",
       "_uk": {
         "min": 176,
         "max": 176,
@@ -1861,6 +1973,12 @@
         "usd": null,
         "url": "https://www.tamdhu.com/tamdhu-18-year-old",
         "source_id": "src_tamdhu18_official"
+      },
+      "_totalwine": {
+        "carried": true,
+        "price": 199.99,
+        "url": "https://www.totalwine.com/spirits/scotch/single-malt/tamdhu-18-year-single-malt-scotch/p/2126234907",
+        "source_id": "src_tamdhu-18_totalwine"
       },
       "_valueIndex": 323.9,
       "_rank": 8
@@ -2008,7 +2126,15 @@
         "reverified_at": "2026-06-16T05:10:00Z",
         "note": "RE-VERIFICATION cleared the prior FAIL: TWE UK price re-sourced to live £295 (RRP £299 distinct, held in price note) and Master of Malt £252.70 now reproduces. All present core fields verify."
       },
-      "last_updated": "2026-06-16T21:45:00Z",
+      "total_wine": {
+        "carried": true,
+        "price_usd": 399.99,
+        "url": "https://www.totalwine.com/spirits/scotch/single-malt/tamdhu-21-year-old-single-malt-scotch-whisky/p/2126262625",
+        "source_id": "src_tamdhu-21_totalwine",
+        "as_of": "2026-06",
+        "note": "Standard shelf price $399.99 (750ml, 47.5%, p/2126262625). Concierge pre-arrival offer $299.99 (25%/$100 off, concierge-only) tracked separately in prices.us. Re-confirmed unchanged 2026-06-16 (reproduced x2)."
+      },
+      "last_updated": "2026-06-16",
       "rubric_note": "critic_consensus lowered to 10: NO confirmed numeric /100 score (Robb Report implies an 85-89 band only; rest are trade-show medals). Its standing is value-driven, not consensus-driven.",
       "_uk": {
         "min": 253,
@@ -2035,6 +2161,12 @@
         "usd": 403.0,
         "url": "https://www.tamdhu.com/tamdhu-21-year-old",
         "source_id": "src_tamdhu21_official"
+      },
+      "_totalwine": {
+        "carried": true,
+        "price": 399.99,
+        "url": "https://www.totalwine.com/spirits/scotch/single-malt/tamdhu-21-year-old-single-malt-scotch-whisky/p/2126262625",
+        "source_id": "src_tamdhu-21_totalwine"
       },
       "_valueIndex": 256.9,
       "_rank": 4
@@ -2172,7 +2304,7 @@
     {
       "id": "src_glengoyne-24_thewhiskyexchange",
       "bottle": "glengoyne-24",
-      "source_name": "The Whisky Exchange (+ corroborating UK retailers)",
+      "source_name": "The Whisky Exchange (UK price roundup: TWE £375 / HTFW £408.95 / Whisky Shop £453)",
       "url": "https://www.thewhiskyexchange.com/p/81117/glengoyne-white-oak-24-year-old",
       "type": "retail",
       "source_date": "2026-06",
@@ -2843,10 +2975,10 @@
       "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-25yr-scotch-whisky/p/243939700",
       "type": "retail",
       "source_date": "2026-06",
-      "fetched_at": "2026-06-16T21:45:00Z",
+      "fetched_at": "2026-06-16T23:10:00Z",
       "freshness": "fresh",
       "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-25_totalwine.md",
-      "key_data": "Total Wine & More US $179.99 (750ml); reproduced x2",
+      "key_data": "Total Wine & More US $169.99 (700/750ml; Sacramento Arden $169.99, Bellevue $219.99 store-specific); reproduced x3. CHANGED from prior $179.99 (re-confirmed 2026-06-16; old figure no longer reproduces).",
       "method": "websearch_excerpt"
     },
     {
@@ -2912,6 +3044,19 @@
       "freshness": "fresh",
       "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-30_winesearcher_us.md",
       "key_data": "Wine-Searcher US: avg ~$302 (ex-tax), SRP ~$321.99; observed ~$270 low to $493.99 (Frootbat); reproduced x2",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_isle-of-skye-30_totalwine",
+      "bottle": "isle-of-skye-30",
+      "source_name": "Total Wine & More",
+      "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-30yr-scotch-whisky/p/243940700",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T23:10:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/isle-of-skye/src_isle-of-skye-30_totalwine.md",
+      "key_data": "CARRIED at Total Wine (active product page p/243940700) as of 2026-06, but Total Wine's OWN price NOT exposed via WebSearch (4 attempts). Market figures ($321.99 SRP / ~$302 avg) NOT recorded as TW price per no-substitution rule. carried=true, price unconfirmed.",
       "method": "websearch_excerpt"
     },
     {
@@ -3211,6 +3356,32 @@
       "freshness": "fresh",
       "local_path": "kb/sources/rosebank/src_rosebank-31-r2_usretail.md",
       "key_data": "US retail for the 31yo Release Two (48.1%, confirmed identity): FLASK Fine Wine & Whisky (LA) $2,699.97 ex-tax (reproduced x2); Wine-Searcher USA average $2,353 ex-tax (reproduced x2); US MSRP $3,300 (existing). Also carried by Frootbat, Hi-Time Wine, Binny's, World Wine Whisky US, Bottega Whiskey, Ace Beverage DC. Excluded unreproduced Total Wine $2,000 and $4,000 figures.",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_rosebank-31-r1_totalwine",
+      "bottle": "rosebank-31-r1",
+      "source_name": "Total Wine & More",
+      "url": "https://www.totalwine.com/spirits/scotch/single-malt/rosebank-30-year-scotch-whisky/p/241523750",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T23:15:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/rosebank/src_rosebank-31-r1_totalwine.md",
+      "key_data": "CARRIED at Total Wine as 'Rosebank 30 Year Scotch Whisky' Release One (active product page p/241523750), confirmed x2 — CONTRADICTS prior 'not carried' assumption. Total Wine's OWN price NOT exposed via WebSearch (WebFetch 403). Market figures (~$3,040 avg; $2,999.99-$3,299.99 other retailers) NOT recorded as TW price per no-substitution rule. carried=true, price unconfirmed.",
+      "method": "websearch_excerpt"
+    },
+    {
+      "id": "src_rosebank-31-r2_totalwine",
+      "bottle": "rosebank-31-r2",
+      "source_name": "Total Wine & More",
+      "url": "https://www.totalwine.com/spirits/scotch/rosebank-31yr-lowland-single-malt-scotch/p/2126234932",
+      "type": "retail",
+      "source_date": "2026-06",
+      "fetched_at": "2026-06-16T23:15:00Z",
+      "freshness": "fresh",
+      "local_path": "whisky/kb/sources/rosebank/src_rosebank-31-r2_totalwine.md",
+      "key_data": "CARRIED at Total Wine as 'Rosebank 31Yr Lowland Single Malt Scotch' Release Two (active product page p/2126234932 + concierge listing), confirmed x3 — CONTRADICTS prior 'not carried' assumption. Total Wine's OWN price NOT exposed via WebSearch (WebFetch 403). Market figures ($3,300 MSRP; ~$2,353 avg; $2,351.99-$2,499.99 other retailers) NOT recorded as TW price per no-substitution rule. carried=true, price unconfirmed.",
       "method": "websearch_excerpt"
     },
     {

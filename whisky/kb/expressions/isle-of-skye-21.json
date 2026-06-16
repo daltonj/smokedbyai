@@ -106,7 +106,7 @@
       "critic_consensus": 11,
       "complexity": 6,
       "impact": 5,
-      "presentation": 3
+      "presentation": 4
     },
     "value": {
       "price_to_quality": 12,
@@ -114,7 +114,7 @@
       "appreciation": 3,
       "collectibility": 3
     },
-    "composite": 46
+    "composite": 47
   },
   "coverage": {
     "status": "amber",
@@ -142,5 +142,13 @@
       "unsupported": 1
     }
   },
-  "last_updated": "2026-06-16"
+  "total_wine": {
+    "carried": true,
+    "price_usd": 89.99,
+    "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-21yr-scotch-whisky/p/243938700",
+    "source_id": "src_isle-of-skye-21_totalwine",
+    "as_of": "2026-06"
+  },
+  "last_updated": "2026-06-16",
+  "rubric_note": "presentation scored on a uniform rule: 40% ABV + chill-filtration implied + natural colour unconfirmed = 4/8 for all three Isle of Skye blends (vs 7-8 for the cask-strength-leaning, natural-colour, non-chill-filtered single malts)."
 }

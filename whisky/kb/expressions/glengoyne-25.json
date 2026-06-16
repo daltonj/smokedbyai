@@ -178,6 +178,14 @@
     },
     "note": "Re-verified 2026-06-16T22:15Z after gap-fill. PASS — all 14 fields reproduce LIVE incl. the 3 new UK prices (MoM £419.90 / shop £499 / Royal Mile £525), Whiskybase 89.74 (324 ratings), Drinkhacker A-, WhiskyNotes review. No 24-vs-25 conflation, no currency mix-ups (GBP retail vs $600 USD MSRP vs £250 GBP secondary; the €294 EUR belongs to the 24, not here)."
   },
-  "last_updated": "2026-06-16T22:50:00Z",
+  "total_wine": {
+    "carried": true,
+    "price_usd": 499.99,
+    "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-25-year-single-malt-scotch/p/173092750",
+    "source_id": "src_glengoyne-25_totalwine",
+    "as_of": "2026-06",
+    "note": "750ml, 48% ABV, sherry oak. Re-confirmed unchanged 2026-06-16 (reproduced x2)."
+  },
+  "last_updated": "2026-06-16",
   "rubric_note": "critic_consensus raised to 15: two numeric scores (Whiskybase 89.74/324 ratings, Drinkhacker A-) + Whiskey Wash Awards 2025 Best Scotch; better-evidenced than the 24."
 }

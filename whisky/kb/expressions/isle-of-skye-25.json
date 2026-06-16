@@ -68,7 +68,8 @@
       },
       {
         "retailer": "Total Wine & More",
-        "price_usd": 179.99,
+        "price_usd": 169.99,
+        "note": "Re-confirmed 2026-06-16: changed from $179.99 to $169.99 (store-specific: $169.99 Sacramento Arden to $219.99 Bellevue). Old $179.99 no longer reproduces.",
         "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-25yr-scotch-whisky/p/243939700",
         "source_id": "src_isle-of-skye-25_totalwine",
         "as_of": "2026-06"
@@ -154,5 +155,14 @@
       "unsupported": 0
     }
   },
-  "last_updated": "2026-06-16"
+  "total_wine": {
+    "carried": true,
+    "price_usd": 169.99,
+    "url": "https://www.totalwine.com/spirits/scotch/blended-scotch/isle-of-skye-25yr-scotch-whisky/p/243939700",
+    "source_id": "src_isle-of-skye-25_totalwine",
+    "as_of": "2026-06",
+    "note": "Changed from $179.99 (prior) to $169.99 on fresh re-confirmation 2026-06-16; store/state-specific ($169.99 Sacramento Arden to $219.99 Bellevue)."
+  },
+  "last_updated": "2026-06-16",
+  "rubric_note": "presentation scored on a uniform rule: 40% ABV + chill-filtration implied + natural colour unconfirmed = 4/8 for all three Isle of Skye blends (vs 7-8 for the cask-strength-leaning, natural-colour, non-chill-filtered single malts)."
 }

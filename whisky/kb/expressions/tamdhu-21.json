@@ -141,6 +141,14 @@
     "reverified_at": "2026-06-16T05:10:00Z",
     "note": "RE-VERIFICATION cleared the prior FAIL: TWE UK price re-sourced to live £295 (RRP £299 distinct, held in price note) and Master of Malt £252.70 now reproduces. All present core fields verify."
   },
-  "last_updated": "2026-06-16T21:45:00Z",
+  "total_wine": {
+    "carried": true,
+    "price_usd": 399.99,
+    "url": "https://www.totalwine.com/spirits/scotch/single-malt/tamdhu-21-year-old-single-malt-scotch-whisky/p/2126262625",
+    "source_id": "src_tamdhu-21_totalwine",
+    "as_of": "2026-06",
+    "note": "Standard shelf price $399.99 (750ml, 47.5%, p/2126262625). Concierge pre-arrival offer $299.99 (25%/$100 off, concierge-only) tracked separately in prices.us. Re-confirmed unchanged 2026-06-16 (reproduced x2)."
+  },
+  "last_updated": "2026-06-16",
   "rubric_note": "critic_consensus lowered to 10: NO confirmed numeric /100 score (Robb Report implies an 85-89 band only; rest are trade-show medals). Its standing is value-driven, not consensus-driven."
 }

@@ -55,23 +55,26 @@
         "price_gbp": 408.95,
         "url": "https://www.htfw.com/glengoyne-white-oak-cask-matured-24-year-old-whisky",
         "source_id": "src_glengoyne-24_thewhiskyexchange",
-        "as_of": "2026-06-16"
+        "as_of": "2026-06-16",
+        "note": "price from the shared TWE UK price-roundup capture (same source_id)."
       },
       {
         "retailer": "The Whisky Shop",
         "price_gbp": 453.0,
         "url": "https://www.whiskyshop.com/glengoyne-24-year-old-white-oak",
         "source_id": "src_glengoyne-24_thewhiskyexchange",
-        "as_of": "2026-06-16"
+        "as_of": "2026-06-16",
+        "note": "price from the shared TWE UK price-roundup capture (same source_id)."
       }
     ],
     "us": [
       {
-        "retailer": "Total Wine & More (700ml)",
+        "retailer": "Total Wine & More",
         "price_usd": 399.98,
+        "note": "700ml; mix-6 price $359.98.",
         "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-24yr-white-oak-single-malt/p/2126245842",
         "source_id": "src_glengoyne-24_totalwine",
-        "as_of": "2026-06-16"
+        "as_of": "2026-06"
       },
       {
         "retailer": "Whisky Advocate (stated price)",
@@ -150,6 +153,14 @@
     },
     "note": "Re-verified 2026-06-16T22:10Z. PASS — all core fields reproduce live. 1 mismatch (TWE £415 stale -> quarantined) does not gate pass; uk_price held via The Whisky Shop £453."
   },
-  "last_updated": "2026-06-16T22:50:00Z",
+  "total_wine": {
+    "carried": true,
+    "price_usd": 399.98,
+    "url": "https://www.totalwine.com/spirits/scotch/single-malt/glengoyne-24yr-white-oak-single-malt/p/2126245842",
+    "source_id": "src_glengoyne-24_totalwine",
+    "as_of": "2026-06",
+    "note": "700ml; mix-6 price $359.98. Re-confirmed unchanged 2026-06-16 (reproduced x2)."
+  },
+  "last_updated": "2026-06-16",
   "rubric_note": "critic_consensus trimmed to 13: only one normalizable score (Drinkhacker A-~90); Robb Report mention is unranked, not a #2 rank."
 }

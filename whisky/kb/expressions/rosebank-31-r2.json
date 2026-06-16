@@ -163,6 +163,14 @@
       "unsupported": 0
     }
   },
+  "total_wine": {
+    "carried": true,
+    "price_usd": null,
+    "url": "https://www.totalwine.com/spirits/scotch/rosebank-31yr-lowland-single-malt-scotch/p/2126234932",
+    "source_id": "src_rosebank-31-r2_totalwine",
+    "as_of": "2026-06",
+    "note": "Carried at Total Wine as 'Rosebank 31Yr Lowland Single Malt Scotch' Release Two (active product page p/2126234932 + concierge listing) — contradicts prior 'likely not carried' assumption. Total Wine's own price NOT exposed via WebSearch (WebFetch 403); market figures ($3,300 MSRP / ~$2,353 avg) not substituted per no-guess rule. No prices.us Total Wine entry added since no confirmed TW price."
+  },
   "last_updated": "2026-06-16",
   "rubric_note": "appreciation capped at 12: freshest hammer 2022 ($2,891), one platform labels trend flat. R2 has the deeper numeric score set (WA91/Auctioneer91/Whiskybase90) and the narrative's 'headline bottle' status, so it now sits level with R1."
 }
