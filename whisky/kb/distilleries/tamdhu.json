@@ -1,0 +1,13 @@
+{
+  "id": "tamdhu",
+  "name": "Tamdhu",
+  "type": "distillery",
+  "region": "Speyside",
+  "country": "Scotland",
+  "status": "active",
+  "house_style": "100% sherry-cask matured. Tamdhu is one of the few Speyside distilleries to mature its entire output exclusively in oloroso sherry-seasoned oak (first-fill and refill, European and American oak), sourced from bodegas in Jerez, Spain. The signature is a clean, unpeated, sherry-forward Speysider — dried fruit, nuts, dark chocolate and spice — frequently framed by critics as a value-driven alternative to The Macallan.",
+  "owner": "Ian Macleod Distillers",
+  "founded": 1897,
+  "notes": "Founded 1897 on the banks of the River Spey near Knockando. Owned by Ian Macleod Distillers since 2011. Core range built around sherry maturation (10, 12, 15, 18, and now 21 Year Old, plus Batch Strength). Founded year (1897) is from general/public knowledge and was NOT WebFetch-verified in this run (WebFetch returned HTTP 403 globally) — flag for verification.",
+  "source_ids": ["src_tamdhu_news_speyside2026", "src_tamdhu-18_whiskeywash", "src_tamdhu-21_whiskeywash_news"]
+}

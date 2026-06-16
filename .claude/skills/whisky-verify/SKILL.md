@@ -11,7 +11,10 @@ Trust nothing the curator wrote. Your job is to break the data, not defend it.
 1. Load `kb/expressions/<slug>.json`. For **every** datapoint (each price, score, tasting descriptor,
    auction figure, ABV, date), open its cited capture in `kb/sources/<cluster>/` and confirm the claim
    literally appears there. Pull the supporting quote/locator.
-2. Re-fetch a **sample** of live URLs (WebFetch) to confirm the cache matches the source and is current.
+2. Re-confirm a **sample** of datapoints against the live web: re-fetch the URL (WebFetch) where egress
+   allows; otherwise **re-run a targeted WebSearch** (with `allowed_domains` on the cited source) and
+   confirm the same figure/score/text reproduces. A datum that no independent search can reproduce is
+   `unsupported`. For `method: websearch` captures, reproduction-by-search IS the verification standard.
 3. Specifically hunt for: numbers attributed to the **wrong bottle/release**, transposed or rounded
    figures, **currency mix-ups** (£ vs $), stale data presented as fresh, averaged ranges stated as
    single facts, and any **slop** source that evaded the filters.

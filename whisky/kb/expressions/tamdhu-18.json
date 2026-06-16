@@ -1,0 +1,65 @@
+{
+  "id": "tamdhu-18",
+  "distillery_id": "tamdhu",
+  "display_name": "Tamdhu 18 Year Old (Oloroso Sherry Cask Matured)",
+  "category": "single malt",
+  "age_years": 18,
+  "abv": 46.8,
+  "cask": "Exclusively oloroso sherry-seasoned casks — combination of European and American oak, sourced from Jerez, Spain",
+  "natural_colour": true,
+  "chill_filtered": false,
+  "outturn_or_availability": "Limited release / core range (annual). Exact outturn N/A — not found",
+  "vitals_source_ids": ["src_tamdhu-18_whiskeywash", "src_tamdhu-18_thewhiskyexchange"],
+
+  "tasting": {
+    "nose": "Dry nutty sherry, cherry and plum, milk chocolate, rum raisin, citrus and baked/honeyed oats; orange zest and hazelnut milk chocolate (per retailer notes).",
+    "palate": "Rich, complex and decadently sherried — vanilla, brown sugar, red apple and dried fruits, deep nutty richness, dark chocolate and toasted almonds, with a characteristic dryness.",
+    "finish": "N/A — not found (finish text not exposed in retrievable excerpts).",
+    "narrative": "Tamdhu's 18 is the distillery's full-throttle oloroso statement: an exclusively sherry-matured Speysider that critics describe as a 'sherry bomb at the height of its greatness.' Dry, nutty and chocolate-rich rather than syrupy, it leans on European/American oak oloroso from Jerez at 46.8% ABV, natural colour and unchill-filtered. A San Francisco World Spirits Competition Double Gold backs the quality. Verdict: a benchmark sherried Speysider — though full tasting/scoring synthesis here is provisional pending verbatim source verification.",
+    "source_ids": ["src_tamdhu-18_whiskeywash", "src_tamdhu-18_thewhiskyexchange"]
+  },
+
+  "scores": [
+    {"critic": "Whiskybase (community)", "raw": "87.20/100", "normalized_100": 87, "source_id": "src_tamdhu-18_whiskybase"},
+    {"critic": "San Francisco World Spirits Competition", "raw": "Double Gold", "normalized_100": null, "source_id": "src_tamdhu-18_whiskeywash"}
+  ],
+
+  "prices": {
+    "uk": [],
+    "us": [
+      {"retailer": "Total Wine & More", "price_usd": 199.99, "url": "https://www.totalwine.com/spirits/scotch/single-malt/tamdhu-18-year-single-malt-scotch/p/2126234907", "source_id": "src_tamdhu-18_totalwine", "as_of": "2026-06-16"}
+    ]
+  },
+
+  "auction": {
+    "platform_data": [
+      {"platform": "Whisky.Auction / Scotch Whisky Auctions", "currency": "GBP", "min": 90, "avg": 95, "max": 100, "latest_hammer": 100, "trend": "N/A — not found", "url": "https://whisky.auction/auctions/lot/137270/tamdhu-18-year-old", "source_id": "src_tamdhu-18_auction", "as_of": "2024-xx-xx"}
+    ]
+  },
+
+  "rubric": {
+    "drinking": {"critic_consensus": 0, "complexity": 0, "impact": 0, "presentation": 0},
+    "value": {"price_to_quality": 0, "rarity": 0, "appreciation": 0, "collectibility": 0},
+    "composite": 0
+  },
+
+  "coverage": {
+    "status": "red",
+    "criteria": {
+      "reviews_ge_3": false, "scores_ge_2": false, "uk_price": false,
+      "us_price": false, "auction_point": false, "fresh_point": false
+    },
+    "gaps": [
+      "ALL data unverified: WebFetch returned HTTP 403 on every URL this run; values are WebSearch-surfaced snippets only.",
+      "No UK retail price confirmed (TWE/MoM live pages blocked).",
+      "US price ($199.99) not confirmed on live Total Wine page.",
+      "No expert /100 numeric score retrieved (Whiskybase 87.20 unconfirmed on-page; WhiskyNotes 2023 review text/score not retrieved).",
+      "Only 1 fresh expert review accessible (Whiskey Wash, snippet only); need >=3.",
+      "Finish tasting note missing.",
+      "Auction data is 2024-era (stale) with no trend."
+    ]
+  },
+
+  "verification": {"status": "pending", "report_id": "tamdhu-18.verify.json"},
+  "last_updated": "2026-06-16T03:15:00Z"
+}

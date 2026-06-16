@@ -1,0 +1,17 @@
+{
+  "id": "glengoyne",
+  "name": "Glengoyne",
+  "type": "distillery",
+  "region": "Highland",
+  "country": "Scotland",
+  "status": "active",
+  "house_style": "Slow-distilled, unpeated Highland single malt with a sherry-led signature: dried fruit, nutty oak and gentle spice, always bottled at natural colour and non-chill-filtered. The distillery prides itself on the slowest distillation in Scotland, capturing a clean, fruit-forward spirit; the recent White Oak / Oak Masters' series pivots the same spirit toward bright bourbon/virgin-oak vanilla-and-citrus territory.",
+  "owner": "Ian Macleod Distillers",
+  "founded": 1833,
+  "notes": "Sits on the Highland Line near Dumgoyne (stills in the Highlands, warehouses across the road in the Lowlands). Core range is sherry-led (12/15/18/21/25). The Oak Masters' Series (debut White Oak, 2024 UK / 2025 US) marks a deliberate 'new flavour direction' away from sherry toward American first-fill bourbon and virgin oak.",
+  "source_ids": [
+    "src_glengoyne-25_glengoyneofficial",
+    "src_glengoyne-24_whiskymag",
+    "src_glengoyne-24_whiskyadvocate"
+  ]
+}
